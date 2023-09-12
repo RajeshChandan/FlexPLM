@@ -1,0 +1,11 @@
+
+r	java:S127$"XRefactor the code in order to not assign to this loop counter from within the loop body.(öâ äüÿÿÿÿ
+r	java:S127)"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ñôëæúÿÿÿÿ
+k	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úë˜šùÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘
+@	java:S106@"+Replace this use of System.out by a logger.(ÅóÆè
+Z
+java:S2147T"DCombine this catch with the one at line 82, which has the same body.(ï­£Ä
+A
+java:S1075I"&Remove this hard-coded path-delimiter.(î‚Æ“úÿÿÿÿ

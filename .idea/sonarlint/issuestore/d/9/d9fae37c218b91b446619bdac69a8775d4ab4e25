@@ -1,0 +1,11 @@
+
+v
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "results".(ìò×ù
+_
+java:S1226;"DIntroduce a new variable instead of reusing the parameter "results".(Õ¾±šıÿÿÿÿ
+U
+java:S2589ü"7Remove this expression which always evaluates to "true"(à¹èÂ8³˜æ¡§1
+D	java:S108¹")Either remove or fill this block of code.(’Üåøÿÿÿÿ
+>	java:S108Ó")Either remove or fill this block of code.(…êğD
+G
+java:S1481í"+Remove this unused "season" local variable.(Ñ¼¨şÿÿÿÿ

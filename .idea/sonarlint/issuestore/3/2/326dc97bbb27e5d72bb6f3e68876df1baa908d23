@@ -1,0 +1,38 @@
+
+b	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(Ùı»½8åÑº€¤1
+L
+java:S3740M"/Provide the parametrized type for this generic.(Ç‰É¾8æÑº€¤1
+Q
+java:S3740N"/Provide the parametrized type for this generic.(¢¥÷şúÿÿÿÿ8æÑº€¤1
+Q
+java:S3740]"/Provide the parametrized type for this generic.(‡õ‡Ëúÿÿÿÿ8æÑº€¤1
+L
+java:S3740t"/Provide the parametrized type for this generic.(õ¬­×8çÑº€¤1
+Q
+java:S3740u"/Provide the parametrized type for this generic.(Ô²©®ùÿÿÿÿ8çÑº€¤1
+Q
+java:S3740v"/Provide the parametrized type for this generic.(×«³óşÿÿÿÿ8çÑº€¤1
+Q
+java:S3740w"/Provide the parametrized type for this generic.(Üø¹ùøÿÿÿÿ8çÑº€¤1
+R
+java:S3740"/Provide the parametrized type for this generic.(óÊùáûÿÿÿÿ8çÑº€¤1
+y
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(óÊùáûÿÿÿÿ8¼Óº€¤1
+o
+java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ùı»½8ÂÓº€¤1
+W
+java:S1854?":Remove this useless assignment to local variable "header".(ëğÌ8ÂÓº€¤1
+H
+java:S1481?"+Remove this unused "header" local variable.(ëğÌ8ÃÓº€¤1
+P
+java:S1481@".Remove this unused "headCount" local variable.(©±¬‹ıÿÿÿÿ8ÃÓº€¤1
+Z
+java:S1854p"8Remove this useless assignment to local variable "var2".(Ë§ãÔÿÿÿÿÿ8ÈÓº€¤1
+[
+java:S1854w"9Remove this useless assignment to local variable "var11".(Üø¹ùøÿÿÿÿ8ÈÓº€¤1
+[
+java:S1854{"9Remove this useless assignment to local variable "var13".(Ø•‹şÿÿÿÿ8ÈÓº€¤1
+K
+java:S1481p")Remove this unused "var2" local variable.(Ë§ãÔÿÿÿÿÿ8ÊÓº€¤1
+L
+java:S1481{"*Remove this unused "var13" local variable.(Ø•‹şÿÿÿÿ8ËÓº€¤1

@@ -1,0 +1,43 @@
+
+\	java:S112Ú"FDefine and throw a dedicated exception instead of using a generic one.(Õ¸„
+a	java:S112í"FDefine and throw a dedicated exception instead of using a generic one.(»Ô£ìıÿÿÿÿ
+a	java:S112¦"FDefine and throw a dedicated exception instead of using a generic one.(…Ã…Éşÿÿÿÿ
+E
+java:S3740u"/Provide the parametrized type for this generic.(Ç‰É¾
+J
+java:S3740v"/Provide the parametrized type for this generic.(¢¥÷şúÿÿÿÿ
+K
+java:S3740"/Provide the parametrized type for this generic.(¿îşÄşÿÿÿÿ
+K
+java:S3740"/Provide the parametrized type for this generic.(ËÓİæøÿÿÿÿ
+F
+java:S3740"/Provide the parametrized type for this generic.(§ĞÀ·
+F
+java:S3740‘"/Provide the parametrized type for this generic.(ÙóĞ¢
+K
+java:S3740Ÿ"/Provide the parametrized type for this generic.(óÊùáûÿÿÿÿ
+g
+java:S1192Ã"KDefine a constant instead of duplicating this literal "LCSProduct" 3 times.(†©ìãûÿÿÿÿ
+r	java:S127:"XRefactor the code in order to not assign to this loop counter from within the loop body.(öâ äüÿÿÿÿ
+r	java:S127?"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ñôëæúÿÿÿÿ
+r	java:S127D"XRefactor the code in order to not assign to this loop counter from within the loop body.(›çÒ»üÿÿÿÿ
+s	java:S127û"XRefactor the code in order to not assign to this loop counter from within the loop body.(›çÒ»üÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿îşÄşÿÿÿÿ
+g
+java:S1301ø"KReplace this "switch" statement by "if" statements to increase readability.(ÈéØıûÿÿÿÿ
+r
+java:S1149Ÿ"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(óÊùáûÿÿÿÿ
+h
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Çµí‘
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(ÅóÆè
+m
+java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(ÔÇºµıÿÿÿÿ
+A
+java:S1481‘"*Remove this unused "var11" local variable.(ÙóĞ¢
+n
+java:S3776í"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(»Ô£ìıÿÿÿÿ
+D	java:S108«")Either remove or fill this block of code.(’Üåøÿÿÿÿ
+V
+java:S1128"ARemove this unused import 'com.extjs.gxt.ui.client.util.Padding'.(§Š¾
+`
+java:S1128"JRemove this unused import 'com.limited.exporter.helper.VSAttributeHelper'.(Ş©™×

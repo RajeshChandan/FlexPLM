@@ -1,0 +1,1322 @@
+{
+  "Products": [
+    {
+      "POM": [
+        {
+          "Section": "1678",
+          "Sizes": [
+            {
+              "Value": 19.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 20.5,
+              "Size": "S"
+            },
+            {
+              "Value": 21.5,
+              "Size": "M"
+            },
+            {
+              "Value": 22.5,
+              "Size": "L"
+            },
+            {
+              "Value": 24.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Waist (Tops)"
+        },
+        {
+          "Section": "1580",
+          "Sizes": [
+            {
+              "Value": 1.0,
+              "Size": "XS"
+            },
+            {
+              "Value": 1.0,
+              "Size": "S"
+            },
+            {
+              "Value": 1.0,
+              "Size": "M"
+            },
+            {
+              "Value": 1.0,
+              "Size": "L"
+            },
+            {
+              "Value": 1.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Pocket Trim/Binding Height"
+        },
+        {
+          "Section": "1310",
+          "Sizes": [
+            {
+              "Value": 18.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 18.75,
+              "Size": "S"
+            },
+            {
+              "Value": 19.25,
+              "Size": "M"
+            },
+            {
+              "Value": 19.75,
+              "Size": "L"
+            },
+            {
+              "Value": 20.5,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Across Front 5\" from HPS"
+        },
+        {
+          "Section": "1604",
+          "Sizes": [
+            {
+              "Value": 4.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 4.75,
+              "Size": "S"
+            },
+            {
+              "Value": 5.0,
+              "Size": "M"
+            },
+            {
+              "Value": 5.0,
+              "Size": "L"
+            },
+            {
+              "Value": 5.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Pocket Opening"
+        },
+        {
+          "Section": "1592",
+          "Sizes": [
+            {
+              "Value": 5.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 5.25,
+              "Size": "S"
+            },
+            {
+              "Value": 5.5,
+              "Size": "M"
+            },
+            {
+              "Value": 5.5,
+              "Size": "L"
+            },
+            {
+              "Value": 5.5,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Pocket Length at Center"
+        },
+        {
+          "Section": "1659",
+          "Sizes": [
+            {
+              "Value": 3.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 3.5,
+              "Size": "S"
+            },
+            {
+              "Value": 3.75,
+              "Size": "M"
+            },
+            {
+              "Value": 4.0,
+              "Size": "L"
+            },
+            {
+              "Value": 4.375,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Sleeve/Cuff Opening - Long"
+        },
+        {
+          "Section": "1301",
+          "Sizes": [
+            {
+              "Value": 0.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 0.25,
+              "Size": "S"
+            },
+            {
+              "Value": 0.25,
+              "Size": "M"
+            },
+            {
+              "Value": 0.25,
+              "Size": "L"
+            },
+            {
+              "Value": 0.25,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Shoulder Seam Forward"
+        },
+        {
+          "Section": "1305",
+          "Sizes": [
+            {
+              "Value": 18.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 19.25,
+              "Size": "S"
+            },
+            {
+              "Value": 19.75,
+              "Size": "M"
+            },
+            {
+              "Value": 20.25,
+              "Size": "L"
+            },
+            {
+              "Value": 21.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Across Shoulder - Back"
+        },
+        {
+          "Section": "1655",
+          "Sizes": [
+            {
+              "Value": 5.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 6.0,
+              "Size": "S"
+            },
+            {
+              "Value": 6.25,
+              "Size": "M"
+            },
+            {
+              "Value": 6.5,
+              "Size": "L"
+            },
+            {
+              "Value": 6.875,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Forearm 9\" from Sleeve Opening"
+        },
+        {
+          "Section": "1564",
+          "Sizes": [
+            {
+              "Value": 4.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 4.5,
+              "Size": "S"
+            },
+            {
+              "Value": 4.75,
+              "Size": "M"
+            },
+            {
+              "Value": 4.75,
+              "Size": "L"
+            },
+            {
+              "Value": 4.75,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Pocket Length at Side"
+        },
+        {
+          "Section": "1654",
+          "Sizes": [
+            {
+              "Value": 7.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 8.125,
+              "Size": "S"
+            },
+            {
+              "Value": 8.625,
+              "Size": "M"
+            },
+            {
+              "Value": 9.125,
+              "Size": "L"
+            },
+            {
+              "Value": 9.75,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Muscle/Bicep 1\" below Armhole"
+        },
+        {
+          "Section": "1641",
+          "Sizes": [
+            {
+              "Value": 32.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 33.0,
+              "Size": "S"
+            },
+            {
+              "Value": 33.5,
+              "Size": "M"
+            },
+            {
+              "Value": 34.125,
+              "Size": "L"
+            },
+            {
+              "Value": 34.75,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Sleeve Length from CB - Long (Set-in)"
+        },
+        {
+          "Section": "1457",
+          "Sizes": [
+            {
+              "Value": 0.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 0.75,
+              "Size": "S"
+            },
+            {
+              "Value": 0.75,
+              "Size": "M"
+            },
+            {
+              "Value": 0.75,
+              "Size": "L"
+            },
+            {
+              "Value": 0.75,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Neck Trim Height"
+        },
+        {
+          "Section": "1341",
+          "Sizes": [
+            {
+              "Value": 19.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 20.5,
+              "Size": "S"
+            },
+            {
+              "Value": 21.5,
+              "Size": "M"
+            },
+            {
+              "Value": 22.5,
+              "Size": "L"
+            },
+            {
+              "Value": 24.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Bottom Opening/Sweep - Straight"
+        },
+        {
+          "Section": "1578",
+          "Sizes": [
+            {
+              "Value": 2.375,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.625,
+              "Size": "S"
+            },
+            {
+              "Value": 2.875,
+              "Size": "M"
+            },
+            {
+              "Value": 3.125,
+              "Size": "L"
+            },
+            {
+              "Value": 3.5,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Chest Pocket from CF"
+        },
+        {
+          "Section": "1568",
+          "Sizes": [
+            {
+              "Value": 8.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 9.0,
+              "Size": "S"
+            },
+            {
+              "Value": 9.25,
+              "Size": "M"
+            },
+            {
+              "Value": 9.5,
+              "Size": "L"
+            },
+            {
+              "Value": 9.75,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Chest Pocket Placement from HPS"
+        },
+        {
+          "Section": "1348",
+          "Sizes": [
+            {
+              "Value": 19.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 20.5,
+              "Size": "S"
+            },
+            {
+              "Value": 21.5,
+              "Size": "M"
+            },
+            {
+              "Value": 22.5,
+              "Size": "L"
+            },
+            {
+              "Value": 24.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Bust/Chest 1\" below Armhole"
+        },
+        {
+          "Section": "1456",
+          "Sizes": [
+            {
+              "Value": 6.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 6.5,
+              "Size": "S"
+            },
+            {
+              "Value": 6.75,
+              "Size": "M"
+            },
+            {
+              "Value": 7.0,
+              "Size": "L"
+            },
+            {
+              "Value": 7.25,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Neck Width Seam to Seam"
+        },
+        {
+          "Section": "1662",
+          "Sizes": [
+            {
+              "Value": 2.0,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.0,
+              "Size": "S"
+            },
+            {
+              "Value": 2.0,
+              "Size": "M"
+            },
+            {
+              "Value": 2.0,
+              "Size": "L"
+            },
+            {
+              "Value": 2.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Sleeve Rib/Trim/Cuff Height"
+        },
+        {
+          "Section": "1314",
+          "Sizes": [
+            {
+              "Value": 18.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 18.75,
+              "Size": "S"
+            },
+            {
+              "Value": 19.25,
+              "Size": "M"
+            },
+            {
+              "Value": 19.75,
+              "Size": "L"
+            },
+            {
+              "Value": 20.5,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Across Back 5\" from HPS"
+        },
+        {
+          "Section": "1461",
+          "Sizes": [
+            {
+              "Value": 0.625,
+              "Size": "XS"
+            },
+            {
+              "Value": 0.625,
+              "Size": "S"
+            },
+            {
+              "Value": 0.625,
+              "Size": "M"
+            },
+            {
+              "Value": 0.625,
+              "Size": "L"
+            },
+            {
+              "Value": 0.625,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "CB Neck Drop from HPS to Seam"
+        },
+        {
+          "Section": "1484",
+          "Sizes": [
+            {
+              "Value": 1.0,
+              "Size": "XS"
+            },
+            {
+              "Value": 1.0,
+              "Size": "S"
+            },
+            {
+              "Value": 1.0,
+              "Size": "M"
+            },
+            {
+              "Value": 1.0,
+              "Size": "L"
+            },
+            {
+              "Value": 1.0,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Hem/Rib/Trim Height"
+        },
+        {
+          "Section": "1322",
+          "Sizes": [
+            {
+              "Value": 8.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 8.5,
+              "Size": "S"
+            },
+            {
+              "Value": 8.875,
+              "Size": "M"
+            },
+            {
+              "Value": 9.375,
+              "Size": "L"
+            },
+            {
+              "Value": 9.875,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Armhole - Straight"
+        },
+        {
+          "Section": "1676",
+          "Sizes": [
+            {
+              "Value": 14.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 15.0,
+              "Size": "S"
+            },
+            {
+              "Value": 15.5,
+              "Size": "M"
+            },
+            {
+              "Value": 16.0,
+              "Size": "L"
+            },
+            {
+              "Value": 16.5,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Waist Plcmnt from HPS"
+        },
+        {
+          "Section": "1412",
+          "Sizes": [
+            {
+              "Value": 28.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 29.0,
+              "Size": "S"
+            },
+            {
+              "Value": 29.5,
+              "Size": "M"
+            },
+            {
+              "Value": 30.0,
+              "Size": "L"
+            },
+            {
+              "Value": 30.5,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Length from HPS"
+        },
+        {
+          "Section": "1303",
+          "Sizes": [
+            {
+              "Value": 2.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "S"
+            },
+            {
+              "Value": 2.25,
+              "Size": "M"
+            },
+            {
+              "Value": 2.25,
+              "Size": "L"
+            },
+            {
+              "Value": 2.25,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Shoulder Slope"
+        },
+        {
+          "Section": "1506",
+          "Sizes": [
+            {
+              "Value": 2.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.5,
+              "Size": "S"
+            },
+            {
+              "Value": 2.5,
+              "Size": "M"
+            },
+            {
+              "Value": 2.5,
+              "Size": "L"
+            },
+            {
+              "Value": 2.5,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "Slit/Vent Length - 1/4 TS"
+        },
+        {
+          "Section": "1458",
+          "Sizes": [
+            {
+              "Value": 4.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 4.5,
+              "Size": "S"
+            },
+            {
+              "Value": 4.75,
+              "Size": "M"
+            },
+            {
+              "Value": 5.0,
+              "Size": "L"
+            },
+            {
+              "Value": 5.25,
+              "Size": "XL"
+            }
+          ],
+          "Measurement Name": "CF Neck Drop from HPS to Seam"
+        }
+      ],
+      "Measurement Set Name": "007 : *151073MS FOR FALL 19\"SPEC",
+      "Product Id": "10151073"
+    },
+    {
+      "POM": [
+        {
+          "Section": "1458",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.5,
+              "Size": "S"
+            },
+            {
+              "Value": 2.75,
+              "Size": "M"
+            },
+            {
+              "Value": 3.0,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "CF Neck Drop - HPS to Seam"
+        },
+        {
+          "Section": "1355",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "S"
+            },
+            {
+              "Value": 2.25,
+              "Size": "M"
+            },
+            {
+              "Value": 2.25,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Collar Height at CB"
+        },
+        {
+          "Section": "1504",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 7.0,
+              "Size": "XS"
+            },
+            {
+              "Value": 7.25,
+              "Size": "S"
+            },
+            {
+              "Value": 7.5,
+              "Size": "M"
+            },
+            {
+              "Value": 7.75,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Zipper Length"
+        },
+        {
+          "Section": "1475",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 13.625,
+              "Size": "XS"
+            },
+            {
+              "Value": 14.375,
+              "Size": "S"
+            },
+            {
+              "Value": 15.125,
+              "Size": "M"
+            },
+            {
+              "Value": 16.125,
+              "Size": "L"
+            },
+            {
+              "Value": -0.375,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Collar Circumference at Top of Neck Trim"
+        },
+        {
+          "Section": "1456",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 8.0,
+              "Size": "XS"
+            },
+            {
+              "Value": 8.25,
+              "Size": "S"
+            },
+            {
+              "Value": 8.5,
+              "Size": "M"
+            },
+            {
+              "Value": 8.875,
+              "Size": "L"
+            },
+            {
+              "Value": -0.5,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Neck Width Seam to Seam"
+        },
+        {
+          "Section": "1662",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "S"
+            },
+            {
+              "Value": 2.25,
+              "Size": "M"
+            },
+            {
+              "Value": 2.25,
+              "Size": "L"
+            },
+            {
+              "Value": 0.875,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Sleeve Cuff Rib Height- Bottom Edge to Seam"
+        },
+        {
+          "Section": "1659",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 3.875,
+              "Size": "XS"
+            },
+            {
+              "Value": 4.125,
+              "Size": "S"
+            },
+            {
+              "Value": 4.375,
+              "Size": "M"
+            },
+            {
+              "Value": 4.75,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Sleeve/Cuff Opening - Long"
+        },
+        {
+          "Section": "1341",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 17.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 18.5,
+              "Size": "S"
+            },
+            {
+              "Value": 19.5,
+              "Size": "M"
+            },
+            {
+              "Value": 21.0,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Bottom Opening/Sweep - Straight"
+        },
+        {
+          "Section": "1484",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 2.25,
+              "Size": "S"
+            },
+            {
+              "Value": 2.25,
+              "Size": "M"
+            },
+            {
+              "Value": 2.25,
+              "Size": "L"
+            },
+            {
+              "Value": 0.875,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Bottom Rib Height"
+        },
+        {
+          "Section": "1655",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 6.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 7.0,
+              "Size": "S"
+            },
+            {
+              "Value": 7.25,
+              "Size": "M"
+            },
+            {
+              "Value": 7.625,
+              "Size": "L"
+            },
+            {
+              "Value": -0.5,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Forearm 9\" from Sleeve Opening"
+        },
+        {
+          "Section": "1633",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 6.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 6.5,
+              "Size": "S"
+            },
+            {
+              "Value": 6.875,
+              "Size": "M"
+            },
+            {
+              "Value": 7.375,
+              "Size": "L"
+            },
+            {
+              "Value": 7.875,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Sleeve/Cuff Opening - Extended"
+        },
+        {
+          "Section": "",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 6.0,
+              "Size": "XS"
+            },
+            {
+              "Value": 6.0,
+              "Size": "S"
+            },
+            {
+              "Value": 6.0,
+              "Size": "M"
+            },
+            {
+              "Value": 6.0,
+              "Size": "L"
+            },
+            {
+              "Value": 1.75,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Front piecing height bottom band seam to piecing seam"
+        },
+        {
+          "Section": "1641",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 31.25,
+              "Size": "XS"
+            },
+            {
+              "Value": 32.0,
+              "Size": "S"
+            },
+            {
+              "Value": 32.75,
+              "Size": "M"
+            },
+            {
+              "Value": 33.5,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Sleeve Length from CB  - Long (Set-in)"
+        },
+        {
+          "Section": "1349",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 21.5,
+              "Size": "XS"
+            },
+            {
+              "Value": 22.5,
+              "Size": "S"
+            },
+            {
+              "Value": 23.5,
+              "Size": "M"
+            },
+            {
+              "Value": 25.0,
+              "Size": "L"
+            },
+            {
+              "Value": 26.5,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Bust/Chest 12.5\" from HPS"
+        },
+        {
+          "Section": "184",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 0.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 0.75,
+              "Size": "S"
+            },
+            {
+              "Value": 0.75,
+              "Size": "M"
+            },
+            {
+              "Value": 0.75,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "CB Neck Drop - HPS to Seam"
+        },
+        {
+          "Section": "",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 8.75,
+              "Size": "XS"
+            },
+            {
+              "Value": 9.0,
+              "Size": "S"
+            },
+            {
+              "Value": 9.25,
+              "Size": "M"
+            },
+            {
+              "Value": 9.625,
+              "Size": "L"
+            },
+            {
+              "Value": 2.25,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Lower piecing height at SS"
+        },
+        {
+          "Section": "1412",
+          "Sizes": [
+            {
+              "Value": 0.0,
+              "Size": "XXS"
+            },
+            {
+              "Value": 22.0,
+              "Size": "XS"
+            },
+            {
+              "Value": 24.0,
+              "Size": "S"
+            },
+            {
+              "Value": 24.5,
+              "Size": "M"
+            },
+            {
+              "Value": 25.0,
+              "Size": "L"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XL"
+            },
+            {
+              "Value": 0.0,
+              "Size": "XXL"
+            }
+          ],
+          "Measurement Name": "Total Length- HPS to Bottom Edge"
+        }
+      ],
+      "Measurement Set Name": "002 : 10221358 MS",
+      "Product Id": "10221358"
+    }
+  ]
+}
