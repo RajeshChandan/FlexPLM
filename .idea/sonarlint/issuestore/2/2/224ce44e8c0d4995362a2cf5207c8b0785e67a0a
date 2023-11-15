@@ -1,8 +1,8 @@
 
 }
-java:S1192s"bDefine a constant instead of duplicating this literal "LCSMATERIAL.BRANCHIDITERATIONINFO" 4 times.(´¼äÏýÿÿÿÿ
-n	java:S135o"YReduce the total number of break and continue statements in this loop to use at most one.(É“É²
+java:S1192t"bDefine a constant instead of duplicating this literal "LCSMATERIAL.BRANCHIDITERATIONINFO" 4 times.(´¼äÏýÿÿÿÿ
+n	java:S135p"YReduce the total number of break and continue statements in this loop to use at most one.(É“É²
 Š
-java:S1319D"oThe type of "colorwayBOMs" should be an interface such as "Map" rather than the implementation "LinkedHashMap".(‚œþ¨ùÿÿÿÿ
+java:S1319E"oThe type of "colorwayBOMs" should be an interface such as "Map" rather than the implementation "LinkedHashMap".(‚œþ¨ùÿÿÿÿ
 n
-java:S3776Ã"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ê‡ËÒüÿÿÿÿ
+java:S3776Ä"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ê‡ËÒüÿÿÿÿ

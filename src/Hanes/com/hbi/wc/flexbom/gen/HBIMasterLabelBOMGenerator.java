@@ -39,7 +39,8 @@ import java.util.*;
  * This class has implementation for Below.
  * - adding Master Material BOM table to TechPack Report.
  */
-public class HBIMasterLabelBOMGenerator {
+public class
+HBIMasterLabelBOMGenerator {
 
     public static final String TABLE_HEADER_TEXT = "TABLE-HEADERTEXT";
     public static final String RPT_HEADER = "RPT_HEADER";

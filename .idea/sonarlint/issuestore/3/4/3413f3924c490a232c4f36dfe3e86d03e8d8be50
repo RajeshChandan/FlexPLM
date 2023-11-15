@@ -40,3 +40,5 @@ T
 java:S1854à"=Remove this useless assignment to local variable "symbolKey".(ÿ ˆ¶
 ?
 java:S10683")Remove this unused "scope" private field.(÷’–ê
+ç
+java:S6541X"ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 73 to 64, Complexity from 21 to 14, Nesting Level from 4 to 2, Number of Variables from 9 to 6.(ô²å›ûÿÿÿÿ8ÑéÛ„Â1
