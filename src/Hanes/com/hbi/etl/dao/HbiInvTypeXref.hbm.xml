@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 25, 2014 11:23:29 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.hbi.etl.dao.HbiInvTypeXref" table="HBIINVTYPE_XREF" schema="PLMSTG">
+ 		
+ 		<id name="primarykey" type="big_decimal">
+            <column name="PRIMARYKEY" precision="22" scale="0" />
+            <generator class="native"></generator>
+        </id>
+        
+        <property name="plmMajCat" type="string">
+            <column name="plmMajCat" length="30" />
+        </property>
+        <property name="plmMinCat" type="string">
+            <column name="plmMinCat" length="30" />
+        </property>
+        <property name="invTypeCode" type="string">
+            <column name="invTypeCode" length="3" />
+        </property>   
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 11, 2014 2:03:40 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.hbi.etl.dao.HbiEtlTracker" table="HBIETLTRACKER" schema="PLMSTG">
+        <id name="primarykey" type="big_decimal">
+            <column name="PRIMARYKEY" precision="22" scale="0" />
+            <generator class="native"></generator>
+        </id>
+        <property name="runmode" type="string">
+            <column name="RUNMODE" length="200" />
+        </property>
+        <property name="status" type="string">
+            <column name="STATUS" length="200" />
+        </property>
+        <property name="ptc_str_1" type="string">
+            <column name="ATT1" length="200" />
+        </property>
+        <property name="ptc_str_2" type="string">
+            <column name="ATT2" length="200" />
+        </property>
+        <property name="ptc_str_3" type="string">
+            <column name="ATT3" length="200" />
+        </property>
+        <property name="ptc_tms_1" type="date">
+            <column name="DATE1" length="7" />
+        </property>
+        <property name="ptc_tms_2" type="date">
+            <column name="DATE2" length="7" />
+        </property>
+        <property name="ptc_tms_3" type="date">
+            <column name="DATE3" length="7" />
+        </property>
+        <property name="ptc_dbl_1" type="big_decimal">
+            <column name="NUM1" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_2" type="big_decimal">
+            <column name="NUM2" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_3" type="big_decimal">
+            <column name="NUM3" precision="22" scale="0" />
+        </property>
+        <property name="loadercreatetime" type="timestamp">
+            <column name="LOADERCREATETIME" length="7" />
+        </property>
+        <property name="loaderupdatetime" type="timestamp">
+            <column name="LOADERUPDATETIME" length="7" />
+        </property>
+        <property name="datasourcesystem" type="string">
+            <column name="DATASOURCESYSTEM" length="200" />
+        </property>
+        <property name="apsexport" type="string">
+            <column name="APSEXPORT" length="200" />
+        </property>
+        <property name="lawsonexport" type="string">
+            <column name="LAWSONEXPORT" length="200" />
+        </property>
+        <property name="apsexporttime" type="timestamp">
+            <column name="APSEXPORTTIME" length="200" />
+        </property>
+        <property name="lawsonexporttime" type="timestamp">
+            <column name="LAWSONEXPORTTIME" length="200" />
+        </property>
+    </class>
+</hibernate-mapping>

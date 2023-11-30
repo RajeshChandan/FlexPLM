@@ -1,0 +1,242 @@
+/*
+ * HBIMatColorPDFContent.java
+ *
+ * Created on Sept 13, 2007, 12:58 PM
+ */
+
+package com.hbi.wc.flexbom.gen;
+
+import java.util.*;
+import com.lcs.wc.flexbom.*;
+import com.lcs.wc.product.*;
+import com.lcs.wc.util.*;
+import com.lowagie.text.*;
+import com.lowagie.text.pdf.*;
+//import wt.part.WTPartMaster;
+import com.lcs.wc.part.LCSPart;
+
+import wt.util.*;
+import com.lcs.wc.flexbom.gen.*;
+
+/**
+ *
+ * @author  Chuck
+ */
+public class HBIMatColorPDFContent extends BOMPDFContentGenerator {
+
+    private static final boolean DEBUG = LCSProperties.getBoolean("com.lcs.wc.flexbom.gen.MatColorPDFContent.verbose");
+    private static final int DEBUG_LEVEL = Integer.parseInt(LCSProperties.get("com.lcs.wc.flexbom.gen.MatColorPDFContent.verboseLevel", "1"));
+    private static final String CLASSNAME = MatColorPDFContent.class.getName();
+    public float tableWidthPercent = (new Float(LCSProperties.get("com.lcs.wc.flexbom.gen.MatColorPDFContent.tableWidthPercent", "95.0"))).floatValue();
+	private static final String BASIC_CUT_AND_SEW_SELLING = "Product\\BASIC CUT & SEW - SELLING";
+	private static final String SELLING_BOM_TYPE_PATH = "BOM\\Materials\\HBI\\Selling\\Routing,BOM\\Materials\\HBI\\Selling\\Packaging,BOM\\Materials\\HBI\\Selling\\Casing,BOM\\Materials\\HBI\\Selling\\Pack Case BOM";
+	public static final String LABEL_TYPE = "Product\\HBI-SUPPORTING\\LABEL";
+
+    /** Creates a new instance of MatColorPDFContent */
+    public HBIMatColorPDFContent() {
+    }
+
+    /** gets an Element for insertion into a PDF Document
+     * @param params A Map of parameters to pass to the Object.  This provides the means for the
+     * calling class to have some "fore" knowledge of what implementations are being used
+     * and pass appropriate parameters.
+     * @param document The PDF Document which the content is going to be added to.  The document is
+     * passed in order to provide additional information related to the Document itself
+     * incase it is not provided in the params
+     * @throws WTException For any error
+     * @return an Element for insertion into a Document
+     */
+    public Collection getPDFContentCollection(Map params, Document document) throws WTException {
+        if(DEBUG){ System.out.println("MatColorPDFContent.getPDFContentCollection");}
+		//System.out.println(" <<<<  params >>>>" +params);
+        Collection content = new ArrayList();
+        Collection spcontent = new ArrayList();
+        Collection sectionPageTitles = new ArrayList();
+        FlexBOMPart bomPart = (FlexBOMPart)params.get(BOMPDFContentGenerator.BOM_PART);
+		boolean BOMTechpackStatus = generateBOMTechpackStatus(bomPart);
+		//System.out.println(" <<<<  BOMTechpackStatus MATERIAL COLOR >>>>" +BOMTechpackStatus);
+		if(BOMTechpackStatus)
+		{
+        Map tparams = new HashMap(params.size() + 2);
+        tparams.putAll(params);
+
+        HBIMatColorGenerator bomDG = new HBIMatColorGenerator();
+        Collection allSkus = (Collection)params.get(BomDataGenerator.COLORWAYS);
+        int maxPerPage = ((Integer)params.get(PDFProductSpecificationGenerator2.COLORWAYS_PER_PAGE)).intValue();
+
+        //Create collection of arrayLists of skus
+        Collection skusArray = splitItems(allSkus, maxPerPage);
+
+        Iterator skusIt = null;
+
+        Collection skusThisRun = new ArrayList();
+
+        Collection sections = bomPart.getFlexType().getAttribute("section").getAttValueList().getSelectableKeys(com.lcs.wc.client.ClientContext.getContext().getLocale(), true);
+        String section = "";
+        Iterator sectionIter = sections.iterator();
+
+        while(sectionIter.hasNext()) {
+            section = (String)sectionIter.next();
+            if(DEBUG){ System.out.println("-adding section :  " + section);}
+            tparams.put(BomDataGenerator.SECTION, section);
+            setSectionViewId(tparams);
+
+            skusIt = skusArray.iterator();
+            while(skusIt.hasNext()) {
+                skusThisRun = (Collection)skusIt.next();
+                //System.out.println("skusThisRun:  " + skusThisRun);
+                tparams.put(BomDataGenerator.COLORWAYS, skusThisRun);
+                bomDG = new HBIMatColorGenerator();
+                bomDG.init(tparams);
+                Collection data = bomDG.getBOMData();
+                Collection columns = bomDG.getTableColumns();
+
+                spcontent.addAll(generatePDFPage(data, columns, document, tparams));
+                if(!BOM_ON_SINGLE_PAGE) {
+                    sectionPageTitles.add(getPageTitleText(tparams));
+                }
+            }
+
+        }
+
+        PdfPTable fullBOMTable = new PdfPTable(1);
+        PdfPTable e = null;
+        PdfPCell cell = null;
+        fullBOMTable.setWidthPercentage(tableWidthPercent);
+        //Add the BOM Header Attributes
+        if(FormatHelper.parseBoolean((String)params.get(PDFProductSpecificationBOM2.PRINT_BOM_HEADER) )){
+            debug(2, "FormatHelper.parseBoolean((String)params.get(PDFProductSpecificationBOM2.PRINT_BOM_HEADER) )");
+            Collection BomHeaderAtts = (Collection)params.get(PDFProductSpecificationBOM2.BOM_HEADER_ATTS);
+            if(BomHeaderAtts != null && !BomHeaderAtts.isEmpty()){
+                debug(2, "BomHeaderAtts != null && !BomHeaderAtts.isEmpty()");
+                if(PDFProductSpecificationBOM2.BOM_HEADER_SAME_PAGE  && BOM_ON_SINGLE_PAGE){
+                    debug(2, "PDFProductSpecificationBOM2.BOM_HEADER_SAME_PAGE  && BOM_ON_SINGLE_PAGE");
+                    for(Iterator HeaderI = BomHeaderAtts.iterator(); HeaderI.hasNext();){
+                        e = (PdfPTable)HeaderI.next();
+                        cell = new PdfPCell(e);
+                        fullBOMTable.addCell(cell);
+                    }
+                }else{
+                    debug(2, "NOT--PDFProductSpecificationBOM2.BOM_HEADER_SAME_PAGE  && BOM_ON_SINGLE_PAGE");
+                    content.add(BomHeaderAtts);
+                    this.pageTitles.addAll((Collection)params.get(PDFProductSpecificationBOM2.BOM_HEADER_PAGE_TITLES));
+                }
+            }
+        }
+
+
+        //Add BOM Sections
+        Collection BOMFooter = (Collection)params.get(PDFProductSpecificationBOM2.BOM_FOOTER_ATTS);
+        boolean usingFooter = (BOMFooter != null && !BOMFooter.isEmpty() &&FormatHelper.parseBoolean((String)params.get(PDFProductSpecificationBOM2.PRINT_BOM_FOOTER) ));
+        if(BOM_ON_SINGLE_PAGE){
+            debug(2, "BOM_ON_SINGLE_PAGE");
+            Iterator sci = spcontent.iterator();
+            while(sci.hasNext()){
+                e = (PdfPTable )sci.next();
+                cell = new PdfPCell(e);
+                fullBOMTable.addCell(cell);
+            }
+
+            //Add Footer
+            if (usingFooter){
+                debug(2, "usingFooter");
+                if(PDFProductSpecificationBOM2.BOM_FOOTER_SAME_PAGE){
+                    for(Iterator footI = BOMFooter.iterator();footI.hasNext();) {
+                        e = (PdfPTable)footI.next();
+                        cell =new PdfPCell(e);
+                        fullBOMTable.addCell(cell);
+                    }
+                    //Add BOM to content
+                    content.add(fullBOMTable);
+                    this.pageTitles.add(getPageTitleText(tparams));
+                }else{
+                    //Add BOM to content
+                    content.add(fullBOMTable);
+                    this.pageTitles.add(getPageTitleText(tparams));
+                    //Add Footer to content
+                    content.addAll(BOMFooter);
+                    this.pageTitles.addAll((Collection)params.get(PDFProductSpecificationBOM2.BOM_FOOTER_PAGE_TITLES) );
+                }
+            } else {
+                content.add(fullBOMTable);
+                this.pageTitles.add(getPageTitleText(tparams));
+            }
+        }else { //BOM sections different pages
+            this.pageTitles.addAll(sectionPageTitles);
+            Iterator sci = spcontent.iterator();
+            //Add the first section to the fullBOMTable in case we have a Header
+            e = (PdfPTable)sci.next();
+            cell = new PdfPCell(e);
+            fullBOMTable.addCell(cell);
+            content.add(fullBOMTable);
+            while(sci.hasNext()){
+                e = (PdfPTable)sci.next();
+                if(!sci.hasNext() && usingFooter){
+                    //Last element && using a footer
+                    if(PDFProductSpecificationBOM2.BOM_FOOTER_SAME_PAGE){
+                        fullBOMTable = new PdfPTable(1);
+                        cell = new PdfPCell(e);
+                        fullBOMTable.addCell(cell);
+                        for(Iterator footI = BOMFooter.iterator();footI.hasNext();) {
+                            e = (PdfPTable)footI.next();
+                            cell =new PdfPCell(e);
+                            fullBOMTable.addCell(cell);
+                        }
+                        content.add(fullBOMTable);
+                    } else {
+                        //Add last element
+                        content.add(e);
+                        //Add Footer
+                        content.addAll(BOMFooter);
+                        this.pageTitles.addAll((Collection)params.get(PDFProductSpecificationBOM2.BOM_FOOTER_PAGE_TITLES) );
+                    }
+                }else{
+                    //Not the last element
+                    content.add(e);
+                }
+            } //while
+        }
+	}
+
+        return content;
+    }
+   /////////////////////////////////////////////////////////////////////////////
+   public static void debug(String msg){debug(msg, 1); }
+   public static void debug(int i, String msg){debug(msg, i); }
+   public static void debug(String msg, int i){
+     if(DEBUG && i <= DEBUG_LEVEL) System.out.println(msg);
+   }
+   
+   /**
+     * This function is using to print only Routing,Packing and Casing BOM for Selling Product.
+     * @param bomPart - FlexBOMPart
+     * @return bomTachPackStatus - boolean
+     * @throws WTException
+     */
+   public boolean generateBOMTechpackStatus(FlexBOMPart bomPart) throws WTException
+   {
+		boolean bomTachPackStatus = true;
+		LCSProduct prodObj = null;
+		
+		String bomPartFlexTypePath = bomPart.getFlexType().getFullName(true);
+		BOMOwner wtPartMaster = bomPart.getOwnerMaster();
+		//WTPartMaster wtPartMaster = bomPart.getOwnerMaster();
+		LCSPart lcsPart = (LCSPart)VersionHelper.latestIterationOf(wtPartMaster);	
+		
+		if(lcsPart instanceof LCSProduct)
+		{
+			prodObj = (LCSProduct)lcsPart;
+			String productFlexTypePath = prodObj.getFlexType().getFullName(true);
+			
+			if((BASIC_CUT_AND_SEW_SELLING.equalsIgnoreCase(productFlexTypePath)||LABEL_TYPE.equalsIgnoreCase(productFlexTypePath) ) && !SELLING_BOM_TYPE_PATH.contains(bomPartFlexTypePath))
+			{
+				//System.out.println(" <<<<<< MATERIAL COLOR bomPart >>>>>>>" +bomPart.getName());
+				bomTachPackStatus = false;
+			}
+		}
+		return bomTachPackStatus;
+    }
+
+
+
+}

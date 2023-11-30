@@ -1,0 +1,332 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": false,
+    "cutTests": false,
+    "cutClient": false,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": false,
+    "cutConstructors": false
+  },
+  "graphTraversal": {
+    "forwardDepth": 999,
+    "backwardDepth": 12,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": false,
+    "hideInterfaceCalls": false, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "BothDirections" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 11,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "com.hbi.wc.flexbom.gen.HBIMasterLabelBOMGenerator",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_103087 { 
+   	label=hbi
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_1223854485 { 
+   	label=wc
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   subgraph cluster_1511406244 { 
+   	label=flexbom
+	labeljust=l
+	fillcolor="#c4c4c4"
+	style=filled
+   
+   subgraph cluster_1719222010 { 
+   	label=gen
+	labeljust=l
+	fillcolor="#bababa"
+	style=filled
+   
+   HBIMasterLabelBOMGenerator1441384813[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)HBIMasterLabelBOMGenerator</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   logger: Logger [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   pgh: PDFGeneratorHelper [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >- genTableCell(text: String): PdfPCell</TD></TR>
+<TR><TD ALIGN="LEFT" >- genTableHeader(text: String): PdfPCell</TD></TR>
+<TR><TD ALIGN="LEFT" >- genTableHeaderCell(text: String): PdfPCell</TD></TR>
+<TR><TD ALIGN="LEFT" >- getAttributeValue(flexTyped: FlexTyped, attKey: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >- getGarmentLabelBOM(material: LCSMaterial, matBOMQryResult: SearchResults, productSizes: Map&lt;Integer, String&gt;): PdfPTable</TD></TR>
+<TR><TD ALIGN="LEFT" >- getGarmentLabelBOMTable(bomTableHeaderData: Map&lt;String, String&gt;, masterBOMSizeData: List&lt;JSONObject&gt;, productSizes: Map&lt;Integer, String&gt;, masterMaterialName: String): PdfPTable</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getListAttributeValue(attribute: FlexTypeAttribute, value: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getObjectRefValue(attribute: FlexTypeAttribute, value: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >- getProductSizes(params: Map&lt;String, Object&gt;): Map&lt;Integer, String&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSpaceCell(): PdfPCell</TD></TR>
+<TR><TD ALIGN="LEFT" >- getTableWidth(sizesMap: Map&lt;Integer, String&gt;): float[]</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getTypeMap(): Map&lt;String, String&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- materialBom(bomPart: FlexBOMPart, productSizes: Map&lt;Integer, String&gt;): List&lt;PdfPTable&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- multiFontPara(text: String, font: Font): Phrase</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printMaterLabelBOM(colorwayBOMs: LinkedHashMap&lt;String, FlexBOMPart&gt;, params: Map&lt;String, Object&gt;): List&lt;PdfPTable&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- validateMaterial(material: LCSMaterial): boolean</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+HBISewUsagePDFContent1441384813[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)HBISewUsagePDFContent</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   bomType: FlexType [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   params: Map&lt;String, Object&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   patternBomType: FlexType [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   tableWidthPercent: float [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ HBISewUsagePDFContent()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ debug(msg: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ debug(i: int, msg: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ debug(msg: String, i: int)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getDBColumnName(flextype: FlexType, key: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getPDFContentCollection(sewParams: Map, document: Document): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >- getPatternBomPart(pSpec: FlexSpecification): FlexBOMPart</TD></TR>
+<TR><TD ALIGN="LEFT" >- getPatternSewBomData(patternParams: Map&lt;String, Object&gt;): Collection&lt;?&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSections(bomPart: FlexBOMPart): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSewUsageFromPatternBomData(patterBomData: Collection, patternType: FlexType): Hashtable</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSewUsageFromPatternBomData1(patterBomData: Collection, patternType: FlexType, gpBomData: Collection, bomType: FlexType, sizesThisRun: Collection): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSewUsageFromPatternBomData2(flex1: FlexObject, flex2: FlexObject, sizesThisRun: Collection): FlexObject</TD></TR>
+<TR><TD ALIGN="LEFT" >- isSpecLinkedToPatternProdSpec(spec2: FlexSpecification): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >- isValidateGPBOMTypeForSewUsageBOMReport(bomPart: FlexBOMPart, spec: FlexSpecification): boolean</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+subgraph cluster_1976940652 { 
+   	label=product
+	labeljust=l
+	fillcolor="#c4c4c4"
+	style=filled
+   
+   HBIPDFProductSpecificationGenerator21536164743[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)HBIPDFProductSpecificationGenerator2</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+   bottomMargin: float [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   cellHeight: float [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   compHeaderFooterClasses: HashMap&lt;String, Object&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   fileOutName: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   fontClass: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   hhFudge: float [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   isGPProduct: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   landscape: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   outputFile: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   outputLocation: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   outputURL: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   pageTitles: Collection [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   pages: Collection&lt;String&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   params: Map&lt;String, Object&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   pdfHeader: PDFHeader [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   pgh: PDFGeneratorHelper [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   ppsgpphg: HBIPDFGPProductSpecPageHeaderGenerator [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   ppsphg: HBIPDFProductSpecPageHeaderGenerator [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   product: LCSProduct [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   productName: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   propertyFile: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   ps: Rectangle [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   returnURL: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   seasonMaster: LCSSeasonMaster [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >+   sideMargins: float [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   spec: FlexSpecification [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   specName: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   techPackStatus: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   writer: PdfWriter [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   zipFileName: String [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ HBIPDFProductSpecificationGenerator2(product: LCSProduct)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ HBIPDFProductSpecificationGenerator2(spec: FlexSpecification)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ HBIPDFProductSpecificationGenerator2(spec: FlexSpecification, propertyFile: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ HBIPDFProductSpecificationGenerator2(fstsl: FlexSpecToSeasonLink)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ HBIPDFProductSpecificationGenerator2(spec: FlexSpecification, seasonMaster: LCSSeasonMaster)</TD></TR>
+<TR><TD ALIGN="LEFT" ># HBIPDFProductSpecificationGenerator2()</TD></TR>
+<TR><TD ALIGN="LEFT" >- componentOwnerCheck(compId: String, tparams: Map)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ debug(msg: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ debug(i: int, msg: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ debug(msg: String, i: int)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ findPatternProdLinkedToGP(garmentProduct: LCSProduct): LCSProduct</TD></TR>
+<TR><TD ALIGN="LEFT" >- findProduct(productIda3MasterRef: String): LCSProduct</TD></TR>
+<TR><TD ALIGN="LEFT" >+ generatePDFPage(bom: Collection, columns: Collection, document: Document, params: Map, gpbomPart: FlexBOMPart): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" ># generateReport(doc: Document, key: String): Document</TD></TR>
+<TR><TD ALIGN="LEFT" >+ generateSpec(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getDBColumnName(flextype: FlexType, key: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getFilePath(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >- getFrontAndBackImages(keys: Collection&lt;String&gt;): Collection&lt;LCSDocument&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getOverrideInstance(arguments: Object[]): PDFProductSpecificationGenerator2</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getPageTitleText(params: Map): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getPages(): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >- getPatternBomPart(pSpec: FlexSpecification): FlexBOMPart</TD></TR>
+<TR><TD ALIGN="LEFT" >- getPatternSewBomData(patternParams: Map&lt;String, Object&gt;): Collection&lt;?&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >- getRevisionElementTable(revisionTableName: String, e: Element, spacerCell: PdfPCell, contentCell: PdfPCell, elementTable: PdfPTable): PdfPTable</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSections(bomPart: FlexBOMPart): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSewUsageFromPatternBomData(patterBomData: Collection, patternType: FlexType): Hashtable</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSewUsageFromPatternBomData1(patterBomData: Collection, patternType: FlexType, gpBomData: Collection, bomType: FlexType, sizesThisRun: Collection): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >- getSewUsageFromPatternBomData2(flex1: FlexObject, flex2: FlexObject, sizesThisRun: Collection): FlexObject</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getTechPackStatus(spec: FlexSpecification): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getURL(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getUnmodifiableParams(): Map</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getZipName(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ init()</TD></TR>
+<TR><TD ALIGN="LEFT" >- isSpecLinkedToPatternProdSpec(spec2: FlexSpecification): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >- isValidateGPBOMTypeForSewUsageBOMReport(bomPart: FlexBOMPart, spec: FlexSpecification): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >- prepareDocument(orientation: String): Document</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printMaterLabelBOM(colorwayBOMs: LinkedHashMap&lt;String, FlexBOMPart&gt;, pdfDoc: Document, params: Map&lt;String, Object&gt;)</TD></TR>
+<TR><TD ALIGN="LEFT" >- printSewUsageReport(colorwayBOMs: LinkedHashMap&lt;String, FlexBOMPart&gt;, doc: Document, params2: Map&lt;String, Object&gt;)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setAddlParams(addParams: Map)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setAvailEPMDOCDocs(availEPMDOCDocs: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setAvailParts(availParts: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setBOMSectionViews(BOMSectionViews: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setCadDocFilter(cadDocFilter: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setColorways(colorways: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setColorwaysPerPage(colorwaysPerPage: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >- setCompHeaderFooterClasses(pages: Collection, clu: ClassLoadUtil)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setDestinations(destinations: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setLandscape(landscape: boolean)</TD></TR>
+<TR><TD ALIGN="LEFT" >- setOrientation(orientation: String, doc: Document)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setPageOptions(pageOptions: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setPageSize(pageSize: Rectangle)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setPages(pages: Collection)</TD></TR>
+<TR><TD ALIGN="LEFT" ># setParams(moa: String, key: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setPartFilter(partFilter: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setProductSizeCatId(sizeCatId: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setShowChangeSince(showChangeSince: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setShowColorSwatch(showColorSwatch: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setShowIndentedBOM(showIndentedBOM: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setShowMatThumbnail(showMatThumbnail: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setSize1Sizes(size1Sizes: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setSize2Sizes(size2Sizes: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setSizesPerPage(sizesPerPage: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setSources(sources: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setSpecPageOptions(specPageOptions: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setSpecPageOptions(specPageOptions: Collection)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ setUseSize1Size2(useSize1Size2: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ splitItems(items: Collection, maxPerPage: int): Collection</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+PDFMultiSpecGenerator1536164743[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)PDFMultiSpecGenerator</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   phq: ProductHeaderQuery [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ PDFMultiSpecGenerator()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ addComponentToMaps(cmap: Map&lt;Object, Object&gt;, nMap: Map&lt;Object, String&gt;, component: FlexObject)</TD></TR>
+<TR><TD ALIGN="LEFT" ># addProductDocs(product: LCSProduct, docs: Vector, query: LCSDocumentQuery, flexTypes: ArrayList&lt;String&gt;)</TD></TR>
+<TR><TD ALIGN="LEFT" >- buildBOMViews(product: LCSProduct, season: LCSSeason, components: Collection&lt;String&gt;): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ createPDFSpecifications(specIds: Collection, params: Map, outputFolder: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ createZipForSpecs(specIds: Collection, params: Map, outputFolder: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >- deletePDFs(pdfFiles: ArrayList&lt;String&gt;)</TD></TR>
+<TR><TD ALIGN="LEFT" >- filterOutImagePages(specComponents: Collection): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getBOMParts(product: LCSProduct, spec: FlexSpecification): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getColorways(spec: FlexSpecification, product: LCSProduct): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getColorways(spec: FlexSpecification, product: LCSProduct, season: LCSSeason): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getComponentsForSpec(spec: FlexSpecification, product: LCSProduct, specPages: Collection): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getComponentsForSpec(spec: FlexSpecification, product: LCSProduct, specPages: Collection, params: Map): Collection&lt;String&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getConstructionInfo(product: LCSProduct, spec: FlexSpecification): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getDestinations(spec: FlexSpecification, product: LCSProduct): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># getGenerator(spec: FlexSpecification): PDFProductSpecificationGenerator2</TD></TR>
+<TR><TD ALIGN="LEFT" >- getImagePages(product: LCSProduct, spec: FlexSpecification, pageType: String): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getMeasurements(product: LCSProduct, spec: FlexSpecification): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >- getOtherSpecComponents(product: LCSProduct, season: LCSSeason, currentSpec: FlexSpecification, specComponents: Collection): Collection</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getSizes1(spec: FlexSpecification, product: LCSProduct): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getSizes2(spec: FlexSpecification, product: LCSProduct): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getSources(spec: FlexSpecification, product: LCSProduct): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># setGeneratorParams(ppsg: HBIPDFProductSpecificationGenerator2, spec: FlexSpecification, specPages: Collection, params: Map, outputFolder: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ sortTPComponents(components: Collection, locale: Locale): Collection</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+} 
+
+'edges    
+HBIPDFProductSpecificationGenerator21536164743 -> HBIMasterLabelBOMGenerator1441384813[label="printMaterLabelBOM() -> printMaterLabelBOM()"];
+HBISewUsagePDFContent1441384813 -> HBIPDFProductSpecificationGenerator21536164743[label="isSpecLinkedToPatternProdSpec() -> findPatternProdLinkedToGP()"];
+    
+}
+@enduml

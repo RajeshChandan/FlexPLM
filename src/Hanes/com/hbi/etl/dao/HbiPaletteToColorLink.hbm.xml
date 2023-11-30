@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 17, 2015 3:21:19 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.hbi.etl.dao.HbiPaletteToColorLink" table="HBIPALETTETOCOLORLINK" schema="PLMSTG" optimistic-lock="version">
+        <id name="primarykey" type="big_decimal">
+            <column name="PRIMARYKEY" precision="22" scale="0" />
+            <generator class="native" />
+        </id>
+        <property name="ptc_str_1" type="string">
+            <column name="ATT1" length="2000" />
+        </property>
+        <property name="ptc_str_10" type="string">
+            <column name="ATT10" length="2000" />
+        </property>
+        <property name="ptc_str_11" type="string">
+            <column name="ATT11" length="2000" />
+        </property>
+        <property name="ptc_str_12" type="string">
+            <column name="ATT12" length="2000" />
+        </property>
+        <property name="ptc_str_13" type="string">
+            <column name="ATT13" length="2000" />
+        </property>
+        <property name="ptc_str_14" type="string">
+            <column name="ATT14" length="2000" />
+        </property>
+        <property name="ptc_str_15" type="string">
+            <column name="ATT15" length="2000" />
+        </property>
+        <property name="ptc_str_16" type="string">
+            <column name="ATT16" length="2000" />
+        </property>
+        <property name="ptc_str_17" type="string">
+            <column name="ATT17" length="2000" />
+        </property>
+        <property name="ptc_str_18" type="string">
+            <column name="ATT18" length="2000" />
+        </property>
+        <property name="ptc_str_19" type="string">
+            <column name="ATT19" length="2000" />
+        </property>
+        <property name="ptc_str_2" type="string">
+            <column name="ATT2" length="2000" />
+        </property>
+        <property name="ptc_str_20" type="string">
+            <column name="ATT20" length="2000" />
+        </property>
+        <property name="ptc_str_21" type="string">
+            <column name="ATT21" length="2000" />
+        </property>
+        <property name="ptc_str_22" type="string">
+            <column name="ATT22" length="2000" />
+        </property>
+        <property name="ptc_str_23" type="string">
+            <column name="ATT23" length="2000" />
+        </property>
+        <property name="ptc_str_24" type="string">
+            <column name="ATT24" length="2000" />
+        </property>
+        <property name="ptc_str_25" type="string">
+            <column name="ATT25" length="2000" />
+        </property>
+        <property name="ptc_str_26" type="string">
+            <column name="ATT26" length="2000" />
+        </property>
+        <property name="ptc_str_27" type="string">
+            <column name="ATT27" length="2000" />
+        </property>
+        <property name="ptc_str_28" type="string">
+            <column name="ATT28" length="2000" />
+        </property>
+        <property name="ptc_str_29" type="string">
+            <column name="ATT29" length="2000" />
+        </property>
+        <property name="ptc_str_3" type="string">
+            <column name="ATT3" length="2000" />
+        </property>
+        <property name="ptc_str_30" type="string">
+            <column name="ATT30" length="2000" />
+        </property>
+        <property name="ptc_str_4" type="string">
+            <column name="ATT4" length="2000" />
+        </property>
+        <property name="ptc_str_5" type="string">
+            <column name="ATT5" length="2000" />
+        </property>
+        <property name="ptc_str_6" type="string">
+            <column name="ATT6" length="2000" />
+        </property>
+        <property name="ptc_str_7" type="string">
+            <column name="ATT7" length="2000" />
+        </property>
+        <property name="ptc_str_8" type="string">
+            <column name="ATT8" length="2000" />
+        </property>
+        <property name="ptc_str_9" type="string">
+            <column name="ATT9" length="2000" />
+        </property>
+        <property name="classnamekeyb6" type="string">
+            <column name="CLASSNAMEKEYB6" length="200" />
+        </property>
+        <property name="ida3b6" type="big_decimal">
+            <column name="IDA3B6" precision="22" scale="0" />
+        </property>
+        <property name="classnamekeyc6" type="string">
+            <column name="CLASSNAMEKEYC6" length="200" />
+        </property>
+        <property name="ida3c6" type="big_decimal">
+            <column name="IDA3C6" precision="22" scale="0" />
+        </property>
+        <property name="ptc_tms_1" type="date">
+            <column name="DATE1" length="7" />
+        </property>
+        <property name="ptc_tms_10" type="date">
+            <column name="DATE10" length="7" />
+        </property>
+        <property name="ptc_tms_2" type="date">
+            <column name="DATE2" length="7" />
+        </property>
+        <property name="ptc_tms_3" type="date">
+            <column name="DATE3" length="7" />
+        </property>
+        <property name="ptc_tms_4" type="date">
+            <column name="DATE4" length="7" />
+        </property>
+        <property name="ptc_tms_5" type="date">
+            <column name="DATE5" length="7" />
+        </property>
+        <property name="ptc_tms_6" type="date">
+            <column name="DATE6" length="7" />
+        </property>
+        <property name="ptc_tms_7" type="date">
+            <column name="DATE7" length="7" />
+        </property>
+        <property name="ptc_tms_8" type="date">
+            <column name="DATE8" length="7" />
+        </property>
+        <property name="ptc_tms_9" type="date">
+            <column name="DATE9" length="7" />
+        </property>
+        <property name="flextypeidpath" type="string">
+            <column name="FLEXTYPEIDPATH" length="200" />
+        </property>
+        <property name="classnamekeya6" type="string">
+            <column name="CLASSNAMEKEYA6" length="200" />
+        </property>
+        <property name="ida3a6" type="big_decimal">
+            <column name="IDA3A6" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_1" type="big_decimal">
+            <column name="NUM1" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_10" type="big_decimal">
+            <column name="NUM10" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_11" type="big_decimal">
+            <column name="NUM11" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_12" type="big_decimal">
+            <column name="NUM12" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_13" type="big_decimal">
+            <column name="NUM13" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_14" type="big_decimal">
+            <column name="NUM14" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_15" type="big_decimal">
+            <column name="NUM15" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_16" type="big_decimal">
+            <column name="NUM16" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_17" type="big_decimal">
+            <column name="NUM17" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_18" type="big_decimal">
+            <column name="NUM18" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_19" type="big_decimal">
+            <column name="NUM19" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_2" type="big_decimal">
+            <column name="NUM2" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_20" type="big_decimal">
+            <column name="NUM20" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_3" type="big_decimal">
+            <column name="NUM3" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_4" type="big_decimal">
+            <column name="NUM4" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_5" type="big_decimal">
+            <column name="NUM5" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_6" type="big_decimal">
+            <column name="NUM6" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_7" type="big_decimal">
+            <column name="NUM7" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_8" type="big_decimal">
+            <column name="NUM8" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_9" type="big_decimal">
+            <column name="NUM9" precision="22" scale="0" />
+        </property>
+        <property name="classnamekeyroleaobjectref" type="string">
+            <column name="CLASSNAMEKEYROLEAOBJECTREF" length="200" />
+        </property>
+        <property name="ida3a5" type="big_decimal">
+            <column name="IDA3A5" precision="22" scale="0" />
+        </property>
+        <property name="classnamekeyrolebobjectref" type="string">
+            <column name="CLASSNAMEKEYROLEBOBJECTREF" length="200" />
+        </property>
+        <property name="ida3b5" type="big_decimal">
+            <column name="IDA3B5" precision="22" scale="0" />
+        </property>
+        <property name="createstampa2" type="date">
+            <column name="CREATESTAMPA2" length="7" />
+        </property>
+        <property name="markfordeletea2" type="big_decimal">
+            <column name="MARKFORDELETEA2" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="modifystampa2" type="date">
+            <column name="MODIFYSTAMPA2" length="7" />
+        </property>
+        <property name="classnamea2a2" type="string">
+            <column name="CLASSNAMEA2A2" length="200" />
+        </property>
+        <property name="ida2a2" type="big_decimal">
+            <column name="IDA2A2" precision="22" scale="0" not-null="true" unique="true" />
+        </property>
+        <property name="updatecounta2" type="big_decimal">
+            <column name="UPDATECOUNTA2" precision="22" scale="0" />
+        </property>
+        <property name="updatestampa2" type="date">
+            <column name="UPDATESTAMPA2" length="7" />
+        </property>
+        <property name="typedisplay" type="string">
+            <column name="TYPEDISPLAY" length="200" />
+        </property>
+        <property name="datasourcesystem" type="string">
+            <column name="DATASOURCESYSTEM" length="200" />
+        </property>
+        <property name="loadercreatetime" type="timestamp">
+            <column name="LOADERCREATETIME" length="7" />
+        </property>
+        <property name="loaderupdatetime" type="timestamp">
+            <column name="LOADERUPDATETIME" length="7" />
+        </property>
+    </class>
+</hibernate-mapping>

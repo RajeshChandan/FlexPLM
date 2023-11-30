@@ -1,0 +1,348 @@
+@startuml
+
+/' diagram meta data start
+config=CallConfiguration;
+{
+  "rootMethod": "com.hbi.wc.product.HBIPDFProductSpecificationGenerator2#printMaterLabelBOM(LinkedHashMap\u003cString, FlexBOMPart\u003e,Document,Map\u003cString, Object\u003e)",
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 999,
+    "backwardDepth": 44,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": false,
+    "hideInterfaceCalls": false, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showMethodParametersTypes": true,
+    "showMethodParametersNames": false,
+    "showMethodReturnType": true,
+    "showPackageLevels": 26,
+    "showCallOrder": true,
+    "edgeMode": "TypesAndMethods", // TypesOnly, MethodsOnly, TypesAndMethods, MethodsAndDirectTypeUsage
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "com.hbi.wc.product.HBIPDFProductSpecificationGenerator2",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_103087 { 
+   	label=hbi
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_1223854485 { 
+   	label=wc
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   subgraph cluster_1511406244 { 
+   	label=flexbom
+	labeljust=l
+	fillcolor="#c4c4c4"
+	style=filled
+   
+   subgraph cluster_1719222010 { 
+   	label=gen
+	labeljust=l
+	fillcolor="#bababa"
+	style=filled
+   
+   subgraph cluster_324846479 { 
+   	label=HBIMasterLabelBOMGenerator
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   HBIMasterLabelBOMGenerator1441384813XXXgenTableCell1808118735[
+	label="- genTableCell(String): PdfPCell"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+null"
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgenTableHeader1808118735[
+	label="- genTableHeader(String): PdfPCell"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+null"
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgenTableHeaderCell1808118735[
+	label="- genTableHeaderCell(String): PdfPCell"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+null"
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786[
+	label="- getAttributeValue(FlexTyped, String): String"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+null"
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978[
+	label="- getGarmentLabelBOM(LCSMaterial, SearchResults, Map<Integer, String>): PdfPTable"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+&#10;  This method is to fetch and draw table for master material bom.&#10; &#10;  @param material- material Object&#10;  @param matBOMQryResult - search result&#10;  @param productSizes- active product sizes&#10;  @return - pdf table&#10;  @throws Exception - exception&#10; "
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207[
+	label="- getGarmentLabelBOMTable(Map<String, String>, List<JSONObject>, Map<Integer, String>, String): PdfPTable"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+null"
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgetListAttributeValue74376562[
+	label="+ getListAttributeValue(FlexTypeAttribute, String): String"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+&#10;  This method return display value for list type attribute.&#10; &#10;  @param attribute - FlexTypeAttribute&#10;  @param value - String&#10;  @return - string attribute display value&#10; "
+	fontcolor=darkgreen
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgetObjectRefValue74376562[
+	label="+ getObjectRefValue(FlexTypeAttribute, String): String"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+null"
+	fontcolor=darkgreen
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgetProductSizes350625082[
+	label="- getProductSizes(Map<String, Object>): Map<Integer, String>"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+&#10;  this method fetch active sizes from Product Garment Size Table.&#10; &#10;  @param params - TechPack Params //TO-DO ADDING PARAGRAPH DESCRIBING VAR1 DATA SET&#10;  @return - return List of active sizes&#10; "
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXgetTableWidth330257061[
+	label="- getTableWidth(Map<Integer, String>): float[]"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+&#10;  this method return table with for master bom Table.&#10; &#10;  @param sizesMap - Map ,product sizes&#10;  @return - float array&#10; "
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXmaterialBom1033260855[
+	label="- materialBom(FlexBOMPart, Map<Integer, String>): List<PdfPTable>"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+&#10;  This method is to generate Master material data and return relevant data to List of PDFTable.&#10; &#10;  @param bomPart - BOM Object&#10;  @param productSizes - product sizes&#10;  @return - returns list of bom table&#10;  @throws Exception - exception&#10; "
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXmultiFontPara950251692[
+	label="- multiFontPara(String, Font): Phrase"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+null"
+	fontcolor=red
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXprintMaterLabelBOM466445046[
+	label="+ printMaterLabelBOM(LinkedHashMap<String, FlexBOMPart>, Map<String, Object>): List<PdfPTable>"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+&#10;  This method is to generate Master material data and return relevant data to List of PDFTable.&#10; &#10;  @param colorwayBOMs - Colorway BOM Data&#10;  @param params - TechPack Param&#10;  @return - List of PDFTable&#10;  @throws Exception - exception&#10; "
+	fontcolor=darkgreen
+];
+
+HBIMasterLabelBOMGenerator1441384813XXXvalidateMaterial1257992963[
+	label="- validateMaterial(LCSMaterial): boolean"
+	style=filled
+	fillcolor=white
+	tooltip="HBIMasterLabelBOMGenerator
+
+&#10;  this method validates a material is master material or not.&#10;  criteria:&#10;  master material attribute should eb true&#10;  material type should be Garment Label&#10;  @param material - material object&#10;  @return - boolean&#10; "
+	fontcolor=red
+];
+} 
+} 
+} 
+
+subgraph cluster_1976940652 { 
+   	label=product
+	labeljust=l
+	fillcolor="#c4c4c4"
+	style=filled
+   
+   subgraph cluster_1865782197 { 
+   	label=HBIPDFProductSpecificationGenerator2
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   HBIPDFProductSpecificationGenerator21536164743XXXgenerateSpec0[
+	label="+ generateSpec(): String"
+	style=filled
+	fillcolor=white
+	tooltip="HBIPDFProductSpecificationGenerator2
+
+&#10;  Generates the PDF document for the Spec&#10; &#10;  @return the url to the generated document&#10;  @throws WTException&#10; "
+	fontcolor=darkgreen
+];
+
+HBIPDFProductSpecificationGenerator21536164743XXXprintMaterLabelBOM212773977[
+	label="+ printMaterLabelBOM(LinkedHashMap<String, FlexBOMPart>, Document, Map<String, Object>)"
+	style=filled
+	fillcolor=white
+	tooltip="HBIPDFProductSpecificationGenerator2
+
+&#10;  This function will add Garment Label BOM data to Tech pack report.&#10;  - BOM table visible after Colorway BOM.&#10;  - table data will appear only if BOM has Relevant dataset.&#10;  @param colorwayBOMs - Colorway BOM input&#10;  @param pdfDoc - PDF Docuemnt object&#10;  @param params - Tech Ppck apram&#10;  @throws Exception&#10; "
+	penwidth=4
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_826885796 { 
+   	label=PDFMultiSpecGenerator
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   PDFMultiSpecGenerator1536164743XXXcreateZipForSpecs1017233391[
+	label="+ createZipForSpecs(Collection, Map, String): String"
+	style=filled
+	fillcolor=white
+	tooltip="PDFMultiSpecGenerator
+
+null"
+	fontcolor=darkgreen
+];
+} 
+} 
+} 
+} 
+
+'edges    
+HBIMasterLabelBOMGenerator1441384813XXXgenTableCell1808118735 -> HBIMasterLabelBOMGenerator1441384813XXXmultiFontPara950251692[label=1];
+HBIMasterLabelBOMGenerator1441384813XXXgenTableHeader1808118735 -> HBIMasterLabelBOMGenerator1441384813XXXmultiFontPara950251692[label=2];
+HBIMasterLabelBOMGenerator1441384813XXXgenTableHeaderCell1808118735 -> HBIMasterLabelBOMGenerator1441384813XXXmultiFontPara950251692[label=1];
+HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786 -> HBIMasterLabelBOMGenerator1441384813XXXgetListAttributeValue74376562[label=8];
+HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786 -> HBIMasterLabelBOMGenerator1441384813XXXgetObjectRefValue74376562[label=11];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978 -> HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786[label=28];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978 -> HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786[label=30];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978 -> HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786[label=31];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978 -> HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786[label=33];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978 -> HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786[label=40];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978 -> HBIMasterLabelBOMGenerator1441384813XXXgetAttributeValue319707786[label=7];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978 -> HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207[label=39];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableCell1808118735[label=11];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableCell1808118735[label=31];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableCell1808118735[label=34];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableCell1808118735[label=43];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableCell1808118735[label=47];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableHeader1808118735[label=3];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableHeaderCell1808118735[label=23];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableHeaderCell1808118735[label=25];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableHeaderCell1808118735[label=28];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgenTableHeaderCell1808118735[label=8];
+HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOMTable1662821207 -> HBIMasterLabelBOMGenerator1441384813XXXgetTableWidth330257061[label=21];
+HBIMasterLabelBOMGenerator1441384813XXXmaterialBom1033260855 -> HBIMasterLabelBOMGenerator1441384813XXXgetGarmentLabelBOM1832833978[label=16];
+HBIMasterLabelBOMGenerator1441384813XXXmaterialBom1033260855 -> HBIMasterLabelBOMGenerator1441384813XXXvalidateMaterial1257992963[label=15];
+HBIMasterLabelBOMGenerator1441384813XXXprintMaterLabelBOM466445046 -> HBIMasterLabelBOMGenerator1441384813XXXgetProductSizes350625082[label=1];
+HBIMasterLabelBOMGenerator1441384813XXXprintMaterLabelBOM466445046 -> HBIMasterLabelBOMGenerator1441384813XXXmaterialBom1033260855[label=5];
+HBIPDFProductSpecificationGenerator21536164743XXXgenerateSpec0 -> HBIPDFProductSpecificationGenerator21536164743XXXprintMaterLabelBOM212773977[label=383];
+HBIPDFProductSpecificationGenerator21536164743XXXprintMaterLabelBOM212773977 -> HBIMasterLabelBOMGenerator1441384813XXXprintMaterLabelBOM466445046[label=0];
+PDFMultiSpecGenerator1536164743XXXcreateZipForSpecs1017233391 -> HBIPDFProductSpecificationGenerator21536164743XXXgenerateSpec0[label=65];
+PDFMultiSpecGenerator1536164743XXXcreateZipForSpecs1017233391 -> HBIPDFProductSpecificationGenerator21536164743XXXgenerateSpec0[label=83];
+    
+}
+@enduml

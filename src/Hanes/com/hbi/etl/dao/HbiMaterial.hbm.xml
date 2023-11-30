@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 11, 2014 2:03:40 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.hbi.etl.dao.HbiMaterial" table="HBIMATERIAL" schema="PLMSTG">
+        <id name="primarykey" type="big_decimal">
+            <column name="PRIMARYKEY" precision="22" scale="0" />
+            <generator class="native"></generator>
+        </id>
+        <property name="ptc_str_1" type="string">
+            <column name="ATT1" length="2000" />
+        </property>
+        <property name="ptc_str_10" type="string">
+            <column name="ATT10" length="4000" />
+        </property>
+        <property name="ptc_str_11" type="string">
+            <column name="ATT11" length="4000" />
+        </property>
+        <property name="ptc_str_12" type="string">
+            <column name="ATT12" length="4000" />
+        </property>
+        <property name="ptc_str_13" type="string">
+            <column name="ATT13" length="4000" />
+        </property>
+        <property name="ptc_str_14" type="string">
+            <column name="ATT14" length="4000" />
+        </property>
+        <property name="ptc_str_15" type="string">
+            <column name="ATT15" length="4000" />
+        </property>
+        <property name="ptc_str_16" type="string">
+            <column name="ATT16" length="4000" />
+        </property>
+        <property name="ptc_str_17" type="string">
+            <column name="ATT17" length="4000" />
+        </property>
+        <property name="ptc_str_18" type="string">
+            <column name="ATT18" length="4000" />
+        </property>
+        <property name="ptc_str_19" type="string">
+            <column name="ATT19" length="4000" />
+        </property>
+        <property name="ptc_str_2" type="string">
+            <column name="ATT2" length="2000" />
+        </property>
+        <property name="ptc_str_20" type="string">
+            <column name="ATT20" length="4000" />
+        </property>
+        <property name="ptc_str_21" type="string">
+            <column name="ATT21" length="4000" />
+        </property>
+        <property name="ptc_str_22" type="string">
+            <column name="ATT22" length="4000" />
+        </property>
+        <property name="ptc_str_23" type="string">
+            <column name="ATT23" length="4000" />
+        </property>
+        <property name="ptc_str_24" type="string">
+            <column name="ATT24" length="4000" />
+        </property>
+        <property name="ptc_str_25" type="string">
+            <column name="ATT25" length="4000" />
+        </property>
+        <property name="ptc_str_26" type="string">
+            <column name="ATT26" length="4000" />
+        </property>
+        <property name="ptc_str_27" type="string">
+            <column name="ATT27" length="4000" />
+        </property>
+        <property name="ptc_str_28" type="string">
+            <column name="ATT28" length="4000" />
+        </property>
+        <property name="ptc_str_29" type="string">
+            <column name="ATT29" length="4000" />
+        </property>
+        <property name="ptc_str_3" type="string">
+            <column name="ATT3" length="2000" />
+        </property>
+        <property name="ptc_str_30" type="string">
+            <column name="ATT30" length="4000" />
+        </property>
+        <property name="ptc_str_31" type="string">
+            <column name="ATT31" length="4000" />
+        </property>
+        <property name="ptc_str_32" type="string">
+            <column name="ATT32" length="4000" />
+        </property>
+        <property name="ptc_str_33" type="string">
+            <column name="ATT33" length="4000" />
+        </property>
+        <property name="ptc_str_34" type="string">
+            <column name="ATT34" length="4000" />
+        </property>
+        <property name="ptc_str_35" type="string">
+            <column name="ATT35" length="4000" />
+        </property>
+        <property name="ptc_str_36" type="string">
+            <column name="ATT36" length="4000" />
+        </property>
+        <property name="ptc_str_37" type="string">
+            <column name="ATT37" length="4000" />
+        </property>
+        <property name="ptc_str_38" type="string">
+            <column name="ATT38" length="4000" />
+        </property>
+        <property name="ptc_str_39" type="string">
+            <column name="ATT39" length="4000" />
+        </property>
+        <property name="ptc_str_4" type="string">
+            <column name="ATT4" length="2000" />
+        </property>
+        <property name="ptc_str_40" type="string">
+            <column name="ATT40" length="4000" />
+        </property>
+        <property name="ptc_str_41" type="string">
+            <column name="ATT41" length="4000" />
+        </property>
+        <property name="ptc_str_42" type="string">
+            <column name="ATT42" length="4000" />
+        </property>
+        <property name="ptc_str_43" type="string">
+            <column name="ATT43" length="4000" />
+        </property>
+        <property name="ptc_str_44" type="string">
+            <column name="ATT44" length="4000" />
+        </property>
+        <property name="ptc_str_45" type="string">
+            <column name="ATT45" length="4000" />
+        </property>
+        <property name="ptc_str_46" type="string">
+            <column name="ATT46" length="4000" />
+        </property>
+        <property name="ptc_str_47" type="string">
+            <column name="ATT47" length="4000" />
+        </property>
+        <property name="ptc_str_48" type="string">
+            <column name="ATT48" length="4000" />
+        </property>
+        <property name="ptc_str_49" type="string">
+            <column name="ATT49" length="4000" />
+        </property>
+        <property name="ptc_str_5" type="string">
+            <column name="ATT5" length="2000" />
+        </property>
+        <property name="ptc_str_50" type="string">
+            <column name="ATT50" length="4000" />
+        </property>
+        <property name="ptc_str_51" type="string">
+            <column name="ATT51" length="4000" />
+        </property>
+        <property name="ptc_str_52" type="string">
+            <column name="ATT52" length="4000" />
+        </property>
+        <property name="ptc_str_53" type="string">
+            <column name="ATT53" length="4000" />
+        </property>
+        <property name="ptc_str_54" type="string">
+            <column name="ATT54" length="4000" />
+        </property>
+        <property name="ptc_str_55" type="string">
+            <column name="ATT55" length="4000" />
+        </property>
+        <property name="ptc_str_56" type="string">
+            <column name="ATT56" length="4000" />
+        </property>
+        <property name="ptc_str_57" type="string">
+            <column name="ATT57" length="4000" />
+        </property>
+        <property name="ptc_str_58" type="string">
+            <column name="ATT58" length="4000" />
+        </property>
+        <property name="ptc_str_59" type="string">
+            <column name="ATT59" length="4000" />
+        </property>
+        <property name="ptc_str_6" type="string">
+            <column name="ATT6" length="2000" />
+        </property>
+        <property name="ptc_str_60" type="string">
+            <column name="ATT60" length="4000" />
+        </property>
+        <property name="ptc_str_61" type="string">
+            <column name="ATT61" length="4000" />
+        </property>
+        <property name="ptc_str_62" type="string">
+            <column name="ATT62" length="4000" />
+        </property>
+        <property name="ptc_str_63" type="string">
+            <column name="ATT63" length="4000" />
+        </property>
+        <property name="ptc_str_64" type="string">
+            <column name="ATT64" length="4000" />
+        </property>
+        <property name="ptc_str_65" type="string">
+            <column name="ATT65" length="4000" />
+        </property>
+        <property name="ptc_str_66" type="string">
+            <column name="ATT66" length="4000" />
+        </property>
+        <property name="ptc_str_67" type="string">
+            <column name="ATT67" length="4000" />
+        </property>
+        <property name="ptc_str_68" type="string">
+            <column name="ATT68" length="4000" />
+        </property>
+        <property name="ptc_str_69" type="string">
+            <column name="ATT69" length="4000" />
+        </property>
+        <property name="ptc_str_7" type="string">
+            <column name="ATT7" length="2000" />
+        </property>
+        <property name="ptc_str_70" type="string">
+            <column name="ATT70" length="4000" />
+        </property>
+        <property name="ptc_str_71" type="string">
+            <column name="ATT71" length="4000" />
+        </property>
+        <property name="ptc_str_72" type="string">
+            <column name="ATT72" length="4000" />
+        </property>
+        <property name="ptc_str_73" type="string">
+            <column name="ATT73" length="4000" />
+        </property>
+        <property name="ptc_str_74" type="string">
+            <column name="ATT74" length="4000" />
+        </property>
+        <property name="ptc_str_75" type="string">
+            <column name="ATT75" length="4000" />
+        </property>
+        <property name="ptc_str_76" type="string">
+            <column name="ATT76" length="4000" />
+        </property>
+        <property name="ptc_str_77" type="string">
+            <column name="ATT77" length="4000" />
+        </property>
+        <property name="ptc_str_78" type="string">
+            <column name="ATT78" length="4000" />
+        </property>
+        <property name="ptc_str_79" type="string">
+            <column name="ATT79" length="4000" />
+        </property>
+        <property name="ptc_str_8" type="string">
+            <column name="ATT8" length="2000" />
+        </property>
+        <property name="ptc_str_80" type="string">
+            <column name="ATT80" length="4000" />
+        </property>
+        <property name="ptc_str_81" type="string">
+            <column name="ATT81" length="4000" />
+        </property>
+        <property name="ptc_str_82" type="string">
+            <column name="ATT82" length="4000" />
+        </property>
+        <property name="ptc_str_83" type="string">
+            <column name="ATT83" length="4000" />
+        </property>
+        <property name="ptc_str_84" type="string">
+            <column name="ATT84" length="4000" />
+        </property>
+        <property name="ptc_str_85" type="string">
+            <column name="ATT85" length="4000" />
+        </property>
+        <property name="ptc_str_86" type="string">
+            <column name="ATT86" length="4000" />
+        </property>
+        <property name="ptc_str_87" type="string">
+            <column name="ATT87" length="4000" />
+        </property>
+        <property name="ptc_str_88" type="string">
+            <column name="ATT88" length="4000" />
+        </property>
+        <property name="ptc_str_89" type="string">
+            <column name="ATT89" length="4000" />
+        </property>
+        <property name="ptc_str_9" type="string">
+            <column name="ATT9" length="2000" />
+        </property>
+        <property name="ptc_str_90" type="string">
+            <column name="ATT90" length="4000" />
+        </property>
+        <property name="ptc_tms_1" type="date">
+            <column name="DATE1" length="7" />
+        </property>
+        <property name="ptc_tms_10" type="date">
+            <column name="DATE10" length="7" />
+        </property>
+        <property name="ptc_tms_11" type="date">
+            <column name="DATE11" length="7" />
+        </property>
+        <property name="ptc_tms_12" type="date">
+            <column name="DATE12" length="7" />
+        </property>
+        <property name="ptc_tms_13" type="date">
+            <column name="DATE13" length="7" />
+        </property>
+        <property name="ptc_tms_14" type="date">
+            <column name="DATE14" length="7" />
+        </property>
+        <property name="ptc_tms_15" type="date">
+            <column name="DATE15" length="7" />
+        </property>
+        <property name="ptc_tms_16" type="date">
+            <column name="DATE16" length="7" />
+        </property>
+        <property name="ptc_tms_17" type="date">
+            <column name="DATE17" length="7" />
+        </property>
+        <property name="ptc_tms_18" type="date">
+            <column name="DATE18" length="7" />
+        </property>
+        <property name="ptc_tms_19" type="date">
+            <column name="DATE19" length="7" />
+        </property>
+        <property name="ptc_tms_2" type="date">
+            <column name="DATE2" length="7" />
+        </property>
+        <property name="ptc_tms_20" type="date">
+            <column name="DATE20" length="7" />
+        </property>
+        <property name="ptc_tms_21" type="date">
+            <column name="DATE21" length="7" />
+        </property>
+        <property name="ptc_tms_22" type="date">
+            <column name="DATE22" length="7" />
+        </property>
+        <property name="ptc_tms_23" type="date">
+            <column name="DATE23" length="7" />
+        </property>
+        <property name="ptc_tms_24" type="date">
+            <column name="DATE24" length="7" />
+        </property>
+        <property name="ptc_tms_25" type="date">
+            <column name="DATE25" length="7" />
+        </property>
+        <property name="ptc_tms_26" type="date">
+            <column name="DATE26" length="7" />
+        </property>
+        <property name="ptc_tms_27" type="date">
+            <column name="DATE27" length="7" />
+        </property>
+        <property name="ptc_tms_28" type="date">
+            <column name="DATE28" length="7" />
+        </property>
+        <property name="ptc_tms_29" type="date">
+            <column name="DATE29" length="7" />
+        </property>
+        <property name="ptc_tms_3" type="date">
+            <column name="DATE3" length="7" />
+        </property>
+        <property name="ptc_tms_30" type="date">
+            <column name="DATE30" length="7" />
+        </property>
+        <property name="ptc_tms_4" type="date">
+            <column name="DATE4" length="7" />
+        </property>
+        <property name="ptc_tms_5" type="date">
+            <column name="DATE5" length="7" />
+        </property>
+        <property name="ptc_tms_6" type="date">
+            <column name="DATE6" length="7" />
+        </property>
+        <property name="ptc_tms_7" type="date">
+            <column name="DATE7" length="7" />
+        </property>
+        <property name="ptc_tms_8" type="date">
+            <column name="DATE8" length="7" />
+        </property>
+        <property name="ptc_tms_9" type="date">
+            <column name="DATE9" length="7" />
+        </property>
+        <property name="ptc_dbl_1" type="big_decimal">
+            <column name="NUM1" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_10" type="big_decimal">
+            <column name="NUM10" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_11" type="big_decimal">
+            <column name="NUM11" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_12" type="big_decimal">
+            <column name="NUM12" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_13" type="big_decimal">
+            <column name="NUM13" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_14" type="big_decimal">
+            <column name="NUM14" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_15" type="big_decimal">
+            <column name="NUM15" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_16" type="big_decimal">
+            <column name="NUM16" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_17" type="big_decimal">
+            <column name="NUM17" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_18" type="big_decimal">
+            <column name="NUM18" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_19" type="big_decimal">
+            <column name="NUM19" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_2" type="big_decimal">
+            <column name="NUM2" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_20" type="big_decimal">
+            <column name="NUM20" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_21" type="big_decimal">
+            <column name="NUM21" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_22" type="big_decimal">
+            <column name="NUM22" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_23" type="big_decimal">
+            <column name="NUM23" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_24" type="big_decimal">
+            <column name="NUM24" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_25" type="big_decimal">
+            <column name="NUM25" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_26" type="big_decimal">
+            <column name="NUM26" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_27" type="big_decimal">
+            <column name="NUM27" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_28" type="big_decimal">
+            <column name="NUM28" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_29" type="big_decimal">
+            <column name="NUM29" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_3" type="big_decimal">
+            <column name="NUM3" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_30" type="big_decimal">
+            <column name="NUM30" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_31" type="big_decimal">
+            <column name="NUM31" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_32" type="big_decimal">
+            <column name="NUM32" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_33" type="big_decimal">
+            <column name="NUM33" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_34" type="big_decimal">
+            <column name="NUM34" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_35" type="big_decimal">
+            <column name="NUM35" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_36" type="big_decimal">
+            <column name="NUM36" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_37" type="big_decimal">
+            <column name="NUM37" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_38" type="big_decimal">
+            <column name="NUM38" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_39" type="big_decimal">
+            <column name="NUM39" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_4" type="big_decimal">
+            <column name="NUM4" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_40" type="big_decimal">
+            <column name="NUM40" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_41" type="big_decimal">
+            <column name="NUM41" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_42" type="big_decimal">
+            <column name="NUM42" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_43" type="big_decimal">
+            <column name="NUM43" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_44" type="big_decimal">
+            <column name="NUM44" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_45" type="big_decimal">
+            <column name="NUM45" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_46" type="big_decimal">
+            <column name="NUM46" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_47" type="big_decimal">
+            <column name="NUM47" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_48" type="big_decimal">
+            <column name="NUM48" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_49" type="big_decimal">
+            <column name="NUM49" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_5" type="big_decimal">
+            <column name="NUM5" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_50" type="big_decimal">
+            <column name="NUM50" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_6" type="big_decimal">
+            <column name="NUM6" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_7" type="big_decimal">
+            <column name="NUM7" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_8" type="big_decimal">
+            <column name="NUM8" precision="22" scale="0" />
+        </property>
+        <property name="ptc_dbl_9" type="big_decimal">
+            <column name="NUM9" precision="22" scale="0" />
+        </property>
+        <property name="partprimaryimageurl" type="string">
+            <column name="PARTPRIMARYIMAGEURL" length="200" />
+        </property>
+        <property name="latestiterationinfo" type="big_decimal">
+            <column name="LATESTITERATIONINFO" precision="1" scale="0" />
+        </property>
+        <property name="statestate" type="string">
+            <column name="STATESTATE" length="600" />
+        </property>
+        <property name="createstampa2" type="date">
+            <column name="CREATESTAMPA2" length="7" />
+        </property>
+        <property name="markfordeletea2" type="big_decimal">
+            <column name="MARKFORDELETEA2" precision="22" scale="0" />
+        </property>
+        <property name="updatestampa2" type="date">
+            <column name="UPDATESTAMPA2" length="7" />
+        </property>
+        <property name="versionida2versioninfo" type="string">
+            <column name="VERSIONIDA2VERSIONINFO" length="60" />
+        </property>
+        <property name="flextypeidpath" type="string">
+            <column name="FLEXTYPEIDPATH" length="200" />
+        </property>
+        <property name="ida3a11" type="big_decimal">
+            <column name="IDA3A11" precision="22" scale="0" />
+        </property>
+        <property name="ida2a2" type="big_decimal">
+            <column name="IDA2A2" precision="22" scale="0" />
+        </property>
+        <property name="branchiditerationinfo" type="big_decimal">
+            <column name="BRANCHIDITERATIONINFO" precision="22" scale="0" not-null="true" unique="true" />
+        </property>
+        <property name="loadercreatetime" type="timestamp">
+            <column name="LOADERCREATETIME" length="7" />
+        </property>
+        <property name="loaderupdatetime" type="timestamp">
+            <column name="LOADERUPDATETIME" length="7" />
+        </property>
+        <property name="datasourcesystem" type="string">
+            <column name="DATASOURCESYSTEM" length="400" />
+        </property>
+    </class>
+</hibernate-mapping>
