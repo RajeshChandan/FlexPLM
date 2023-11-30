@@ -1,0 +1,51 @@
+
+J
+java:S37401"/Provide the parametrized type for this generic.(ö¹—Üûÿÿÿÿ
+J
+java:S37401"/Provide the parametrized type for this generic.(ö¹—Üûÿÿÿÿ
+J
+java:S3740R"/Provide the parametrized type for this generic.(¼¾ì¢ÿÿÿÿÿ
+E
+java:S3740Y"/Provide the parametrized type for this generic.(…Ÿœˆ
+J
+java:S3740v"/Provide the parametrized type for this generic.(ÙÆ‰¹ûÿÿÿÿ
+J
+java:S1066b"/Merge this if statement with the enclosing one.(şÁ£şÿÿÿÿ
+E
+java:S1066c"/Merge this if statement with the enclosing one.(éö¯«
+V	java:S125"<This block of commented-out lines of code should be removed.(”ÂÓ‘úÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Íöåñûÿÿÿÿ
+l
+java:S3008%"VRename this field "DATE_FORMAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ú­
+k
+java:S3008&"PRename this field "DEBUG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ú¾Ôûÿÿÿÿ
+€
+java:S11491"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ö¹—Üûÿÿÿÿ
+€
+java:S1149R"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¼¾ì¢ÿÿÿÿÿ
+{
+java:S1149Y"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(…Ÿœˆ
+€
+java:S1149v"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÙÆ‰¹ûÿÿÿÿ
+>
+java:S2885%"(Make "DATE_FORMAT" an instance variable.(‹Ú­
+h
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ßÛõ
+K
+java:S1172,"5Remove this unused method parameter "materialAction".(ßÛõ
+D
+java:S19405")Use the opposite operator ("!=") instead.(ô…’úÿÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(’Ù¾¾
+E	java:S1068"+Replace this use of System.out by a logger.(öÃÒüÿÿÿÿ
+Q	java:S125A"<This block of commented-out lines of code should be removed.(¢ÅÆ›
+@	java:S106S"+Replace this use of System.out by a logger.(ÆÏò
+Q	java:S125^"<This block of commented-out lines of code should be removed.(Ò÷ƒâ
+Q	java:S125e"<This block of commented-out lines of code should be removed.(•Á³ß
+J
+java:S1172v"/Remove this unused method parameter "rootName".(ÙÆ‰¹ûÿÿÿÿ
+E	java:S106x"+Replace this use of System.out by a logger.(úû·‹ıÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(×üíĞ
+W	java:S125€"<This block of commented-out lines of code should be removed.(¤Åğ›ıÿÿÿÿ
+A	java:S106„"+Replace this use of System.out by a logger.(·Æ‘
+A	java:S106…"+Replace this use of System.out by a logger.(Á”¦ô
+F	java:S106"+Replace this use of System.out by a logger.(¨İ™±úÿÿÿÿ

@@ -1,0 +1,75 @@
+
+j
+java:S1192Õ"NDefine a constant instead of duplicating this literal "SELLING_STYLE" 3 times.(Ğ•Ìúÿÿÿÿ
+Q
+java:S1141å"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+l	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÂ°ãşÿÿÿÿ
+g	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒí°
+l	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÇâØúÿÿÿÿ
+g	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ì«Å
+l	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÖœÄşÿÿÿÿ
+l	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÀ¶ˆúÿÿÿÿ
+l	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¬ÜÇüÿÿÿÿ
+l	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‰Ğıÿÿÿÿ
+f	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼à”;
+g	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¦Ò 
+l	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åİ¾…şÿÿÿÿ
+l	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+l	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+g	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’É˜
+l	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëœÉüûÿÿÿÿ
+f	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¥‡
+z
+java:S3008@"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü’ˆışÿÿÿÿ
+v
+java:S3008B"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÄ“ñ
+y
+java:S3008I"^Rename this field "PRODUCTSIZING_LOGIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÖ¹²ıÿÿÿÿ
+w
+java:S1450D"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+W
+java:S1075F"ARefactor your code to get this URI from a customizable parameter.(ë‹ÉÉ
+P
+java:S1854R"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854S"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+R
+java:S1854Z"=Remove this useless assignment to local variable "principal".(¬€¼P
+E	java:S106O"+Replace this use of System.out by a logger.(ûé«“üÿÿÿÿ
+A
+java:S1481R"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481S"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+C
+java:S1481Z".Remove this unused "principal" local variable.(¬€¼P
+E
+java:S1197\"*Move the array designators [] to the type.(Ì¸¥÷úÿÿÿÿ
+@
+java:S1197]"*Move the array designators [] to the type.(°’œ±
+W	java:S125°"<This block of commented-out lines of code should be removed.(“ıô›şÿÿÿÿ
+A
+java:S1197É"*Move the array designators [] to the type.(’öæª
+W	java:S125î"<This block of commented-out lines of code should be removed.(‚“öúÿÿÿÿ
+A	java:S106õ"+Replace this use of System.out by a logger.(¦‰Â‘
+Q	java:S125ˆ"<This block of commented-out lines of code should be removed.(«Ç­g
+M
+java:S1172›"6Remove these unused method parameters "season", "psd".(ß¹©§
+R	java:S125¡"<This block of commented-out lines of code should be removed.(²ğÂ§
+R	java:S125¦"<This block of commented-out lines of code should be removed.(¿˜›Ğ
+?	java:S108Î")Either remove or fill this block of code.(å¥‡
+R	java:S125Š"<This block of commented-out lines of code should be removed.(é×íŞ
+W	java:S125"<This block of commented-out lines of code should be removed.(²®µ‡şÿÿÿÿ
+F
+java:S1197"*Move the array designators [] to the type.(¬š±‹ıÿÿÿÿ
+F
+java:S1197 "*Move the array designators [] to the type.(«éÉ–ûÿÿÿÿ
+R	java:S125º"<This block of commented-out lines of code should be removed.(Îšßò
+F	java:S106Û"+Replace this use of System.out by a logger.(†‹„şÿÿÿÿ
+A	java:S106­"+Replace this use of System.out by a logger.(Ü÷ã
+A	java:S106¯"+Replace this use of System.out by a logger.(æòĞ
+O
+java:S1068B"9Remove this unused "CLIENT_ADMIN_PASSWORD" private field.(ıÄ“ñ
+K
+java:S1144›"4Remove this unused private "updatePSDSeason" method.(ß¹©§
+L
+java:S1144Ó"0Remove this unused private "validatePSD" method.(ëœÉüûÿÿÿÿ

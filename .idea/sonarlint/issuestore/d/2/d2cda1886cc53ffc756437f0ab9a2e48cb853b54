@@ -1,0 +1,43 @@
+
+`	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(œæºïûÿÿÿÿ
+j
+java:S1192×"NDefine a constant instead of duplicating this literal "  Supplier : " 3 times.(ö¥ŠÁùÿÿÿÿ
+J
+java:S1121¾".Extract the assignment out of this expression.(½“ÙŠıÿÿÿÿ
+J
+java:S1121Ç".Extract the assignment out of this expression.(©Šˆáúÿÿÿÿ
+t	java:S135Ÿ"YReduce the total number of break and continue statements in this loop to use at most one.(õ»¥Ïüÿÿÿÿ
+l	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹™ìşÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÑ½’
+t	java:S115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’¼Ù³ÿÿÿÿÿ
+h	java:S116/"SRename this field "IC11file" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ½æ˜
+h	java:S1160"SRename this field "PO25file" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘á
+q
+java:S3008,"[Rename this field "IC11fileLocation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãé¢
+q
+java:S3008-"[Rename this field "PO25fileLocation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÃØ
+h
+java:S3008."RRename this field "ERRFILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¸Öü
+m
+java:S18451"RRename field "errfile" to prevent any misunderstanding/clash with field "ERRFILE".(‹ñ§‰şÿÿÿÿ
+H
+java:S1135G"2Complete the task associated to this TODO comment.(µ¾ç
+g
+java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 78 to the 15 allowed.(ƒåòj
+7
+java:S3626¹"Remove this redundant jump.(…ãå­şÿÿÿÿ
+2
+java:S3626½"Remove this redundant jump.(ÉŠ©ƒ
+F	java:S106€"+Replace this use of System.out by a logger.(ÒÁºüÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(‰ÉÉ¬úÿÿÿÿ
+N
+java:S1135‡"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+W	java:S125©"<This block of commented-out lines of code should be removed.(—ÓÆŞúÿÿÿÿ
+A	java:S106·"+Replace this use of System.out by a logger.(˜ÜœÜ
+R	java:S125Ò"<This block of commented-out lines of code should be removed.(àÒ÷
+R	java:S125ì"<This block of commented-out lines of code should be removed.(ç¬¬í
+H
+java:S1172Ò"1Remove this unused method parameter "etlTracker".(¢ºÁŒ
+C
+java:S1125û"'Remove the unnecessary boolean literal.(´Ëóûÿÿÿÿ
+R	java:S125‡"<This block of commented-out lines of code should be removed.(ú¶õ

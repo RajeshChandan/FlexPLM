@@ -1,0 +1,31 @@
+
+u
+java:S3008"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÝüÉ
+{
+java:S3008"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÀèÄùÿÿÿÿ
+w
+java:S1450"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+P
+java:S1854*"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854+"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+R
+java:S18542"=Remove this useless assignment to local variable "principal".(¬€¼P
+@	java:S106&"+Replace this use of System.out by a logger.(Ë§èŽ
+V	java:S125%"<This block of commented-out lines of code should be removed.(«¹Õ·üÿÿÿÿ
+A
+java:S1481*"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481+"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+C
+java:S14812".Remove this unused "principal" local variable.(¬€¼P
+V	java:S1258"<This block of commented-out lines of code should be removed.(åõÝ´ÿÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(„´‘±ýÿÿÿÿ
+@	java:S106C"+Replace this use of System.out by a logger.(Ë§èŽ
+V	java:S125B"<This block of commented-out lines of code should be removed.(­õ‰ãýÿÿÿÿ
+@	java:S106O"+Replace this use of System.out by a logger.(íûŸ¦
+V	java:S125N"<This block of commented-out lines of code should be removed.(ãÜ¸ýÿÿÿÿ
+@	java:S106T"+Replace this use of System.out by a logger.(³Ÿ„ñ
+Q	java:S125U"<This block of commented-out lines of code should be removed.(ì»Êý
+T
+java:S1068"9Remove this unused "CLIENT_ADMIN_PASSWORD" private field.(ÙÀèÄùÿÿÿÿ

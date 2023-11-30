@@ -1,0 +1,96 @@
+
+E
+java:S3740$"/Provide the parametrized type for this generic.(Å•‡¤
+J
+java:S3740+"/Provide the parametrized type for this generic.(¯íéüşÿÿÿÿ
+E
+java:S3740M"/Provide the parametrized type for this generic.(È¨óÖ
+J
+java:S3740|"/Provide the parametrized type for this generic.(œô·¿ûÿÿÿÿ
+K
+java:S3740™"/Provide the parametrized type for this generic.(œô·¿ûÿÿÿÿ
+K
+java:S3740´"/Provide the parametrized type for this generic.(œô·¿ûÿÿÿÿ
+K
+java:S3740Ï"/Provide the parametrized type for this generic.(œô·¿ûÿÿÿÿ
+e
+java:S1192¯"ODefine a constant instead of duplicating this literal "yyyyMMdd HH:mm" 5 times.(”…Ã
+e
+java:S1192ù"IDefine a constant instead of duplicating this literal "HH:mm:ss" 3 times.(”£áèüÿÿÿÿ
+’
+java:S1192."wDefine a constant instead of duplicating this literal "D:\\ptc\\Windchill_11.2\\Windchill\\codebase\\.restart" 3 times.(Ğ¸„Îúÿÿÿÿ
+f	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¨óÖ
+v
+java:S1488ò"_Immediately return this expression instead of assigning it to the temporary variable "newDate".(‹€‰÷
+x
+java:S1488½"\Immediately return this expression instead of assigning it to the temporary variable "date".(¼½¢ıÿÿÿÿ
+y
+java:S1488à"]Immediately return this expression instead of assigning it to the temporary variable "month".(“À‹ºüÿÿÿÿ
+X
+java:S1163A"=Refactor this code to not throw exceptions in finally blocks.(ÆÎğ´şÿÿÿÿ
+X
+java:S1163e"=Refactor this code to not throw exceptions in finally blocks.(ÆÎğ´şÿÿÿÿ
+O
+java:S1143A"4Remove this throw statement from this finally block.(ÆÎğ´şÿÿÿÿ
+O
+java:S1143e"4Remove this throw statement from this finally block.(ÆÎğ´şÿÿÿÿ
+m	java:S116$"XRename this field "FullModeDates" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å•‡¤
+{
+java:S1149$"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Å•‡¤
+€
+java:S1149+"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¯íéüşÿÿÿÿ
+€
+java:S11494"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(È©ıÿÿÿÿ
+{
+java:S1149M"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(È¨óÖ
+\
+java:S1075."ARefactor your code to get this URI from a customizable parameter.(Ğ¸„Îúÿÿÿÿ
+Z
+java:S21479"DCombine this catch with the one at line 54, which has the same body.(Ö¨š•
+P	java:S1257"<This block of commented-out lines of code should be removed.(÷€»-
+P	java:S125:"<This block of commented-out lines of code should be removed.(÷€»-
+E
+java:S20930"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+\
+java:S1075P"ARefactor your code to get this URI from a customizable parameter.(Ğ¸„Îúÿÿÿÿ
+Z
+java:S2147]"DCombine this catch with the one at line 91, which has the same body.(Ãôş•
+U	java:S899R";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ
+i
+java:S4042R"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ
+E
+java:S2093Q"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+\
+java:S1075n"ARefactor your code to get this URI from a customizable parameter.(Ğ¸„Îúÿÿÿÿ
+[
+java:S1854„"?Remove this useless assignment to local variable "nextElement".(¿°Ü•ÿÿÿÿÿ
+\
+java:S2147‰"ECombine this catch with the one at line 135, which has the same body.(ï­£Ä
+F	java:S106‚"+Replace this use of System.out by a logger.(ò•Æ†ıÿÿÿÿ
+L
+java:S1481„"0Remove this unused "nextElement" local variable.(¿°Ü•ÿÿÿÿÿ
+\
+java:S2147¤"ECombine this catch with the one at line 162, which has the same body.(ï­£Ä
+X
+java:S1075“"ARefactor your code to get this URI from a customizable parameter.(€ƒÂá
+F	java:S106"+Replace this use of System.out by a logger.(ò•Æ†ıÿÿÿÿ
+\
+java:S2147¿"ECombine this catch with the one at line 189, which has the same body.(ï­£Ä
+X
+java:S1075®"ARefactor your code to get this URI from a customizable parameter.(Ì•Íø
+F	java:S106¹"+Replace this use of System.out by a logger.(ò•Æ†ıÿÿÿÿ
+\
+java:S2147Ú"ECombine this catch with the one at line 216, which has the same body.(ï­£Ä
+X
+java:S1075É"ARefactor your code to get this URI from a customizable parameter.(Ì•Íø
+F	java:S106Ô"+Replace this use of System.out by a logger.(ò•Æ†ıÿÿÿÿ
+A	java:S106ğ"+Replace this use of System.out by a logger.(¬˜ı¶
+W	java:S125ï"<This block of commented-out lines of code should be removed.(¸˜üéşÿÿÿÿ
+W	java:S125Š"<This block of commented-out lines of code should be removed.(›ÆÑˆüÿÿÿÿ
+<
+java:S2129‘" Remove this "String" constructor(îÚ½İúÿÿÿÿ
+A	java:S106–"+Replace this use of System.out by a logger.(÷½’œ
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(›ÆÑˆüÿÿÿÿ
+6
+java:S2129¥" Remove this "String" constructor(¼À€e
+A	java:S106ª"+Replace this use of System.out by a logger.(÷½’œ

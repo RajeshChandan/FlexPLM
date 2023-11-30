@@ -1,0 +1,35 @@
+
+F
+java:S3740¾"/Provide the parametrized type for this generic.(šóæš
+K
+java:S3740Ó"/Provide the parametrized type for this generic.(öÓµØùÿÿÿÿ
+K
+java:S3740Õ"/Provide the parametrized type for this generic.(½‘Ù¯ıÿÿÿÿ
+a
+java:S1192s"FDefine a constant instead of duplicating this literal "false" 4 times.(¯Í¯”øÿÿÿÿ
+d
+java:S1192Á"HDefine a constant instead of duplicating this literal "product" 6 times.(‡ºéñüÿÿÿÿ
+?
+java:S5411‹"(Use a primitive boolean expression here.(œëÔö
+
+java:S1149Ó"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(öÓµØùÿÿÿÿ
+h
+java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ú™ÌÛ
+V	java:S125P"<This block of commented-out lines of code should be removed.(Ê½—éşÿÿÿÿ
+Q	java:S125c"<This block of commented-out lines of code should be removed.(ö¡¦È
+W	java:S125¢"<This block of commented-out lines of code should be removed.(Ê½—éşÿÿÿÿ
+W	java:S125º"<This block of commented-out lines of code should be removed.(Ê½—éşÿÿÿÿ
+W	java:S125Ù"<This block of commented-out lines of code should be removed.(°Ş¢‘úÿÿÿÿ
+W	java:S125ä"<This block of commented-out lines of code should be removed.(··Ššşÿÿÿÿ
+R	java:S125÷"<This block of commented-out lines of code should be removed.(ŒÅª¬
+W	java:S125"<This block of commented-out lines of code should be removed.(°Ş¢‘úÿÿÿÿ
+W	java:S125‹"<This block of commented-out lines of code should be removed.(··Ššşÿÿÿÿ
+R	java:S125©"<This block of commented-out lines of code should be removed.(ôÒß»
+W	java:S125À"<This block of commented-out lines of code should be removed.(÷æÁøÿÿÿÿ
+R	java:S125Í"<This block of commented-out lines of code should be removed.(˜£‘×
+W	java:S125ç"<This block of commented-out lines of code should be removed.(Ç—Íìüÿÿÿÿ
+R	java:S125ş"<This block of commented-out lines of code should be removed.(’èÇ 
+Q	java:S125‹"<This block of commented-out lines of code should be removed.(û¸ç~
+W	java:S125—"<This block of commented-out lines of code should be removed.(ˆ¹Ûªıÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(¦¼Ù€
+W	java:S125Ë"<This block of commented-out lines of code should be removed.(ë“üÿÿÿÿÿ

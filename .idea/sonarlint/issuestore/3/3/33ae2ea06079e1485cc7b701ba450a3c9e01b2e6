@@ -1,0 +1,38 @@
+
+F
+java:S1066"/Merge this if statement with the enclosing one.(´Õ©ù
+u
+java:S3008F"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿ·Ñ
+v
+java:S3008G"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¤Ä™
+w
+java:S1450H"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+
+java:S1149õ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¨ŒØˆûÿÿÿÿ
+P
+java:S1854e"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854f"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481e"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481f"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+R	java:S125¢"<This block of commented-out lines of code should be removed.(Ÿà€ƒ
+L
+java:S2209«"5Change this instance-reference to a static reference.(¿‚¨
+F
+java:S2093¥"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+W	java:S125¶"<This block of commented-out lines of code should be removed.(»šğ©şÿÿÿÿ
+W	java:S125Ä"<This block of commented-out lines of code should be removed.(ÆÄËœúÿÿÿÿ
+W
+java:S1481Ê";Remove this unused "sourceColorServiceName" local variable.(ßÖÈ†úÿÿÿÿ
+P
+java:S1481Ë"9Remove this unused "targetColorServiceNo" local variable.(ØÅÛç
+Q
+java:S1481Ì";Remove this unused "targetColorServiceName" local variable.(ñ¨Ê
+F	java:S106×"+Replace this use of System.out by a logger.(ïÕü’úÿÿÿÿ
+A	java:S106Ø"+Replace this use of System.out by a logger.(İ°Ë
+A	java:S106Û"+Replace this use of System.out by a logger.(’ñîÖ
+F	java:S106İ"+Replace this use of System.out by a logger.(­Ï»ùÿÿÿÿ
+F	java:S106ê"+Replace this use of System.out by a logger.(·ŒŠ¬øÿÿÿÿ
+F	java:S106ÿ"+Replace this use of System.out by a logger.(ºÉ¿Çùÿÿÿÿ

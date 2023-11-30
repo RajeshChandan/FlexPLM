@@ -1,0 +1,53 @@
+
+J
+java:S3740<"/Provide the parametrized type for this generic.(´¸‚ßúÿÿÿÿ
+E
+java:S3740O"/Provide the parametrized type for this generic.(ëî¿™
+J
+java:S3740P"/Provide the parametrized type for this generic.(¡ŸÒªıÿÿÿÿ
+K
+java:S3740•"/Provide the parametrized type for this generic.(½ÁÛ½ÿÿÿÿÿ
+K
+java:S3740¨"/Provide the parametrized type for this generic.(Ø¬Êşùÿÿÿÿ
+E
+java:S3740©"/Provide the parametrized type for this generic.(‰ø
+a
+java:S1192V"KDefine a constant instead of duplicating this literal "RPT_HEADER" 4 times.(õ§¹£
+^
+java:S1192U"HDefine a constant instead of duplicating this literal "RPT_TBD" 4 times.(µ˜Œ•
+d
+java:S1192n"IDefine a constant instead of duplicating this literal "hbiXSize" 4 times.(¨¥Š…şÿÿÿÿ
+j
+java:S1192["ODefine a constant instead of duplicating this literal "BORDERED_BLOCK" 4 times.(Ÿ”ûÕüÿÿÿÿ
+f	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ºŸ”
+
+java:S1488-"dImmediately return this expression instead of assigning it to the temporary variable "apsSizeTable".(˜é¥şÿÿÿÿ
+q
+java:S1104"VMake PRODUCT_ID a static final constant or non-public and provide accessors if needed.(ßÃòÿÿÿÿÿ
+i
+java:S1104 "SMake SPEC_ID a static final constant or non-public and provide accessors if needed.(‹ÛÌ³
+j
+java:S1104!"OMake pgh a static final constant or non-public and provide accessors if needed.(Â°½ûûÿÿÿÿ
+K
+java:S1444"0Make this "public static PRODUCT_ID" field final(ßÃòÿÿÿÿÿ
+C
+java:S1444 "-Make this "public static SPEC_ID" field final(‹ÛÌ³
+D
+java:S1444!")Make this "public static pgh" field final(Â°½ûûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+p
+java:S3008"URename this field "PRODUCT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÃòÿÿÿÿÿ
+h
+java:S3008 "RRename this field "SPEC_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÛÌ³
+V	java:S125d"<This block of commented-out lines of code should be removed.(«Şù‰úÿÿÿÿ
+Q	java:S125f"<This block of commented-out lines of code should be removed.(©ŒÈ
+X
+java:S1854ß"<Remove this useless assignment to local variable "sizeCode".(Æä¤Æûÿÿÿÿ
+S
+java:S1854Ş"<Remove this useless assignment to local variable "gmtXSize".(ÿÀŸş
+[
+java:S1854İ"?Remove this useless assignment to local variable "garmentSize".(ÆáÀÆøÿÿÿÿ
+W	java:S125½"<This block of commented-out lines of code should be removed.(«Şù‰úÿÿÿÿ
+R	java:S125¿"<This block of commented-out lines of code should be removed.(©ŒÈ
+P
+java:S1144•"4Remove this unused private "getGMTSizeTable" method.(½ÁÛ½ÿÿÿÿÿ

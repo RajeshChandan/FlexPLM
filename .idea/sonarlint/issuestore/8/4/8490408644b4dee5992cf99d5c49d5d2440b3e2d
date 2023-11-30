@@ -1,0 +1,20 @@
+
+k
+java:S1192="UDefine a constant instead of duplicating this literal "hbiMaterialColorType" 3 times.(ÃÁ÷Å
+b
+java:S39737"GUse indentation to denote the code conditionally executed by this "if".(ç­Ğİùÿÿÿÿ
+b
+java:S3973G"GUse indentation to denote the code conditionally executed by this "if".(Á¬¸üÿÿÿÿ
+b
+java:S3973J"GUse indentation to denote the code conditionally executed by this "if".(ÂÒæ“üÿÿÿÿ
+\
+java:S3973O"GUse indentation to denote the code conditionally executed by this "if".(µÖ³"
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(®¸Ö
+V	java:S125"<This block of commented-out lines of code should be removed.(øÅ“·ÿÿÿÿÿ
+T
+java:S1854=">Remove this useless assignment to local variable "strReqDesc".(ÃÁ÷Å
+V	java:S125."<This block of commented-out lines of code should be removed.(õµü¬ûÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(Ö¬Ü©

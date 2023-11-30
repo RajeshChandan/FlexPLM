@@ -1,0 +1,180 @@
+
+t
+java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÇˆ¾úÿÿÿÿ
+u
+java:S2293Ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÇˆ¾úÿÿÿÿ
+p
+java:S2293ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿ŸÎ
+p
+java:S2293ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(—èÛæ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë•¼–
+o
+java:S1192Ï"SDefine a constant instead of duplicating this literal "FLEXBOMLINK.IDA2A2" 4 times.(‡ÿ¤Íıÿÿÿÿ
+b
+java:S1192Ñ"KDefine a constant instead of duplicating this literal "components" 3 times.(Œ¢ê®
+q
+java:S1192¶"UDefine a constant instead of duplicating this literal "hbiErpComponentColor" 3 times.(©ä¡àüÿÿÿÿ
+r
+java:S1192Ú"VDefine a constant instead of duplicating this literal "hbiSellingStyleNumber" 8 times.(ï–æËşÿÿÿÿ
+r
+java:S1192“"VDefine a constant instead of duplicating this literal "hbiErpAttributionCode" 7 times.(¦Ììúÿÿÿÿ
+_
+java:S1192Ğ"HDefine a constant instead of duplicating this literal "section" 5 times.(ÔÏƒû
+’
+java:S1192ê"vDefine a constant instead of duplicating this literal "Business Object\\Automation Support Tables\\Size Xref" 3 times.(ğ“ÃŠúÿÿÿÿ
+l
+java:S1192á"UDefine a constant instead of duplicating this literal "hbiErpComponentPutUp" 8 times.(÷²Ï
+
+java:S1192Ï"cDefine a constant instead of duplicating this literal "OR:com.lcs.wc.flexbom.FlexBOMLink:" 4 times.(‡ÿ¤Íıÿÿÿÿ
+p
+java:S1192½"TDefine a constant instead of duplicating this literal "hbiErpComponentSize" 3 times.(ñÉ®êÿÿÿÿÿ
+l
+java:S1192Ø"UDefine a constant instead of duplicating this literal "hbiErpComponentStyle" 6 times.(ÉíÜ÷
+_
+java:S1192Ä"IDefine a constant instead of duplicating this literal "quantity" 3 times.(«Şw
+h
+java:S1192M"MDefine a constant instead of duplicating this literal "hbiPutUpCode" 4 times.(±³ÿÎùÿÿÿÿ
+g	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹÷€€
+g	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Ùş»
+]
+java:S3973h"GUse indentation to denote the code conditionally executed by this "if".(âÒÅø
+b
+java:S3973s"GUse indentation to denote the code conditionally executed by this "if".(Øåíùÿÿÿÿ
+]
+java:S3973y"GUse indentation to denote the code conditionally executed by this "if".(‡ƒÚ¡
+c
+java:S3973Ù"GUse indentation to denote the code conditionally executed by this "if".(¼û“ıÿÿÿÿ
+c
+java:S3973â"GUse indentation to denote the code conditionally executed by this "if".(äœç¯şÿÿÿÿ
+c
+java:S3973Œ"GUse indentation to denote the code conditionally executed by this "if".(¼û“ıÿÿÿÿ
+^
+java:S3973”"GUse indentation to denote the code conditionally executed by this "if".(âÎŠì
+c
+java:S3973–"GUse indentation to denote the code conditionally executed by this "if".(ùÜ–­øÿÿÿÿ
+c
+java:S3973š"GUse indentation to denote the code conditionally executed by this "if".(äœç¯şÿÿÿÿ
+c
+java:S3973œ"GUse indentation to denote the code conditionally executed by this "if".(äœç¯şÿÿÿÿ
+c
+java:S3973Ğ"GUse indentation to denote the code conditionally executed by this "if".(ÎË¯ÿÿÿÿÿ
+^
+java:S3973¥"GUse indentation to denote the code conditionally executed by this "if".(âÎŠì
+c
+java:S3973§"GUse indentation to denote the code conditionally executed by this "if".(ùÜ–­øÿÿÿÿ
+c
+java:S3973¬"GUse indentation to denote the code conditionally executed by this "if".(äœç¯şÿÿÿÿ
+c
+java:S3973®"GUse indentation to denote the code conditionally executed by this "if".(äœç¯şÿÿÿÿ
+^
+java:S3973·"GUse indentation to denote the code conditionally executed by this "if".(ÈÜº
+^
+java:S3973¹"GUse indentation to denote the code conditionally executed by this "if".(ÈÜº
+c
+java:S3973¾"GUse indentation to denote the code conditionally executed by this "if".(äîíœÿÿÿÿÿ
+c
+java:S3973À"GUse indentation to denote the code conditionally executed by this "if".(äîíœÿÿÿÿÿ
+c
+java:S3973Ë"GUse indentation to denote the code conditionally executed by this "if".(ä½³³şÿÿÿÿ
+¢
+java:S2681u"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(¤·‚¤ùÿÿÿÿ
+£
+java:S2681ä"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(¢º÷ÿÿÿÿÿÿ
+£
+java:S2681–"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ùÜ–­øÿÿÿÿ
+£
+java:S2681œ"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(äœç¯şÿÿÿÿ
+£
+java:S2681§"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ùÜ–­øÿÿÿÿ
+£
+java:S2681®"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(äœç¯şÿÿÿÿ
+
+java:S2681°"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(¾“Ø…
+
+java:S2681¹"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÈÜº
+
+java:S2681»"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(´¨™ä
+£
+java:S2681À"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(äîíœÿÿÿÿÿ
+
+java:S2681Â"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÜÒÊ‘
+m
+java:S3776X"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(®Ğş¹øÿÿÿÿ
+_
+java:S1854b"DRemove this useless assignment to local variable "uniqueBOMLinkMap".(ÚÇˆ¾úÿÿÿÿ
+‰
+java:S1130X"nRemove the declaration of thrown exception 'java.io.IOException' which is a subclass of 'java.lang.Exception'.(®Ğş¹øÿÿÿÿ
+V	java:S125e"<This block of commented-out lines of code should be removed.(ÎçŠåùÿÿÿÿ
+V	java:S125w"<This block of commented-out lines of code should be removed.(½«² úÿÿÿÿ
+B
+java:S1905¬"&Remove this unnecessary cast to "int".(°ëİóûÿÿÿÿ
+A	java:S106®"+Replace this use of System.out by a logger.(Ï„ŠŒ
+i
+java:S3776¿"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(şîŠ
+A	java:S106ë"+Replace this use of System.out by a logger.(Ø«µ
+i
+java:S3776ï"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(»àõ©
+K
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(‹¢ÂÕ
+R	java:S125Õ"<This block of commented-out lines of code should be removed.(ôÚúŞ
+j
+java:S3776á"SRefactor this method to reduce its Cognitive Complexity from 147 to the 15 allowed.(ƒ±¯‚
+[
+java:S1854ï"?Remove this useless assignment to local variable "hbiQuantity".(ë‚•ÿÿÿÿÿ
+]
+java:S1854µ"ARemove this useless assignment to local variable "hbiItemNumber".(ÆÛû÷ûÿÿÿÿ
+_
+java:S1854²"CRemove this useless assignment to local variable "hbiHDRGridValue".(Å–®şÿÿÿÿ
+Y
+java:S1854Ú"=Remove this useless assignment to local variable "colorcode".(ÕØÅûÿÿÿÿ
+^
+java:S1854"GRemove this useless assignment to local variable "businessObjFlexType".(ô·Ûç
+V
+java:S1854"?Remove this useless assignment to local variable "criteriaMap".(ë•¼–
+^
+java:S1854’"GRemove this useless assignment to local variable "ComponentsizeString".(´Ùş»
+L
+java:S1172á"5Remove this unused method parameter "uniqueBOMCount".(ƒ±¯‚
+K
+java:S1481ì"4Remove this unused "hbiHDRGridValue" local variable.(ä£Î
+N
+java:S1481ò"2Remove this unused "hbiItemNumber" local variable.(‰•ÖÊüÿÿÿÿ
+W	java:S125‚"<This block of commented-out lines of code should be removed.(Ö¼ƒŠıÿÿÿÿ
+A	java:S106°"+Replace this use of System.out by a logger.(¾“Ø…
+A	java:S106»"+Replace this use of System.out by a logger.(´¨™ä
+A	java:S106Â"+Replace this use of System.out by a logger.(ÜÒÊ‘
+A	java:S106È"+Replace this use of System.out by a logger.(Ì·°Ì
+A	java:S106Î"+Replace this use of System.out by a logger.(Í»ãø
+A	java:S106×"+Replace this use of System.out by a logger.(äß¬±
+J
+java:S1481Ú".Remove this unused "colorcode" local variable.(ÕØÅûÿÿÿÿ
+F	java:S106é"+Replace this use of System.out by a logger.(†Ö¬ıÿÿÿÿ
+R	java:S125ó"<This block of commented-out lines of code should be removed.(åğ°Ú
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(…ÚÎ÷üÿÿÿÿ
+O
+java:S1481"8Remove this unused "businessObjFlexType" local variable.(ô·Ûç
+G
+java:S1481"0Remove this unused "criteriaMap" local variable.(ë•¼–
+O
+java:S1481’"8Remove this unused "ComponentsizeString" local variable.(´Ùş»
+W	java:S125•"<This block of commented-out lines of code should be removed.(•÷½ şÿÿÿÿ
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ƒÉ¥
+R	java:S125Ç"<This block of commented-out lines of code should be removed.(•ú¬
+f
+java:S1854ô"JRemove this useless assignment to local variable "bomSKUComponentElement".(ğ±óŞÿÿÿÿÿ
+C
+java:S1481é"-Remove this unused "partName" local variable.(ü›
+W
+java:S1481ô";Remove this unused "bomSKUComponentElement" local variable.(ğ±óŞÿÿÿÿÿ
+R	java:S125ø"<This block of commented-out lines of code should be removed.(åğ°Ú
+O
+java:S1068S"9Remove this unused "productObjectTypePath" private field.(İÅºƒ
+O
+java:S1068T":Remove this unused "businessObjectTypePath" private field.(â¯#
+Z
+java:S1068U"DRemove this unused "businessObjDerivationTabTypePath" private field.(›¢Ï
+\
+java:S1068V"FRemove this unused "businessObjCommGroupLookUpTypePath" private field.(²ù’
+Ş
+java:S6541á"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 170 to 64, Complexity from 26 to 14, Nesting Level from 9 to 2, Number of Variables from 52 to 6.(ƒ±¯‚

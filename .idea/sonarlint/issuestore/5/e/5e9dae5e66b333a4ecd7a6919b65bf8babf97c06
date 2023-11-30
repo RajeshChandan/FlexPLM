@@ -1,0 +1,30 @@
+
+p
+java:S2293Û"YReplace the type specification in this constructor call with the diamond operator ("<>").(Çƒ£‰
+F
+java:S1066¢"/Merge this if statement with the enclosing one.(Ö‡ë¶
+
+java:S13196"iThe type of "dataValues" should be an interface such as "Map" rather than the implementation "Hashtable".(û£µå
+€
+java:S13196"jThe type of "commandLine" should be an interface such as "Map" rather than the implementation "Hashtable".(û£µå
+l
+java:S11496"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(û£µå
+l
+java:S11496"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(û£µå
+{
+java:S11496"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(û£µå
+Q	java:S125)"<This block of commented-out lines of code should be removed.(ØïÚ
+[
+java:S11726"ERemove these unused method parameters "commandLine", "returnObjects".(û£µå
+O
+java:S2864I"4Iterate over the "entrySet" instead of the "keySet".(««â˜øÿÿÿÿ
+Q	java:S125d"<This block of commented-out lines of code should be removed.(¢ÞÑ
+Y
+java:S1155w">Use isEmpty() to check whether the collection is empty or not.(ÖóÆÜýÿÿÿÿ
+V	java:S125|"<This block of commented-out lines of code should be removed.(Ý”ß˜ýÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(êÖâÃýÿÿÿÿ
+W	java:S125­"<This block of commented-out lines of code should be removed.(˜ØÀîýÿÿÿÿ
+W	java:S125Ú"<This block of commented-out lines of code should be removed.(£áö†þÿÿÿÿ
+W	java:S125ê"<This block of commented-out lines of code should be removed.(Ú¦ÇÊýÿÿÿÿ
+W	java:S125ù"<This block of commented-out lines of code should be removed.(¯Éê£ÿÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(¯àñºýÿÿÿÿ

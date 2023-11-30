@@ -1,0 +1,66 @@
+
+F
+java:S3740û"/Provide the parametrized type for this generic.(Ç´ˆ«
+F
+java:S3740“"/Provide the parametrized type for this generic.(Ç´ˆ«
+F
+java:S3740•"/Provide the parametrized type for this generic.(Ä¿®ì
+K
+java:S3740¡"/Provide the parametrized type for this generic.(ïÎ§ùÿÿÿÿ
+E
+java:S3740¢"/Provide the parametrized type for this generic.(­£ÄU
+E
+java:S3740¢"/Provide the parametrized type for this generic.(­£ÄU
+K
+java:S3740¤"/Provide the parametrized type for this generic.(Ëƒ¯Ìøÿÿÿÿ
+F
+java:S3740ä"/Provide the parametrized type for this generic.(é¤õ
+F
+java:S3740å"/Provide the parametrized type for this generic.(È²
+F
+java:S3740æ"/Provide the parametrized type for this generic.(£¥·Ê
+K
+java:S3740ÿ"/Provide the parametrized type for this generic.(Ö­Ë÷ùÿÿÿÿ
+F
+java:S3740€"/Provide the parametrized type for this generic.(š—±
+K
+java:S3740„"/Provide the parametrized type for this generic.(Á·éÉüÿÿÿÿ
+F
+java:S3740Ú"/Provide the parametrized type for this generic.(˜œÃ
+K
+java:S3740Š"/Provide the parametrized type for this generic.(æ„»Ãøÿÿÿÿ
+F
+java:S1066ß"/Merge this if statement with the enclosing one.(Ã¹âó
+P
+java:S1118#":Add a private constructor to hide the implicit public one.(ÛÙü‘
+A
+java:S1172Ú"*Remove this unused method parameter "ref".(ü­ú§
+X
+java:S1854ú"<Remove this useless assignment to local variable "calendar".(Ó•ÿÓûÿÿÿÿ
+A
+java:S1172ö"*Remove this unused method parameter "ref".(øÛÄÀ
+N
+java:S1481ø"2Remove this unused "linkedProduct" local variable.(×çö«şÿÿÿÿ
+I
+java:S1481ú"-Remove this unused "calendar" local variable.(Ó•ÿÓûÿÿÿÿ
+Z
+java:S1155ü">Use isEmpty() to check whether the collection is empty or not.(û¿Ìíûÿÿÿÿ
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(ş‡ı½
+A
+java:S1172"*Remove this unused method parameter "ref".(ş‡ı½
+Z
+java:S1155”">Use isEmpty() to check whether the collection is empty or not.(û¿Ìíûÿÿÿÿ
+@
+java:S1905©")Remove this unnecessary cast to "String".(øı˜Ä
+E
+java:S1905«")Remove this unnecessary cast to "String".(ß£É¼ûÿÿÿÿ
+W	java:S125Å"<This block of commented-out lines of code should be removed.(­Šìúÿÿÿÿ
+A	java:S106È"+Replace this use of System.out by a logger.(ÈĞø¼
+A	java:S106É"+Replace this use of System.out by a logger.(¯»ÿ¸
+F	java:S106Ê"+Replace this use of System.out by a logger.(£™Êÿÿÿÿÿ
+F	java:S106Î"+Replace this use of System.out by a logger.(˜Úˆóıÿÿÿÿ
+F	java:S106Ğ"+Replace this use of System.out by a logger.(Ø”Øşÿÿÿÿ
+A	java:S106Ó"+Replace this use of System.out by a logger.(¬•‰§
+A	java:S106Ö"+Replace this use of System.out by a logger.(Á‘¦ƒ
+F	java:S106Ù"+Replace this use of System.out by a logger.(Àå¶ÿÿÿÿÿ

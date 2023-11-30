@@ -1,0 +1,27 @@
+
+
+java:S1319"iThe type of "dataValues" should be an interface such as "Map" rather than the implementation "Hashtable".( šáÃ
+€
+java:S1319"jThe type of "commandLine" should be an interface such as "Map" rather than the implementation "Hashtable".( šáÃ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ûÁ§Çüÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(·‹ÏÅ
+s
+java:S3008"XRename this field "PALETTE_LOGIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤†½úşÿÿÿÿ
+l
+java:S3008"VRename this field "COLOR_LOGIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚŒÆè
+l
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".( šáÃ
+l
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".( šáÃ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾äÌ‹ÿÿÿÿÿ
+l
+java:S1149#"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(µÏö
+U
+java:S1118":Add a private constructor to hide the implicit public one.(‹åÒ¬ûÿÿÿÿ
+O
+java:S1172"4Remove this unused method parameter "returnObjects".(¾äÌ‹ÿÿÿÿÿ
+h
+java:S3776#"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(µÏö
+V	java:S125N"<This block of commented-out lines of code should be removed.(¡‹ß­ÿÿÿÿÿ
+Q	java:S125Q"<This block of commented-out lines of code should be removed.(¯ñºÂ

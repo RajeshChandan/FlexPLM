@@ -1,0 +1,26 @@
+
+J
+java:S37401"/Provide the parametrized type for this generic.(¼êÎ¢üÿÿÿÿ
+K
+java:S3740…"/Provide the parametrized type for this generic.(¼êÎ¢üÿÿÿÿ
+i
+java:S1192a"SDefine a constant instead of duplicating this literal "checkoutInfo.state" 6 times.(‹›ÈÚ
+]
+java:S1192C"GDefine a constant instead of duplicating this literal "active" 4 times.(¸ÊÜì
+r
+java:S1192>"WDefine a constant instead of duplicating this literal "iterationInfo.branchId" 8 times.(˜íÊĞşÿÿÿÿ
+a
+java:S1192?"LDefine a constant instead of duplicating this literal "state.state" 8 times.(³·üf
+q
+java:S1192<"VDefine a constant instead of duplicating this literal "V_LCSMaterialSupplier" 6 times.(ôÛÇûÿÿÿÿ
+‚
+java:S1192D"gDefine a constant instead of duplicating this literal "thePersistInfo.theObjectIdentifier.id" 20 times.(¼Œ¤øÿÿÿÿ
+s
+java:S1192D"XDefine a constant instead of duplicating this literal "masterReference.key.id" 12 times.(¼Œ¤øÿÿÿÿ
+f
+java:S11925"PDefine a constant instead of duplicating this literal "MATERIALMASTER" 10 times.(ŠÍÛÃ
+p
+java:S1192c"UDefine a constant instead of duplicating this literal "iterationInfo.latest" 6 times.(‹Ÿùÿÿÿÿ
+t	java:S115+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šñöšúÿÿÿÿ
+V	java:S125;"<This block of commented-out lines of code should be removed.(ÄÄº¿øÿÿÿÿ
+Q	java:S125^"<This block of commented-out lines of code should be removed.(Í¿Ü

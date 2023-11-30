@@ -1,0 +1,53 @@
+
+K
+java:S3740ã"/Provide the parametrized type for this generic.(›‘¿­øÿÿÿÿ
+c
+java:S1192Ú"LDefine a constant instead of duplicating this literal "LCSMaterial" 5 times.(È£õ›
+k	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷§°©üÿÿÿÿ
+f	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ›³–
+l	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÊÆşÿÿÿÿ
+g	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…›şö
+g	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ùÆ
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïàÃûÿÿÿÿ
+l	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö“Óíÿÿÿÿÿ
+l	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö“Óíÿÿÿÿÿ
+g	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¯êœ
+l	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÛ¯‹ùÿÿÿÿ
+g	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘©ÃÛ
+l	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¿’’şÿÿÿÿ
+l	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¿’’şÿÿÿÿ
+g	java:S117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¶Ğ§
+l	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÊÆşÿÿÿÿ
+w
+java:S1488•"`Immediately return this expression instead of assigning it to the temporary variable "topRowID".(ÁóÁ„
+x
+java:S1104-"bMake materialFlexTypePathCC a static final constant or non-public and provide accessors if needed.(‘ü¹™
+R
+java:S1444-"<Make this "public static materialFlexTypePathCC" field final(‘ü¹™
+W	java:S107¥"<Method has 8 parameters, which is greater than 7 authorized.(âÊÆşÿÿÿÿ
+W	java:S107†"<Method has 9 parameters, which is greater than 7 authorized.(âÊÆşÿÿÿÿ
+U
+java:S1118&":Add a private constructor to hide the implicit public one.(¼ÈÒ½şÿÿÿÿ
+?
+java:S11728")Remove this unused method parameter "sp".(Ù¶†ã
+V	java:S125V"<This block of commented-out lines of code should be removed.(¦ÂÑùÿÿÿÿ
+Q	java:S125p"<This block of commented-out lines of code should be removed.(€»È 
+7
+java:S1116w"Remove this empty statement.(–èû´úÿÿÿÿ
+R	java:S125…"<This block of commented-out lines of code should be removed.(µ˜¬­
+U
+java:S1172ğ"9Remove these unused method parameters "sap_key", "putup".(ïàÃûÿÿÿÿ
+F	java:S106°"+Replace this use of System.out by a logger.(Š®ªìûÿÿÿÿ
+A	java:S106Å"+Replace this use of System.out by a logger.(êœŠ»
+V
+java:S1854ã":Remove this useless assignment to local variable "output".(›‘¿­øÿÿÿÿ
+N
+java:S1135Ñ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+W	java:S125ö"<This block of commented-out lines of code should be removed.(­´Öîüÿÿÿÿ
+X
+java:S1854„"<Remove this useless assignment to local variable "bomParts".(şà´˜üÿÿÿÿ
+@	java:S106Œ"+Replace this use of System.out by a logger.(Û”âh
+F	java:S106”"+Replace this use of System.out by a logger.(Ÿ‹¤üÿÿÿÿ
+F	java:S106›"+Replace this use of System.out by a logger.(Ÿ‹¤üÿÿÿÿ
+R
+java:S1144Û"6Remove this unused private "getPlmSizeLiteral" method.(ã¿’’şÿÿÿÿ

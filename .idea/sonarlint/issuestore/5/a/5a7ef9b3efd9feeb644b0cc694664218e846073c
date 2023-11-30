@@ -1,0 +1,189 @@
+
+K
+java:S3740‚"/Provide the parametrized type for this generic.(¡éºıÿÿÿÿ
+K
+java:S3740"/Provide the parametrized type for this generic.(È„Äãşÿÿÿÿ
+K
+java:S3740è"/Provide the parametrized type for this generic.(ïµ ÿÿÿÿÿ
+K
+java:S3740è"/Provide the parametrized type for this generic.(ïµ ÿÿÿÿÿ
+F
+java:S3740ü"/Provide the parametrized type for this generic.(–ËÊ¯
+E
+java:S3740Ø"/Provide the parametrized type for this generic.(·Â
+o
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÊÁÔ»
+u
+java:S2293Ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(í¡ú•úÿÿÿÿ
+j
+java:S1192İ"NUse already-defined constant 'MATERIAL' instead of duplicating its value here.(«¾–ÿÿÿÿÿ
+c
+java:S1192ë"LDefine a constant instead of duplicating this literal "orientation" 3 times.(½şï¹
+Q
+java:S1141õ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g
+java:S1104$"QMake DEBUG a static final constant or non-public and provide accessors if needed.(øåë
+r
+java:S1104&"WMake sideMargins a static final constant or non-public and provide accessors if needed.(‚úÍêùÿÿÿÿ
+n
+java:S1104'"XMake bottomMargin a static final constant or non-public and provide accessors if needed.(ÖÒ²¡
+r
+java:S11049"WMake MATERIAL_ID a static final constant or non-public and provide accessors if needed.(èÀ¸Íøÿÿÿÿ
+q
+java:S1104:"[Make MATERIAL_NUM_ID a static final constant or non-public and provide accessors if needed.(ïäÊª
+y
+java:S1104<"^Make MATERIAL_MASTER_ID a static final constant or non-public and provide accessors if needed.(£¸ÇŒùÿÿÿÿ
+p
+java:S1104="UMake PAGE_SIZE a static final constant or non-public and provide accessors if needed.(áã–óúÿÿÿÿ
+e
+java:S1104F"OMake clu a static final constant or non-public and provide accessors if needed.(ôÀÙ‡
+c
+java:S1104G"NMake ps a static final constant or non-public and provide accessors if needed.(ÈÉ—
+g
+java:S1104L"QMake pages a static final constant or non-public and provide accessors if needed.(–ñ¨
+p
+java:S1104M"UMake fontClass a static final constant or non-public and provide accessors if needed.(õ¼‹şÿÿÿÿ
+t
+java:S1104N"YMake HEADER_HEIGHT a static final constant or non-public and provide accessors if needed.(ùºÖúùÿÿÿÿ
+q
+java:S1104O"VMake cellHeight a static final constant or non-public and provide accessors if needed.(ØÑøÛùÿÿÿÿ
+p
+java:S1104Q"ZMake outputLocation a static final constant or non-public and provide accessors if needed.(¤Õôç
+k
+java:S1104R"UMake outputURL a static final constant or non-public and provide accessors if needed.(ø†Ë¨
+k
+java:S1104S"UMake returnURL a static final constant or non-public and provide accessors if needed.(÷×• 
+p
+java:S1104U"UMake LANDSCAPE a static final constant or non-public and provide accessors if needed.(¨×Ï™ıÿÿÿÿ
+j
+java:S1104V"TMake PORTRAIT a static final constant or non-public and provide accessors if needed.(§ïˆ½
+k
+java:S1104W"UMake landscape a static final constant or non-public and provide accessors if needed.(·çè’
+m
+java:S1104X"WMake orientation a static final constant or non-public and provide accessors if needed.(À‚æÄ
+m
+java:S1104Y"WMake REPORT_NAME a static final constant or non-public and provide accessors if needed.(…Ë†Š
+z
+java:S1104["_Make MATERIALSUPPLIER_ID a static final constant or non-public and provide accessors if needed.(ñ¥í ùÿÿÿÿ
+t
+java:S1104\"^Make SUPPLIER_MASTER_ID a static final constant or non-public and provide accessors if needed.(‘’´Ù
+}
+java:S1104]"bMake SUPPLIER_MASTER_NUM_ID a static final constant or non-public and provide accessors if needed.(´İâÁÿÿÿÿÿ
+y
+java:S1104^"cMake MATERIALSUPPLIER_OBJECT a static final constant or non-public and provide accessors if needed.(†ÇÚ×
+k
+java:S1104`"VMake IS_GENERIC a static final constant or non-public and provide accessors if needed.(Õö£y
+A
+java:S1444$"+Make this "public static DEBUG" field final(øåë
+L
+java:S14449"1Make this "public static MATERIAL_ID" field final(èÀ¸Íøÿÿÿÿ
+K
+java:S1444:"5Make this "public static MATERIAL_NUM_ID" field final(ïäÊª
+S
+java:S1444<"8Make this "public static MATERIAL_MASTER_ID" field final(£¸ÇŒùÿÿÿÿ
+J
+java:S1444="/Make this "public static PAGE_SIZE" field final(áã–óúÿÿÿÿ
+?
+java:S1444F")Make this "public static clu" field final(ôÀÙ‡
+N
+java:S1444N"3Make this "public static HEADER_HEIGHT" field final(ùºÖúùÿÿÿÿ
+J
+java:S1444U"/Make this "public static LANDSCAPE" field final(¨×Ï™ıÿÿÿÿ
+D
+java:S1444V".Make this "public static PORTRAIT" field final(§ïˆ½
+G
+java:S1444Y"1Make this "public static REPORT_NAME" field final(…Ë†Š
+T
+java:S1444["9Make this "public static MATERIALSUPPLIER_ID" field final(ñ¥í ùÿÿÿÿ
+N
+java:S1444\"8Make this "public static SUPPLIER_MASTER_ID" field final(‘’´Ù
+W
+java:S1444]"<Make this "public static SUPPLIER_MASTER_NUM_ID" field final(´İâÁÿÿÿÿÿ
+S
+java:S1444^"=Make this "public static MATERIALSUPPLIER_OBJECT" field final(†ÇÚ×
+E
+java:S1444`"0Make this "public static IS_GENERIC" field final(Õö£y
+V	java:S125"<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‚“Î‹úÿÿÿÿ
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(­Ûñ”üÿÿÿÿ
+f
+java:S3008$"PRename this field "DEBUG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øåë
+q
+java:S30089"VRename this field "MATERIAL_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÀ¸Íøÿÿÿÿ
+p
+java:S3008:"ZRename this field "MATERIAL_NUM_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïäÊª
+x
+java:S3008<"]Rename this field "MATERIAL_MASTER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¸ÇŒùÿÿÿÿ
+o
+java:S3008="TRename this field "PAGE_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áã–óúÿÿÿÿ
+s
+java:S3008N"XRename this field "HEADER_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùºÖúùÿÿÿÿ
+o
+java:S3008U"TRename this field "LANDSCAPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨×Ï™ıÿÿÿÿ
+i
+java:S3008V"SRename this field "PORTRAIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ïˆ½
+l
+java:S3008Y"VRename this field "REPORT_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Ë†Š
+y
+java:S3008["^Rename this field "MATERIALSUPPLIER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¥í ùÿÿÿÿ
+s
+java:S3008\"]Rename this field "SUPPLIER_MASTER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘’´Ù
+|
+java:S3008]"aRename this field "SUPPLIER_MASTER_NUM_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´İâÁÿÿÿÿÿ
+x
+java:S3008^"bRename this field "MATERIALSUPPLIER_OBJECT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÇÚ×
+j
+java:S3008`"URename this field "IS_GENERIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õö£y
+l
+java:S1845W"VRename field "landscape" to prevent any misunderstanding/clash with field "LANDSCAPE".(·çè’
+f
+java:S1845·"ORename method "debug" to prevent any misunderstanding/clash with field "DEBUG".( º±¿
+k
+java:S1845¸"ORename method "debug" to prevent any misunderstanding/clash with field "DEBUG".(Êô•şùÿÿÿÿ
+k
+java:S1845¹"ORename method "debug" to prevent any misunderstanding/clash with field "DEBUG".(ŞúÄƒıÿÿÿÿ
+j
+java:S1450T"URemove the "writer" field and declare it as a local variable in the relevant methods.(“±Õ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÖÍ³™
+c
+java:S5738&"HRemove this call to a deprecated method, it has been marked for removal.(‚úÍêùÿÿÿÿ
+^
+java:S5738'"HRemove this call to a deprecated method, it has been marked for removal.(ÖÒ²¡
+E	java:S1061"+Replace this use of System.out by a logger.(ôŸŒÌÿÿÿÿÿ
+V	java:S1257"<This block of commented-out lines of code should be removed.(š¯±Üûÿÿÿÿ
+V	java:S125B"<This block of commented-out lines of code should be removed.(şÕé°úÿÿÿÿ
+Q	java:S125H"<This block of commented-out lines of code should be removed.(ôË¤Ÿ
+Q	java:S125L"<This block of commented-out lines of code should be removed.(–ñ¨
+M
+java:S2696¡"6Make the enclosing method "static" or remove this set.(®’’ş
+L
+java:S2696¤"6Make the enclosing method "static" or remove this set.(Ûßº]
+R	java:S125§"<This block of commented-out lines of code should be removed.(ÜšéĞ
+R	java:S125°"<This block of commented-out lines of code should be removed.(±ı³ş
+R	java:S125¾"<This block of commented-out lines of code should be removed.(êì®½
+i
+java:S3776Ñ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(›Ÿ®
+U
+java:S1854î"9Remove this useless assignment to local variable "first".(ÇÜÙ¡úÿÿÿÿ
+Q	java:S125Ô"<This block of commented-out lines of code should be removed.(¶®ÚE
+E
+java:S1481Ù")Remove this unused "item" local variable.(ĞŠ›ıÿÿÿÿ
+R	java:S125å"<This block of commented-out lines of code should be removed.(Êàç¾
+R	java:S125ì"<This block of commented-out lines of code should be removed.(îèĞ±
+W	java:S125ò"<This block of commented-out lines of code should be removed.(¯Ôªíıÿÿÿÿ
+R	java:S125’"<This block of commented-out lines of code should be removed.(‡º×
+R	java:S125¤"<This block of commented-out lines of code should be removed.(ıÁÙé
+W	java:S125¹"<This block of commented-out lines of code should be removed.(â¿Ë­ÿÿÿÿÿ
+R	java:S125»"<This block of commented-out lines of code should be removed.(Ö§ú
+W	java:S125¾"<This block of commented-out lines of code should be removed.(ËÈ—ˆûÿÿÿÿ
+R	java:S125À"<This block of commented-out lines of code should be removed.(ÙÌÈˆ
+R	java:S125Æ"<This block of commented-out lines of code should be removed.(¶‰»ø
+A	java:S106É"+Replace this use of System.out by a logger.(Öœà‰
+W	java:S125Î"<This block of commented-out lines of code should be removed.(«Ûú­üÿÿÿÿ
+R	java:S125ÿ"<This block of commented-out lines of code should be removed.(î¯Ã¯
+W	java:S125 "<This block of commented-out lines of code should be removed.(õ–ôÄùÿÿÿÿ
+A	java:S106º"+Replace this use of System.out by a logger.(Ÿæá 
+H
+java:S1068"-Remove this unused "CLASSNAME" private field.(ÿÉÏ¥øÿÿÿÿ
+C
+java:S1068""-Remove this unused "authgwUrl" private field.(¦Éºş

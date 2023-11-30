@@ -1,0 +1,11 @@
+
+t
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(—®”Òÿÿÿÿÿ
+u
+java:S1192""_Define a constant instead of duplicating this literal "com.lcs.wc.resource.SourcingRB" 4 times.(‘¯‡§
+E
+java:S1066/"/Merge this if statement with the enclosing one.(³ Î—
+E
+java:S1066="/Merge this if statement with the enclosing one.(³ Î—
+m
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ã¥¼×þÿÿÿÿ

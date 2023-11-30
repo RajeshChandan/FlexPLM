@@ -1,0 +1,62 @@
+
+E
+java:S37406"/Provide the parametrized type for this generic.(¦«Šş
+E
+java:S3740O"/Provide the parametrized type for this generic.(ĞíÆö
+J
+java:S3740P"/Provide the parametrized type for this generic.(­İ³ìüÿÿÿÿ
+a
+java:S1192V"KDefine a constant instead of duplicating this literal "RPT_HEADER" 3 times.(õ§¹£
+f
+java:S1192s"PDefine a constant instead of duplicating this literal "hbiSizeCodeText" 3 times.(ïçñØ
+^
+java:S1192U"HDefine a constant instead of duplicating this literal "RPT_TBD" 3 times.(µ˜Œ•
+f	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Æ¿á
+|
+java:S1488'"aImmediately return this expression instead of assigning it to the temporary variable "sizeTable".(Šò®øÿÿÿÿ
+q
+java:S1104"VMake PRODUCT_ID a static final constant or non-public and provide accessors if needed.(ßÃòÿÿÿÿÿ
+i
+java:S1104"SMake SPEC_ID a static final constant or non-public and provide accessors if needed.(‹ÛÌ³
+j
+java:S1104"OMake pgh a static final constant or non-public and provide accessors if needed.(Â°½ûûÿÿÿÿ
+K
+java:S1444"0Make this "public static PRODUCT_ID" field final(ßÃòÿÿÿÿÿ
+C
+java:S1444"-Make this "public static SPEC_ID" field final(‹ÛÌ³
+D
+java:S1444")Make this "public static pgh" field final(Â°½ûûÿÿÿÿ
+p
+java:S3008"URename this field "PRODUCT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÃòÿÿÿÿÿ
+h
+java:S3008"RRename this field "SPEC_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÛÌ³
+N
+java:S1854"7Remove this useless assignment to local variable "aps".(…È à
+V
+java:S1854Ë":Remove this useless assignment to local variable "s3Code".(Ùçâ§üÿÿÿÿ
+R
+java:S1854É"<Remove this useless assignment to local variable "ropsCode".(®†§
+X
+java:S1854Ä"<Remove this useless assignment to local variable "sizeCode".(Æä¤Æûÿÿÿÿ
+Y
+java:S1854Ã"BRemove this useless assignment to local variable "plmPatternSize".(ÕÄÄÒ
+[
+java:S1854Â"?Remove this useless assignment to local variable "garmentSize".(ùİ¼İşÿÿÿÿ
+Q	java:S125;"<This block of commented-out lines of code should be removed.(ªïÕ
+V	java:S125?"<This block of commented-out lines of code should be removed.(¹í¦†ûÿÿÿÿ
+H
+java:S1481@"-Remove this unused "ropsCode" local variable.(ÖÍÌøÿÿÿÿ
+V	java:S125d"<This block of commented-out lines of code should be removed.(«Şù‰úÿÿÿÿ
+Q	java:S125f"<This block of commented-out lines of code should be removed.(©ŒÈ
+Q	java:S125w"<This block of commented-out lines of code should be removed.(Ìğì
+V	java:S125}"<This block of commented-out lines of code should be removed.(«ı¡àùÿÿÿÿ
+W	java:S125„"<This block of commented-out lines of code should be removed.(ßÕßªúÿÿÿÿ
+?
+java:S1481"(Remove this unused "aps" local variable.(…È à
+R	java:S125¢"<This block of commented-out lines of code should be removed.(§İ¯²
+R	java:S125¤"<This block of commented-out lines of code should be removed.(—Í‚ı
+W	java:S125©"<This block of commented-out lines of code should be removed.(ç•İÄûÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(ëÏ„‡
+W	java:S125»"<This block of commented-out lines of code should be removed.(¯áØÎúÿÿÿÿ
+W	java:S125Æ"<This block of commented-out lines of code should be removed.(—“ª‘ÿÿÿÿÿ
+R	java:S125È"<This block of commented-out lines of code should be removed.(¤û²¨

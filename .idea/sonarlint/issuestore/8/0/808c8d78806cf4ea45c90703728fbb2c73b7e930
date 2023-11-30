@@ -1,0 +1,57 @@
+
+K
+java:S3740ò"/Provide the parametrized type for this generic.(‰Ù’Ìøÿÿÿÿ
+K
+java:S3740‡"/Provide the parametrized type for this generic.(‰Ù’Ìøÿÿÿÿ
+K
+java:S3740©"/Provide the parametrized type for this generic.(‰Ù’Ìøÿÿÿÿ
+K
+java:S3740É"/Provide the parametrized type for this generic.(‰Ù’Ìøÿÿÿÿ
+s
+java:S1192ì"WDefine a constant instead of duplicating this literal "iterationInfo.branchId" 4 times.(˜íÊĞşÿÿÿÿ
+s
+java:S1192î"WDefine a constant instead of duplicating this literal "masterReference.key.id" 4 times.(ƒÍ½´ıÿÿÿÿ
+k
+java:S1192ğ"UDefine a constant instead of duplicating this literal "iterationInfo.latest" 4 times.(ì—÷4
+n	java:S135;"YReduce the total number of break and continue statements in this loop to use at most one.(á¥Ãó
+7
+java:S1643`"Use a StringBuilder instead.(‚İº¦ùÿÿÿÿ
+7
+java:S1643b"Use a StringBuilder instead.(¿µœıÿÿÿÿ
+
+java:S1149ò"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‰Ù’Ìøÿÿÿÿ
+
+java:S1149‡"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‰Ù’Ìøÿÿÿÿ
+
+java:S1149©"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‰Ù’Ìøÿÿÿÿ
+
+java:S1149É"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‰Ù’Ìøÿÿÿÿ
+h
+java:S3776."RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(ïØ¨€
+V	java:S1252"<This block of commented-out lines of code should be removed.(ÄªÚ”şÿÿÿÿ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(è¥–
+Q	java:S125="<This block of commented-out lines of code should be removed.(Ûôâ°
+V	java:S125F"<This block of commented-out lines of code should be removed.(ÑÌçúÿÿÿÿ
+>	java:S108\")Either remove or fill this block of code.(ô¨€˜
+K
+java:S1656‚"/Remove or correct this useless self-assignment.(Œ»Ã‚üÿÿÿÿ
+R	java:S125š"<This block of commented-out lines of code should be removed.(Ğ½è„
+A	java:S106¹"+Replace this use of System.out by a logger.(Šäúº
+A	java:S106¾"+Replace this use of System.out by a logger.(ß¦éõ
+n
+java:S3776à"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¢ûÜ·ûÿÿÿÿ
+W	java:S125ä"<This block of commented-out lines of code should be removed.(ì¯‹Ìøÿÿÿÿ
+F	java:S106ù"+Replace this use of System.out by a logger.(¡§ç¶üÿÿÿÿ
+W	java:S125ş"<This block of commented-out lines of code should be removed.(Àæ©Üúÿÿÿÿ
+W	java:S125ˆ"<This block of commented-out lines of code should be removed.(ñˆ¾Åıÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(İÙÜ±ıÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(µµ÷‰øÿÿÿÿ
+A	java:S106•"+Replace this use of System.out by a logger.(ÌùÃ¥
+W	java:S125›"<This block of commented-out lines of code should be removed.(Àæ©Üúÿÿÿÿ
+W	java:S125ª"<This block of commented-out lines of code should be removed.(ñˆ¾Åıÿÿÿÿ
+F	java:S106°"+Replace this use of System.out by a logger.(Õùä¬úÿÿÿÿ
+W	java:S125³"<This block of commented-out lines of code should be removed.(µµ÷‰øÿÿÿÿ
+W	java:S125½"<This block of commented-out lines of code should be removed.(Àæ©Üúÿÿÿÿ
+W	java:S125Ê"<This block of commented-out lines of code should be removed.(ñˆ¾Åıÿÿÿÿ
+F	java:S106Ñ"+Replace this use of System.out by a logger.(Õùä¬úÿÿÿÿ
+W	java:S125Ô"<This block of commented-out lines of code should be removed.(µµ÷‰øÿÿÿÿ

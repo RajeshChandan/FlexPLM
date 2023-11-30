@@ -1,0 +1,16 @@
+
+o
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ë•¼–
+U
+java:S1854""?Remove this useless assignment to local variable "criteriaMap".(ë•¼–
+V	java:S125"<This block of commented-out lines of code should be removed.(êè´Õùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÿìœŒ
+V	java:S125"<This block of commented-out lines of code should be removed.(æå‚àÿÿÿÿÿ
+F
+java:S1481""0Remove this unused "criteriaMap" local variable.(ë•¼–
+Q	java:S125*"<This block of commented-out lines of code should be removed.(åä†œ
+Q	java:S125/"<This block of commented-out lines of code should be removed.(™ïÛˆ
+Q	java:S1254"<This block of commented-out lines of code should be removed.(›
+V	java:S1256"<This block of commented-out lines of code should be removed.(—§Š¨úÿÿÿÿ
+P	java:S125;"<This block of commented-out lines of code should be removed.(ëëÏ_
+Q	java:S125="<This block of commented-out lines of code should be removed.(æâ¡Ÿ

@@ -1,0 +1,9 @@
+
+V	java:S125	"<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+Q	java:S125 "<This block of commented-out lines of code should be removed.(”ÍŠ
+Q	java:S125%"<This block of commented-out lines of code should be removed.(ÛÀÔÀ
+Q	java:S125-"<This block of commented-out lines of code should be removed.(ÛÀÔÀ
+G
+java:S1068",Remove this unused "RESOURCE" private field.(Ôı‡æûÿÿÿÿ
+C
+java:S1068"-Remove this unused "CLASSNAME" private field.(õ»šÜ

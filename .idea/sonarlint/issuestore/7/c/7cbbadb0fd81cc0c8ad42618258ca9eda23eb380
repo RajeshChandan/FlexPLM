@@ -1,0 +1,166 @@
+
+u
+java:S2293¿"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªİÛóûÿÿÿÿ
+u
+java:S2293ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªİÛóûÿÿÿÿ
+k
+java:S1192¨"ODefine a constant instead of duplicating this literal "hbiPkgsOrInner" 4 times.(»­Ùıÿÿÿÿ
+p
+java:S1192è"YDefine a constant instead of duplicating this literal "], [PLM_SIZE_LITERAL :: " 3 times.(ù¨¸Ê
+_
+java:S1192´"HDefine a constant instead of duplicating this literal "DROPPED" 3 times.(ÜÕøü
+g
+java:S1192Ÿ"KDefine a constant instead of duplicating this literal "hbiFPWidth" 6 times.(õœ‹ûÿÿÿÿ
+a
+java:S1192/"FDefine a constant instead of duplicating this literal "hbiEA" 9 times.(Üìâ€şÿÿÿÿ
+b
+java:S1192İ"FDefine a constant instead of duplicating this literal "hbiCV" 4 times.(¿¢Ãÿÿÿÿÿ
+c
+java:S1192"GDefine a constant instead of duplicating this literal "size1" 11 times.(åæ—üÿÿÿÿ
+]
+java:S1192´"FDefine a constant instead of duplicating this literal "false" 3 times.(ÜÕøü
+q
+java:S1192"UDefine a constant instead of duplicating this literal "hbiPrimarySecondary" 12 times.(¥æäşÿÿÿÿ
+o
+java:S1192è"XDefine a constant instead of duplicating this literal "],[PrimarySecondary :: " 3 times.(ù¨¸Ê
+r
+java:S1192³"VDefine a constant instead of duplicating this literal "hbiPackagingWeightLbs" 3 times.(›…™‰øÿÿÿÿ
+p
+java:S1192Ÿ"TDefine a constant instead of duplicating this literal "materialDescription" 3 times.(õœ‹ûÿÿÿÿ
+h
+java:S1192"LDefine a constant instead of duplicating this literal "hbiFPHeight" 6 times.(ñûåúÿÿÿÿ
+_
+java:S1192³"HDefine a constant instead of duplicating this literal "section" 3 times.(Š ó¡
+^
+java:S1192³"GDefine a constant instead of duplicating this literal "casing" 3 times.(Š ó¡
+e
+java:S1192è"NDefine a constant instead of duplicating this literal "], [PUTUP :: " 3 times.(ù¨¸Ê
+h
+java:S1192"LDefine a constant instead of duplicating this literal "hbiFPLength" 6 times.(ñûåúÿÿÿÿ
+]
+java:S1192é"FDefine a constant instead of duplicating this literal "hbiIP" 4 times.(ÙáèÓ
+k	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É†ğëøÿÿÿÿ
+k	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïàÃûÿÿÿÿ
+k	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰£Ä£üÿÿÿÿ
+e	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñî«q
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ”º‡
+g	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ÍÁã
+g	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Õ÷Ì
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šçÏøÿÿÿÿ
+l	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šçÏøÿÿÿÿ
+l	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‡´Äüÿÿÿÿ
+l	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş°¬†üÿÿÿÿ
+l	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹µĞñûÿÿÿÿ
+g	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â†ÂË
+l	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úó¯²ÿÿÿÿÿ
+g	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÕ¨Ê
+l	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï´Ò×ùÿÿÿÿ
+l	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï´Ò×ùÿÿÿÿ
+g	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¶Ğ§
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‡´Äüÿÿÿÿ
+g	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Æ¸Ò
+g	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Æ¸Ò
+l	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã›ùÔÿÿÿÿÿ
+g	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÕ¨Ê
+l	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ŸŠ›ùÿÿÿÿ
+g	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®²˜
+g	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¿ñ
+g	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¿ñ
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¶Ğ§
+l	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î”Áùÿÿÿÿ
+g	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—†ªÆ
+g	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—†ªÆ
+l	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òë”øÿÿÿÿ
+l	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òë”øÿÿÿÿ
+l	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÙå’ıÿÿÿÿ
+l	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ•¬æûÿÿÿÿ
+g	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó÷²ø
+l	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ìø•ıÿÿÿÿ
+g	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¯¶¿
+l	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´”ÈÄıÿÿÿÿ
+g	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÉÍÅ
+f	java:S117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÃâj
+l	java:S117É	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³‘µÆùÿÿÿÿ
+l	java:S117Û	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö±êïûÿÿÿÿ
+w
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "key".(¥æäşÿÿÿÿ
+w
+java:S1488¨"[Immediately return this expression instead of assigning it to the temporary variable "key".(»­Ùıÿÿÿÿ
+w
+java:S1488³"[Immediately return this expression instead of assigning it to the temporary variable "key".(›…™‰øÿÿÿÿ
+t
+java:S1488å"]Immediately return this expression instead of assigning it to the temporary variable "dimId".(Ó…¬ù
+w
+java:S1488®"`Immediately return this expression instead of assigning it to the temporary variable "topRowID".(ÁóÁ„
+I
+java:S1199Ó"-Extract this nested code block into a method.(¡€ŒŞùÿÿÿÿ
+D
+java:S1199Û"-Extract this nested code block into a method.(Øñ’ô
+I
+java:S1199ç"-Extract this nested code block into a method.(üÈ€úÿÿÿÿ
+P
+java:S1118)":Add a private constructor to hide the implicit public one.(´¿€ğ
+E
+java:S1197/"*Move the array designators [] to the type.(Üìâ€şÿÿÿÿ
+E
+java:S11971"*Move the array designators [] to the type.(¥Ú—´üÿÿÿÿ
+E
+java:S11973"*Move the array designators [] to the type.(á©Ê‰úÿÿÿÿ
+E
+java:S11974"*Move the array designators [] to the type.(ô¦ôİıÿÿÿÿ
+E
+java:S11975"*Move the array designators [] to the type.(°íø¼şÿÿÿÿ
+G
+java:S1172]",Remove this unused method parameter "putup".(ïàÃûÿÿÿÿ
+[
+java:S1854¾"DRemove this useless assignment to local variable "maxSortingNumber".(ãÌˆı
+[
+java:S1854½"?Remove this useless assignment to local variable "maxBranchId".(ø›£¬ıÿÿÿÿ
+V
+java:S1854Ğ":Remove this useless assignment to local variable "eaRows".(ÜğŸøÿÿÿÿ
+R	java:S125ô"<This block of commented-out lines of code should be removed.(ƒƒğ
+E
+java:S1172Â")Remove this unused method parameter "sp".(ÏºÃâúÿÿÿÿ
+Y
+java:S1854•"=Remove this useless assignment to local variable "pcBomRows".(—ÓŸ‹üÿÿÿÿ
+[
+java:S1172»"?Remove these unused method parameters "putup", "spPackcaseBom".(€‡´Äüÿÿÿÿ
+d
+java:S1871É"MThis branch's code block is the same as the block for the branch on line 455.(½˜Âş
+i	java:S100à"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹µĞñûÿÿÿÿ
+n
+java:S3776à"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¹µĞñûÿÿÿÿ
+i	java:S100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úó¯²ÿÿÿÿÿ
+R	java:S125¡"<This block of commented-out lines of code should be removed.(Ÿ¬œ¸
+n
+java:S3776ğ"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(€‡´Äüÿÿÿÿ
+d
+java:S1871ˆ"MThis branch's code block is the same as the block for the branch on line 646.(½˜Âş
+n
+java:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ã›ùÔÿÿÿÿÿ
+Y
+java:S1172¦"=Remove these unused method parameters "sp", "psdSize1Values".(ã›ùÔÿÿÿÿÿ
+W	java:S125á"<This block of commented-out lines of code should be removed.(¥ãÄùÿÿÿÿ
+R	java:S125è"<This block of commented-out lines of code should be removed.(ßÚõ
+Q	java:S125ò"<This block of commented-out lines of code should be removed.(‰»î>
+]
+java:S1126"AReplace this if-then-else statement by a single return statement.(¼’ø³ûÿÿÿÿ
+T
+java:S1155Ü">Use isEmpty() to check whether the collection is empty or not.(’æ
+W	java:S125ó"<This block of commented-out lines of code should be removed.(ØÙå’ıÿÿÿÿ
+W	java:S125ô"<This block of commented-out lines of code should be removed.(Ÿ•¬æûÿÿÿÿ
+R	java:S125õ"<This block of commented-out lines of code should be removed.(ó÷²ø
+O
+java:S1854ñ"8Remove this useless assignment to local variable "rows".(„€Â£
+Z
+java:S1155ö">Use isEmpty() to check whether the collection is empty or not.( Ú˜İüÿÿÿÿ
+n
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(´”ÈÄıÿÿÿÿ
+E
+java:S1172—")Remove this unused method parameter "sp".(´”ÈÄıÿÿÿÿ
+]
+java:S1126Ê"AReplace this if-then-else statement by a single return statement.(úÕ™şÿÿÿÿ
+J
+java:S1172€	".Remove this unused method parameter "primKey".(’µã‚ÿÿÿÿÿ
+]
+java:S1126Ì	"AReplace this if-then-else statement by a single return statement.(¨Ì©êûÿÿÿÿ

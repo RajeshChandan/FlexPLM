@@ -1,0 +1,15 @@
+
+n
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(îŞø`
+k
+java:S1192""PDefine a constant instead of duplicating this literal "D:\\ptc\\data\\" 3 times.(µ€ÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¤¶®õ
+@	java:S106"+Replace this use of System.out by a logger.(·òšŠ
+E
+java:S2093 "*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+[
+java:S1854g"ERemove this useless assignment to local variable "intSellingStyleNo".(íÃ®­
+C
+java:S1172X".Remove this unused method parameter "sapCode".(²Îœw
+L
+java:S1481g"6Remove this unused "intSellingStyleNo" local variable.(íÃ®­

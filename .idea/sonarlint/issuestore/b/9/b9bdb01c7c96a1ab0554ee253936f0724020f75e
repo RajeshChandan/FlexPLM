@@ -1,0 +1,9 @@
+
+k	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Ñùÿÿÿÿ
+k	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Ñùÿÿÿÿ
+U
+java:S1118,":Add a private constructor to hide the implicit public one.(•ˆ–Àÿÿÿÿÿ
+V
+java:S1854D";Remove this useless assignment to local variable "isAdmin".(×ÍÛâüÿÿÿÿ
+G
+java:S1481D",Remove this unused "isAdmin" local variable.(×ÍÛâüÿÿÿÿ

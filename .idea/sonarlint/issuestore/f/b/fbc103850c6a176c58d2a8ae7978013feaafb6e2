@@ -1,0 +1,236 @@
+
+…
+java:S1104"jMake hbiBlockProductsSeasonFlexType a static final constant or non-public and provide accessors if needed.(™âÌ•üÿÿÿÿ
+
+java:S1104"kMake hbiBlockProductsProductFlexType a static final constant or non-public and provide accessors if needed.(çøç•
+
+java:S1104"rMake hbiBlockProductsSourcingConfigFlexType a static final constant or non-public and provide accessors if needed.(£Ìãóÿÿÿÿÿ
+Œ
+java:S1104"qMake hbiBlockProductsSpecificationFlexType a static final constant or non-public and provide accessors if needed.(ØĞüÊÿÿÿÿÿ
+z
+java:S1104"dMake hbiTransactionBOFlexType a static final constant or non-public and provide accessors if needed.(•ÕÇ™
+v
+java:S1104"`Make measurementsFlexType a static final constant or non-public and provide accessors if needed.(—§ÅÆ
+}
+java:S1104"bMake sizeDefinitionFlexType a static final constant or non-public and provide accessors if needed.(…äıÿÿÿÿ
+y
+java:S1104"cMake hbiTransactionStatusKey a static final constant or non-public and provide accessors if needed.(­·•ø
+u
+java:S1104"ZMake hbiCommentsKey a static final constant or non-public and provide accessors if needed.(ŞÙ»Æùÿÿÿÿ
+}
+java:S1104"bMake hbiEventTriggeredByKey a static final constant or non-public and provide accessors if needed.(ßê ³ûÿÿÿÿ
+t
+java:S1104"^Make hbiFlexBranchIdKey a static final constant or non-public and provide accessors if needed.(¨§ûé
+y
+java:S1104"^Make hbiFlexObjectIdKey a static final constant or non-public and provide accessors if needed.(…šÅŠúÿÿÿÿ
+{
+java:S1104"eMake hbiFlexObjectClassNameKey a static final constant or non-public and provide accessors if needed.(ïîä’
+{
+java:S1104"`Make hbiFlexObjectNameKey a static final constant or non-public and provide accessors if needed.(®€Àäıÿÿÿÿ
+u
+java:S1104"_Make hbiFlexObjectOIDKey a static final constant or non-public and provide accessors if needed.(ÓëÚÄ
+u
+java:S1104 "_Make hbiTransactionIdKey a static final constant or non-public and provide accessors if needed.(¬Şà¨
+q
+java:S1104!"[Make hbiEventTypeKey a static final constant or non-public and provide accessors if needed.(ˆûê†
+q
+java:S1104""[Make hbiGradeCodeKey a static final constant or non-public and provide accessors if needed.( ö€¨
+v
+java:S1104#"[Make hbiChangeSetKey a static final constant or non-public and provide accessors if needed.(î¡ÏÈøÿÿÿÿ
+‡
+java:S1104$"lMake hbiFlexObjectUniqueIdentifierKey a static final constant or non-public and provide accessors if needed.(Æƒ§íüÿÿÿÿ
+
+java:S1104&"fMake hbiTransactionBOFetchLimit a static final constant or non-public and provide accessors if needed.(ò°Ê¿üÿÿÿÿ
+ˆ
+java:S1104)"rMake measurementsMeasurementScopeAttributes a static final constant or non-public and provide accessors if needed.(íô›ä
+‰
+java:S1104*"nMake measurementsProductScopeAttributes a static final constant or non-public and provide accessors if needed.(öß·Çûÿÿÿÿ
+u
+java:S1104-"_Make measurementsNameKey a static final constant or non-public and provide accessors if needed.(˜¾òà
+h
+java:S1104."RMake uomKey a static final constant or non-public and provide accessors if needed.(õ®˜§
+w
+java:S1104/"\Make gradingMethodKey a static final constant or non-public and provide accessors if needed.(‹šÜáúÿÿÿÿ
+s
+java:S11042"]Make htmInstructionKey a static final constant or non-public and provide accessors if needed.(Ü£ıö
+ƒ
+java:S11043"hMake sampleMeasurementCommentsKey a static final constant or non-public and provide accessors if needed.(·™Ãëùÿÿÿÿ
+s
+java:S11044"^Make measurementNameKey a static final constant or non-public and provide accessors if needed.(»®[
+x
+java:S11045"]Make newMeasurementKey a static final constant or non-public and provide accessors if needed.(ÖÓÄ«øÿÿÿÿ
+t
+java:S11046"^Make placementAmountKey a static final constant or non-public and provide accessors if needed.(º²¡±
+w
+java:S11047"aMake placementReferenceKey a static final constant or non-public and provide accessors if needed.(Ø°Ú
+k
+java:S11048"UMake numberKey a static final constant or non-public and provide accessors if needed.(è®œ
+s
+java:S11049"]Make minusToleranceKey a static final constant or non-public and provide accessors if needed.(ö¥ÿ›
+w
+java:S1104:"\Make plusToleranceKey a static final constant or non-public and provide accessors if needed.(õÄİêùÿÿÿÿ
+…
+java:S1104;"jMake hbiPOMIntegrationIdentifierKey a static final constant or non-public and provide accessors if needed.(é‚ˆŠùÿÿÿÿ
+v
+java:S1104<"[Make howToMeasureKey a static final constant or non-public and provide accessors if needed.(ø¢±ûÿÿÿÿ
+q
+java:S1104?"[Make hbiPatternNoKey a static final constant or non-public and provide accessors if needed.(Áğª
+q
+java:S1104D"[Make materialNameKey a static final constant or non-public and provide accessors if needed.(ò•©”
+y
+java:S1104E"cMake materialFlexTypePathKey a static final constant or non-public and provide accessors if needed.(ÍŠ÷â
+r
+java:S1104F"\Make eskoProjectIDKey a static final constant or non-public and provide accessors if needed.(Èï›«
+ƒ
+java:S1104G"hMake flexTypeAttributeKeyAppender a static final constant or non-public and provide accessors if needed.(ÓÁª¶ùÿÿÿÿ
+|
+java:S1104H"aMake hbiWorkflowProcessKey a static final constant or non-public and provide accessors if needed.(Î¾üµşÿÿÿÿ
+{
+java:S1104I"eMake hbiLeadTestingRequiredKey a static final constant or non-public and provide accessors if needed.(ÀÀ›ú
+u
+java:S1104J"ZMake hbiUsageUOMKey a static final constant or non-public and provide accessors if needed.(â£Î¬ÿÿÿÿÿ
+q
+java:S1104K"\Make hbiBuyerGroupKey a static final constant or non-public and provide accessors if needed.(Òü¼9
+u
+java:S1104L"_Make hbiMajorCategoryKey a static final constant or non-public and provide accessors if needed.(øõ¿ù
+z
+java:S1104M"_Make hbiMinorCategoryKey a static final constant or non-public and provide accessors if needed.(Ï˜øèıÿÿÿÿ
+w
+java:S1104N"aMake hbiConversionUsageKey a static final constant or non-public and provide accessors if needed.(µ«º¦
+v
+java:S1104O"[Make hbiColorCodeKey a static final constant or non-public and provide accessors if needed.(Ü¸Œ²şÿÿÿÿ
+u
+java:S1104P"ZMake hbiAttrCodeKey a static final constant or non-public and provide accessors if needed.(Øûşÿÿÿÿ
+p
+java:S1104Q"ZMake hbiSizeCodeKey a static final constant or non-public and provide accessors if needed.(çÇøø
+
+java:S1104R"fMake materialColorControlledKey a static final constant or non-public and provide accessors if needed.(ºëñ üÿÿÿÿ
+z
+java:S1104S"dMake hbiMaterialSourceTypeKey a static final constant or non-public and provide accessors if needed.(‚çÿ¾
+y
+java:S1104T"^Make hbiMatSpecFinalKey a static final constant or non-public and provide accessors if needed.(áÃñÁıÿÿÿÿ
+w
+java:S1104U"\Make hbiHemisphereKey a static final constant or non-public and provide accessors if needed.(ĞÍÔøÿÿÿÿ
+x
+java:S1104V"]Make hbiBuyOrNotBuyKey a static final constant or non-public and provide accessors if needed.(û…©ûÿÿÿÿ
+x
+java:S1104W"bMake hbiConversionFactorKey a static final constant or non-public and provide accessors if needed.(£ÂŒˆ
+_
+java:S1444"DMake this "public static hbiBlockProductsSeasonFlexType" field final(™âÌ•üÿÿÿÿ
+[
+java:S1444"EMake this "public static hbiBlockProductsProductFlexType" field final(çøç•
+g
+java:S1444"LMake this "public static hbiBlockProductsSourcingConfigFlexType" field final(£Ìãóÿÿÿÿÿ
+f
+java:S1444"KMake this "public static hbiBlockProductsSpecificationFlexType" field final(ØĞüÊÿÿÿÿÿ
+T
+java:S1444">Make this "public static hbiTransactionBOFlexType" field final(•ÕÇ™
+P
+java:S1444":Make this "public static measurementsFlexType" field final(—§ÅÆ
+W
+java:S1444"<Make this "public static sizeDefinitionFlexType" field final(…äıÿÿÿÿ
+S
+java:S1444"=Make this "public static hbiTransactionStatusKey" field final(­·•ø
+O
+java:S1444"4Make this "public static hbiCommentsKey" field final(ŞÙ»Æùÿÿÿÿ
+W
+java:S1444"<Make this "public static hbiEventTriggeredByKey" field final(ßê ³ûÿÿÿÿ
+N
+java:S1444"8Make this "public static hbiFlexBranchIdKey" field final(¨§ûé
+S
+java:S1444"8Make this "public static hbiFlexObjectIdKey" field final(…šÅŠúÿÿÿÿ
+U
+java:S1444"?Make this "public static hbiFlexObjectClassNameKey" field final(ïîä’
+U
+java:S1444":Make this "public static hbiFlexObjectNameKey" field final(®€Àäıÿÿÿÿ
+O
+java:S1444"9Make this "public static hbiFlexObjectOIDKey" field final(ÓëÚÄ
+O
+java:S1444 "9Make this "public static hbiTransactionIdKey" field final(¬Şà¨
+K
+java:S1444!"5Make this "public static hbiEventTypeKey" field final(ˆûê†
+K
+java:S1444""5Make this "public static hbiGradeCodeKey" field final( ö€¨
+P
+java:S1444#"5Make this "public static hbiChangeSetKey" field final(î¡ÏÈøÿÿÿÿ
+a
+java:S1444$"FMake this "public static hbiFlexObjectUniqueIdentifierKey" field final(Æƒ§íüÿÿÿÿ
+[
+java:S1444&"@Make this "public static hbiTransactionBOFetchLimit" field final(ò°Ê¿üÿÿÿÿ
+b
+java:S1444)"LMake this "public static measurementsMeasurementScopeAttributes" field final(íô›ä
+c
+java:S1444*"HMake this "public static measurementsProductScopeAttributes" field final(öß·Çûÿÿÿÿ
+O
+java:S1444-"9Make this "public static measurementsNameKey" field final(˜¾òà
+B
+java:S1444.",Make this "public static uomKey" field final(õ®˜§
+Q
+java:S1444/"6Make this "public static gradingMethodKey" field final(‹šÜáúÿÿÿÿ
+M
+java:S14442"7Make this "public static htmInstructionKey" field final(Ü£ıö
+]
+java:S14443"BMake this "public static sampleMeasurementCommentsKey" field final(·™Ãëùÿÿÿÿ
+M
+java:S14444"8Make this "public static measurementNameKey" field final(»®[
+R
+java:S14445"7Make this "public static newMeasurementKey" field final(ÖÓÄ«øÿÿÿÿ
+N
+java:S14446"8Make this "public static placementAmountKey" field final(º²¡±
+Q
+java:S14447";Make this "public static placementReferenceKey" field final(Ø°Ú
+E
+java:S14448"/Make this "public static numberKey" field final(è®œ
+M
+java:S14449"7Make this "public static minusToleranceKey" field final(ö¥ÿ›
+Q
+java:S1444:"6Make this "public static plusToleranceKey" field final(õÄİêùÿÿÿÿ
+_
+java:S1444;"DMake this "public static hbiPOMIntegrationIdentifierKey" field final(é‚ˆŠùÿÿÿÿ
+P
+java:S1444<"5Make this "public static howToMeasureKey" field final(ø¢±ûÿÿÿÿ
+K
+java:S1444?"5Make this "public static hbiPatternNoKey" field final(Áğª
+K
+java:S1444D"5Make this "public static materialNameKey" field final(ò•©”
+S
+java:S1444E"=Make this "public static materialFlexTypePathKey" field final(ÍŠ÷â
+L
+java:S1444F"6Make this "public static eskoProjectIDKey" field final(Èï›«
+]
+java:S1444G"BMake this "public static flexTypeAttributeKeyAppender" field final(ÓÁª¶ùÿÿÿÿ
+V
+java:S1444H";Make this "public static hbiWorkflowProcessKey" field final(Î¾üµşÿÿÿÿ
+U
+java:S1444I"?Make this "public static hbiLeadTestingRequiredKey" field final(ÀÀ›ú
+O
+java:S1444J"4Make this "public static hbiUsageUOMKey" field final(â£Î¬ÿÿÿÿÿ
+K
+java:S1444K"6Make this "public static hbiBuyerGroupKey" field final(Òü¼9
+O
+java:S1444L"9Make this "public static hbiMajorCategoryKey" field final(øõ¿ù
+T
+java:S1444M"9Make this "public static hbiMinorCategoryKey" field final(Ï˜øèıÿÿÿÿ
+Q
+java:S1444N";Make this "public static hbiConversionUsageKey" field final(µ«º¦
+P
+java:S1444O"5Make this "public static hbiColorCodeKey" field final(Ü¸Œ²şÿÿÿÿ
+O
+java:S1444P"4Make this "public static hbiAttrCodeKey" field final(Øûşÿÿÿÿ
+J
+java:S1444Q"4Make this "public static hbiSizeCodeKey" field final(çÇøø
+[
+java:S1444R"@Make this "public static materialColorControlledKey" field final(ºëñ üÿÿÿÿ
+T
+java:S1444S">Make this "public static hbiMaterialSourceTypeKey" field final(‚çÿ¾
+S
+java:S1444T"8Make this "public static hbiMatSpecFinalKey" field final(áÃñÁıÿÿÿÿ
+Q
+java:S1444U"6Make this "public static hbiHemisphereKey" field final(ĞÍÔøÿÿÿÿ
+R
+java:S1444V"7Make this "public static hbiBuyOrNotBuyKey" field final(û…©ûÿÿÿÿ
+R
+java:S1444W"<Make this "public static hbiConversionFactorKey" field final(£ÂŒˆ
+o	java:S115A"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(íòĞß
+P
+java:S1118":Add a private constructor to hide the implicit public one.( ÿ½Ÿ

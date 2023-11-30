@@ -1,0 +1,67 @@
+
+F
+java:S3740æ"/Provide the parametrized type for this generic.(¥µÙ³
+t
+java:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(†Î—Ñüÿÿÿÿ
+F
+java:S1066¾"/Merge this if statement with the enclosing one.(ïÈ‰Ö
+?
+java:S5411™"(Use a primitive boolean expression here.(Éú¶Ç
+X
+java:S4973€"<Strings and Boxed types should be compared using "equals()".(Æ„ƒÿÿÿÿÿ
+V	java:S125)"<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+{
+java:S1149ñ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(û¯¥›úÿÿÿÿ
+P
+java:S11187":Add a private constructor to hide the implicit public one.(äôß÷
+h
+java:S3776I"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(Œú£…
+f
+java:S1854L"KRemove this useless assignment to local variable "validationAttributesMap".(†Î—Ñüÿÿÿÿ
+P	java:S125K"<This block of commented-out lines of code should be removed.(ýØ¡K
+V	java:S125_"<This block of commented-out lines of code should be removed.(Öïøîýÿÿÿÿ
+Q	java:S125d"<This block of commented-out lines of code should be removed.(™¨™«
+Q	java:S125f"<This block of commented-out lines of code should be removed.(ìË£á
+Q	java:S125k"<This block of commented-out lines of code should be removed.(Ãôˆ
+Q	java:S125{"<This block of commented-out lines of code should be removed.(‘éî¦
+R	java:S125€"<This block of commented-out lines of code should be removed.(™¨™«
+R	java:S125‚"<This block of commented-out lines of code should be removed.(ÈÌëÏ
+Q	java:S125„"<This block of commented-out lines of code should be removed.(ÐŸh
+R	java:S125†"<This block of commented-out lines of code should be removed.(ÎÜ¤–
+W	java:S125‰"<This block of commented-out lines of code should be removed.(€£Õïýÿÿÿÿ
+R	java:S125“"<This block of commented-out lines of code should be removed.(ïˆâÙ
+R	java:S125˜"<This block of commented-out lines of code should be removed.(²üÕ
+R	java:S125¥"<This block of commented-out lines of code should be removed.(™¨™«
+W	java:S125§"<This block of commented-out lines of code should be removed.(Ñ¿Æÿÿÿÿÿ
+i
+java:S3776Ð"RRefactor this method to reduce its Cognitive Complexity from 80 to the 15 allowed.(—³„û
+a
+java:S2147Å"ECombine this catch with the one at line 323, which has the same body.(¼¯•¶ùÿÿÿÿ
+a
+java:S2147Ç"ECombine this catch with the one at line 325, which has the same body.(ÿëÛßúÿÿÿÿ
+\
+java:S2147Ë"ECombine this catch with the one at line 327, which has the same body.(Å¡ß
+\
+java:S2147Í"ECombine this catch with the one at line 331, which has the same body.(åþáÿ
+W	java:S125Õ"<This block of commented-out lines of code should be removed.(’”Òþúÿÿÿÿ
+R	java:S125Ø"<This block of commented-out lines of code should be removed.(ú 
+W	java:S125à"<This block of commented-out lines of code should be removed.(ÛÌð€úÿÿÿÿ
+R	java:S125â"<This block of commented-out lines of code should be removed.(ÌÖ´‡
+W	java:S125ä"<This block of commented-out lines of code should be removed.(Á¢Éúÿÿÿÿ
+R	java:S125ç"<This block of commented-out lines of code should be removed.(ð’Á‹
+W	java:S125ö"<This block of commented-out lines of code should be removed.(ÚÏèîûÿÿÿÿ
+R	java:S125ú"<This block of commented-out lines of code should be removed.(÷›Ðú
+R	java:S125‚"<This block of commented-out lines of code should be removed.(íÑ²Ž
+R	java:S125"<This block of commented-out lines of code should be removed.(þ¥é–
+R	java:S125—"<This block of commented-out lines of code should be removed.(Æõ˜
+R	java:S125¡"<This block of commented-out lines of code should be removed.(è‘¯’
+R	java:S125«"<This block of commented-out lines of code should be removed.(§üÐ‘
+R	java:S125µ"<This block of commented-out lines of code should be removed.(ø‡Æû
+W	java:S125Ü"<This block of commented-out lines of code should be removed.(ÂÊÇ·ûÿÿÿÿ
+W	java:S125Þ"<This block of commented-out lines of code should be removed.(ƒ°¤¹ûÿÿÿÿ
+W	java:S125ã"<This block of commented-out lines of code should be removed.(É°¼æüÿÿÿÿ
+W	java:S125ì"<This block of commented-out lines of code should be removed.(“â‚Îüÿÿÿÿ
+R	java:S125ú"<This block of commented-out lines of code should be removed.(Ýèûá
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(«õÈ˜úÿÿÿÿ
+P
+java:S1068G"5Remove this unused "MOAOBJECTLOCATION" private field.(¢¸–˜þÿÿÿÿ

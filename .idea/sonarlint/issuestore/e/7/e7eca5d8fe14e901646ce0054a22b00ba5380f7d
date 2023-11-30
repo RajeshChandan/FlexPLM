@@ -1,0 +1,11 @@
+
+k	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ—æÓûÿÿÿÿ
+V	java:S125
+"<This block of commented-out lines of code should be removed.(€¨Ûãúÿÿÿÿ
+r
+java:S3008"WRename this field "PLMqueueName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Œ©þÿÿÿÿ
+E	java:S106,"+Replace this use of System.out by a logger.(ëŠÄ”úÿÿÿÿ
+E
+java:S2093!"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+@	java:S106D"+Replace this use of System.out by a logger.(»„ü—
+E	java:S106W"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ

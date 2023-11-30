@@ -1,0 +1,37 @@
+
+u
+java:S3008R"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿ·Ñ
+v
+java:S3008S"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð¤Ä™
+w
+java:S1450T"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+P
+java:S1854u"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854v"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481u"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481v"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+F
+java:S2093–"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+V
+java:S1481µ":Remove this unused "targetColorSequenceNo" local variable.(ìøšÜùÿÿÿÿ
+J
+java:S1481¶"3Remove this unused "sourceColorObj" local variable.(ãµ«§
+O
+java:S1481·"3Remove this unused "targetColorObj" local variable.(íœâŠûÿÿÿÿ
+A	java:S106À"+Replace this use of System.out by a logger.(Ï§¯®
+W	java:S125Ò"<This block of commented-out lines of code should be removed.(ù£û–ùÿÿÿÿ
+:
+java:S2129Ü"Remove this "Long" constructor(üª³ÿÿÿÿÿ
+d
+java:S5738Ü"HRemove this call to a deprecated method, it has been marked for removal.(üª³ÿÿÿÿÿ
+V
+java:S1854ì"?Remove this useless assignment to local variable "currentDate".(€ðð¿
+G
+java:S1481ì"0Remove this unused "currentDate" local variable.(€ðð¿
+4
+java:S1128@"Remove this duplicated import.(†Ð¥Å
+4
+java:S1128B"Remove this duplicated import.(÷Œá¼

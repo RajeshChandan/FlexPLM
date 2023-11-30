@@ -1,0 +1,58 @@
+
+`	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(ãÔ£Åúÿÿÿÿ
+`	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(Î‰øüÿÿÿÿ
+[	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(íÎö
+a	java:S112À"FDefine and throw a dedicated exception instead of using a generic one.(Úä‰´şÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(«ÑíR
+K
+java:S3740‘"/Provide the parametrized type for this generic.(µ´¡ıÿÿÿÿ
+K
+java:S3740‘"/Provide the parametrized type for this generic.(µ´¡ıÿÿÿÿ
+K
+java:S3740“"/Provide the parametrized type for this generic.(•¯îÃıÿÿÿÿ
+F
+java:S3740Ÿ"/Provide the parametrized type for this generic.(Ø€ÆÔ
+K
+java:S3740½"/Provide the parametrized type for this generic.(ÊÀÿşÿÿÿÿ
+K
+java:S3740Ï"/Provide the parametrized type for this generic.(”©£Øıÿÿÿÿ
+K
+java:S1066—"/Merge this if statement with the enclosing one.(•¼çÔüÿÿÿÿ
+K
+java:S1066Ö"/Merge this if statement with the enclosing one.(Ÿäú˜úÿÿÿÿ
+{
+java:S14882"`Immediately return this expression instead of assigning it to the temporary variable "fileName".(áÒ‘•ÿÿÿÿÿ
+t
+java:S1488M"^Immediately return this expression instead of assigning it to the temporary variable "result".(•Ó¸Õ
+y
+java:S1488~"^Immediately return this expression instead of assigning it to the temporary variable "newXml".(çº„×úÿÿÿÿ
+b
+java:S2095Z"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ºË¶©
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(«ÑíR
+
+java:S1149‘"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(µ´¡ıÿÿÿÿ
+
+java:S1149“"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(•¯îÃıÿÿÿÿ
+|
+java:S1149Ÿ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ø€ÆÔ
+
+java:S1149½"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÊÀÿşÿÿÿÿ
+
+java:S1149Ï"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(”©£Øıÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(¹Şÿúÿÿÿÿ
+‡
+java:S1130/"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ãÔ£Åúÿÿÿÿ
+A
+java:S10752"&Remove this hard-coded path-delimiter.(áÒ‘•ÿÿÿÿÿ
+c	java:S100Y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÎö
+g
+java:S2677]"LUse or store the value returned from "readLine" instead of throwing it away.(œ”âÿÿÿÿÿ
+h	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õò„şÿÿÿÿ
+h	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ŸÎ¬ÿÿÿÿÿ
+R	java:S125‚"<This block of commented-out lines of code should be removed.(óÎ½Ò
+R	java:S125›"<This block of commented-out lines of code should be removed.(ë–ëã
+A	java:S106"+Replace this use of System.out by a logger.(”ÈÏˆ
+R	java:S125·"<This block of commented-out lines of code should be removed.(™ïÛˆ

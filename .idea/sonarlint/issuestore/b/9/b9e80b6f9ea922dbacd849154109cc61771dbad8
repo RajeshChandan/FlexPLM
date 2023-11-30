@@ -1,0 +1,30 @@
+
+e	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ù¬ 
+e	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ù¬ 
+e	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ù¬ 
+e	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ù¬ 
+e	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ù¬ 
+g	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï±£
+j
+java:S1104"OMake pgh a static final constant or non-public and provide accessors if needed.(Â°½ûûÿÿÿÿ
+D
+java:S1444")Make this "public static pgh" field final(Â°½ûûÿÿÿÿ
+r	java:S116!"XRename this field "TABLE_COLUMNS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÑÍüÿÿÿÿ
+w	java:S116""bRename this field "MOA_TABLE_COLUMNS_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŞ„ 
+m	java:S116%"XRename this field "COLUMNS_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÏÌ„
+u
+java:S3008#"ZRename this field "MOA_OBJECT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄË©Âùÿÿÿÿ
+r
+java:S3008$"\Rename this field "TABLE_COLUMNS_MAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éëèÕ
+w
+java:S1450!"\Remove the "TABLE_COLUMNS" field and declare it as a local variable in the relevant methods.(ÒÑÍüÿÿÿÿ
+{
+java:S1149D"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".( ÙÓ
+Q
+java:S26964"6Make the enclosing method "static" or remove this set.(‚ÈÛ÷ÿÿÿÿÿ
+L
+java:S26966"6Make the enclosing method "static" or remove this set.(Ø¥¿¦
+Q
+java:S26967"6Make the enclosing method "static" or remove this set.(·©äíùÿÿÿÿ
+Q	java:S125s"<This block of commented-out lines of code should be removed.(£§æ£
+Q	java:S125u"<This block of commented-out lines of code should be removed.(—ğâ

@@ -1,0 +1,148 @@
+
+u
+java:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌˆÉ¨ùÿÿÿÿ
+u
+java:S2293ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÀÀÍøÿÿÿÿ
+u
+java:S2293ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğØı¦ıÿÿÿÿ
+p
+java:S2293÷"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë«ú
+u
+java:S2293ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒëïŒùÿÿÿÿ
+o
+java:S2293Ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ®¶J
+u
+java:S2293ğ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ¡¡íùÿÿÿÿ
+u
+java:S2293¼"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ¡¡íùÿÿÿÿ
+p
+java:S2293ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìè¡¼
+p
+java:S2293‚"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìè¡¼
+`
+java:S1192"JDefine a constant instead of duplicating this literal "BOM.color" 3 times.(ø¯…K
+l
+java:S1192"PDefine a constant instead of duplicating this literal "materialColorId" 4 times.(õê—Îøÿÿÿÿ
+i
+java:S1192ö"MDefine a constant instead of duplicating this literal "BOM.partName" 4 times.(‡›¹¿şÿÿÿÿ
+j
+java:S1192„"NDefine a constant instead of duplicating this literal "SUPPLIER.name" 3 times.(Í×¡ñûÿÿÿÿ
+o
+java:S1192‚"SDefine a constant instead of duplicating this literal "materialColorPrice" 5 times.(üÏ×²úÿÿÿÿ
+f
+java:S1192”"ODefine a constant instead of duplicating this literal "lossAdjustment" 5 times.(Ì¸£†
+e
+java:S1192Â"IDefine a constant instead of duplicating this literal "rowTotal" 5 times.(˜¶£°ùÿÿÿÿ
+f
+java:S1192‰"ODefine a constant instead of duplicating this literal "BOM.color$sku$" 3 times.(©ãù°
+e
+java:S1192"NDefine a constant instead of duplicating this literal "MATERIAL.name" 4 times.(İñÔ
+j
+java:S1192ü"NDefine a constant instead of duplicating this literal "materialPrice" 4 times.(à›ÊÖüÿÿÿÿ
+j
+java:S1192ó"SDefine a constant instead of duplicating this literal "MATERIAL.thumbnail" 3 times.(Ä£‰
+e
+java:S1192ˆ"NDefine a constant instead of duplicating this literal "priceOverride" 5 times.(ßÇ’™
+p
+java:S1192Ÿ"YDefine a constant instead of duplicating this literal "materialSupplierMasterId" 4 times.(Ö±İÈ
+f
+java:S1192³"ODefine a constant instead of duplicating this literal "BOM.wcPartName" 3 times.(‘Óš€
+e
+java:S1192"IDefine a constant instead of duplicating this literal "quantity" 5 times.(öâÊÃøÿÿÿÿ
+o	java:S135ş"YReduce the total number of break and continue statements in this loop to use at most one.(·œ’·
+F
+java:S1066³"/Merge this if statement with the enclosing one.(‘Óš€
+v
+java:S1488Å"_Immediately return this expression instead of assigning it to the temporary variable "bomData".(Ü³Ó¦
+l
+java:S1104;"VMake imageWidth a static final constant or non-public and provide accessors if needed.(Á“‹ú
+r
+java:S1104<"WMake imageHeight a static final constant or non-public and provide accessors if needed.(ëú¡ùÿÿÿÿ
+}
+java:S1104="gMake MATERIAL_SUPPLIER_ROOT_TYPE a static final constant or non-public and provide accessors if needed.(ü¤Î«
+
+java:S1104>"dMake MATERIAL_COLOR_ROOT_TYPE a static final constant or non-public and provide accessors if needed.(ïî²Ğúÿÿÿÿ
+m
+java:S1104A"WMake columnWidth a static final constant or non-public and provide accessors if needed.(à—‡é
+s
+java:S1104B"XMake colDescWidth a static final constant or non-public and provide accessors if needed.(›ÃŸ“ûÿÿÿÿ
+o
+java:S1104C"YMake colStyleWidth a static final constant or non-public and provide accessors if needed.(‹¤ô¹
+W
+java:S1444="AMake this "public static MATERIAL_SUPPLIER_ROOT_TYPE" field final(ü¤Î«
+Y
+java:S1444>">Make this "public static MATERIAL_COLOR_ROOT_TYPE" field final(ïî²Ğúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+j	java:S116f"URename this field "TIME_STAMP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô«›—
+|
+java:S3008="fRename this field "MATERIAL_SUPPLIER_ROOT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¤Î«
+~
+java:S3008>"cRename this field "MATERIAL_COLOR_ROOT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïî²Ğúÿÿÿÿ
+q
+java:S3008O"VRename this field "BOM_PART_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áûÒİüÿÿÿÿ
+g
+java:S3008T"QRename this field "SKU_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÕáš
+j
+java:S3008W"TRename this field "SOURCE_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·çïŸ
+o
+java:S3008Z"TRename this field "SIZE1_VAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÙµíùÿÿÿÿ
+o
+java:S3008]"TRename this field "SIZE2_VAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ˜Æ‡şÿÿÿÿ
+o
+java:S3008`"YRename this field "DESTINATION_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùóÿ°
+n
+java:S3008c"SRename this field "SKU_MODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ƒ¤Àÿÿÿÿÿ
+—
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÉÿÔ§
+^
+java:S5738;"HRemove this call to a deprecated method, it has been marked for removal.(Á“‹ú
+c
+java:S5738<"HRemove this call to a deprecated method, it has been marked for removal.(ëú¡ùÿÿÿÿ
+^
+java:S5738A"HRemove this call to a deprecated method, it has been marked for removal.(à—‡é
+c
+java:S5738B"HRemove this call to a deprecated method, it has been marked for removal.(›ÃŸ“ûÿÿÿÿ
+^
+java:S5738C"HRemove this call to a deprecated method, it has been marked for removal.(‹¤ô¹
+h
+java:S3776l"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(Ä“Øş
+W	java:S125È"<This block of commented-out lines of code should be removed.(ÔØúÜøÿÿÿÿ
+=
+java:S2129Ê"!Remove this "Boolean" constructor(¶µµşùÿÿÿÿ
+d
+java:S5738Ê"HRemove this call to a deprecated method, it has been marked for removal.(¶µµşùÿÿÿÿ
+W	java:S125Ë"<This block of commented-out lines of code should be removed.(Â¬—ùúÿÿÿÿ
+W	java:S125á"<This block of commented-out lines of code should be removed.(Õ‡­¹ùÿÿÿÿ
+i
+java:S3776ê"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(ÆğÆ¡
+K
+java:S2200«"/Only the sign of the result should be examined.(ûÆº«üÿÿÿÿ
+F
+java:S2200°"/Only the sign of the result should be examined.(Ò²ë“
+U
+java:S1155Ê">Use isEmpty() to check whether the collection is empty or not.(ºˆª
+K
+java:S2200†"/Only the sign of the result should be examined.(ûÆº«üÿÿÿÿ
+F
+java:S2200•"/Only the sign of the result should be examined.(Ò²ë“
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(ÔØúÜøÿÿÿÿ
+A	java:S106Ø"+Replace this use of System.out by a logger.(ñ¥
+n
+java:S3776ë"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(ãÁÇûÿÿÿÿ
+2
+java:S3626‘"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626”"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626—"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626›"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626¡"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626¥"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626¨"Remove this redundant jump.(ÉŠ©ƒ
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(¤ûÍÑÿÿÿÿÿ

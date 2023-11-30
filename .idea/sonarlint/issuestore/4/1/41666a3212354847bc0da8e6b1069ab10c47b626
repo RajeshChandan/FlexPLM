@@ -1,0 +1,123 @@
+
+y
+java:S1104"^Make SEASON_NAME_ATTKEY a static final constant or non-public and provide accessors if needed.(È¦„şÿÿÿÿ
+z
+java:S1104"dMake PRODUCT_GARMENT_TYPEPATH a static final constant or non-public and provide accessors if needed.(¬’¶¼
+z
+java:S1104"dMake PRODUCT_SELLING_TYPEPATH a static final constant or non-public and provide accessors if needed.(Ô©ä
+~
+java:S1104"cMake PRODUCT_DIVISION_ATTKEY a static final constant or non-public and provide accessors if needed.(‚½åéüÿÿÿÿ
+
+java:S1104"kMake PRODUCT_BOYS_AW_DIVISION_ATTKEY a static final constant or non-public and provide accessors if needed.(¾®†
+‡
+java:S1104"lMake PRODUCT_GIRLS_AW_DIVISION_ATTKEY a static final constant or non-public and provide accessors if needed.(ÄŒ”Ùùÿÿÿÿ
+†
+java:S1104"kMake PRODUCT_MENS_AW_DIVISION_ATTKEY a static final constant or non-public and provide accessors if needed.(²ì˜Õşÿÿÿÿ
+‚
+java:S1104"lMake PRODUCT_WOMES_AW_DIVISION_ATTKEY a static final constant or non-public and provide accessors if needed.(˜Îå·
+{
+java:S1104!"`Make SUPPLIER_NAME_ATTKEY a static final constant or non-public and provide accessors if needed.(…¸°ºüÿÿÿÿ
+z
+java:S1104'"_Make SC_GARMENT_TYPEPATH a static final constant or non-public and provide accessors if needed.(µÓ—ˆşÿÿÿÿ
+u
+java:S1104("ZMake SC_NAME_ATTKEY a static final constant or non-public and provide accessors if needed.(çÌºùÿÿÿÿ
+
+java:S1104)"kMake SC_FINISH_GOODS_SUPPLIER_ATTKEY a static final constant or non-public and provide accessors if needed.(ØÁòó
+‚
+java:S1104*"gMake SC_COLORWAY_GROUPING_ATTKEY a static final constant or non-public and provide accessors if needed.(¢Éûºûÿÿÿÿ
+}
+java:S1104+"bMake SC_PATTERN_SPEC_ATTKEY a static final constant or non-public and provide accessors if needed.(ÓĞ…µşÿÿÿÿ
+w
+java:S1104,"\Make SC_SEASON_ATTKEY a static final constant or non-public and provide accessors if needed.(õìÛüÿÿÿÿ
+‚
+java:S1104-"lMake SC_COLORWAY_GROUPING_NAME_ATTKEY a static final constant or non-public and provide accessors if needed.(ßãæÿ
+|
+java:S11043"aMake SPEC_GARMENT_TYPEPATH a static final constant or non-public and provide accessors if needed.(ÏÁÜ½şÿÿÿÿ
+w
+java:S11044"\Make SPEC_NAME_ATTKEY a static final constant or non-public and provide accessors if needed.(¢ƒ¶Óúÿÿÿÿ
+t
+java:S11045"^Make SPEC_NUMBER_ATTKEY a static final constant or non-public and provide accessors if needed.(¾ãÌ
+
+java:S1104;"fMake COSTSHEET_COST_TYPE_ATTKEY a static final constant or non-public and provide accessors if needed.(Ş†Üòúÿÿÿÿ
+S
+java:S1444"8Make this "public static SEASON_NAME_ATTKEY" field final(È¦„şÿÿÿÿ
+T
+java:S1444">Make this "public static PRODUCT_GARMENT_TYPEPATH" field final(¬’¶¼
+T
+java:S1444">Make this "public static PRODUCT_SELLING_TYPEPATH" field final(Ô©ä
+X
+java:S1444"=Make this "public static PRODUCT_DIVISION_ATTKEY" field final(‚½åéüÿÿÿÿ
+[
+java:S1444"EMake this "public static PRODUCT_BOYS_AW_DIVISION_ATTKEY" field final(¾®†
+a
+java:S1444"FMake this "public static PRODUCT_GIRLS_AW_DIVISION_ATTKEY" field final(ÄŒ”Ùùÿÿÿÿ
+`
+java:S1444"EMake this "public static PRODUCT_MENS_AW_DIVISION_ATTKEY" field final(²ì˜Õşÿÿÿÿ
+\
+java:S1444"FMake this "public static PRODUCT_WOMES_AW_DIVISION_ATTKEY" field final(˜Îå·
+U
+java:S1444!":Make this "public static SUPPLIER_NAME_ATTKEY" field final(…¸°ºüÿÿÿÿ
+T
+java:S1444'"9Make this "public static SC_GARMENT_TYPEPATH" field final(µÓ—ˆşÿÿÿÿ
+O
+java:S1444("4Make this "public static SC_NAME_ATTKEY" field final(çÌºùÿÿÿÿ
+[
+java:S1444)"EMake this "public static SC_FINISH_GOODS_SUPPLIER_ATTKEY" field final(ØÁòó
+\
+java:S1444*"AMake this "public static SC_COLORWAY_GROUPING_ATTKEY" field final(¢Éûºûÿÿÿÿ
+W
+java:S1444+"<Make this "public static SC_PATTERN_SPEC_ATTKEY" field final(ÓĞ…µşÿÿÿÿ
+Q
+java:S1444,"6Make this "public static SC_SEASON_ATTKEY" field final(õìÛüÿÿÿÿ
+\
+java:S1444-"FMake this "public static SC_COLORWAY_GROUPING_NAME_ATTKEY" field final(ßãæÿ
+V
+java:S14443";Make this "public static SPEC_GARMENT_TYPEPATH" field final(ÏÁÜ½şÿÿÿÿ
+Q
+java:S14444"6Make this "public static SPEC_NAME_ATTKEY" field final(¢ƒ¶Óúÿÿÿÿ
+N
+java:S14445"8Make this "public static SPEC_NUMBER_ATTKEY" field final(¾ãÌ
+[
+java:S1444;"@Make this "public static COSTSHEET_COST_TYPE_ATTKEY" field final(Ş†Üòúÿÿÿÿ
+x
+java:S3008"]Rename this field "SEASON_NAME_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¦„şÿÿÿÿ
+y
+java:S3008"cRename this field "PRODUCT_GARMENT_TYPEPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬’¶¼
+y
+java:S3008"cRename this field "PRODUCT_SELLING_TYPEPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô©ä
+}
+java:S3008"bRename this field "PRODUCT_DIVISION_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚½åéüÿÿÿÿ
+€
+java:S3008"jRename this field "PRODUCT_BOYS_AW_DIVISION_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾®†
+†
+java:S3008"kRename this field "PRODUCT_GIRLS_AW_DIVISION_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄŒ”Ùùÿÿÿÿ
+…
+java:S3008"jRename this field "PRODUCT_MENS_AW_DIVISION_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ì˜Õşÿÿÿÿ
+
+java:S3008"kRename this field "PRODUCT_WOMES_AW_DIVISION_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Îå·
+z
+java:S3008!"_Rename this field "SUPPLIER_NAME_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¸°ºüÿÿÿÿ
+y
+java:S3008'"^Rename this field "SC_GARMENT_TYPEPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÓ—ˆşÿÿÿÿ
+t
+java:S3008("YRename this field "SC_NAME_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÌºùÿÿÿÿ
+€
+java:S3008)"jRename this field "SC_FINISH_GOODS_SUPPLIER_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÁòó
+
+java:S3008*"fRename this field "SC_COLORWAY_GROUPING_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Éûºûÿÿÿÿ
+|
+java:S3008+"aRename this field "SC_PATTERN_SPEC_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓĞ…µşÿÿÿÿ
+v
+java:S3008,"[Rename this field "SC_SEASON_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õìÛüÿÿÿÿ
+
+java:S3008-"kRename this field "SC_COLORWAY_GROUPING_NAME_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßãæÿ
+{
+java:S30083"`Rename this field "SPEC_GARMENT_TYPEPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÁÜ½şÿÿÿÿ
+v
+java:S30084"[Rename this field "SPEC_NAME_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ƒ¶Óúÿÿÿÿ
+s
+java:S30085"]Rename this field "SPEC_NUMBER_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ãÌ
+€
+java:S3008;"eRename this field "COSTSHEET_COST_TYPE_ATTKEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş†Üòúÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ñàÆì

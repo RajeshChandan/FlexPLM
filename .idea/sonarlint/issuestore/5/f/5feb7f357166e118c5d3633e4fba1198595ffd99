@@ -1,0 +1,52 @@
+
+^
+java:S1192Œ"GDefine a constant instead of duplicating this literal "failed" 3 times.(§˜Û‹
+u
+java:S30083"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¯çý
+v
+java:S30084"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ô˜Õ
+u
+java:S30085"_Rename this field "SERVER_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô“áø
+v
+java:S30086"`Rename this field "SERVER_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú€öÐ
+w
+java:S14507"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+r
+java:S1149Ä"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(²Æåäþÿÿÿÿ
+P
+java:S1854N"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854O"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481N"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481O"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+V	java:S125Y"<This block of commented-out lines of code should be removed.(¥›Ýéûÿÿÿÿ
+7
+java:S2129z"!Remove this "Boolean" constructor(µ©øþ
+^
+java:S5738z"HRemove this call to a deprecated method, it has been marked for removal.(µ©øþ
+R	java:S125 "<This block of commented-out lines of code should be removed.(ùÐ™ 
+R	java:S125¿"<This block of commented-out lines of code should be removed.(®‡È§
+Q	java:S125Ï"<This block of commented-out lines of code should be removed.(ª§ö]
+W	java:S125ð"<This block of commented-out lines of code should be removed.(­¹‡þÿÿÿÿ
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(ú°Äèÿÿÿÿÿ
+R	java:S125”"<This block of commented-out lines of code should be removed.(Óúš
+R	java:S125¡"<This block of commented-out lines of code should be removed.(ƒÿùÁ
+R	java:S125É"<This block of commented-out lines of code should be removed.(¨¬ã³
+R	java:S125Ë"<This block of commented-out lines of code should be removed.(ŠÐ†„
+R	java:S125Õ"<This block of commented-out lines of code should be removed.(ˆÓ¨Ü
+R	java:S125ã"<This block of commented-out lines of code should be removed.(¥Žô 
+R	java:S125‚"<This block of commented-out lines of code should be removed.(¥Žô 
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÄÏüQ
+W	java:S125®"<This block of commented-out lines of code should be removed.(èÚØ›üÿÿÿÿ
+W	java:S125¼"<This block of commented-out lines of code should be removed.(Ü¼Ûÿÿÿÿÿ
+R	java:S125Õ"<This block of commented-out lines of code should be removed.(êÝþ¼
+Q	java:S125ã"<This block of commented-out lines of code should be removed.(—•Ä
+W	java:S125ì"<This block of commented-out lines of code should be removed.(¦“Ãáûÿÿÿÿ
+R	java:S125ú"<This block of commented-out lines of code should be removed.(ô«Ç
+R	java:S125”"<This block of commented-out lines of code should be removed.(úð‡Š
+W	java:S125£"<This block of commented-out lines of code should be removed.(âùÊÀøÿÿÿÿ
+R	java:S125´"<This block of commented-out lines of code should be removed.(½§’ä
+R	java:S125Ã"<This block of commented-out lines of code should be removed.(ä‡÷è
+R	java:S125Û"<This block of commented-out lines of code should be removed.(×ÜÆñ

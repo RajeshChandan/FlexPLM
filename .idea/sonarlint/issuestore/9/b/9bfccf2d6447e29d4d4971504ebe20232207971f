@@ -1,0 +1,43 @@
+
+K
+java:S3740á"/Provide the parametrized type for this generic.(²Âåÿÿÿÿÿ
+K
+java:S3740"/Provide the parametrized type for this generic.(²Âåÿÿÿÿÿ
+F
+java:S3740ï"/Provide the parametrized type for this generic.(ŞƒôÃ
+F
+java:S3740ğ"/Provide the parametrized type for this generic.(¥ğéÕ
+K
+java:S3740ÿ"/Provide the parametrized type for this generic.(ã¶¼Ûùÿÿÿÿ
+F
+java:S3740‚"/Provide the parametrized type for this generic.(Ê‰â
+F
+java:S3740‚"/Provide the parametrized type for this generic.(Ê‰â
+
+java:S1192ü"cDefine a constant instead of duplicating this literal ". Please check method server logs." 3 times.(Í·ğıÿÿÿÿ
+^
+java:S1192ô"GDefine a constant instead of duplicating this literal "ATTKEY" 4 times.(½˜“Ã
+o	java:S115N"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢ö½
+z
+java:S3008I"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü’ˆışÿÿÿÿ
+v
+java:S3008K"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÄ“ñ
+w
+java:S1450M"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+V	java:S125g"<This block of commented-out lines of code should be removed.(’”ãŞøÿÿÿÿ
+E
+java:S1197u"*Move the array designators [] to the type.(Ì¸¥÷úÿÿÿÿ
+@
+java:S1197v"*Move the array designators [] to the type.(°’œ±
+O
+java:S1481 "8Remove this unused "listOfPlacesRemoved" local variable.(Éî˜İ
+W	java:S125Î"<This block of commented-out lines of code should be removed.(’ûÿíøÿÿÿÿ
+Q
+java:S1172Ö"5Remove this unused method parameter "tgtSupplierObj".(‰šÈ´ÿÿÿÿÿ
+E
+java:S1481è".Remove this unused "lcsObject" local variable.(Ã¥´Ğ
+R	java:S125Ğ"<This block of commented-out lines of code should be removed.(óòø
+N
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+_
+java:S5738”"HRemove this call to a deprecated method, it has been marked for removal.(Ğãµø

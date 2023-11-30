@@ -1,0 +1,93 @@
+
+p
+java:S2293ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(µğÿ³
+b
+java:S1192?"LDefine a constant instead of duplicating this literal "hbiSizeCode" 4 times.(ñ™
+m
+java:S1192Œ"WDefine a constant instead of duplicating this literal "Material\\Material SKU" 4 times.(ŸÚÔ
+e
+java:S1192Ç"NDefine a constant instead of duplicating this literal "hbiMoldedItem" 3 times.(œ®Õ
+e
+java:S1192‚"IDefine a constant instead of duplicating this literal "Material" 6 times.(èò”ˆúÿÿÿÿ
+e
+java:S1192õ"NDefine a constant instead of duplicating this literal "hbiCoreFabric" 6 times.(ïµŸĞ
+n
+java:S1192ÿ"WDefine a constant instead of duplicating this literal "hbiLeadTestingRequired" 4 times.(……üœ
+l
+java:S1192"PDefine a constant instead of duplicating this literal "hbiMaterialCode" 3 times.(˜ôÅÿÿÿÿÿ
+j
+java:S1192…"SDefine a constant instead of duplicating this literal "hbiMaterialSubType" 6 times.(¾•Ç
+g
+java:S1192Š"PDefine a constant instead of duplicating this literal "ptcmaterialName" 3 times.(äçë
+t	java:S135¿"YReduce the total number of break and continue statements in this loop to use at most one.(´‡¤×øÿÿÿÿ
+y
+java:S1104:"^Make sourceDataFileName a static final constant or non-public and provide accessors if needed.(æÌ¿ ûÿÿÿÿ
+t
+java:S1104;"^Make targetDataFileName a static final constant or non-public and provide accessors if needed.(££¢Š
+S
+java:S1444:"8Make this "public static sourceDataFileName" field final(æÌ¿ ûÿÿÿÿ
+N
+java:S1444;"8Make this "public static targetDataFileName" field final(££¢Š
+u
+java:S3008B"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿ·Ñ
+v
+java:S3008C"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¤Ä™
+w
+java:S1450D"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+P
+java:S1854b"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854c"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481b"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481c"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+W	java:S125„"<This block of commented-out lines of code should be removed.(Ùíøœøÿÿÿÿ
+F
+java:S2093ˆ"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+R	java:S125§"<This block of commented-out lines of code should be removed.(¸‘ÇÈ
+n
+java:S3776°"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ó—®íüÿÿÿÿ
+V
+java:S1854Ş"?Remove this useless assignment to local variable "materialObj".(ö·ß
+W	java:S125²"<This block of commented-out lines of code should be removed.(Ú®³üÿÿÿÿ
+W	java:S125Ä"<This block of commented-out lines of code should be removed.(œõ×ûÿÿÿÿ
+A	java:S106Ì"+Replace this use of System.out by a logger.(˜¶É‚
+F	java:S106Ó"+Replace this use of System.out by a logger.(™¿Ş¿ıÿÿÿÿ
+F	java:S106Ù"+Replace this use of System.out by a logger.(¨ŞÀÎşÿÿÿÿ
+W	java:S125Ú"<This block of commented-out lines of code should be removed.(§™™¦ûÿÿÿÿ
+W	java:S125ó"<This block of commented-out lines of code should be removed.(È²ôÀüÿÿÿÿ
+W	java:S125¢"<This block of commented-out lines of code should be removed.(¿í²Åşÿÿÿÿ
+R	java:S125µ"<This block of commented-out lines of code should be removed.(¹Ïü¹
+W	java:S125Í"<This block of commented-out lines of code should be removed.(è¾äûÿÿÿÿ
+W	java:S125İ"<This block of commented-out lines of code should be removed.(×¢‰üÿÿÿÿ
+W	java:S125õ"<This block of commented-out lines of code should be removed.(Ñ¢æÅşÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(ã§œ
+R	java:S125­"<This block of commented-out lines of code should be removed.(¤ÖÈÿ
+W	java:S125è"<This block of commented-out lines of code should be removed.(»ğéËıÿÿÿÿ
+R	java:S125÷"<This block of commented-out lines of code should be removed.( Æ‘•
+R	java:S125‘"<This block of commented-out lines of code should be removed.(¶ÕğÀ
+n
+java:S3776ñ"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Ş¢ŒŒûÿÿÿÿ
+R	java:S125ó"<This block of commented-out lines of code should be removed.(ê¦Ñ
+^
+java:S1126ö"BReplace this if-then-else statement by a single method invocation.(¹ëºÿÿÿÿÿ
+Y
+java:S1126È"BReplace this if-then-else statement by a single method invocation.(×¢İ
+^
+java:S1126Ò"BReplace this if-then-else statement by a single method invocation.(„Øìºúÿÿÿÿ
+R	java:S125…"<This block of commented-out lines of code should be removed.(ìß¥À
+W	java:S125”"<This block of commented-out lines of code should be removed.(Ïé®ƒùÿÿÿÿ
+R	java:S125¢"<This block of commented-out lines of code should be removed.(¦¾
+^
+java:S1854Â"GRemove this useless assignment to local variable "materialSupplierObj".(ğ±×‰
+W	java:S125°"<This block of commented-out lines of code should be removed.(‰ÿç¶úÿÿÿÿ
+W	java:S125À"<This block of commented-out lines of code should be removed.(öœÁùÿÿÿÿ
+R	java:S125Ã"<This block of commented-out lines of code should be removed.(²ÆÔš
+Q	java:S125È"<This block of commented-out lines of code should be removed.(‹ÿ
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(„ßá‡üÿÿÿÿ
+W	java:S125ğ"<This block of commented-out lines of code should be removed.(šÃãÛÿÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(©€Ì­
+W	java:S125°"<This block of commented-out lines of code should be removed.(¹ôäøÿÿÿÿ
+W	java:S125¿"<This block of commented-out lines of code should be removed.(“§²”ùÿÿÿÿ
+W	java:S125æ"<This block of commented-out lines of code should be removed.(¸–ç¤ıÿÿÿÿ

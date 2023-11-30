@@ -1,0 +1,24 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ÇËşüÿÿÿÿ
+D
+java:S3740"/Provide the parametrized type for this generic.(òƒ…
+
+java:S1192+"fDefine a constant instead of duplicating this literal "thePersistInfo.theObjectIdentifier.id" 6 times.(Õ„¶£ÿÿÿÿÿ
+h
+java:S1192*"MDefine a constant instead of duplicating this literal "supplierName" 4 times.(Šå¢Éıÿÿÿÿ
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šñöšúÿÿÿÿ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÇËşüÿÿÿÿ
+z
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(òƒ…
+Q	java:S125/"<This block of commented-out lines of code should be removed.(Å–§ï
+Q	java:S125>"<This block of commented-out lines of code should be removed.(™ïÛˆ
+Q
+java:S2696B"6Make the enclosing method "static" or remove this set.(ÃŠŒèûÿÿÿÿ
+Q	java:S125X"<This block of commented-out lines of code should be removed.(Å–§ï
+Q	java:S125g"<This block of commented-out lines of code should be removed.(™ïÛˆ
+Q
+java:S2696k"6Make the enclosing method "static" or remove this set.(ÃŠŒèûÿÿÿÿ
+=
+java:S1068"(Remove this unused "list" private field.(òƒ…

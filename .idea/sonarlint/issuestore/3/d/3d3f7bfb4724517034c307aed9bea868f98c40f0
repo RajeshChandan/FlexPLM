@@ -1,0 +1,66 @@
+
+F
+java:S3740§"/Provide the parametrized type for this generic.(ííâ±
+K
+java:S3740Ö"/Provide the parametrized type for this generic.(ÊÓàˆıÿÿÿÿ
+t
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢¯‚Æÿÿÿÿÿ
+u
+java:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ß¤¼úÿÿÿÿ
+p
+java:S2293ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞÉş
+i
+java:S1192¦"MDefine a constant instead of duplicating this literal "LCSMaterial" 13 times.(È‘´’ûÿÿÿÿ
+K
+java:S1066Ü"/Merge this if statement with the enclosing one.(õ™âùÿÿÿÿ
+|
+java:S1319"eThe type of "words" should be an interface such as "List" rather than the implementation "ArrayList".(ü°²
+k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Òø£ÿÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü°²
+u
+java:S3008/"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò®å…
+v
+java:S30080"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¤Ä™
+h
+java:S30083"RRename this field "VERBOSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸßŠâ
+y
+java:S30084"^Rename this field "flextypes_Not_Found" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íå½ıÿÿÿÿ
+w
+java:S14501"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+x
+java:S14502"]Remove the "sessioncontext" field and declare it as a local variable in the relevant methods.(ÅËÇŸúÿÿÿÿ
+|
+java:S1149š"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(™£èù
+P
+java:S1854D"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+M
+java:S1135;"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+A
+java:S1481D"-Remove this unused "mcontext" local variable.(‘Ëx
+t
+java:S3012]"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(µûî—ıÿÿÿÿ
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ü°²
+b
+java:S1854ƒ"FRemove this useless assignment to local variable "listOfMaterialObjs".(ß¤¼úÿÿÿÿ
+Y
+java:S1854“"=Remove this useless assignment to local variable "buyUOMAtt".(„¸„ùÿÿÿÿ
+Z
+java:S1854ù">Remove this useless assignment to local variable "matTypeOID".(¸Ëúúÿÿÿÿ
+`
+java:S1854–"DRemove this useless assignment to local variable "targetAttributes".(ôªíàûÿÿÿÿ
+S
+java:S1481ƒ"7Remove this unused "listOfMaterialObjs" local variable.(ß¤¼úÿÿÿÿ
+J
+java:S1481“".Remove this unused "buyUOMAtt" local variable.(„¸„ùÿÿÿÿ
+W	java:S125¨"<This block of commented-out lines of code should be removed.(¸‘Ì¾üÿÿÿÿ
+R	java:S125ª"<This block of commented-out lines of code should be removed.(ò»¼š
+R	java:S125Â"<This block of commented-out lines of code should be removed.(™ïÛˆ
+K
+java:S1481ù"/Remove this unused "matTypeOID" local variable.(¸Ëúúÿÿÿÿ
+Q
+java:S1481–"5Remove this unused "targetAttributes" local variable.(ôªíàûÿÿÿÿ
+K
+java:S2864Ø"4Iterate over the "entrySet" instead of the "keySet".(²“»‚
+M
+java:S10682"2Remove this unused "sessioncontext" private field.(ÅËÇŸúÿÿÿÿ

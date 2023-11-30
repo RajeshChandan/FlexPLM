@@ -1,0 +1,12 @@
+
+J
+java:S3740="/Provide the parametrized type for this generic.(ü´Ÿôúÿÿÿÿ
+—
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õ¯¾Š
+t
+java:S1450!"YRemove the "rootObject" field and declare it as a local variable in the relevant methods.(Õõã®ùÿÿÿÿ
+[
+java:S1124#"EReorder the modifiers to comply with the Java Language Specification.(ë°ÃÆ
+`
+java:S1124$"EReorder the modifiers to comply with the Java Language Specification.(é´íÐýÿÿÿÿ
+@	java:S106K"+Replace this use of System.out by a logger.(òÎ‡ß

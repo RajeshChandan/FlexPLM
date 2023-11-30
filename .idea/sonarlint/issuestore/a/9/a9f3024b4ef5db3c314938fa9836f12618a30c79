@@ -1,0 +1,88 @@
+
+[	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(µ§Ôä
+p
+java:S2293®"YReplace the type specification in this constructor call with the diamond operator ("<>").(óĞ¾Æ
+p
+java:S2293¯"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ö“•
+g
+java:S1192ß"PDefine a constant instead of duplicating this literal "DERIVE_NUMERICS" 7 times.(ü‡È
+e
+java:S1192ç"IDefine a constant instead of duplicating this literal "prodarev" 5 times.(˜îãşÿÿÿÿ
+r
+java:S1192 "VDefine a constant instead of duplicating this literal "hbiSellingStyleNumber" 5 times.(™™‰Âúÿÿÿÿ
+r
+java:S1192£"VDefine a constant instead of duplicating this literal "hbiErpAttributionCode" 6 times.(’Óêüÿÿÿÿ
+j
+java:S1192¢"SDefine a constant instead of duplicating this literal "hbiAPSPackQuantity" 6 times.(±Œí
+k
+java:S1192¡"ODefine a constant instead of duplicating this literal "hbiDescription" 5 times.(Ì«‡Áøÿÿÿÿ
+b
+java:S1192ê"KDefine a constant instead of duplicating this literal "LCSPRODUCT" 5 times.(ƒš˜
+f
+java:S1192×"ODefine a constant instead of duplicating this literal "DERIVE_STRINGS" 7 times.(ü°¨
+„
+java:S1319^"iThe type of "dataValues" should be an interface such as "Map" rather than the implementation "Hashtable".(‚ë½®ùÿÿÿÿ
+…
+java:S1319^"jThe type of "commandLine" should be an interface such as "Map" rather than the implementation "Hashtable".(‚ë½®ùÿÿÿÿ
+y
+java:S3008F"^Rename this field "PRODUCTSIZING_LOGIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÖ¹²ıÿÿÿÿ
+u
+java:S3008G"_Rename this field "FAILED_FILE_LOG_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àëÿá
+˜
+java:S1186È"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶±Ö
+q
+java:S1149^"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(‚ë½®ùÿÿÿÿ
+q
+java:S1149^"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(‚ë½®ùÿÿÿÿ
+€
+java:S1149^"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‚ë½®ùÿÿÿÿ
+q
+java:S1149j"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".( ¸õÔüÿÿÿÿ
+r
+java:S1149¥"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ùˆ«ÿúÿÿÿÿ
+r
+java:S1149ï"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(èœÆ ÿÿÿÿÿ
+r
+java:S1149€"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(«…óúşÿÿÿÿ
+m
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(â³ù¤
+m
+java:S1149Ó"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ú‹Â€
+4
+java:S1118È"Hide this public constructor.(¶±Ö
+V	java:S125D"<This block of commented-out lines of code should be removed.(ñö‰Êùÿÿÿÿ
+O
+java:S1172^"4Remove this unused method parameter "returnObjects".(‚ë½®ùÿÿÿÿ
+]
+java:S1854«"ARemove this useless assignment to local variable "fullSizeRange".(øÜ‰êüÿÿÿÿ
+W
+java:S1854ª"@Remove this useless assignment to local variable "sizeCategory".(µ“‘é
+H
+java:S1481ª"1Remove this unused "sizeCategory" local variable.(µ“‘é
+N
+java:S1481«"2Remove this unused "fullSizeRange" local variable.(øÜ‰êüÿÿÿÿ
+W	java:S125Á"<This block of commented-out lines of code should be removed.(¨¸“­úÿÿÿÿ
+A
+java:S1197Ù"*Move the array designators [] to the type.(’öæª
+J
+java:S1172ï".Remove this unused method parameter "product".(èœÆ ÿÿÿÿÿ
+R	java:S125‚"<This block of commented-out lines of code should be removed.(ãŞ…Ë
+?	java:S108™")Either remove or fill this block of code.(å¥‡
+?	java:S108Ô")Either remove or fill this block of code.(å¥‡
+?	java:S108×")Either remove or fill this block of code.(å¥‡
+F
+java:S1197è"*Move the array designators [] to the type.(¬š±‹ıÿÿÿÿ
+F
+java:S1197ê"*Move the array designators [] to the type.(«éÉ–ûÿÿÿÿ
+8
+java:S2129•"!Remove this "Boolean" constructor(ˆ¨´¡
+_
+java:S5738•"HRemove this call to a deprecated method, it has been marked for removal.(ˆ¨´¡
+D
+java:S1172ã"-Remove this unused method parameter "filter".(â•ê¯
+2
+java:S3626·"Remove this redundant jump.(ûÁİ…
+F
+java:S2093®"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+i
+java:S3776Ó"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ú‹Â€

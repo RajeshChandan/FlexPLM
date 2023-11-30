@@ -1,0 +1,26 @@
+
+o	java:S135º"YReduce the total number of break and continue statements in this loop to use at most one.(«ŒÒŠ
+z
+java:S30080"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü’ˆýþÿÿÿÿ
+v
+java:S30082"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÄ“ñ
+w
+java:S14504"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+P
+java:S1854N"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854O"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481N"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481O"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+?	java:S106a"+Replace this use of System.out by a logger.(ú¿”L
+@	java:S106c"+Replace this use of System.out by a logger.(†“—Ž
+@	java:S106d"+Replace this use of System.out by a logger.(ö–£
+F
+java:S2093ˆ"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+T
+java:S1854Î"8Remove this useless assignment to local variable "user".(ð¦»­úÿÿÿÿ
+A	java:S106Â"+Replace this use of System.out by a logger.(¬Ý‚©
+@	java:S106Ë"+Replace this use of System.out by a logger.(£Ï¶%
+A	java:S106Ù"+Replace this use of System.out by a logger.(ÆÀûý

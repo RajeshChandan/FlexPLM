@@ -1,0 +1,26 @@
+
+F
+java:S3740Ì"/Provide the parametrized type for this generic.(ƒÍÐà
+F
+java:S3740Ø"/Provide the parametrized type for this generic.(ƒÍÐà
+~
+java:S1192ý"bDefine a constant instead of duplicating this literal "http://www.w3.org/2001/XMLSchema" 28 times.(Á•ù¼þÿÿÿÿ
+d
+java:S1192ý"HDefine a constant instead of duplicating this literal "string" 28 times.(Á•ù¼þÿÿÿÿ
+l	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ½¢ôüÿÿÿÿ
+l	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’üË²üÿÿÿÿ
+g	java:S117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÍÐà
+l	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òú¯¶ýÿÿÿÿ
+g	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÍÐà
+l	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òú¯¶ýÿÿÿÿ
+r	java:S116±"WRename this field "__equalsCalc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þ–Ýÿÿÿÿÿ
+o	java:S116•"YRename this field "__hashCodeCalc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÂÉ
+J
+java:S1948±".Make "__equalsCalc" transient or serializable.(þ–Ýÿÿÿÿÿ
+\	java:S107F"BConstructor has 28 parameters, which is greater than 7 authorized.(Ï€·Öúÿÿÿÿ
+>
+java:S1125¼"'Remove the unnecessary boolean literal.(É³ªü
+F
+java:S1172Ë"/Remove this unused method parameter "mechType".(ÄÄ‹ë
+F
+java:S1172×"/Remove this unused method parameter "mechType".(ÄÄ‹ë

@@ -1,0 +1,87 @@
+
+E
+java:S37407"/Provide the parametrized type for this generic.(Çå´Â
+E
+java:S3740D"/Provide the parametrized type for this generic.(÷Çøç
+E
+java:S3740D"/Provide the parametrized type for this generic.(÷Çøç
+E
+java:S3740l"/Provide the parametrized type for this generic.(¡øëğ
+E
+java:S3740"/Provide the parametrized type for this generic.(ñˆØk
+K
+java:S3740Ÿ"/Provide the parametrized type for this generic.(£º¬Ùøÿÿÿÿ
+F
+java:S3740¨"/Provide the parametrized type for this generic.(øÆ‘
+K
+java:S3740©"/Provide the parametrized type for this generic.(”Ã²ßÿÿÿÿÿ
+u
+java:S2293ª"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßõ¢ƒúÿÿÿÿ
+c
+java:S1192„"LDefine a constant instead of duplicating this literal "hbiComments" 3 times.(û’‡Æ
+^
+java:S1192}"HDefine a constant instead of duplicating this literal "hbiFlow" 4 times.(–¼¡¡
+q
+java:S11040"VMake PRODUCT_ID a static final constant or non-public and provide accessors if needed.(ßÃòÿÿÿÿÿ
+i
+java:S11041"SMake SPEC_ID a static final constant or non-public and provide accessors if needed.(‹ÛÌ³
+v
+java:S11042"[Make SEASONMASTER_ID a static final constant or non-public and provide accessors if needed.(‹¶™Íùÿÿÿÿ
+j
+java:S11044"OMake pgh a static final constant or non-public and provide accessors if needed.(Â°½ûûÿÿÿÿ
+K
+java:S14440"0Make this "public static PRODUCT_ID" field final(ßÃòÿÿÿÿÿ
+C
+java:S14441"-Make this "public static SPEC_ID" field final(‹ÛÌ³
+P
+java:S14442"5Make this "public static SEASONMASTER_ID" field final(‹¶™Íùÿÿÿÿ
+D
+java:S14444")Make this "public static pgh" field final(Â°½ûûÿÿÿÿ
+]
+java:S3973y"GUse indentation to denote the code conditionally executed by this "if".(ı€ª
+¢
+java:S2681|"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(”æ‰‘şÿÿÿÿ
+l
+java:S1128&"QRemove this unnecessary import: java.lang classes are always implicitly imported.(Ãş”«ıÿÿÿÿ
+V	java:S125("<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+p
+java:S30080"URename this field "PRODUCT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÃòÿÿÿÿÿ
+h
+java:S30081"RRename this field "SPEC_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÛÌ³
+u
+java:S30082"ZRename this field "SEASONMASTER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¶™Íùÿÿÿÿ
+{
+java:S1149D"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(÷Çøç
+h
+java:S37767"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(Çå´Â
+b
+java:S1854;"GRemove this useless assignment to local variable "revisionMOATypeName".(£·äÓüÿÿÿÿ
+T
+java:S1854[">Remove this useless assignment to local variable "seasonName".(µËØ°
+U
+java:S1854]":Remove this useless assignment to local variable "spLink".(Ùª™†úÿÿÿÿ
+[
+java:S1854"?Remove this useless assignment to local variable "strComments".(”È˜˜ÿÿÿÿÿ
+[
+java:S1854Ç"?Remove this useless assignment to local variable "strComments".(”È˜˜ÿÿÿÿÿ
+J
+java:S11727"4Remove this unused method parameter "paramDocument".(Çå´Â
+@	java:S1069"+Replace this use of System.out by a logger.(ÜÉÏ¨
+<
+java:S1481:"'Remove this unused "tg" local variable.(–Şâ9
+S
+java:S1481;"8Remove this unused "revisionMOATypeName" local variable.(£·äÓüÿÿÿÿ
+A
+java:S1481H"+Remove this unused "spLink" local variable.(şÁş†
+E
+java:S1481["/Remove this unused "seasonName" local variable.(µËØ°
+C
+java:S1905l"-Remove this unnecessary cast to "Collection".(¡øëğ
+Q	java:S125n"<This block of commented-out lines of code should be removed.(ÒÓˆÌ
+Q	java:S125q"<This block of commented-out lines of code should be removed.(»°¡™
+A	java:S106„"+Replace this use of System.out by a logger.(û’‡Æ
+B
+java:S1905Š"+Remove this unnecessary cast to "Iterator".(Šı°
+B
+java:S1905“"+Remove this unnecessary cast to "Iterator".(Ÿó¶
+F	java:S106Ã"+Replace this use of System.out by a logger.(ìÑ¸ãıÿÿÿÿ

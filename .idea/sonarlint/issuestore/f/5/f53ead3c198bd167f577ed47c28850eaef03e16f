@@ -1,0 +1,167 @@
+
+K
+java:S3740 "/Provide the parametrized type for this generic.(ØÃÖøÿÿÿÿ
+F
+java:S3740£"/Provide the parametrized type for this generic.(Ë˜ø¨
+K
+java:S3740˜"/Provide the parametrized type for this generic.(ØÃÖøÿÿÿÿ
+F
+java:S3740"/Provide the parametrized type for this generic.(Ë˜ø¨
+F
+java:S3740"/Provide the parametrized type for this generic.(‘÷¨Ó
+F
+java:S3740·"/Provide the parametrized type for this generic.(»ÊÊÆ
+F
+java:S3740â"/Provide the parametrized type for this generic.(²ßÅ¿
+E
+java:S3740†"/Provide the parametrized type for this generic.(Ã’‹
+E
+java:S3740³"/Provide the parametrized type for this generic.(Ã’‹
+F
+java:S3740İ"/Provide the parametrized type for this generic.(‘÷¨Ó
+F
+java:S3740«"/Provide the parametrized type for this generic.(²ßÅ¿
+F
+java:S3740ø"/Provide the parametrized type for this generic.(»ñêç
+F
+java:S3740ú"/Provide the parametrized type for this generic.(Ê‰â
+F
+java:S3740ú"/Provide the parametrized type for this generic.(Ê‰â
+F
+java:S3740"/Provide the parametrized type for this generic.(†ò´¶
+K
+java:S3740‚"/Provide the parametrized type for this generic.(´×ñøÿÿÿÿ
+K
+java:S3740Š"/Provide the parametrized type for this generic.(‹¾¯”ıÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(õáÙ
+F
+java:S3740—"/Provide the parametrized type for this generic.(£âûã
+F
+java:S3740Õ"/Provide the parametrized type for this generic.(’æÃÄ
+F
+java:S3740×"/Provide the parametrized type for this generic.(ëšäî
+F
+java:S3740×"/Provide the parametrized type for this generic.(ëšäî
+d
+java:S1192Æ"HDefine a constant instead of duplicating this literal "Product" 3 times.(ÖüÌüÿÿÿÿ
+h
+java:S1192ê"QDefine a constant instead of duplicating this literal "LCSMaterialColor" 4 times.(¿ê²Ä
+k
+java:S1192ª"TDefine a constant instead of duplicating this literal "LCSMOAOBJECT.IDA2A2" 4 times.(øôà¤
+r
+java:S1192˜"VDefine a constant instead of duplicating this literal "LCSPaletteToColorLink" 4 times.(ØÜÃôúÿÿÿÿ
+b
+java:S1192Æ"FDefine a constant instead of duplicating this literal "color" 9 times.(ÖüÌüÿÿÿÿ
+z
+java:S1192"^Define a constant instead of duplicating this literal "Inside palletColorCol ------>" 3 times.(ßó“ÿÿÿÿÿ
+j
+java:S1192­"NDefine a constant instead of duplicating this literal "effectOutDate" 3 times.(ï´å®üÿÿÿÿ
+c
+java:S1192˜"GDefine a constant instead of duplicating this literal "IDA2A2" 8 times.(ØÜÃôúÿÿÿÿ
+h
+java:S1192Š"LDefine a constant instead of duplicating this literal "FlexBOMLink" 5 times.(Š±Úüÿÿÿÿ
+z
+java:S1192Ğ"^Define a constant instead of duplicating this literal "OR:com.lcs.wc.product.LCSSKU:" 3 times.(İü÷Èûÿÿÿÿ
+c
+java:S1192š"GDefine a constant instead of duplicating this literal "IDA3A5" 3 times.(‘ª²ïıÿÿÿÿ
+d
+java:S1192¨"HDefine a constant instead of duplicating this literal "IS NULL" 4 times.(¼ú¬àøÿÿÿÿ
+x
+java:S1192±"\Define a constant instead of duplicating this literal "MOA Owner identity-------->" 4 times.(ÁãÒÿúÿÿÿÿ
+f
+java:S1192Ã"ODefine a constant instead of duplicating this literal "LCSSKU.IDA2A2" 11 times.(Ùİ¬ù
+3
+java:S1643»"Use a StringBuilder instead.(üÄÚ“
+3
+java:S1643Ô"Use a StringBuilder instead.(á ©Ü
+3
+java:S1643µ"Use a StringBuilder instead.(üÄÚ“
+3
+java:S1643Ñ"Use a StringBuilder instead.(á ©Ü
+v
+java:S1149ù"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(’Öğ÷
+{
+java:S1149’"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Óàìıÿÿÿÿ
+v
+java:S1149ä"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Â•‘ã
+v
+java:S1149ˆ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(îÔñ£
+|
+java:S1149×"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ëšäî
+U
+java:S1118F":Add a private constructor to hide the implicit public one.(ğíêÓùÿÿÿÿ
+V	java:S125g"<This block of commented-out lines of code should be removed.(À”É†ùÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(˜¹‚Šûÿÿÿÿ
+^
+java:S1854á"GRemove this useless assignment to local variable "listOfPlacesRemoved".(Âï
+
+java:S1130‚"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ıôªê
+A	java:S106"+Replace this use of System.out by a logger.(Ö¸‰
+W	java:S125š"<This block of commented-out lines of code should be removed.(ÛêËÑûÿÿÿÿ
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(¤ÛüÀ
+`
+java:S4201µ"IRemove this unnecessary null check; "instanceof" returns false for nulls.(ùÜãÑ
+F	java:S106Å"+Replace this use of System.out by a logger.(Îß¯Šùÿÿÿÿ
+F	java:S106Ç"+Replace this use of System.out by a logger.(ÓÅÅÌûÿÿÿÿ
+W	java:S125É"<This block of commented-out lines of code should be removed.(‡Òº›ûÿÿÿÿ
+W	java:S125Í"<This block of commented-out lines of code should be removed.(Í„©·ûÿÿÿÿ
+F	java:S106Ï"+Replace this use of System.out by a logger.(ÏÄößıÿÿÿÿ
+F	java:S106ß"+Replace this use of System.out by a logger.(ì­ëğıÿÿÿÿ
+W	java:S125İ"<This block of commented-out lines of code should be removed.(°¼’üÿÿÿÿ
+W	java:S125à"<This block of commented-out lines of code should be removed.(‰š»îÿÿÿÿÿ
+n
+java:S3776ş"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.(¾­†ıÿÿÿÿ
+^
+java:S1854Ş"GRemove this useless assignment to local variable "listOfPlacesRemoved".(Âï
+
+java:S1130ÿ"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ıôªê
+A	java:S106Š"+Replace this use of System.out by a logger.(Ö¸‰
+R	java:S125—"<This block of commented-out lines of code should be removed.(¤ÛüÀ
+`
+java:S4201¯"IRemove this unnecessary null check; "instanceof" returns false for nulls.(ùÜãÑ
+F	java:S106¿"+Replace this use of System.out by a logger.(Îß¯Šùÿÿÿÿ
+F	java:S106Á"+Replace this use of System.out by a logger.(ÓÅÅÌûÿÿÿÿ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(‡Òº›ûÿÿÿÿ
+W	java:S125É"<This block of commented-out lines of code should be removed.(Í„©·ûÿÿÿÿ
+F	java:S106Ë"+Replace this use of System.out by a logger.(ÏÄößıÿÿÿÿ
+F	java:S106Ü"+Replace this use of System.out by a logger.(ì­ëğıÿÿÿÿ
+W	java:S125Ú"<This block of commented-out lines of code should be removed.(°¼’üÿÿÿÿ
+W	java:S125İ"<This block of commented-out lines of code should be removed.(‰š»îÿÿÿÿÿ
+W	java:S125•"<This block of commented-out lines of code should be removed.(€ß¬³øÿÿÿÿ
+N
+java:S1135¯"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+W	java:S125Ñ"<This block of commented-out lines of code should be removed.(§õ®¿ıÿÿÿÿ
+N
+java:S1135×"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135Ú"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+W	java:S125ç"<This block of commented-out lines of code should be removed.(€ß¬³øÿÿÿÿ
+N
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135«"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+W	java:S125·"<This block of commented-out lines of code should be removed.(€ß¬³øÿÿÿÿ
+R	java:S125Ï"<This block of commented-out lines of code should be removed.(ÁÓÕ
+N
+java:S1135Ó"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135Ö"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+W	java:S125á"<This block of commented-out lines of code should be removed.(€ß¬³øÿÿÿÿ
+R	java:S125ù"<This block of commented-out lines of code should be removed.(ÁÓÕ
+N
+java:S1135ÿ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135‚"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+W	java:S125¯"<This block of commented-out lines of code should be removed.(€ß¬³øÿÿÿÿ
+N
+java:S1135Í"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135Ğ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+i
+java:S3776ø"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(»ñêç
+A
+java:S1481„"*Remove this unused "inUse" local variable.(•„¿Ğ
+O
+java:S1874˜"3Remove this use of "newInstance"; it is deprecated.(â×Î›øÿÿÿÿ

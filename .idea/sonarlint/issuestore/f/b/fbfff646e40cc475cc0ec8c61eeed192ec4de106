@@ -1,0 +1,23 @@
+
+J
+java:S3740 "/Provide the parametrized type for this generic.(ÇËşüÿÿÿÿ
+_
+java:S1192."IDefine a constant instead of duplicating this literal "typeName" 3 times.(üü«Ù
+
+java:S1192,"fDefine a constant instead of duplicating this literal "thePersistInfo.theObjectIdentifier.id" 4 times.(”¢ŠŞúÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šñöšúÿÿÿÿ
+t
+java:S1450 "YRemove the "expObjects" field and declare it as a local variable in the relevant methods.(ÇËşüÿÿÿÿ
+u
+java:S1450!"ZRemove the "lcsLogEntry" field and declare it as a local variable in the relevant methods.(»İŠúıÿÿÿÿ
+€
+java:S1149 "eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÇËşüÿÿÿÿ
+V	java:S125*"<This block of commented-out lines of code should be removed.(ëÏÊüÿÿÿÿÿ
+V	java:S1252"<This block of commented-out lines of code should be removed.(ƒ©›¨şÿÿÿÿ
+Q	java:S1258"<This block of commented-out lines of code should be removed.(¢š°»
+Q	java:S125A"<This block of commented-out lines of code should be removed.(ÛïÓ°
+Q	java:S125D"<This block of commented-out lines of code should be removed.(™ïÛˆ
+Q
+java:S2696J"6Make the enclosing method "static" or remove this set.(ÃŠŒèûÿÿÿÿ
+L
+java:S2696N"6Make the enclosing method "static" or remove this set.(Ä ¡

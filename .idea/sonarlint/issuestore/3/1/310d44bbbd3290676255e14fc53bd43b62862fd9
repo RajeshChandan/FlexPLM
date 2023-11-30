@@ -1,0 +1,43 @@
+
+K
+java:S1066»"/Merge this if statement with the enclosing one.(ÅŒÌûÿÿÿÿ
+u
+java:S30082"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¯çı
+v
+java:S30083"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ô˜Õ
+u
+java:S30084"_Rename this field "SERVER_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô“áø
+v
+java:S30085"`Rename this field "SERVER_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú€öĞ
+w
+java:S14506"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+P
+java:S1854M"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854N"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481M"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481N"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+P	java:S125X"<This block of commented-out lines of code should be removed.(¼œæK
+7
+java:S2129y"!Remove this "Boolean" constructor(µ©øş
+^
+java:S5738y"HRemove this call to a deprecated method, it has been marked for removal.(µ©øş
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ÚËÅ±
+W	java:S125Ê"<This block of commented-out lines of code should be removed.(Ñèıÿÿÿÿÿ
+R	java:S125×"<This block of commented-out lines of code should be removed.(Ÿ†ÎÈ
+W	java:S125ô"<This block of commented-out lines of code should be removed.(¯ÅŒáøÿÿÿÿ
+W	java:S125†"<This block of commented-out lines of code should be removed.(¿à¡šøÿÿÿÿ
+W	java:S125“"<This block of commented-out lines of code should be removed.(Õ£µ¶øÿÿÿÿ
+R	java:S125«"<This block of commented-out lines of code should be removed.(Ô½ƒü
+W	java:S125¹"<This block of commented-out lines of code should be removed.(µõñ´úÿÿÿÿ
+R	java:S125Ú"<This block of commented-out lines of code should be removed.(“ßš
+R	java:S125ç"<This block of commented-out lines of code should be removed.(œĞòÒ
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(Î„ºûÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(†­áÜıÿÿÿÿ
+R	java:S125¨"<This block of commented-out lines of code should be removed.(Å°«¯
+W	java:S125µ"<This block of commented-out lines of code should be removed.(äÔæ¸ıÿÿÿÿ
+F
+java:S1197½"*Move the array designators [] to the type.(Í˜Úìşÿÿÿÿ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(¶‡Îúúÿÿÿÿ

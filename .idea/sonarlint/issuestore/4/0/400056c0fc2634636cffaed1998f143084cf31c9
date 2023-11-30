@@ -1,0 +1,79 @@
+
+d
+java:S1192Ã"HDefine a constant instead of duplicating this literal "SAP_KEY" 3 times.(ñü«ëşÿÿÿÿ
+i
+java:S1192"MDefine a constant instead of duplicating this literal "hbiPutUpCode" 8 times.(´å„İùÿÿÿÿ
+K
+java:S1066Í"/Merge this if statement with the enclosing one.(±èçÜøÿÿÿÿ
+Q
+java:S1141Ó"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç«½s
+g	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿËÃÏ
+l	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°†ÿ–ÿÿÿÿÿ
+g	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ì«Å
+l	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÖœÄşÿÿÿÿ
+l	java:S117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÑªŞûÿÿÿÿ
+l	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÖùüÿÿÿÿ
+l	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‰Ğıÿÿÿÿ
+g	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’²Şñ
+g	java:S117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¦Ò 
+l	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åİ¾…şÿÿÿÿ
+l	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+l	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÌåÉ
+l	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬È¶ıúÿÿÿÿ
+l	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÖÉÿÿÿÿÿ
+l	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢÷¤“ıÿÿÿÿ
+l	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢÷¤“ıÿÿÿÿ
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁØÍ¢ùÿÿÿÿ
+g	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ĞåÂ
+g	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿöÀ¶
+g	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íä‰¹
+g	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¨¼²
+g	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¨¼²
+l	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âƒ„ğûÿÿÿÿ
+l	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âƒ„ğûÿÿÿÿ
+l	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÂÀøşÿÿÿÿ
+l	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ÀÚ›şÿÿÿÿ
+z
+java:S3008Q"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü’ˆışÿÿÿÿ
+v
+java:S3008S"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÄ“ñ
+w
+java:S1450U"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+{
+java:S1149˜"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(û¯¥›úÿÿÿÿ
+W
+java:S1075Z"ARefactor your code to get this URI from a customizable parameter.(Õ¼´ú
+P
+java:S1854~"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+S
+java:S1854„"=Remove this useless assignment to local variable "principal".(¬€¼P
+E	java:S106z"+Replace this use of System.out by a logger.(êï¾™øÿÿÿÿ
+@	java:S106}"+Replace this use of System.out by a logger.(Ò¢¬…
+A
+java:S1481~"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+D
+java:S1481„".Remove this unused "principal" local variable.(¬€¼P
+F	java:S106…"+Replace this use of System.out by a logger.(ùŸÖûÿÿÿÿ
+F
+java:S1197ˆ"*Move the array designators [] to the type.(Ì¸¥÷úÿÿÿÿ
+Q	java:S125Ğ"<This block of commented-out lines of code should be removed.( Ç™
+A	java:S106Ş"+Replace this use of System.out by a logger.(ÿê§¯
+F	java:S106â"+Replace this use of System.out by a logger.(³º¾¼ûÿÿÿÿ
+F	java:S106ä"+Replace this use of System.out by a logger.(ùóç¹ûÿÿÿÿ
+G
+java:S1172©"0Remove this unused method parameter "ref_putup".(”ĞåÂ
+E
+java:S1172Â")Remove this unused method parameter "sp".(Üç‹Õÿÿÿÿÿ
+F	java:S106ë"+Replace this use of System.out by a logger.(ÃÁúüÿÿÿÿ
+Q	java:S125ù"<This block of commented-out lines of code should be removed.(Ö¦Æa
+W	java:S125¯"<This block of commented-out lines of code should be removed.(Óµ­üÿÿÿÿ
+S
+java:S1068Q"8Remove this unused "CLIENT_ADMIN_USER_ID" private field.(Ü’ˆışÿÿÿÿ
+O
+java:S1068S"9Remove this unused "CLIENT_ADMIN_PASSWORD" private field.(ıÄ“ñ

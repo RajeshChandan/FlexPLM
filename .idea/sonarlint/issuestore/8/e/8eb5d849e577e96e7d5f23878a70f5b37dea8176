@@ -1,0 +1,31 @@
+
+o
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿É€é
+o
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÏÝÝ
+„
+java:S1104"iMake materialLoadStatusColumnIndex a static final constant or non-public and provide accessors if needed.(í¤îÜüÿÿÿÿ
+^
+java:S1444"CMake this "public static materialLoadStatusColumnIndex" field final(í¤îÜüÿÿÿÿ
+Q	java:S125*"<This block of commented-out lines of code should be removed.(ë«“é
+Q
+java:S26964"6Make the enclosing method "static" or remove this set.(Àøÿÿÿÿ
+7
+java:S21298"!Remove this "Integer" constructor(×‘”¸
+^
+java:S57388"HRemove this call to a deprecated method, it has been marked for removal.(×‘”¸
+E
+java:S2093."*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+V	java:S125D"<This block of commented-out lines of code should be removed.(íÍ±¨úÿÿÿÿ
+P	java:S125R"<This block of commented-out lines of code should be removed.(‡Œù
+d
+java:S2153["IRemove the boxing to "Integer"; The argument is already of the same type.(ëþËÇÿÿÿÿÿ
+<
+java:S2129["!Remove this "Integer" constructor(ëþËÇÿÿÿÿÿ
+c
+java:S5738["HRemove this call to a deprecated method, it has been marked for removal.(ëþËÇÿÿÿÿÿ
+h
+java:S1871i"MThis branch's code block is the same as the block for the branch on line 101.(ÒÌâ–øÿÿÿÿ
+Q	java:S125m"<This block of commented-out lines of code should be removed.(Ç’Íö
+Q	java:S125{"<This block of commented-out lines of code should be removed.(±˜˜
+W	java:S125"<This block of commented-out lines of code should be removed.(Â«ýÓÿÿÿÿÿ

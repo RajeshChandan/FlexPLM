@@ -1,0 +1,23 @@
+
+p
+java:S2293Ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(²Ú¿×
+g	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—Åª¥øÿÿÿÿ
+t	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’¼Ù³ÿÿÿÿÿ
+B
+java:S2885&"'Make "dateFormat" an instance variable.(¹™á­üÿÿÿÿ
+m
+java:S3776("RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(¸†Âÿÿÿÿÿÿ
+Q	java:S1254"<This block of commented-out lines of code should be removed.(ÔèŠ—
+Q	java:S125d"<This block of commented-out lines of code should be removed.(ˆ«‰è
+Q	java:S125q"<This block of commented-out lines of code should be removed.(¾»¬î
+V	java:S125u"<This block of commented-out lines of code should be removed.(†»Æ­øÿÿÿÿ
+Q	java:S125y"<This block of commented-out lines of code should be removed.(·®¯Î
+d
+java:S5361°"HReplace this call to "replaceAll()" by a call to the "replace()" method.(—³ç€þÿÿÿÿ
+N
+java:S1135ø"2Complete the task associated to this TODO comment.(¨ÎŸùÿÿÿÿ
+A	java:S106‹"+Replace this use of System.out by a logger.(ƒžŠª
+R	java:S125¬"<This block of commented-out lines of code should be removed.(ºÆÅë
+R	java:S125°"<This block of commented-out lines of code should be removed.(ºÆÅë
+q
+java:S3923Í"[Remove this conditional structure or edit its code blocks so that they're not all the same.(Ôü»-

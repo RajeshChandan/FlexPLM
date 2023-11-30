@@ -1,0 +1,117 @@
+
+E
+java:S3740Û"/Provide the parametrized type for this generic.(‰ÂÊm
+K
+java:S3740û"/Provide the parametrized type for this generic.(ª‰¤Ñûÿÿÿÿ
+F
+java:S3740ş"/Provide the parametrized type for this generic.(àë£ö
+m
+java:S1192ó"VDefine a constant instead of duplicating this literal "hbiErpPlantExtensions" 6 times.(œ¶±†
+{
+java:S1319ş"dThe type of "dataMap" should be an interface such as "Map" rather than the implementation "HashMap".(öŞİ
+g	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Œ¿Í
+w
+java:S1450M"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+{
+java:S1149®"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(û¯¥›úÿÿÿÿ
+ˆ
+java:S1130€"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(ã†Ï
+œ
+java:S1130€"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(ã†Ï
+A	java:S106"+Replace this use of System.out by a logger.(˜¡£
+Q
+java:S1854’"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+^
+java:S1854“"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+S
+java:S1854˜"=Remove this useless assignment to local variable "principal".(¬€¼P
+A	java:S106‘"+Replace this use of System.out by a logger.(Ò¢¬…
+B
+java:S1481’"-Remove this unused "mcontext" local variable.(‘Ëx
+O
+java:S1481“"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+D
+java:S1481˜".Remove this unused "principal" local variable.(¬€¼P
+F	java:S106™"+Replace this use of System.out by a logger.(ùŸÖûÿÿÿÿ
+F
+java:S1197œ"*Move the array designators [] to the type.(Ì¸¥÷úÿÿÿÿ
+F	java:S106¡"+Replace this use of System.out by a logger.(Îö´Šÿÿÿÿÿ
+A	java:S106¤"+Replace this use of System.out by a logger.(†“—
+A	java:S106¥"+Replace this use of System.out by a logger.(ö–£
+F
+java:S2093·"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÃÊ°J
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÃÊ°J
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÃÊ°J
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÃÊ°J
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÃÊ°J
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÃÊ°J
+W	java:S125š"<This block of commented-out lines of code should be removed.(Ôê€ˆúÿÿÿÿ
+F	java:S106¥"+Replace this use of System.out by a logger.(©ôÛÿÿÿÿÿ
+W	java:S125¸"<This block of commented-out lines of code should be removed.(ï˜Ù–úÿÿÿÿ
+W	java:S125¹"<This block of commented-out lines of code should be removed.(äˆË¸üÿÿÿÿ
+R	java:S125º"<This block of commented-out lines of code should be removed.(•Ò‰
+Q	java:S125»"<This block of commented-out lines of code should be removed.(üìí
+_
+java:S5738Å"HRemove this call to a deprecated method, it has been marked for removal.(¯»âŸ
+:
+java:S2129Í"Remove this "Long" constructor(ÉÊ¾”üÿÿÿÿ
+d
+java:S5738Í"HRemove this call to a deprecated method, it has been marked for removal.(ÉÊ¾”üÿÿÿÿ
+F	java:S106×"+Replace this use of System.out by a logger.(Ş¡¬Îşÿÿÿÿ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(¡³Ì†
+S
+java:S1854÷"7Remove this useless assignment to local variable "fta".(£×üûúÿÿÿÿ
+R
+java:S1854ö";Remove this useless assignment to local variable "moaData".(«óé€
+A	java:S106ç"+Replace this use of System.out by a logger.(›ìøå
+R	java:S125è"<This block of commented-out lines of code should be removed.(ùºßÕ
+V
+java:S2479ï":Remove the non-escaped \u0009 character from this literal.(íÉØ¶úÿÿÿÿ
+V
+java:S2479ï":Remove the non-escaped \u0009 character from this literal.(íÉØ¶úÿÿÿÿ
+V
+java:S2479ï":Remove the non-escaped \u0009 character from this literal.(íÉØ¶úÿÿÿÿ
+V
+java:S2479ï":Remove the non-escaped \u0009 character from this literal.(íÉØ¶úÿÿÿÿ
+V
+java:S2479ï":Remove the non-escaped \u0009 character from this literal.(íÉØ¶úÿÿÿÿ
+V
+java:S2479ï":Remove the non-escaped \u0009 character from this literal.(íÉØ¶úÿÿÿÿ
+C
+java:S1481ö",Remove this unused "moaData" local variable.(«óé€
+D
+java:S1481÷"(Remove this unused "fta" local variable.(£×üûúÿÿÿÿ
+F	java:S106ü"+Replace this use of System.out by a logger.(ŠÇÉùÿÿÿÿ
+F	java:S106ƒ"+Replace this use of System.out by a logger.(……Ìäüÿÿÿÿ
+A	java:S106„"+Replace this use of System.out by a logger.(³¾®ø
+F	java:S106…"+Replace this use of System.out by a logger.(åğ™Èÿÿÿÿÿ
+R	java:S125‰"<This block of commented-out lines of code should be removed.(ƒ­äã
+A	java:S106‹"+Replace this use of System.out by a logger.(ëÈ¿¯
+F	java:S106‘"+Replace this use of System.out by a logger.(ŞîÙüÿÿÿÿ
+R	java:S125–"<This block of commented-out lines of code should be removed.(Í¥‰Ã
+A	java:S106 "+Replace this use of System.out by a logger.(ãºæé
+R	java:S125²"<This block of commented-out lines of code should be removed.(•çô
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(ßœìØıÿÿÿÿ
+V
+java:S2479Ç":Remove the non-escaped \u0009 character from this literal.(Ü¦Ş¦ûÿÿÿÿ
+V
+java:S2479Ç":Remove the non-escaped \u0009 character from this literal.(Ü¦Ş¦ûÿÿÿÿ
+R	java:S125Ï"<This block of commented-out lines of code should be removed.(‚ ªÖ
+W	java:S125“"<This block of commented-out lines of code should be removed.(ŒÛ§Óûÿÿÿÿ
+W	java:S125•"<This block of commented-out lines of code should be removed.(‡ï‹ùÿÿÿÿ
+V
+java:S2479™":Remove the non-escaped \u0009 character from this literal.(ÑËŠïüÿÿÿÿ
+V
+java:S2479™":Remove the non-escaped \u0009 character from this literal.(ÑËŠïüÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(ø‚—ùÿÿÿÿ
+R	java:S125¯"<This block of commented-out lines of code should be removed.(“ŒåŠ
+A	java:S106¼"+Replace this use of System.out by a logger.(Äòë‚
+W	java:S125Ï"<This block of commented-out lines of code should be removed.(Óµ­üÿÿÿÿ
+W	java:S125Ø"<This block of commented-out lines of code should be removed.(•şñûÿÿÿÿ

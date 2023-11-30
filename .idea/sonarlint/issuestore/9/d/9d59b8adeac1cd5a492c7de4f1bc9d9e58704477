@@ -1,0 +1,18 @@
+
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÊ¾ãúÿÿÿÿ
+k	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì²Žüþÿÿÿÿ
+f	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯÷¸î
+k	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰µðòÿÿÿÿÿ
+p	java:S116"VRename this field "PLM_MAJ_CAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™²Þíøÿÿÿÿ
+k	java:S116"VRename this field "PLM_MIN_CAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¦šÁ
+s	java:S116"YRename this field "LAWSON_MAJ_CAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ìËÔøÿÿÿÿ
+s	java:S116"YRename this field "LAWSON_MIN_CAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ÑÈŠúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ïúùºúÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¨¹Ðýÿÿÿÿ
+h	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÊ¾ãúÿÿÿÿ
+c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÕÀ‹
+h	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì²Žüþÿÿÿÿ
+c	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Å¶†
+c	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯÷¸î
+c	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÚÊ°
+h	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰µðòÿÿÿÿÿ

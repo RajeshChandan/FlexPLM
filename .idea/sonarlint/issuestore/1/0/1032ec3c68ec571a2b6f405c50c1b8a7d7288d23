@@ -1,0 +1,38 @@
+
+K
+java:S3740ˆ"/Provide the parametrized type for this generic.(™¼§ÿþÿÿÿÿ
+Q
+java:S1141‘"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+f	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŽŠz
+l	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚‡¦òúÿÿÿÿ
+g	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¸þ
+l	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‰Ðýÿÿÿÿ
+l	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðùÐûÿÿÿÿ
+l	java:S117ý"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷£€Šÿÿÿÿÿ
+l	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÝ¾…þÿÿÿÿ
+l	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+l	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+g	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä§‡
+f	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Úp
+8
+java:S1643À"Use a StringBuilder instead.(úé×Õøÿÿÿÿ
+o	java:S115@"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢ö½
+w
+java:S1450>"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+[
+java:S2147l"ECombine this catch with the one at line 106, which has the same body.(åþáÿ
+h
+java:S3776y"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(«ºÉì
+Q	java:S125´"<This block of commented-out lines of code should be removed.(—×ðw
+W	java:S125¸"<This block of commented-out lines of code should be removed.(»é‚üÿÿÿÿ
+_
+java:S1854ý"CRemove this useless assignment to local variable "End_ReadingFile".(÷£€Šÿÿÿÿÿ
+F
+java:S1197Õ"*Move the array designators [] to the type.(ºÅ’Øùÿÿÿÿ
+W	java:S125à"<This block of commented-out lines of code should be removed.(ÇÓœŠûÿÿÿÿ
+P
+java:S1481ý"4Remove this unused "End_ReadingFile" local variable.(÷£€Šÿÿÿÿÿ
+R	java:S125¨"<This block of commented-out lines of code should be removed.(‡ì©€
+Q
+java:S2479¿":Remove the non-escaped \u0009 character from this literal.(ùÁœæ
+W	java:S125‚"<This block of commented-out lines of code should be removed.(Šèÿºøÿÿÿÿ

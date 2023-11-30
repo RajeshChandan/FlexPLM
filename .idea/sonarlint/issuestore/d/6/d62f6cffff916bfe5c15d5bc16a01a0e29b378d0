@@ -1,0 +1,25 @@
+
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Å´Œ
+
+java:S1104%"iMake gpOptionsMappingAttributeKeys a static final constant or non-public and provide accessors if needed.(”Ø¯›
+Y
+java:S1444%"CMake this "public static gpOptionsMappingAttributeKeys" field final(”Ø¯›
+Q	java:S1250"<This block of commented-out lines of code should be removed.(›ÌÁ¡
+Q	java:S125I"<This block of commented-out lines of code should be removed.(ô±¢¸
+V	java:S125X"<This block of commented-out lines of code should be removed.(„…€£üÿÿÿÿ
+V	java:S125f"<This block of commented-out lines of code should be removed.(’» çıÿÿÿÿ
+V	java:S125t"<This block of commented-out lines of code should be removed.(´Ôõäşÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(ÃÏ³ë
+W	java:S125š"<This block of commented-out lines of code should be removed.(ˆÃ‚¹ÿÿÿÿÿ
+P
+java:S2864¡"4Iterate over the "entrySet" instead of the "keySet".(Åü‚İûÿÿÿÿ
+W	java:S125¼"<This block of commented-out lines of code should be removed.(¨ÓĞñıÿÿÿÿ
+W	java:S125É"<This block of commented-out lines of code should be removed.(ºöññøÿÿÿÿ
+R	java:S125ß"<This block of commented-out lines of code should be removed.(’Ó¥´
+W	java:S125ë"<This block of commented-out lines of code should be removed.(ûß»ºşÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(‰±Õ•
+R	java:S125Œ"<This block of commented-out lines of code should be removed.(Ù³õ
+F
+java:S1197"*Move the array designators [] to the type.(âçìüÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(›Ì–Æ

@@ -1,0 +1,16 @@
+
+v
+java:S3008"[Rename this field "DYE_FORMULA_COMP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âìíùÿÿÿÿ
+o
+java:S3008"TRename this field "ITEM_DESC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©× úÿÿÿÿ
+o
+java:S3008"TRename this field "COMP_DESC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°­·¦ıÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(›‚
+U
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ôÖ™‘ûÿÿÿÿ
+M
+java:S1135)"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+V	java:S125,"<This block of commented-out lines of code should be removed.(¦ÿ´·øÿÿÿÿ
+M
+java:S1135-"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ

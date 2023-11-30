@@ -1,0 +1,82 @@
+
+n
+java:S1192ï"RDefine a constant instead of duplicating this literal "], [putupcode :: " 3 times.(ÖÖ Îşÿÿÿÿ
+`
+java:S1192†"IDefine a constant instead of duplicating this literal "#0.00000" 3 times.(à¿Ü«
+b
+java:S1192ğ"KDefine a constant instead of duplicating this literal "], [SP :: " 3 times.(åõôÁ
+i
+java:S1192„"MDefine a constant instead of duplicating this literal "hbiPutUpCode" 3 times.(ÃÃõÂúÿÿÿÿ
+Q
+java:S1141Ø"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬âæå
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ì«Å
+l	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÖœÄşÿÿÿÿ
+l	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿŒòÙøÿÿÿÿ
+l	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¸øãşÿÿÿÿ
+g	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¸ş
+l	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‰Ğıÿÿÿÿ
+l	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëóœÿûÿÿÿÿ
+l	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ùç‰ıÿÿÿÿ
+l	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷£€Šÿÿÿÿÿ
+f	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–å
+l	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù°û§ÿÿÿÿÿ
+l	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂŠó ıÿÿÿÿ
+l	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åİ¾…şÿÿÿÿ
+l	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+l	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹±­Àøÿÿÿÿ
+l	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠüÌıûÿÿÿÿ
+g	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÿ£†
+l	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢„Ùíşÿÿÿÿ
+l	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†­›Âÿÿÿÿÿ
+l	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ğüñûÿÿÿÿ
+g	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Æñ
+g	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Æñ
+l	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿª­ùÿÿÿÿ
+l	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿª­ùÿÿÿÿ
+l	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óŒëıÿÿÿÿÿ
+l	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÛãÿúÿÿÿÿ
+l	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÛãÿúÿÿÿÿ
+g	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ†¶
+l	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çíùæşÿÿÿÿ
+l	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¿ğ„ıÿÿÿÿ
+l	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¬ı«øÿÿÿÿ
+c
+java:S3973¾"GUse indentation to denote the code conditionally executed by this "if".(‚°Éäıÿÿÿÿ
+w
+java:S14505"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+R	java:S107í"<Method has 9 parameters, which is greater than 7 authorized.(Ÿ†¶
+W	java:S107å"<Method has 9 parameters, which is greater than 7 authorized.(È¬ı«øÿÿÿÿ
+R
+java:S1854X"=Remove this useless assignment to local variable "principal".(¬€¼P
+]
+java:S1854S"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+P
+java:S1854R"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+E	java:S106<"+Replace this use of System.out by a logger.(ÓÔØ½úÿÿÿÿ
+@	java:S106B"+Replace this use of System.out by a logger.(é„Èá
+@	java:S106Q"+Replace this use of System.out by a logger.(Ò¢¬…
+A
+java:S1481R"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481S"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+C
+java:S1481X".Remove this unused "principal" local variable.(¬€¼P
+E	java:S106Y"+Replace this use of System.out by a logger.(ùŸÖûÿÿÿÿ
+[
+java:S2147o"ECombine this catch with the one at line 109, which has the same body.(åşáÿ
+E	java:S106s"+Replace this use of System.out by a logger.(Æ…Èÿÿÿÿÿ
+M
+java:S1135y"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+i
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¬âæå
+F
+java:S1197„"*Move the array designators [] to the type.(ºÅ’Øùÿÿÿÿ
+R	java:S125î"<This block of commented-out lines of code should be removed.(‡ì©€
+V
+java:S2479†":Remove the non-escaped \u0009 character from this literal.(š‹«²øÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(Éùß
+W	java:S125Ø"<This block of commented-out lines of code should be removed.(ÀôÁøÿÿÿÿ
+F	java:S106Œ"+Replace this use of System.out by a logger.(‚•õáüÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(ÿ™İû
+W	java:S125´"<This block of commented-out lines of code should be removed.(–£Ù²ÿÿÿÿÿ

@@ -1,0 +1,69 @@
+
+F
+java:S3740³"/Provide the parametrized type for this generic.(Ï§Ãê
+F
+java:S3740³"/Provide the parametrized type for this generic.(Ï§Ãê
+F
+java:S3740¸"/Provide the parametrized type for this generic.(ğÏŒê
+F
+java:S3740¸"/Provide the parametrized type for this generic.(ğÏŒê
+K
+java:S3740¾"/Provide the parametrized type for this generic.(‚¤ÍÌúÿÿÿÿ
+K
+java:S3740¾"/Provide the parametrized type for this generic.(‚¤ÍÌúÿÿÿÿ
+u
+java:S2293Š"YReplace the type specification in this constructor call with the diamond operator ("<>").(âÅ±÷şÿÿÿÿ
+f	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Á¼Ô
+u
+java:S3008F"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿ·Ñ
+v
+java:S3008G"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¤Ä™
+w
+java:S1450H"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+|
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(™£èù
+|
+java:S1149³"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ï§Ãê
+|
+java:S1149¸"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ğÏŒê
+
+java:S1149¾"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‚¤ÍÌúÿÿÿÿ
+P
+java:S1854V"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854W"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481V"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481W"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+V	java:S125a"<This block of commented-out lines of code should be removed.(§ƒù…şÿÿÿÿ
+B
+java:S1172t",Remove this unused method parameter "wtObj".(è¸ÍÎ
+@	java:S106x"+Replace this use of System.out by a logger.(ÜÆ
+Q	java:S125{"<This block of commented-out lines of code should be removed.(Åˆ÷È
+O
+java:S1854³"8Remove this useless assignment to local variable "data".(Ï§Ãê
+P
+java:S1854¸"9Remove this useless assignment to local variable "data1".(ğÏŒê
+U
+java:S1854¾"9Remove this useless assignment to local variable "data2".(‚¤ÍÌúÿÿÿÿ
+A	java:S106±"+Replace this use of System.out by a logger.(ğÍÈß
+F	java:S106²"+Replace this use of System.out by a logger.(÷‡ßùÿÿÿÿ
+Z
+java:S1155µ">Use isEmpty() to check whether the collection is empty or not.(ÕÃœ¶ûÿÿÿÿ
+A	java:S106·"+Replace this use of System.out by a logger.(ôÖ‘‡
+Z
+java:S1155»">Use isEmpty() to check whether the collection is empty or not.(ŸóÖÂşÿÿÿÿ
+A	java:S106½"+Replace this use of System.out by a logger.(–æ‚å
+U
+java:S1155À">Use isEmpty() to check whether the collection is empty or not.(€ê›ƒ
+F	java:S106Â"+Replace this use of System.out by a logger.(Íâåëûÿÿÿÿ
+R	java:S125Ä"<This block of commented-out lines of code should be removed.(Ïõö¼
+V
+java:S1854Ñ"?Remove this useless assignment to local variable "currentDate".(€ğğ¿
+G
+java:S1481Ñ"0Remove this unused "currentDate" local variable.(€ğğ¿
+4
+java:S11285"Remove this duplicated import.(÷Œá¼
+P
+java:S1068I":Remove this unused "floderPhysicalLocation" private field.(å‘”˜

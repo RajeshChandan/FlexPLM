@@ -1,0 +1,31 @@
+
+o
+java:S2293X"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘Î·Ù
+u
+java:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(âÃÉóûÿÿÿÿ
+e
+java:S1192@"ODefine a constant instead of duplicating this literal "hbiGarmentSize" 4 times.(÷˜Ø—
+K
+java:S1066§"/Merge this if statement with the enclosing one.(ó´²şÿÿÿÿ
+F
+java:S1066Ç"/Merge this if statement with the enclosing one.(›Öì
+g	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Õß
+V	java:S125("<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+t
+java:S3008:"YRename this field "LABEL_BOM_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ù¸ÿÿÿÿÿ
+z
+java:S3008;"dRename this field "BASIC_CUT_AND_SEW_GARMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üƒùÅ
+m
+java:S3776R"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÃãÇşÿÿÿÿ
+V	java:S125i"<This block of commented-out lines of code should be removed.(úÇ‚Êùÿÿÿÿ
+d
+java:S1871€"MThis branch's code block is the same as the block for the branch on line 254.(À×çú
+n
+java:S3776»"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(§íãÑúÿÿÿÿ
+n
+java:S3776í"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(İÒ†şÿÿÿÿ
+R	java:S125ô"<This block of commented-out lines of code should be removed.(¦²ç×
+8
+java:S2129€"!Remove this "Boolean" constructor(¼¡’
+_
+java:S5738€"HRemove this call to a deprecated method, it has been marked for removal.(¼¡’

@@ -1,0 +1,14 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇæïÆ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š×´¤
+h	java:S116"NRename this field "PBO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¬íùÿÿÿÿ
+i
+java:S1450"SRemove the "days" field and declare it as a local variable in the relevant methods.(õ÷‘à
+E	java:S1060"+Replace this use of System.out by a logger.(Îæ×ùÿÿÿÿ
+@	java:S1066"+Replace this use of System.out by a logger.(ŒÒ°Ö
+V	java:S125>"<This block of commented-out lines of code should be removed.(Ÿ¡ÑŽûÿÿÿÿ
+Q	java:S125A"<This block of commented-out lines of code should be removed.(®÷¥©
+M
+java:S1135T"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+>
+java:S1068"(Remove this unused "days" private field.(õ÷‘à

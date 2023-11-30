@@ -1,0 +1,57 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(Õı´ùùÿÿÿÿ
+…
+java:S1319"jThe type of "footerList" should be an interface such as "List" rather than the implementation "ArrayList".(Õı´ùùÿÿÿÿ
+q
+java:S1104"VMake headerText a static final constant or non-public and provide accessors if needed.(Ç‘øşÿÿÿÿ
+l
+java:S1104"VMake headerFont a static final constant or non-public and provide accessors if needed.(ÁñåÂ
+q
+java:S1104"VMake footerFont a static final constant or non-public and provide accessors if needed.(›×ƒŞüÿÿÿÿ
+q
+java:S1104"VMake pageOfFont a static final constant or non-public and provide accessors if needed.(Éµª“üÿÿÿÿ
+q
+java:S1104"VMake cellHeight a static final constant or non-public and provide accessors if needed.(Ë…ãìşÿÿÿÿ
+s
+java:S1104"XMake headerHeight a static final constant or non-public and provide accessors if needed.(å°çûÿÿÿÿ
+k
+java:S1104"UMake rowMargin a static final constant or non-public and provide accessors if needed.(Ã­â¯
+v
+java:S1104"[Make headerFontClass a static final constant or non-public and provide accessors if needed.(ˆš´µûÿÿÿÿ
+w
+java:S1104"\Make pageNumFontClass a static final constant or non-public and provide accessors if needed.(Ñ±Äùÿÿÿÿ
+t
+java:S1104"YMake footFontClass a static final constant or non-public and provide accessors if needed.(•…¸Òüÿÿÿÿ
+q
+java:S1104"VMake footerList a static final constant or non-public and provide accessors if needed.(Õı´ùùÿÿÿÿ
+e
+java:S1104$"OMake pgh a static final constant or non-public and provide accessors if needed.(Ãô¨
+e
+java:S1104&"OMake tpl a static final constant or non-public and provide accessors if needed.(œÏæ³
+g
+java:S1104'"QMake bfont a static final constant or non-public and provide accessors if needed.(Ùë¸±
+l
+java:S1104)"QMake tdocs a static final constant or non-public and provide accessors if needed.(ÚèâÒúÿÿÿÿ
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼Â±ûÿÿÿÿ
+E	java:S1067"+Replace this use of System.out by a logger.(ôŸŒÌÿÿÿÿÿ
+X
+java:S1854†"<Remove this useless assignment to local variable "textBase".(¿µåøÿÿÿÿ
+Q	java:S125l"<This block of commented-out lines of code should be removed.(ÇÔêá
+W	java:S125…"<This block of commented-out lines of code should be removed.(¾¸˜µüÿÿÿÿ
+I
+java:S1481†"-Remove this unused "textBase" local variable.(¿µåøÿÿÿÿ
+R	java:S125‰"<This block of commented-out lines of code should be removed.(å­„¬
+D
+java:S1172”"-Remove this unused method parameter "writer".(õ×—
+A
+java:S1197Ÿ"*Move the array designators [] to the type.(Ì®Î€
+W	java:S125Ê"<This block of commented-out lines of code should be removed.(Óãáğşÿÿÿÿ
+W	java:S125Ï"<This block of commented-out lines of code should be removed.(°‘üåùÿÿÿÿ
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(ºÒ·ûÿÿÿÿ
+R	java:S125á"<This block of commented-out lines of code should be removed.(ßĞ¡²
+F
+java:S1197è"*Move the array designators [] to the type.(ù·º×ùÿÿÿÿ
+R	java:S125ì"<This block of commented-out lines of code should be removed.(ÅŒ÷®
+R	java:S125ğ"<This block of commented-out lines of code should be removed.( ì²Ñ
+Q	java:S125ò"<This block of commented-out lines of code should be removed.(–¹—*

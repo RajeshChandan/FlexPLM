@@ -1,0 +1,9 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(¾ñŸºýÿÿÿÿ
+D
+java:S19407")Use the opposite operator ("<=") instead.(¯Áö­ùÿÿÿÿ
+E	java:S1069"+Replace this use of System.out by a logger.(³Ç²¹øÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(Ž‡¨éúÿÿÿÿ
+E	java:S106?"+Replace this use of System.out by a logger.(Û×üˆþÿÿÿÿ
+E	java:S106C"+Replace this use of System.out by a logger.(á÷ôŒýÿÿÿÿ

@@ -1,0 +1,34 @@
+
+o
+java:S2293y"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªçŒ
+p
+java:S2293Ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(²»É§
+h
+java:S1192©"LDefine a constant instead of duplicating this literal "hbiDelivery" 3 times.(¥²İÀıÿÿÿÿ
+k
+java:S1192°"ODefine a constant instead of duplicating this literal "hbiProductLine" 3 times.(ñÌ§¥üÿÿÿÿ
+f	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞöÅÉ
+u
+java:S30088"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÿ·Ñ
+v
+java:S30089"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¤Ä™
+w
+java:S1450:"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+{
+java:S1149}"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(™£èù
+S	java:S107í"=Method has 14 parameters, which is greater than 7 authorized.(şßÕœ
+P
+java:S1854E"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854F"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481E"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481F"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+@	java:S106g"+Replace this use of System.out by a logger.(Œƒß¥
+E	java:S106j"+Replace this use of System.out by a logger.(Ê¯³²şÿÿÿÿ
+R	java:S125É"<This block of commented-out lines of code should be removed.(ĞßŞí
+F	java:S106á"+Replace this use of System.out by a logger.(¼Óúáûÿÿÿÿ
+W	java:S125¾"<This block of commented-out lines of code should be removed.(à‰ü—şÿÿÿÿ
+P
+java:S1068;":Remove this unused "floderPhysicalLocation" private field.(å‘”˜

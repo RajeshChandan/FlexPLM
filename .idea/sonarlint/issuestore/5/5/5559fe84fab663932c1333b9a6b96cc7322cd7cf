@@ -1,0 +1,119 @@
+
+t
+java:S2293`"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êãöûÿÿÿÿ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(äôŠüÿÿÿÿ
+u
+java:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(…æËûúÿÿÿÿ
+p
+java:S2293¥"YReplace the type specification in this constructor call with the diamond operator ("<>").( Ã×÷
+u
+java:S2293¾"YReplace the type specification in this constructor call with the diamond operator ("<>").(ØæĞóıÿÿÿÿ
+p
+java:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ
+p
+java:S2293†"YReplace the type specification in this constructor call with the diamond operator ("<>").(è£¥á
+u
+java:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êãöûÿÿÿÿ
+d
+java:S1192\"ODefine a constant instead of duplicating this literal "hbiAPSSizeCode" 3 times.(ÎÜæE
+g
+java:S1192Z"RDefine a constant instead of duplicating this literal "hbiPLMSizeLiteral" 3 times.(ÁöŒ;
+c
+java:S1192Ö"LDefine a constant instead of duplicating this literal "apsSizeCode" 4 times.(ûéú
+f
+java:S1192Õ"ODefine a constant instead of duplicating this literal "plmGarmentSize" 4 times.(ÌŠâ
+f
+java:S1192m"PDefine a constant instead of duplicating this literal "hbiSizeCodeText" 3 times.(ÂÄª¯
+o
+java:S1192E"TDefine a constant instead of duplicating this literal "hbiGarmentSizeTable" 5 times.(•¢ÌÙÿÿÿÿÿ
+b
+java:S1192h"GDefine a constant instead of duplicating this literal "|&^&|" 14 times.(¦¼Í¯ûÿÿÿÿ
+w
+java:S1192À"`Define a constant instead of duplicating this literal "OR:com.lcs.wc.moa.LCSMOAObject:" 5 times.(ê§¤½
+j
+java:S1192l"ODefine a constant instead of duplicating this literal "hbiGarmentSize" 3 times.(÷ÕËüÿÿÿÿ
+c
+java:S1192×"GDefine a constant instead of duplicating this literal "s3Code" 4 times.(û‡ø…üÿÿÿÿ
+b
+java:S1192Ú"KDefine a constant instead of duplicating this literal "sizeCodeFO" 4 times.(½‘çö
+`
+java:S1192Û"IDefine a constant instead of duplicating this literal "s3CodeFO" 4 times.(ÑÓéÏ
+a
+java:S1192Ø"JDefine a constant instead of duplicating this literal "patSizeFO" 4 times.(µŠì
+c
+java:S1192h"HDefine a constant instead of duplicating this literal "|-()-|" 14 times.(¦¼Í¯ûÿÿÿÿ
+o
+java:S1192["YDefine a constant instead of duplicating this literal "hbiPLMGarmentSizeLiteral" 3 times.(¼ˆ…á
+a
+java:S1192Ù"JDefine a constant instead of duplicating this literal "garSizeFO" 4 times.(æßŞ‡
+i
+java:S1192n"NDefine a constant instead of duplicating this literal "hbiS3CodeText" 3 times.(Óúİûÿÿÿÿ
+e
+java:S1192Ô"ODefine a constant instead of duplicating this literal "plmPatternSize" 4 times.(¡æB
+g
+java:S1192k"RDefine a constant instead of duplicating this literal "hbiplmPatternSize" 3 times.(Êş©S
+r
+java:S1192G"WDefine a constant instead of duplicating this literal "hbiSellingSizeCategory" 4 times.(­¹šÆúÿÿÿÿ
+E
+java:S1121Ì".Extract the assignment out of this expression.(í‚Í
+J
+java:S1066K"/Merge this if statement with the enclosing one.(‚şÈÔüÿÿÿÿ
+x
+java:S1488¾"\Immediately return this expression instead of assigning it to the temporary variable "list".(ØæĞóıÿÿÿÿ
+u
+java:S1104."ZMake sizeCategoryBO a static final constant or non-public and provide accessors if needed.(ú²ÅÌûÿÿÿÿ
+q
+java:S1104/"VMake sizeXrefBO a static final constant or non-public and provide accessors if needed.(ÏàÇùÿÿÿÿ
+O
+java:S1444."4Make this "public static sizeCategoryBO" field final(ú²ÅÌûÿÿÿÿ
+K
+java:S1444/"0Make this "public static sizeXrefBO" field final(ÏàÇùÿÿÿÿ
+^
+java:S3973“"GUse indentation to denote the code conditionally executed by this "if".(ª˜àµ
+v
+java:S1149¦"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÛüÇö
+P
+java:S1118+":Add a private constructor to hide the implicit public one.(ÆÇ†Ä
+h
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 86 to the 15 allowed.(¼Ãº²
+]
+java:S1854C"BRemove this useless assignment to local variable "sizeUniqueColl".(øÜ„”ÿÿÿÿÿ
+W
+java:S1854";Remove this useless assignment to local variable "rowColl".(äôŠüÿÿÿÿ
+Y
+java:S1155K">Use isEmpty() to check whether the collection is empty or not.(‚şÈÔüÿÿÿÿ
+V	java:S125q"<This block of commented-out lines of code should be removed.(™â Ëøÿÿÿÿ
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(™â Ëøÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ö—¬âÿÿÿÿÿ
+@
+java:S1905‡")Remove this unnecessary cast to "String".(“Ìµ
+E
+java:S1905ˆ")Remove this unnecessary cast to "String".(îúàûÿÿÿÿ
+E
+java:S1905‰")Remove this unnecessary cast to "String".(ˆÔÜ®øÿÿÿÿ
+@
+java:S1905Š")Remove this unnecessary cast to "String".(ÿ¬Ê‰
+@
+java:S1905‹")Remove this unnecessary cast to "String".(Ğ…Ç
+@
+java:S1905Œ")Remove this unnecessary cast to "String".(‡ÑÇ
+E
+java:S1905")Remove this unnecessary cast to "String".(’€ÁÏúÿÿÿÿ
+E
+java:S1905")Remove this unnecessary cast to "String".(Ûİ–˜şÿÿÿÿ
+i
+java:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.(å¸•Œ
+Z
+java:S1854Ë">Remove this useless assignment to local variable "sizeXrefBO".(¶¶ÛÜùÿÿÿÿ
+T
+java:S1854Ê"8Remove this useless assignment to local variable "srBO".(‚š°‹üÿÿÿÿ
+^
+java:S1854İ"BRemove this useless assignment to local variable "sizeUniqueColl".(øÜ„”ÿÿÿÿÿ
+S
+java:S1854"=Remove this useless assignment to local variable "s3CodeMOA".(òšÔK
+X
+java:S1854¬"<Remove this useless assignment to local variable "s3CodeBO".(ÆÀŒ²şÿÿÿÿ
+Z
+java:S1155ç">Use isEmpty() to check whether the collection is empty or not.(è áùÿÿÿÿ

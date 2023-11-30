@@ -1,0 +1,29 @@
+
+S
+java:S4973ð"<Strings and Boxed types should be compared using "equals()".(×Ð“Õ
+l
+java:S1149Ç"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Èñ€N
+r
+java:S1149È"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(îìÒñúÿÿÿÿ
+T
+java:S1155:">Use isEmpty() to check whether the collection is empty or not.(ÁµÆÕ
+Q	java:S125h"<This block of commented-out lines of code should be removed.(´þâ–
+V	java:S125u"<This block of commented-out lines of code should be removed.(úþà½øÿÿÿÿ
+W	java:S125†"<This block of commented-out lines of code should be removed.(ÜÁ£±úÿÿÿÿ
+i
+java:S1871“"MThis branch's code block is the same as the block for the branch on line 143.(ÒÌâ–øÿÿÿÿ
+R	java:S125—"<This block of commented-out lines of code should be removed.(¥ì¥ÿ
+W	java:S125©"<This block of commented-out lines of code should be removed.(Ææ°Ôýÿÿÿÿ
+R	java:S125Ã"<This block of commented-out lines of code should be removed.(€ïñõ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(ù«ŽÍ
+e
+java:S4201Û"IRemove this unnecessary null check; "instanceof" returns false for nulls.(þÞ‚»üÿÿÿÿ
+`
+java:S4201æ"IRemove this unnecessary null check; "instanceof" returns false for nulls.(üúòÿ
+W	java:S125õ"<This block of commented-out lines of code should be removed.(ð˜­¦ûÿÿÿÿ
+R	java:S125†"<This block of commented-out lines of code should be removed.(¤‰íÅ
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(óÖ«—
+Q
+java:S1172®"5Remove this unused method parameter "getValueMethod".(¢Š‹Ìÿÿÿÿÿ
+R	java:S125°"<This block of commented-out lines of code should be removed.(Í„’×
+R	java:S125Ï"<This block of commented-out lines of code should be removed.(¹ç—¨

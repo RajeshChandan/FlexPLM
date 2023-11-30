@@ -1,0 +1,22 @@
+
+f	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Îå×
+u
+java:S3008"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åØ¯‚
+v
+java:S3008"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ö®×
+w
+java:S1450"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
+P
+java:S1854'"<Remove this useless assignment to local variable "mcontext".(‘Ëx
+]
+java:S1854("BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
+A
+java:S1481'"-Remove this unused "mcontext" local variable.(‘Ëx
+N
+java:S1481("3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
+Q
+java:S1854C"<Remove this useless assignment to local variable "docLogic".(½Ò„@
+B
+java:S1481C"-Remove this unused "docLogic" local variable.(½Ò„@
+Q	java:S125H"<This block of commented-out lines of code should be removed.(â¬‡
+Q	java:S125J"<This block of commented-out lines of code should be removed.(å–ƒÇ

@@ -1,0 +1,48 @@
+
+o
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÊÁÔ»
+u
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸Çèàøÿÿÿÿ
+i
+java:S1192‘"MDefine a constant instead of duplicating this literal "FLEXBOMLINK." 3 times.(İ“¢Ÿøÿÿÿÿ
+g	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñõ¡Í
+l	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ°¸şÿÿÿÿ
+x
+java:S1104'"]Make tableWidthPercent a static final constant or non-public and provide accessors if needed.(ÃÀêÜúÿÿÿÿ
+œ
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(„™÷™ûÿÿÿÿ
+
+java:S1149œ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Êºèıÿÿÿÿ
+r
+java:S1149†"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¾«Ëøÿÿÿÿ
+|
+java:S1149ˆ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾Ãî 
+r
+java:S1149‰"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¸Çèàøÿÿÿÿ
+r
+java:S1149¤"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ÜèŠìüÿÿÿÿ
+
+java:S1149¦"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÈÓšúûÿÿÿÿ
+c
+java:S5738'"HRemove this call to a deprecated method, it has been marked for removal.(ÃÀêÜúÿÿÿÿ
+P	java:S125)"<This block of commented-out lines of code should be removed.(éÅë
+Q	java:S125."<This block of commented-out lines of code should be removed.(‚ÀÆè
+g
+java:S3776U"RRefactor this method to reduce its Cognitive Complexity from 84 to the 15 allowed.(ÃùÉ5
+R
+java:S1854o"<Remove this useless assignment to local variable "allSizes".(úÛïñ
+\
+java:S1854Š"@Remove this useless assignment to local variable "sizesThisRun".(üˆåÈıÿÿÿÿ
+W	java:S125·"<This block of commented-out lines of code should be removed.(©ÔÁøÿÿÿÿ
+R	java:S125ã"<This block of commented-out lines of code should be removed.(¡‡Úæ
+W	java:S125å"<This block of commented-out lines of code should be removed.(åìİ¬şÿÿÿÿ
+W	java:S125ê"<This block of commented-out lines of code should be removed.(é“µ™úÿÿÿÿ
+R	java:S125ì"<This block of commented-out lines of code should be removed.(äÂÓ
+W	java:S125ñ"<This block of commented-out lines of code should be removed.(í¾Şğûÿÿÿÿ
+D	java:S108ù")Either remove or fill this block of code.(°‚ØÀıÿÿÿÿ
+W	java:S125¸"<This block of commented-out lines of code should be removed.(—³¹¡ÿÿÿÿÿ
+Q	java:S125ö"<This block of commented-out lines of code should be removed.(²é‹v
+B
+java:S1168‰"+Return an empty collection instead of null.(¥¹ï
+W	java:S125²"<This block of commented-out lines of code should be removed.(»Ãñùÿÿÿÿ
+A	java:S106¼"+Replace this use of System.out by a logger.(Ÿæá 

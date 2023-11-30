@@ -1,0 +1,42 @@
+
+K
+java:S3740Í"/Provide the parametrized type for this generic.(µ„ƒÍúÿÿÿÿ
+F
+java:S3740é"/Provide the parametrized type for this generic.(ş„ˆè
+K
+java:S3740£"/Provide the parametrized type for this generic.(œƒÜ—ûÿÿÿÿ
+K
+java:S3740Ó"/Provide the parametrized type for this generic.(©û¥¹üÿÿÿÿ
+p
+java:S2293Ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïñ©Ç
+c
+java:S1192a"MDefine a constant instead of duplicating this literal "flexTypePath" 5 times.(¬ıº¸
+d
+java:S1192e"IDefine a constant instead of duplicating this literal "objClass" 4 times.(„ıõøÿÿÿÿ
+3
+java:S1643Ù"Use a StringBuilder instead.(ƒ–Ğ¡
+8
+java:S1643ô"Use a StringBuilder instead.(‚İº¦ùÿÿÿÿ
+8
+java:S1643ö"Use a StringBuilder instead.(¿µœıÿÿÿÿ
+O
+java:S2755à"3Disable access to external entities in XML parsing.(ƒ¶ŠÊûÿÿÿÿ
+—
+java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÈÒÙÂ
+m
+java:S3776X"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ô²å›ûÿÿÿÿ
+V	java:S125k"<This block of commented-out lines of code should be removed.(¬› ›ûÿÿÿÿ
+h
+java:S3776É"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Ï¸ï}
+F
+java:S1197Ñ"*Move the array designators [] to the type.(ÌÑÓ·øÿÿÿÿ
+d
+java:S5361“"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ïƒºüÿÿÿÿ
+i
+java:S3776ò"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(âé©Ï
+@
+java:S1905¨")Remove this unnecessary cast to "Object".(Òç’¾
+T
+java:S1854à"=Remove this useless assignment to local variable "symbolKey".(ÿ ˆ¶
+?
+java:S10683")Remove this unused "scope" private field.(÷’–ê

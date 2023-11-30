@@ -1,0 +1,289 @@
+
+K
+java:S3740ü"/Provide the parametrized type for this generic.(ëˆ¸ôùÿÿÿÿ
+F
+java:S3740ı"/Provide the parametrized type for this generic.(Òé¼
+K
+java:S3740 "/Provide the parametrized type for this generic.(µ’ß£úÿÿÿÿ
+F
+java:S3740³"/Provide the parametrized type for this generic.(ŸŸãû
+F
+java:S3740¶"/Provide the parametrized type for this generic.(˜öş´
+K
+java:S3740»"/Provide the parametrized type for this generic.(®ÜŞ¯ûÿÿÿÿ
+E
+java:S3740À"/Provide the parametrized type for this generic.(£Ñáo
+K
+java:S3740Û"/Provide the parametrized type for this generic.(Íİùùÿÿÿÿ
+K
+java:S3740ë"/Provide the parametrized type for this generic.(™û“üÿÿÿÿ
+E
+java:S3740 "/Provide the parametrized type for this generic.(ÛÎ…
+F
+java:S3740¡"/Provide the parametrized type for this generic.(Àã‘§
+K
+java:S3740ê"/Provide the parametrized type for this generic.(ÓÅœşûÿÿÿÿ
+F
+java:S3740ƒ"/Provide the parametrized type for this generic.(†ÛÆ
+F
+java:S3740è"/Provide the parametrized type for this generic.(çÙÿÑ
+F
+java:S3740è"/Provide the parametrized type for this generic.(çÙÿÑ
+u
+java:S2293Î"YReplace the type specification in this constructor call with the diamond operator ("<>").(²ßÅ¢ÿÿÿÿÿ
+F
+java:S1066ƒ"/Merge this if statement with the enclosing one.(ö¸ßÃ
+F
+java:S1066—"/Merge this if statement with the enclosing one.(ºøÄ
+F
+java:S1066¦"/Merge this if statement with the enclosing one.(ö¸ßÃ
+F
+java:S1066ï"/Merge this if statement with the enclosing one.(ø”¨
+8
+java:S1643¸"Use a StringBuilder instead.(³Ô¼ãüÿÿÿÿ
+u
+java:S11046"ZMake tableCellClass a static final constant or non-public and provide accessors if needed.(áÎü€ıÿÿÿÿ
+o
+java:S11047"TMake fontSize a static final constant or non-public and provide accessors if needed.(­‚Ğ–ıÿÿÿÿ
+{
+java:S11049"`Make tableWidthPercentage a static final constant or non-public and provide accessors if needed.(œğÓ¹øÿÿÿÿ
+f
+java:S1104;"PMake pthg a static final constant or non-public and provide accessors if needed.(·‡›˜
+i
+java:S1104H"NMake A0 a static final constant or non-public and provide accessors if needed.(‚ã¢»ùÿÿÿÿ
+i
+java:S1104I"NMake A1 a static final constant or non-public and provide accessors if needed.(½’’•ùÿÿÿÿ
+d
+java:S1104J"NMake A2 a static final constant or non-public and provide accessors if needed.(µÛÑÚ
+c
+java:S1104K"NMake A3 a static final constant or non-public and provide accessors if needed.(ĞØÆZ
+i
+java:S1104L"NMake A4 a static final constant or non-public and provide accessors if needed.(İ½Í­şÿÿÿÿ
+i
+java:S1104M"NMake A5 a static final constant or non-public and provide accessors if needed.(­œ³şüÿÿÿÿ
+i
+java:S1104N"NMake A6 a static final constant or non-public and provide accessors if needed.(Î§¶şÿÿÿÿ
+d
+java:S1104O"NMake A7 a static final constant or non-public and provide accessors if needed.(ŸÆµ¯
+c
+java:S1104P"NMake A8 a static final constant or non-public and provide accessors if needed.(ÿ÷e
+c
+java:S1104Q"NMake A9 a static final constant or non-public and provide accessors if needed.(’‚l
+j
+java:S1104R"OMake A10 a static final constant or non-public and provide accessors if needed.(ïæ”½üÿÿÿÿ
+m
+java:S1104S"RMake ARCH_A a static final constant or non-public and provide accessors if needed.(ü‰Ç¢ùÿÿÿÿ
+h
+java:S1104T"RMake ARCH_B a static final constant or non-public and provide accessors if needed.(‹‚üÃ
+m
+java:S1104U"RMake ARCH_C a static final constant or non-public and provide accessors if needed.(Òº¬Øÿÿÿÿÿ
+m
+java:S1104V"RMake ARCH_D a static final constant or non-public and provide accessors if needed.(á·Ùµüÿÿÿÿ
+m
+java:S1104W"RMake ARCH_E a static final constant or non-public and provide accessors if needed.(¡½¯Üıÿÿÿÿ
+d
+java:S1104X"NMake B0 a static final constant or non-public and provide accessors if needed.(¼£ÍÔ
+d
+java:S1104Y"NMake B1 a static final constant or non-public and provide accessors if needed.(ªèÒ™
+d
+java:S1104Z"NMake B2 a static final constant or non-public and provide accessors if needed.(†çœˆ
+d
+java:S1104["NMake B3 a static final constant or non-public and provide accessors if needed.(ç¤ºĞ
+d
+java:S1104\"NMake B4 a static final constant or non-public and provide accessors if needed.(ˆĞÏ£
+i
+java:S1104]"NMake B5 a static final constant or non-public and provide accessors if needed.(²ß‹—üÿÿÿÿ
+k
+java:S1104^"PMake FLSA a static final constant or non-public and provide accessors if needed.(æÍœ›úÿÿÿÿ
+k
+java:S1104_"PMake FLSE a static final constant or non-public and provide accessors if needed.(™»â¥şÿÿÿÿ
+q
+java:S1104`"VMake HALFLETTER a static final constant or non-public and provide accessors if needed.(â¦¡Šüÿÿÿÿ
+g
+java:S1104a"RMake LEDGER a static final constant or non-public and provide accessors if needed.(ÕÂ«5
+l
+java:S1104b"QMake LEGAL a static final constant or non-public and provide accessors if needed.(¥Û×õıÿÿÿÿ
+m
+java:S1104c"RMake LETTER a static final constant or non-public and provide accessors if needed.(ãÊ›Éüÿÿÿÿ
+k
+java:S1104d"PMake NOTE a static final constant or non-public and provide accessors if needed.(•¿·åşÿÿÿÿ
+m
+java:S1104e"RMake _11X17 a static final constant or non-public and provide accessors if needed.(†óœàøÿÿÿÿ
+C
+java:S1444H"(Make this "public static A0" field final(‚ã¢»ùÿÿÿÿ
+C
+java:S1444I"(Make this "public static A1" field final(½’’•ùÿÿÿÿ
+>
+java:S1444J"(Make this "public static A2" field final(µÛÑÚ
+=
+java:S1444K"(Make this "public static A3" field final(ĞØÆZ
+C
+java:S1444L"(Make this "public static A4" field final(İ½Í­şÿÿÿÿ
+C
+java:S1444M"(Make this "public static A5" field final(­œ³şüÿÿÿÿ
+C
+java:S1444N"(Make this "public static A6" field final(Î§¶şÿÿÿÿ
+>
+java:S1444O"(Make this "public static A7" field final(ŸÆµ¯
+=
+java:S1444P"(Make this "public static A8" field final(ÿ÷e
+=
+java:S1444Q"(Make this "public static A9" field final(’‚l
+D
+java:S1444R")Make this "public static A10" field final(ïæ”½üÿÿÿÿ
+G
+java:S1444S",Make this "public static ARCH_A" field final(ü‰Ç¢ùÿÿÿÿ
+B
+java:S1444T",Make this "public static ARCH_B" field final(‹‚üÃ
+G
+java:S1444U",Make this "public static ARCH_C" field final(Òº¬Øÿÿÿÿÿ
+G
+java:S1444V",Make this "public static ARCH_D" field final(á·Ùµüÿÿÿÿ
+G
+java:S1444W",Make this "public static ARCH_E" field final(¡½¯Üıÿÿÿÿ
+>
+java:S1444X"(Make this "public static B0" field final(¼£ÍÔ
+>
+java:S1444Y"(Make this "public static B1" field final(ªèÒ™
+>
+java:S1444Z"(Make this "public static B2" field final(†çœˆ
+>
+java:S1444["(Make this "public static B3" field final(ç¤ºĞ
+>
+java:S1444\"(Make this "public static B4" field final(ˆĞÏ£
+C
+java:S1444]"(Make this "public static B5" field final(²ß‹—üÿÿÿÿ
+E
+java:S1444^"*Make this "public static FLSA" field final(æÍœ›úÿÿÿÿ
+E
+java:S1444_"*Make this "public static FLSE" field final(™»â¥şÿÿÿÿ
+K
+java:S1444`"0Make this "public static HALFLETTER" field final(â¦¡Šüÿÿÿÿ
+A
+java:S1444a",Make this "public static LEDGER" field final(ÕÂ«5
+F
+java:S1444b"+Make this "public static LEGAL" field final(¥Û×õıÿÿÿÿ
+G
+java:S1444c",Make this "public static LETTER" field final(ãÊ›Éüÿÿÿÿ
+E
+java:S1444d"*Make this "public static NOTE" field final(•¿·åşÿÿÿÿ
+G
+java:S1444e",Make this "public static _11X17" field final(†óœàøÿÿÿÿ
+h
+java:S3008H"MRename this field "A0" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ã¢»ùÿÿÿÿ
+h
+java:S3008I"MRename this field "A1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½’’•ùÿÿÿÿ
+c
+java:S3008J"MRename this field "A2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÛÑÚ
+b
+java:S3008K"MRename this field "A3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞØÆZ
+h
+java:S3008L"MRename this field "A4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ½Í­şÿÿÿÿ
+h
+java:S3008M"MRename this field "A5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­œ³şüÿÿÿÿ
+h
+java:S3008N"MRename this field "A6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î§¶şÿÿÿÿ
+c
+java:S3008O"MRename this field "A7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÆµ¯
+b
+java:S3008P"MRename this field "A8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ÷e
+b
+java:S3008Q"MRename this field "A9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’‚l
+i
+java:S3008R"NRename this field "A10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïæ”½üÿÿÿÿ
+l
+java:S3008S"QRename this field "ARCH_A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü‰Ç¢ùÿÿÿÿ
+g
+java:S3008T"QRename this field "ARCH_B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‚üÃ
+l
+java:S3008U"QRename this field "ARCH_C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òº¬Øÿÿÿÿÿ
+l
+java:S3008V"QRename this field "ARCH_D" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á·Ùµüÿÿÿÿ
+l
+java:S3008W"QRename this field "ARCH_E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡½¯Üıÿÿÿÿ
+c
+java:S3008X"MRename this field "B0" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼£ÍÔ
+c
+java:S3008Y"MRename this field "B1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªèÒ™
+c
+java:S3008Z"MRename this field "B2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†çœˆ
+c
+java:S3008["MRename this field "B3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¤ºĞ
+c
+java:S3008\"MRename this field "B4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆĞÏ£
+h
+java:S3008]"MRename this field "B5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ß‹—üÿÿÿÿ
+j
+java:S3008^"ORename this field "FLSA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÍœ›úÿÿÿÿ
+j
+java:S3008_"ORename this field "FLSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™»â¥şÿÿÿÿ
+p
+java:S3008`"URename this field "HALFLETTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¦¡Šüÿÿÿÿ
+f
+java:S3008a"QRename this field "LEDGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÂ«5
+k
+java:S3008b"PRename this field "LEGAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Û×õıÿÿÿÿ
+l
+java:S3008c"QRename this field "LETTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÊ›Éüÿÿÿÿ
+j
+java:S3008d"ORename this field "NOTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¿·åşÿÿÿÿ
+l
+java:S3008e"QRename this field "_11X17" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†óœàøÿÿÿÿ
+
+java:S1149¥"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(™ÿóúÿÿÿÿ
+|
+java:S1149³"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ŸŸãû
+|
+java:S1149è"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(çÙÿÑ
+Q	java:S125,"<This block of commented-out lines of code should be removed.(¨·«¾
+V	java:S125~"<This block of commented-out lines of code should be removed.(”ìæƒıÿÿÿÿ
+W	java:S125€"<This block of commented-out lines of code should be removed.(ôöÙŸúÿÿÿÿ
+R	java:S125…"<This block of commented-out lines of code should be removed.(œÕñ¤
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(úµªÇ
+E
+java:S1481‹".Remove this unused "cellcount" local variable.(óß„Æ
+n
+java:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(ä¬ßÏıÿÿÿÿ
+D
+java:S1481Ñ"-Remove this unused "groupNum" local variable.(î¹´­
+U
+java:S1155Ø">Use isEmpty() to check whether the collection is empty or not.(®şŒ–
+U
+java:S1155ò">Use isEmpty() to check whether the collection is empty or not.(¡Š‹Š
+U
+java:S1155ô">Use isEmpty() to check whether the collection is empty or not.(È§áÍ
+n
+java:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 65 to the 15 allowed.(™ÿóúÿÿÿÿ
+U
+java:S1155ª">Use isEmpty() to check whether the collection is empty or not.(İúîÚ
+W	java:S125¬"<This block of commented-out lines of code should be removed.(ëíÊõşÿÿÿÿ
+W	java:S125´"<This block of commented-out lines of code should be removed.(¼•úÎøÿÿÿÿ
+W	java:S125È"<This block of commented-out lines of code should be removed.(ã¿¦ìúÿÿÿÿ
+R	java:S125ä"<This block of commented-out lines of code should be removed.(­Ä“½
+R	java:S125ñ"<This block of commented-out lines of code should be removed.(ğ€È
+R	java:S125ó"<This block of commented-out lines of code should be removed.(ú…øŞ
+U
+java:S1155ô">Use isEmpty() to check whether the collection is empty or not.(²ˆ¦†
+W	java:S125€"<This block of commented-out lines of code should be removed.(½ÅÚÉıÿÿÿÿ
+W	java:S125‚"<This block of commented-out lines of code should be removed.(ÔÍ†’ûÿÿÿÿ
+U
+java:S1155•">Use isEmpty() to check whether the collection is empty or not.(ôõş
+o
+java:S3776¾"SRefactor this method to reduce its Cognitive Complexity from 104 to the 15 allowed.(ª„ûŸıÿÿÿÿ
+R	java:S125ö"<This block of commented-out lines of code should be removed.(âª¶ò
+R	java:S125‰"<This block of commented-out lines of code should be removed.(å•®ÿ
+R	java:S125 "<This block of commented-out lines of code should be removed.(å•®ÿ
+W	java:S125¦"<This block of commented-out lines of code should be removed.(¤Ñ®Áúÿÿÿÿ
+i
+java:S3776è"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(°¢ê“
+W	java:S125¾"<This block of commented-out lines of code should be removed.(Âƒ¶øÿÿÿÿ
+i
+java:S3776Î"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(Àâ÷Ó
+R	java:S125Í"<This block of commented-out lines of code should be removed.(üøù
+W	java:S125­"<This block of commented-out lines of code should be removed.(óÈõˆúÿÿÿÿ
+R
+java:S1854ó"6Remove this useless assignment to local variable "pw".(ˆ™Ææøÿÿÿÿ
+C
+java:S1481ó"'Remove this unused "pw" local variable.(ˆ™Ææøÿÿÿÿ
+i
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ˆÓ¸Á

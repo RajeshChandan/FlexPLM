@@ -1,0 +1,61 @@
+
+E
+java:S3740^"/Provide the parametrized type for this generic.(®„ÖÊ
+E
+java:S3740_"/Provide the parametrized type for this generic.(¹–£˜
+F
+java:S3740Ù"/Provide the parametrized type for this generic.(®„ÖÊ
+F
+java:S3740‚"/Provide the parametrized type for this generic.(‹åı
+t
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡ÔüÛúÿÿÿÿ
+h
+java:S1192Š"QDefine a constant instead of duplicating this literal "componentSection" 3 times.(êî¶ê
+h
+java:S1192:"MDefine a constant instead of duplicating this literal "roundValZPPK" 3 times.(¸¥æùÿÿÿÿ
+^
+java:S1192¦"GDefine a constant instead of duplicating this literal "NoSize" 3 times.(û®±—
+K
+java:S1066î"/Merge this if statement with the enclosing one.(¡½úæıÿÿÿÿ
+K
+java:S1066’"/Merge this if statement with the enclosing one.(ôÔ´Ÿûÿÿÿÿ
+ƒ
+java:S1319,"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(€ßŸ
+{
+java:S1319‚"dThe type of "dataMap" should be an interface such as "Map" rather than the implementation "HashMap".(‹åı
+k	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¿ÌÂùÿÿÿÿ
+f	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â„Êœ
+f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÑòŸ
+f	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş³—½
+f	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ø»
+g	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉØáğ
+?
+java:S5411Š"(Use a primitive boolean expression here.(êî¶ê
+?
+java:S5411Í"(Use a primitive boolean expression here.(¯ø±¼
+V	java:S125"<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+o	java:S115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(öÜææ
+V	java:S125""<This block of commented-out lines of code should be removed.(Şøªíşÿÿÿÿ
+h
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(€ßŸ
+M
+java:S1135W"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+h
+java:S3776]"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(âÙä
+V	java:S125e"<This block of commented-out lines of code should be removed.(ÈŸƒéıÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(´Ğ´ùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(İà‡Öşÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(¢ºåõ
+Q	java:S125š"<This block of commented-out lines of code should be removed.(—ø
+@
+java:S1905²")Remove this unnecessary cast to "String".(¶¹ ¶
+@
+java:S1905¸")Remove this unnecessary cast to "String".(¬ºÚÙ
+E
+java:S1905º")Remove this unnecessary cast to "String".(äŠÅãıÿÿÿÿ
+E
+java:S1905»")Remove this unnecessary cast to "String".(¤Öß÷øÿÿÿÿ
+N
+java:S1135ı"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+S
+java:S1144Ø"7Remove this unused private "getZPPKRoundValMap" method.(â¸†éûÿÿÿÿ

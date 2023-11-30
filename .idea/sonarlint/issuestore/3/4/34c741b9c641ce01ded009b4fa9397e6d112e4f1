@@ -1,0 +1,99 @@
+
+E
+java:S3740G"/Provide the parametrized type for this generic.(÷Çøç
+E
+java:S3740G"/Provide the parametrized type for this generic.(÷Çøç
+E
+java:S3740p"/Provide the parametrized type for this generic.(ËÆÙ
+x
+java:S1488‚"aImmediately return this expression instead of assigning it to the temporary variable "mainTable".(Ôãñ
+|
+java:S1488ã"`Immediately return this expression instead of assigning it to the temporary variable "pdfpcell".(ºƒ„Ğıÿÿÿÿ
+q
+java:S1104,"VMake PRODUCT_ID a static final constant or non-public and provide accessors if needed.(ßÃòÿÿÿÿÿ
+i
+java:S1104-"SMake SPEC_ID a static final constant or non-public and provide accessors if needed.(‹ÛÌ³
+v
+java:S1104."[Make SEASONMASTER_ID a static final constant or non-public and provide accessors if needed.(‹¶™Íùÿÿÿÿ
+j
+java:S1104/"OMake pgh a static final constant or non-public and provide accessors if needed.(Â°½ûûÿÿÿÿ
+K
+java:S1444,"0Make this "public static PRODUCT_ID" field final(ßÃòÿÿÿÿÿ
+C
+java:S1444-"-Make this "public static SPEC_ID" field final(‹ÛÌ³
+P
+java:S1444."5Make this "public static SEASONMASTER_ID" field final(‹¶™Íùÿÿÿÿ
+D
+java:S1444/")Make this "public static pgh" field final(Â°½ûûÿÿÿÿ
+V	java:S125 "<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+p
+java:S3008,"URename this field "PRODUCT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÃòÿÿÿÿÿ
+h
+java:S3008-"RRename this field "SPEC_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÛÌ³
+u
+java:S3008."ZRename this field "SEASONMASTER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¶™Íùÿÿÿÿ
+{
+java:S1149G"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(÷Çøç
+`
+java:S1854E"ERemove this useless assignment to local variable "hbiRoutingChanges".(¿·ËÚşÿÿÿÿ
+`
+java:S1854D"ERemove this useless assignment to local variable "hbiProductChanges".(£’ÆÏşÿÿÿÿ
+b
+java:S1854C"GRemove this useless assignment to local variable "hbiPackagingChanges".(ŸÍ¤øÿÿÿÿ
+d
+java:S1854B"IRemove this useless assignment to local variable "hbiMeasurementChanges".(ä·¾€şÿÿÿÿ
+^
+java:S1854A"CRemove this useless assignment to local variable "hbiLabelChanges".(½Ó¹ûÿÿÿÿ
+[
+java:S1854@"ERemove this useless assignment to local variable "hbiGarmentChanges".(µˆ±ë
+[
+java:S1854?"ERemove this useless assignment to local variable "hbiCutPartChanges".(ºÈ ô
+_
+java:S1854>"JRemove this useless assignment to local variable "hbiConstructionChanges".(¤™ÚD
+\
+java:S1854="FRemove this useless assignment to local variable "hbiColorwayChanges".(®û¡¾
+_
+java:S1854<"DRemove this useless assignment to local variable "hbiCasingChanges".(ü‘´½øÿÿÿÿ
+]
+java:S1854:"GRemove this useless assignment to local variable "revisionMOATypeName".(³«ÚÃ
+T
+java:S1854\">Remove this useless assignment to local variable "seasonName".(µËØ°
+V
+java:S1854p"@Remove this useless assignment to local variable "revisionIter".(ËÆÙ
+N
+java:S1481:"8Remove this unused "revisionMOATypeName" local variable.(³«ÚÃ
+J
+java:S1481;"4Remove this unused "revisionMoaType" local variable.(²ş¤´
+P
+java:S1481<"5Remove this unused "hbiCasingChanges" local variable.(ü‘´½øÿÿÿÿ
+M
+java:S1481="7Remove this unused "hbiColorwayChanges" local variable.(®û¡¾
+P
+java:S1481>";Remove this unused "hbiConstructionChanges" local variable.(¤™ÚD
+L
+java:S1481?"6Remove this unused "hbiCutPartChanges" local variable.(ºÈ ô
+L
+java:S1481@"6Remove this unused "hbiGarmentChanges" local variable.(µˆ±ë
+O
+java:S1481A"4Remove this unused "hbiLabelChanges" local variable.(½Ó¹ûÿÿÿÿ
+U
+java:S1481B":Remove this unused "hbiMeasurementChanges" local variable.(ä·¾€şÿÿÿÿ
+S
+java:S1481C"8Remove this unused "hbiPackagingChanges" local variable.(ŸÍ¤øÿÿÿÿ
+Q
+java:S1481D"6Remove this unused "hbiProductChanges" local variable.(£’ÆÏşÿÿÿÿ
+Q
+java:S1481E"6Remove this unused "hbiRoutingChanges" local variable.(¿·ËÚşÿÿÿÿ
+F
+java:S1481K"+Remove this unused "sslink" local variable.(Óü†üÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(ÑÎ¾Úüÿÿÿÿ
+E
+java:S1481\"/Remove this unused "seasonName" local variable.(µËØ°
+G
+java:S1481p"1Remove this unused "revisionIter" local variable.(ËÆÙ
+V	java:S125y"<This block of commented-out lines of code should be removed.(”ıæÎşÿÿÿÿ
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(•ÌÖ†ıÿÿÿÿ
+R	java:S125†"<This block of commented-out lines of code should be removed.(ÅÒºë
+W	java:S125ä"<This block of commented-out lines of code should be removed.(‘¹ìôÿÿÿÿÿ
+J
+java:S1144à"3Remove this unused private "createDataCell" method.(­³ã…

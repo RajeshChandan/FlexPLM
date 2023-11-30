@@ -1,0 +1,30 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ÖÔ‹Âûÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ÖÔ‹Âûÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(²†ÄŒþÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(²†ÄŒþÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(ÊžÏð
+E
+java:S3740"/Provide the parametrized type for this generic.(ê×Ãî
+J
+java:S3740*"/Provide the parametrized type for this generic.(îÐ¦™þÿÿÿÿ
+o
+java:S1192$"TDefine a constant instead of duplicating this literal "hbiMeasurementsTask" 5 times.(Ñô¹ôýÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÕð¥ÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏˆŠ‘ùÿÿÿÿ
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®§¬«üÿÿÿÿ
+q
+java:S14888"[Immediately return this expression instead of assigning it to the temporary variable "ret".(ø¦Ó¡
+s
+java:S3008"XRename this field "_myOperations" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÔ‹Âûÿÿÿÿ
+w
+java:S3008"\Rename this field "_myOperationsList" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²†ÄŒþÿÿÿÿ
+q
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ÖÔ‹Âûÿÿÿÿ
+F
+java:S1481"+Remove this unused "_fault" local variable.(ÏˆŠ‘ùÿÿÿÿ

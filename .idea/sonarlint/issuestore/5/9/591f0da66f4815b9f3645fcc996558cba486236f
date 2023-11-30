@@ -1,0 +1,22 @@
+
+`	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(ÙÈïıÿÿÿÿ
+[	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(¡Üš†
+o
+java:S1104"TMake fileName a static final constant or non-public and provide accessors if needed.(°É…­úÿÿÿÿ
+r
+java:S1104"WMake recordCount a static final constant or non-public and provide accessors if needed.(şòæ¾ûÿÿÿÿ
+m
+java:S1104"RMake xmlTag a static final constant or non-public and provide accessors if needed.(è‹Â±øÿÿÿÿ
+n
+java:S1104"XMake outputBuffer a static final constant or non-public and provide accessors if needed.(†Ìî—
+Q	java:S125"<This block of commented-out lines of code should be removed.(—Ë¶ú
+Q	java:S125"<This block of commented-out lines of code should be removed.(Úä†
+‡
+java:S1130-"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙÈïıÿÿÿÿ
+V	java:S125."<This block of commented-out lines of code should be removed.(Ó¦Ÿåøÿÿÿÿ
+c	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó‚¾
+‚
+java:S1130P"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¡Üš†
+V	java:S125Q"<This block of commented-out lines of code should be removed.(Ï‹±Æûÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ

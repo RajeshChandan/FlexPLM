@@ -1,0 +1,63 @@
+
+E
+java:S3740W"/Provide the parametrized type for this generic.(—Ğç¾
+F
+java:S3740¿"/Provide the parametrized type for this generic.(ÈÍÑ¥
+K
+java:S3740É"/Provide the parametrized type for this generic.(£«ˆ†ıÿÿÿÿ
+F
+java:S3740"/Provide the parametrized type for this generic.(—Ğç¾
+F
+java:S3740º"/Provide the parametrized type for this generic.( Àòù
+F
+java:S3740½"/Provide the parametrized type for this generic.(Òèğò
+F
+java:S3740½"/Provide the parametrized type for this generic.(Òèğò
+F
+java:S3740É"/Provide the parametrized type for this generic.(òÅôã
+g
+java:S1192Á"KDefine a constant instead of duplicating this literal "ColumnList" 3 times.(Ÿ›¨Îùÿÿÿÿ
+d
+java:S1192ã"HDefine a constant instead of duplicating this literal "section" 3 times.(œ¤¼ªúÿÿÿÿ
+o
+java:S11045"ZMake nonProductBOMs a static final constant or non-public and provide accessors if needed.(Ãü¦p
+n
+java:S11046"XMake modifiedBOMs a static final constant or non-public and provide accessors if needed.(¦úâ
+I
+java:S14445"4Make this "public static nonProductBOMs" field final(Ãü¦p
+H
+java:S14446"2Make this "public static modifiedBOMs" field final(¦úâ
+o
+java:S30088"TRename this field "VIEW_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ÌÓêúÿÿÿÿ
+i
+java:S3008:"SRename this field "BOM_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª÷‰î
+x
+java:S3008<"]Rename this field "SECTIONS_TO_IGNORE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ˆşÿÿÿÿ
+t
+java:S11495"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ãü¦p
+u
+java:S11496"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¦úâ
+P
+java:S11181":Add a private constructor to hide the implicit public one.(ªÕ†â
+X
+java:S1854L"BRemove this useless assignment to local variable "businessObject".(Ë‰Ï‹
+V
+java:S1854o";Remove this useless assignment to local variable "product".(ëıÜ›şÿÿÿÿ
+I
+java:S1481L"3Remove this unused "businessObject" local variable.(Ë‰Ï‹
+Q	java:S125S"<This block of commented-out lines of code should be removed.(éÂ©³
+Q	java:S125j"<This block of commented-out lines of code should be removed.(÷Ì¸É
+P	java:S125|"<This block of commented-out lines of code should be removed.(Ê¶Æ
+W	java:S125²"<This block of commented-out lines of code should be removed.(åÏÄ˜úÿÿÿÿ
+=
+java:S2129Ì"!Remove this "Boolean" constructor(àçàÙşÿÿÿÿ
+d
+java:S5738Ì"HRemove this call to a deprecated method, it has been marked for removal.(àçàÙşÿÿÿÿ
+R	java:S125Ï"<This block of commented-out lines of code should be removed.(ŸÙö…
+N
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+F	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ
+i
+java:S3776º"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.( Àòù
+H
+java:S2692Ø"10 is a valid index, but is ignored by this check.(ù×³°

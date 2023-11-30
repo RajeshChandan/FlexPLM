@@ -1,0 +1,281 @@
+
+F
+java:S3740®"/Provide the parametrized type for this generic.(¾®…É
+K
+java:S3740Å"/Provide the parametrized type for this generic.(«Ô‡«ÿÿÿÿÿ
+E
+java:S3740Í"/Provide the parametrized type for this generic.(¸•n
+t
+java:S2293p"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûúéÂúÿÿÿÿ
+u
+java:S2293û"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇâÀŞûÿÿÿÿ
+p
+java:S2293Í"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+u
+java:S2293ì"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ¡ôøÿÿÿÿ
+u
+java:S2293í"YReplace the type specification in this constructor call with the diamond operator ("<>").(œŞ‡”úÿÿÿÿ
+u
+java:S2293î"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚ÓŞÀûÿÿÿÿ
+u
+java:S2293ˆ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø‰Ğùÿÿÿÿ
+u
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(»Î­¼ûÿÿÿÿ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(œã€ñıÿÿÿÿ
+p
+java:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+p
+java:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+p
+java:S2293Ê"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+p
+java:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+p
+java:S2293€"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+p
+java:S2293º"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+p
+java:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(„ï¼È
+p
+java:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ş‰÷Ûøÿÿÿÿ
+u
+java:S2293™"YReplace the type specification in this constructor call with the diamond operator ("<>").(ş‰÷Ûøÿÿÿÿ
+p
+java:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+u
+java:S2293¯"YReplace the type specification in this constructor call with the diamond operator ("<>").(ş‰÷Ûøÿÿÿÿ
+p
+java:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦­Ğ¤
+u
+java:S2293Ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø‰Ğùÿÿÿÿ
+u
+java:S2293Ê"YReplace the type specification in this constructor call with the diamond operator ("<>").(œã€ñıÿÿÿÿ
+i
+java:S1192"MDefine a constant instead of duplicating this literal "BOM.partName" 3 times.(şÓ£›úÿÿÿÿ
+b
+java:S1192î"KDefine a constant instead of duplicating this literal "components" 9 times.(î¶
+j
+java:S1192å"NDefine a constant instead of duplicating this literal "FLEXBOMLINK." 19 times.(…†¬ùıÿÿÿÿ
+f
+java:S1192¿"OUse already-defined constant 'Colorways' instead of duplicating its value here.(ğÆÂ²
+c
+java:S1192Ô"LDefine a constant instead of duplicating this literal "----------" 10 times.(öÒ”
+`
+java:S1192š"IDefine a constant instead of duplicating this literal "partName" 6 times.(“Â‡Ä
+K
+java:S1066Ä"/Merge this if statement with the enclosing one.(¨ÃÊ¶úÿÿÿÿ
+l	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇâÀŞûÿÿÿÿ
+l	java:S117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÍÌâûÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Æä_
+l
+java:S1104B"QMake SIZES a static final constant or non-public and provide accessors if needed.(Úö´ƒüÿÿÿÿ
+p
+java:S1104C"UMake sizeLabel a static final constant or non-public and provide accessors if needed.(™™Â—ùÿÿÿÿ
+r
+java:S1104E"\Make BOMLINK_DIM_NAME a static final constant or non-public and provide accessors if needed.(®Æé‡
+t
+java:S1104F"YMake BOMLINK_SIZE1 a static final constant or non-public and provide accessors if needed.(·‘‹şÿÿÿÿ
+g
+java:S1104G"QMake SIZE1 a static final constant or non-public and provide accessors if needed.(Êæ”¯
+e
+java:S1104H"OMake SKU a static final constant or non-public and provide accessors if needed.(¤Äÿ×
+k
+java:S1104I"UMake SKU_SIZE1 a static final constant or non-public and provide accessors if needed.(¨•‹
+o
+java:S1104J"ZMake BOMLINK_IDA3E5 a static final constant or non-public and provide accessors if needed.(»ì‡q
+{
+java:S1104K"`Make BOMLINK_COLORWAYNAME a static final constant or non-public and provide accessors if needed.(ŠÇª£ıÿÿÿÿ
+z
+java:S1104r"_Make USE_DEFAULT_COLUMNS a static final constant or non-public and provide accessors if needed.(şÆ¾øşÿÿÿÿ
+l
+java:S1104t"QMake DEBUG a static final constant or non-public and provide accessors if needed.(ı­Ê–ùÿÿÿÿ
+n
+java:S1104v"YMake partNameWidth a static final constant or non-public and provide accessors if needed.(Ğº;
+x
+java:S1104w"]Make materialNameWidth a static final constant or non-public and provide accessors if needed.(†ç›Àúÿÿÿÿ
+x
+java:S1104x"]Make supplierNameWidth a static final constant or non-public and provide accessors if needed.(òèü³øÿÿÿÿ
+k
+java:S1104y"UMake sizeWidth a static final constant or non-public and provide accessors if needed.(àÜ°³
+o
+java:S1104z"YMake colorwayWidth a static final constant or non-public and provide accessors if needed.(³Æï
+q
+java:S1104|"VMake imageWidth a static final constant or non-public and provide accessors if needed.(ıãÎıÿÿÿÿ
+r
+java:S1104}"WMake imageHeight a static final constant or non-public and provide accessors if needed.(°ÏÓıÿÿÿÿ
+u
+java:S1104"ZMake SALES_BOM_TYPE a static final constant or non-public and provide accessors if needed.(íø¹›üÿÿÿÿ
+f
+java:S1104€"PMake ZPPK a static final constant or non-public and provide accessors if needed.(­ß×O
+g
+java:S1104"PMake ZFRT a static final constant or non-public and provide accessors if needed.(»ÑŒ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÖëÛÌùÿÿÿÿ
+t	java:S115@"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™¥Ù¼ÿÿÿÿÿ
+j	java:S116B"PRename this field "SIZES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úö´ƒüÿÿÿÿ
+p	java:S116E"[Rename this field "BOMLINK_DIM_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Æé‡
+r	java:S116F"XRename this field "BOMLINK_SIZE1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‘‹şÿÿÿÿ
+e	java:S116G"PRename this field "SIZE1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êæ”¯
+c	java:S116H"NRename this field "SKU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Äÿ×
+i	java:S116I"TRename this field "SKU_SIZE1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨•‹
+m	java:S116J"YRename this field "BOMLINK_IDA3E5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ì‡q
+y	java:S116K"_Rename this field "BOMLINK_COLORWAYNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÇª£ıÿÿÿÿ
+m	java:S116W"XRename this field "COMP_NAME_ATT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª»úğ
+q	java:S116X"\Rename this field "COMP_NAME_DISPLAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¯ï
+s	java:S116Y"YRename this field "COLOR_NAME_ATT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üª‰Äşÿÿÿÿ
+x	java:S116r"^Rename this field "USE_DEFAULT_COLUMNS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÆ¾øşÿÿÿÿ
+j	java:S116t"PRename this field "DEBUG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı­Ê–ùÿÿÿÿ
+s	java:S116"YRename this field "SALES_BOM_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íø¹›üÿÿÿÿ
+d	java:S116€"ORename this field "ZPPK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ß×O
+e	java:S116"ORename this field "ZFRT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ÑŒ
+v
+java:S3008="[Rename this field "SIZE_DISPLAY_COL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¼íéûÿÿÿÿ
+i
+java:S1845N"NRename field "sizes" to prevent any misunderstanding/clash with field "SIZES".(´›´‚ùÿÿÿÿ
+v
+java:S1450`"[Remove the "bomSalesType" field and declare it as a local variable in the relevant methods.(Îµ’ˆúÿÿÿÿ
+l
+java:S1450a"VRemove the "product" field and declare it as a local variable in the relevant methods.(Î¢µä
+k
+java:S1450O"URemove the "source" field and declare it as a local variable in the relevant methods.(ìşÄò
+V	java:S125Q"<This block of commented-out lines of code should be removed.(§È¶ëúÿÿÿÿ
+]
+java:S5738v"HRemove this call to a deprecated method, it has been marked for removal.(Ğº;
+c
+java:S5738w"HRemove this call to a deprecated method, it has been marked for removal.(†ç›Àúÿÿÿÿ
+c
+java:S5738x"HRemove this call to a deprecated method, it has been marked for removal.(òèü³øÿÿÿÿ
+^
+java:S5738y"HRemove this call to a deprecated method, it has been marked for removal.(àÜ°³
+^
+java:S5738z"HRemove this call to a deprecated method, it has been marked for removal.(³Æï
+n
+java:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.(¨®±Òıÿÿÿÿ
+V
+java:S1854á":Remove this useless assignment to local variable "column".(´¡“şÿÿÿÿ
+Z
+java:S1155Â">Use isEmpty() to check whether the collection is empty or not.(ëŸü¾şÿÿÿÿ
+S
+java:S1854Ç"7Remove this useless assignment to local variable "obj".(ª“Áöùÿÿÿÿ
+?
+java:S1481¿"(Remove this unused "obj" local variable.(‹òƒ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(²¾ö°ÿÿÿÿÿ
+W	java:S125È"<This block of commented-out lines of code should be removed.(ªœìçøÿÿÿÿ
+R	java:S125Ğ"<This block of commented-out lines of code should be removed.(â¢§
+W	java:S125ë"<This block of commented-out lines of code should be removed.( ”š×úÿÿÿÿ
+W	java:S125ï"<This block of commented-out lines of code should be removed.( ”š×úÿÿÿÿ
+Q	java:S125ò"<This block of commented-out lines of code should be removed.(Úòs
+R	java:S125€"<This block of commented-out lines of code should be removed.(Ğ¸Ù®
+j
+java:S3776’"SRefactor this method to reduce its Cognitive Complexity from 119 to the 15 allowed.(ì¼…Û
+Z
+java:S1854">Remove this useless assignment to local variable "extraSizes".(ÈŠ¡ãıÿÿÿÿ
+V
+java:S1854£"?Remove this useless assignment to local variable "extraColors".(Ÿ‹”Ê
+_
+java:S1854¨"CRemove this useless assignment to local variable "extraSizeNColor".(¥ÂÙµùÿÿÿÿ
+[
+java:S1854í"?Remove this useless assignment to local variable "colorsExtra".(œŞ‡”úÿÿÿÿ
+Z
+java:S1854ì">Remove this useless assignment to local variable "sizesExtra".(ñ¡ôøÿÿÿÿ
+D
+java:S1905•"-Remove this unnecessary cast to "Collection".(å²ºÎ
+I
+java:S1905–"-Remove this unnecessary cast to "Collection".(ûÑ½şÿÿÿÿ
+Z
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(´½¶Äøÿÿÿÿ
+E
+java:S1940")Use the opposite operator ("<=") instead.(´½¶Äøÿÿÿÿ
+Z
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(´½¶Äøÿÿÿÿ
+U
+java:S1155¢">Use isEmpty() to check whether the collection is empty or not.(à€®è
+@
+java:S1940¢")Use the opposite operator ("<=") instead.(à€®è
+U
+java:S1155¢">Use isEmpty() to check whether the collection is empty or not.(à€®è
+Z
+java:S1155§">Use isEmpty() to check whether the collection is empty or not.(Ø£‚ÿÿÿÿÿ
+Z
+java:S1155§">Use isEmpty() to check whether the collection is empty or not.(Ø£‚ÿÿÿÿÿ
+Z
+java:S1155µ">Use isEmpty() to check whether the collection is empty or not.(´½¶Äøÿÿÿÿ
+E
+java:S1940µ")Use the opposite operator ("<=") instead.(´½¶Äøÿÿÿÿ
+Z
+java:S1155µ">Use isEmpty() to check whether the collection is empty or not.(´½¶Äøÿÿÿÿ
+U
+java:S1155Ã">Use isEmpty() to check whether the collection is empty or not.(à€®è
+@
+java:S1940Ã")Use the opposite operator ("<=") instead.(à€®è
+U
+java:S1155Ã">Use isEmpty() to check whether the collection is empty or not.(à€®è
+U
+java:S1155ë">Use isEmpty() to check whether the collection is empty or not.(¾­Éÿ
+U
+java:S1155ë">Use isEmpty() to check whether the collection is empty or not.(¾­Éÿ
+Z
+java:S1155ï">Use isEmpty() to check whether the collection is empty or not.(´½¶Äøÿÿÿÿ
+E
+java:S1940ï")Use the opposite operator ("<=") instead.(´½¶Äøÿÿÿÿ
+Z
+java:S1155ï">Use isEmpty() to check whether the collection is empty or not.(´½¶Äøÿÿÿÿ
+U
+java:S1155÷">Use isEmpty() to check whether the collection is empty or not.(Ñ¦«¬
+Z
+java:S1155€">Use isEmpty() to check whether the collection is empty or not.(Ï»Â®ûÿÿÿÿ
+E
+java:S1940€")Use the opposite operator ("<=") instead.(Ï»Â®ûÿÿÿÿ
+Z
+java:S1155€">Use isEmpty() to check whether the collection is empty or not.(Ï»Â®ûÿÿÿÿ
+U
+java:S1155…">Use isEmpty() to check whether the collection is empty or not.(×Ì´Û
+U
+java:S1155…">Use isEmpty() to check whether the collection is empty or not.(×Ì´Û
+i
+java:S3776¡"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¼ŸÚÂ
+\
+java:S1854ª"@Remove this useless assignment to local variable "reverseOrder".(³¬Ëªûÿÿÿÿ
+M
+java:S1481£"1Remove this unused "reverseOrder" local variable.(Ô‚Í…úÿÿÿÿ
+E
+java:S1905¤")Remove this unnecessary cast to "String".(¿º„ìÿÿÿÿÿ
+C
+java:S1905®"-Remove this unnecessary cast to "Collection".(…¶0
+i
+java:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ğ‰
+C
+java:S1905æ"-Remove this unnecessary cast to "Collection".(ûÃ
+i
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(µ³·®
+o
+java:S3776è"SRefactor this method to reduce its Cognitive Complexity from 146 to the 15 allowed.(ğªëóşÿÿÿÿ
+W
+java:S1854ù"@Remove this useless assignment to local variable "colorFlexObj".(€ÄäÅ
+[
+java:S1854ø"?Remove this useless assignment to local variable "sizeFlexObj".(§»‘úÿÿÿÿ
+U
+java:S1155‘">Use isEmpty() to check whether the collection is empty or not.(›Î©­
+Z
+java:S1854¼">Remove this useless assignment to local variable "topLvlCopy".(Ÿ…ëïøÿÿÿÿ
+Y
+java:S1854Ò"BRemove this useless assignment to local variable "topLvlCopySize".(á«å
+_
+java:S1854Û"CRemove this useless assignment to local variable "topLvlCopyColor".(ğå£®ùÿÿÿÿ
+U
+java:S1155Ğ">Use isEmpty() to check whether the collection is empty or not.(½œ
+U
+java:S1155Ù">Use isEmpty() to check whether the collection is empty or not.(±…©
+R
+java:S1854";Remove this useless assignment to local variable "flexObj".(»Á¡Ó
+R
+java:S1854›";Remove this useless assignment to local variable "flexObj".(»Á¡Ó
+R
+java:S1854²";Remove this useless assignment to local variable "flexObj".(»Á¡Ó
+R	java:S125·"<This block of commented-out lines of code should be removed.(¶“šˆ
+H
+java:S1068@"-Remove this unused "Colorways" private field.(™¥Ù¼ÿÿÿÿÿ
+@
+java:S1068O"*Remove this unused "source" private field.(ìşÄò
