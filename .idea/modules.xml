@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VS_DATA_EXTRACTION.iml" filepath="$PROJECT_DIR$/VS_DATA_EXTRACTION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PLM.iml" filepath="$PROJECT_DIR$/PLM.iml" />
     </modules>
   </component>
 </project>
