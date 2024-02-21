@@ -1,10 +1,0 @@
-
-Q	java:S125"<This block of commented-out lines of code should be removed.(µ·¡–
-Q	java:S125"<This block of commented-out lines of code should be removed.(ºÁù‰
-R
-java:S1854)"<Remove this useless assignment to local variable "logEntry".(ÃôÜß
-V	java:S125"<This block of commented-out lines of code should be removed.(†¿è…üÿÿÿÿ
-Z
-java:S2147-"DCombine this catch with the one at line 43, which has the same body.(Îßé¡
-Q	java:S125 "<This block of commented-out lines of code should be removed.(ËäƒÙ
-Q	java:S125""<This block of commented-out lines of code should be removed.(¤ªí™

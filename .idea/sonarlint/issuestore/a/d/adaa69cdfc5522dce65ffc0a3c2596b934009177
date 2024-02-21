@@ -1,12 +1,0 @@
-
-u
-java:S3008"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò”Ùš
-{
-java:S3008"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠŒÉÁøÿÿÿÿ
-w
-java:S1450"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
-V	java:S125"<This block of commented-out lines of code should be removed.(Îûõ…ùÿÿÿÿ
-E
-java:S1197)"*Move the array designators [] to the type.(Ì¸¥÷úÿÿÿÿ
-@
-java:S1197*"*Move the array designators [] to the type.(Ô€ª

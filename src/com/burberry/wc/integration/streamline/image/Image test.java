@@ -8,6 +8,7 @@ import java.net.URL;
 import javax.imageio.ImageIO;
 
 import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 
 import com.burberry.wc.integration.streamline.util.BRStreamlineConstants;
@@ -21,6 +22,7 @@ import com.lcs.wc.util.FormatHelper;
 import com.lcs.wc.util.VersionHelper;
 
 import wt.fc.WTObject;
+import wt.log4j.LogR;
 import wt.util.WTException;
 
 public class BRCreateImage {
@@ -28,7 +30,7 @@ public class BRCreateImage {
 	/**
 	 * Logger.
 	 */
-	private static final Logger LOGGER = Logger.getLogger(BRCreateImage.class);
+	private static final Logger LOGGER = LogR.getLogger(BRCreateImage.class.getName());
 
 	/**
 	 * 

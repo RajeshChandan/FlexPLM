@@ -1,9 +1,0 @@
-
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’¼Ù³ÿÿÿÿÿ
-Q	java:S125*"<This block of commented-out lines of code should be removed.(øÖìª
-M
-java:S1135="2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
-E
-java:S1197C"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ
-@	java:S106R"+Replace this use of System.out by a logger.(ÕŒ«©
-@	java:S106V"+Replace this use of System.out by a logger.(¼®´·

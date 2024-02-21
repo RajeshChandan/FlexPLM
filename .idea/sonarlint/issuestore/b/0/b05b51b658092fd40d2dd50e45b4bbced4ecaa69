@@ -1,13 +1,0 @@
-
-k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ˆ×çüÿÿÿÿ
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’¼Ù³ÿÿÿÿÿ
-B
-java:S2885"'Make "dateFormat" an instance variable.(¹™á­üÿÿÿÿ
-m
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(àƒ¨Üüÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(€ºº þÿÿÿÿ
-E	java:S106A"+Replace this use of System.out by a logger.(í™öŽøÿÿÿÿ
-P	java:S125L"<This block of commented-out lines of code should be removed.(ÅÃ£[
-F	java:S106"+Replace this use of System.out by a logger.(’ï‘Áûÿÿÿÿ
-R	java:S125Ì"<This block of commented-out lines of code should be removed.(¼ƒ¯¨
-W	java:S125”"<This block of commented-out lines of code should be removed.(›˜Äéúÿÿÿÿ

@@ -9,8 +9,6 @@ import java.util.Map;
 
 import javax.xml.bind.annotation.XmlElement;
 
-import org.apache.log4j.Logger;
-
 import com.burberry.wc.integration.bean.Pricing.PricingStyle;
 import com.burberry.wc.integration.bean.Pricing.PricingStyle.PricingColourways;
 import com.burberry.wc.integration.bean.Pricing.PricingStyle.PricingColourways.PricingColourway;
@@ -26,6 +24,8 @@ import com.burberry.wc.integration.bean.Products.Style.Dimensions;
 import com.burberry.wc.integration.bean.Products.Style.PlanningAttributes;
 import com.burberry.wc.integration.util.BurConstant;
 import com.lcs.wc.util.FormatHelper;
+import org.apache.logging.log4j.Logger;
+import wt.log4j.LogR;
 
 /**
  * Bean utility class to create and update bean data.
@@ -87,8 +87,7 @@ public final class BeanUtil {
 	/**
 	 * logger.
 	 */
-	private static final Logger logger = Logger
-			.getLogger(BeanUtil.class);
+	private static final Logger logger = LogR.getLogger(BeanUtil.class.getName());
 	
 	public static Object putStyleData(final Map<String, Object> productMap,
 			final BeanType beanType) {

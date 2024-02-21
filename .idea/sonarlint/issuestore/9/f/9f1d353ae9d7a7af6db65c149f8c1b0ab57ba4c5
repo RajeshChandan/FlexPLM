@@ -1,17 +1,0 @@
-
-u
-java:S3008"_Rename this field "CLIENT_ADMIN_USER_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¯çý
-v
-java:S3008"`Rename this field "CLIENT_ADMIN_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ô˜Õ
-w
-java:S1450"aRemove the "remoteMethodServer" field and declare it as a local variable in the relevant methods.(«é±Ò
-P
-java:S18541"<Remove this useless assignment to local variable "mcontext".(‘Ëx
-]
-java:S18542"BRemove this useless assignment to local variable "sessioncontext".(÷ÿé£ûÿÿÿÿ
-A
-java:S14811"-Remove this unused "mcontext" local variable.(‘Ëx
-N
-java:S14812"3Remove this unused "sessioncontext" local variable.(÷ÿé£ûÿÿÿÿ
-Q	java:S125<"<This block of commented-out lines of code should be removed.(ú¥¼Œ
-V	java:S125\"<This block of commented-out lines of code should be removed.(üõóöÿÿÿÿÿ

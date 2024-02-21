@@ -1,87 +1,0 @@
-
-E
-java:S3740"/Provide the parametrized type for this generic.(Û‡÷—
-E
-java:S3740"/Provide the parametrized type for this generic.(Û‡÷—
-E
-java:S3740"/Provide the parametrized type for this generic.(Íîåš
-E
-java:S3740"/Provide the parametrized type for this generic.(Íîåš
-J
-java:S3740"/Provide the parametrized type for this generic.(¸Æ§ùÿÿÿÿ
-J
-java:S3740"/Provide the parametrized type for this generic.(¸Æ§ùÿÿÿÿ
-E
-java:S3740"/Provide the parametrized type for this generic.(õ³ˆÖ
-E
-java:S3740"/Provide the parametrized type for this generic.(õ³ˆÖ
-D
-java:S37407"/Provide the parametrized type for this generic.(½öÊD
-J
-java:S3740:"/Provide the parametrized type for this generic.(×íí¨üÿÿÿÿ
-E
-java:S3740;"/Provide the parametrized type for this generic.(Í´ò‹
-E
-java:S3740<"/Provide the parametrized type for this generic.(››‹‰
-J
-java:S3740="/Provide the parametrized type for this generic.(æ³Æşÿÿÿÿ
-E
-java:S3740>"/Provide the parametrized type for this generic.(ÜôÜÔ
-J
-java:S3740?"/Provide the parametrized type for this generic.(¼İºüÿÿÿÿ
-J
-java:S3740@"/Provide the parametrized type for this generic.(ÍçÌûÿÿÿÿ
-E
-java:S3740A"/Provide the parametrized type for this generic.(Š¦Î­
-J
-java:S3740B"/Provide the parametrized type for this generic.(˜àÓİıÿÿÿÿ
-E
-java:S3740C"/Provide the parametrized type for this generic.(¤³Ã
-J
-java:S3740b"/Provide the parametrized type for this generic.(­¢­Äıÿÿÿÿ
-J
-java:S3740q"/Provide the parametrized type for this generic.(ªÖßıÿÿÿÿ
-D
-java:S3740v"/Provide the parametrized type for this generic.(¯”÷
-J
-java:S3740x"/Provide the parametrized type for this generic.(Ç™ïÎÿÿÿÿÿ
-µ
-java:S1192"Define a constant instead of duplicating this literal "http://www.ptc.com/infoengine/soap/rpc/message/com.hbi.wc.interfaces.outbound.webservices.pom" 3 times.(±ÎóÜ
-Q
-java:S1141¤"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-k	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã×“Áúÿÿÿÿ
-g	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òó î
-l	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿöá¢üÿÿÿÿ
-g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´õô–
-l	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë‚Öûÿÿÿÿ
-q
-java:S3008"VRename this field "_operations" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆß–ÿÿÿÿÿ
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Û‡÷—
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Íîåš
-€
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¸Æ§ùÿÿÿÿ
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(õ³ˆÖ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Í½ß
-A
-java:S14819"+Remove this unused "qName2" local variable.(öëñÜ
-A
-java:S1481<"+Remove this unused "enumsf" local variable.(››‹‰
-F
-java:S1481="+Remove this unused "enumdf" local variable.(æ³Æşÿÿÿÿ
-B
-java:S1481>",Remove this unused "arraysf" local variable.(ÜôÜÔ
-G
-java:S1481?",Remove this unused "arraydf" local variable.(¼İºüÿÿÿÿ
-H
-java:S1481@"-Remove this unused "simplesf" local variable.(ÍçÌûÿÿÿÿ
-C
-java:S1481A"-Remove this unused "simpledf" local variable.(Š¦Î­
-L
-java:S1481B"1Remove this unused "simplelistsf" local variable.(˜àÓİıÿÿÿÿ
-G
-java:S1481C"1Remove this unused "simplelistdf" local variable.(¤³Ã
-s
-java:S2737«"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ø¥› ûÿÿÿÿ

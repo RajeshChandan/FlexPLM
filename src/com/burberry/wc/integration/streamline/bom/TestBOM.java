@@ -7,7 +7,7 @@ import com.lcs.wc.color.LCSColor;
 import com.lcs.wc.db.FlexObject;
 import com.lcs.wc.db.Query;
 import com.lcs.wc.db.SearchResults;
-import com.lcs.wc.flexbom.LCSFlexBOMLogic.1;
+import com.lcs.wc.flexbom.LCSFlexBOMLogic;
 import com.lcs.wc.flextype.FlexType;
 import com.lcs.wc.flextype.FlexTypeAttribute;
 import com.lcs.wc.flextype.FlexTypeCache;
@@ -83,9 +83,9 @@ import wt.vc.Mastered;
 import wt.vc.VersionControlHelper;
 import wt.vc.wip.WorkInProgressHelper;
 
-public class LCSFlexBOMLogic extends LCSPartLogic {
-   private static final Logger LOGGER = LogR.getLogger(LCSFlexBOMLogic.class.getName());
-   private static final String CLASSNAME = LCSFlexBOMLogic.class.getName();
+public class TestBOM extends LCSPartLogic {
+   private static final Logger LOGGER = LogR.getLogger(TestBOM.class.getName());
+   private static final String CLASSNAME = TestBOM.class.getName();
    private static final String BOMPART_FOLDERLOCATION;
    private static final Class BOMPART_SEQUENCE_CLASS;
    private static final boolean USE_STANDARD_BOM_QUERY_IN_ROLL_UP;
@@ -1209,7 +1209,7 @@ public class LCSFlexBOMLogic extends LCSPartLogic {
             ordered.add(obj);
          }
 
-         Collections.sort(ors, new com.lcs.wc.flexbom.LCSFlexBOMLogic.DimensionNameComparatorForFlexObject(this, (1)null));
+        // Collections.sort(ors, new com.lcs.wc.flexbom.LCSFlexBOMLogic.DimensionNameComparatorForFlexObject());
          var6 = ors.iterator();
 
          while(var6.hasNext()) {
@@ -1255,7 +1255,7 @@ public class LCSFlexBOMLogic extends LCSPartLogic {
             ordered.add(obj);
          }
 
-         Collections.sort(ors, new com.lcs.wc.flexbom.LCSFlexBOMLogic.DimensionNameComparatorForFlexBOMLink(this, (1)null));
+        // Collections.sort(ors, new com.lcs.wc.flexbom.LCSFlexBOMLogic.DimensionNameComparatorForFlexBOMLink(this, (1)null));
          var6 = ors.iterator();
 
          while(var6.hasNext()) {
@@ -2951,5 +2951,5 @@ public class LCSFlexBOMLogic extends LCSPartLogic {
       }
    }
 }
-    Download file
+   // Download file
 

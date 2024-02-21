@@ -36,7 +36,7 @@ public class VSMaterialMOADataProcessorImpl implements VSDataProcessor {
     private SearchResults getMaterial (VSDataExportBean exportBean) {
 
      LCSMaterialQuery qry = new LCSMaterialQuery ();
-        FlexType materialType
+        FlexType materialType;
         Collection attCols = null;
         Map criteria = new HashMap();
         criteria.put("includeSupplier", "true");

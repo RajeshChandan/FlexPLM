@@ -1,87 +1,0 @@
-
-E
-java:S3740"/Provide the parametrized type for this generic.(Ãÿä
-E
-java:S3740"/Provide the parametrized type for this generic.(Ãÿä
-E
-java:S3740"/Provide the parametrized type for this generic.(Ãÿä
-E
-java:S3740"/Provide the parametrized type for this generic.(ĞËèı
-E
-java:S3740"/Provide the parametrized type for this generic.(ĞËèı
-E
-java:S3740"/Provide the parametrized type for this generic.(ĞËèı
-E
-java:S3740;"/Provide the parametrized type for this generic.(®¾ÈŞ
-E
-java:S3740;"/Provide the parametrized type for this generic.(®¾ÈŞ
-E
-java:S3740;"/Provide the parametrized type for this generic.(®¾ÈŞ
-E
-java:S3740y"/Provide the parametrized type for this generic.(Ì÷ÎŠ
-
-java:S1319"iThe type of "dataValues" should be an interface such as "Map" rather than the implementation "Hashtable".(Ãÿä
-€
-java:S1319"jThe type of "commandLine" should be an interface such as "Map" rather than the implementation "Hashtable".(Ãÿä
-
-java:S1319"iThe type of "dataValues" should be an interface such as "Map" rather than the implementation "Hashtable".(ĞËèı
-€
-java:S1319"jThe type of "commandLine" should be an interface such as "Map" rather than the implementation "Hashtable".(ĞËèı
-
-java:S1319;"iThe type of "dataValues" should be an interface such as "Map" rather than the implementation "Hashtable".(®¾ÈŞ
-€
-java:S1319;"jThe type of "commandLine" should be an interface such as "Map" rather than the implementation "Hashtable".(®¾ÈŞ
-l
-java:S3008"VRename this field "DATE_FORMAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ú­
-w
-java:S3008"aRename this field "DEFAULT_QUEUE_INTERVAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éàµŞ
-k
-java:S3008"PRename this field "DEBUG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ú¾Ôûÿÿÿÿ
-l
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ãÿä
-l
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ãÿä
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ãÿä
-l
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ĞËèı
-l
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ĞËèı
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ĞËèı
-l
-java:S1149;"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(®¾ÈŞ
-l
-java:S1149;"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(®¾ÈŞ
-{
-java:S1149;"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(®¾ÈŞ
->
-java:S2885"(Make "DATE_FORMAT" an instance variable.(‹Ú­
-O
-java:S3400"9Remove this method and declare a constant for this value.(§¼Éç
-i
-java:S1172"SRemove these unused method parameters "dataValues", "commandLine", "returnObjects".(Ãÿä
-\
-java:S1854."ARemove this useless assignment to local variable "entryInterval".(›¢…åøÿÿÿÿ
-[
-java:S1172"ERemove these unused method parameters "commandLine", "returnObjects".(ĞËèı
-M
-java:S1481."2Remove this unused "entryInterval" local variable.(›¢…åøÿÿÿÿ
-[
-java:S1172;"ERemove these unused method parameters "commandLine", "returnObjects".(®¾ÈŞ
-V
-java:S1854Z"ARemove this useless assignment to local variable "scheduleEntry".(ô…›f
-@
-java:S1197V"*Move the array designators [] to the type.(ï‚‘ª
-E
-java:S1197W"*Move the array designators [] to the type.(é”ªÙüÿÿÿÿ
-G
-java:S1481Z"2Remove this unused "scheduleEntry" local variable.(ô…›f
-F	java:S106Ÿ"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ
-R	java:S125"<This block of commented-out lines of code should be removed.(…¤—…
-F
-java:S1197ª"*Move the array designators [] to the type.(Î•Éÿÿÿÿÿ
-F	java:S106¼"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ
-R	java:S125°"<This block of commented-out lines of code should be removed.(êÏÂä
-R	java:S125´"<This block of commented-out lines of code should be removed.(Î½²­
-W	java:S125½"<This block of commented-out lines of code should be removed.(˜¼—Şıÿÿÿÿ
