@@ -1,7 +1,6 @@
 package com.lowes.web.controller;
 
 import com.google.gson.Gson;
-import com.lowes.web.exceptions.FlexObjectNotFoundException;
 import com.lowes.web.exceptions.InputValidationException;
 import com.lowes.web.services.ProductService;
 import com.lowes.web.util.AppUtil;
@@ -92,7 +91,60 @@ public class ProductWebServiceController {
             JSONObject inputJson = (JSONObject) parser.parse(input);
             json = new ProductService().delete(inputJson);
 
-        } catch (InputValidationException | FlexObjectNotFoundException var9) {
+        } catch (InputValidationException var9) {
+            var7 = util.getExceptionJson(var9.getMessage());
+            return Response.status(400).entity(gson.toJson(var7)).build();
+        } catch (Exception var11) {
+            logger.error(var11.getMessage(), var11);
+            var7 = util.getExceptionJson(var11.getMessage());
+            return Response.status(400).entity(gson.toJson(var7)).build();
+        }
+
+        return Response.status(200).entity(gson.toJson(json)).build();
+    }
+
+    @ApiOperation(
+            httpMethod = "DELETE",
+            value = "Delete records from system bases on input criteria",
+            response = JSONObject.class
+    )
+    @ApiResponses({@ApiResponse(
+            code = 200,
+            message = "Success",
+            response = JSONObject.class
+    ), @ApiResponse(
+            code = 404,
+            message = "Invalid uri"
+    ), @ApiResponse(
+            code = 500,
+            message = "Unexpected error"
+    )})
+    @ApiImplicitParams({@ApiImplicitParam(
+            name = "CSRF_NONCE",
+            value = "The CSRF nonce as returned from the /security/csrf endpoint.  See the Swagger documentation titled CSRF Protection for more information.",
+            required = true,
+            dataType = "string",
+            paramType = "header"
+    )})
+    @DELETE
+    @Path("/product/deleteSeasonRecords")
+    @Produces({"application/json"})
+    @Consumes({"application/json"})
+    public Response deleteSeasonRecords(@Context HttpHeaders var1, String input) {
+        JSONObject json;
+
+        JSONObject var7;
+        try {
+
+            if (input == null || "".equalsIgnoreCase(input)) {
+                logger.log(Level.DEBUG, "input data (var2)>>>: {} ", input);
+                throw new InputValidationException("Enter a valid Input in the body");
+            }
+
+            JSONObject inputJson = (JSONObject) parser.parse(input);
+            json = new ProductService().deleteSeasonRecords(inputJson);
+
+        } catch (InputValidationException var9) {
             var7 = util.getExceptionJson(var9.getMessage());
             return Response.status(400).entity(gson.toJson(var7)).build();
         } catch (Exception var11) {
