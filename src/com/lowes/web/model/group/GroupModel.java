@@ -1,6 +1,5 @@
 package com.lowes.web.model.group;
 
-import com.lowes.web.util.VendorContactsUtil;
 import wt.fc.PersistenceHelper;
 import wt.fc.QueryResult;
 import wt.inf.container.OrgContainer;
@@ -27,6 +26,8 @@ import java.util.Objects;
  * @author Rajesh Chandan Sahu (rajeshchandan.sahu@lowes.com)
  */
 public class GroupModel {
+
+    private static OrgContainer lowesOrg;
 
     /**
      * fetches members ofa group.
@@ -73,7 +74,7 @@ public class GroupModel {
 
         WTGroup group = null;
 
-        OrgContainer org = VendorContactsUtil.getLowesOrg();
+        OrgContainer org = getLowesOrg();
         if (Objects.nonNull(org)) {
 
             wt.inf.container.PrincipalSpec spec = new wt.inf.container.PrincipalSpec();
@@ -92,5 +93,22 @@ public class GroupModel {
 
         return group;
 
+    }
+
+    public static OrgContainer getLowesOrg() throws WTException {
+        if (Objects.isNull(lowesOrg)) {
+            setLowesOrg();
+        }
+        return lowesOrg;
+    }
+
+    private static void setLowesOrg() throws WTException {
+        String targetOrgName = "lowes";
+        Enumeration<?> organisations = OrganizationServicesHelper.manager.findLikeOrganizations(_WTPrincipal.NAME, targetOrgName, WTContainerHelper.getExchangeRef().getReferencedContainer().getContextProvider());
+        WTOrganization targetOrg;
+        if (organisations.hasMoreElements()) {
+            targetOrg = (WTOrganization) organisations.nextElement();
+            lowesOrg = WTContainerHelper.service.getOrgContainer(targetOrg);
+        }
     }
 }

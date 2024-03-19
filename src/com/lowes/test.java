@@ -1,5 +1,11 @@
 package com.lowes;
 
+import cdee.web.model.product.ProductModel;
+import com.lcs.wc.client.web.html.header.action.TWXDashboardAction;
+import com.lcs.wc.client.web.html.header.action.TWXDashboardActionImpl;
+import com.ptc.rfa.rest.specification.SpecificationRestService;
+import com.ptc.windchill.enterprise.traceability.rest.service.TraceabilityWebService;
+import com.vrd.wc.flexbom.gen.VRDBOMPDFContentGenerator;
 import org.json.JSONException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -19,19 +25,4 @@ public class test {
 
     }
 
-    private static List<Map<String, String>> convertJson(JSONArray data) throws JSONException {
-        List<Map<String, String>> converted = new ArrayList<>();
-
-        data.iterator().forEachRemaining(obj -> {
-            if (obj instanceof JSONObject) {
-                Map<String, String> jsonMap = new HashMap<>();
-                JSONObject json = (JSONObject) obj;
-                json.keySet().iterator().forEachRemaining(key -> {
-                    jsonMap.put((String) key, String.valueOf(json.get(key)));
-                });
-                converted.add(jsonMap);
-            }
-        });
-        return converted;
-    }
 }

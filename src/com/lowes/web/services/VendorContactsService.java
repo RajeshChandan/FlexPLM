@@ -78,7 +78,7 @@ public class VendorContactsService {
         //creating new vendor Group, while group is not exist
         if (Objects.isNull(vendorGroup)) {
             vendorGroup = groupService.createGroup(vendorGroupName);
-            WTGroup vendors = VendorContactsUtil.getVENDORS();
+            WTGroup vendors = VendorContactsUtil.getVendors();
             vendors.addMember(vendorGroup);
             logger.log(Level.DEBUG, "Create Group result :{}", vendorGroup);
             groupJson.put(STATUS, "Successfully Created Vendor Group");
