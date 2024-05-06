@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.Logger;
 
 import com.lcs.wc.flextype.FlexType;
@@ -15,6 +16,9 @@ import com.lcs.wc.product.LCSProductClientModel;
 import com.lcs.wc.season.LCSProductSeasonLink;
 import com.lcs.wc.season.LCSSeason;
 import com.lcs.wc.season.LCSSeasonLogic;
+import com.lcs.wc.season.LCSSeasonProductLinkClientModel;
+import com.lcs.wc.util.FormatHelper;
+import com.lcs.wc.util.LCSProperties;
 import com.lowes.massimport.excel.pojo.MassImportHeader;
 import com.lowes.massimport.excel.pojo.MassImportItem;
 import com.lowes.massimport.util.MassImport;
@@ -33,6 +37,8 @@ public class ProductService {
 	private static final Logger LOGGER = LogR.getLogger(ProductService.class.getName());
 	private static final String PRODUCTTYPE = "PRODUCT";
 	private static ProductService productServiceInstance = null;
+	private static final String isValidationEnabled = LCSProperties.get("com.lowes.massimport.validateApprovedItem",
+			"No");
 
 	private ProductService() {
 	}
@@ -60,9 +66,14 @@ public class ProductService {
 		LCSProduct rfpProduct = header.getRfpProductRef();
 		int rowNum = massImportItem.getRowNum() + 1;
 		LCSSeason season = header.getSeason();
-
+		LCSProduct existingItem = massImportItem.getExistingItem();
+		/** Check if it is existing Item. If yes then just return it without any update*/
+		if(existingItem != null) {
+			return existingItem;
+		}
+		LCSProductSeasonLink productSeasonLink = null;
 		LOGGER.info("Row# " + rowNum + " processing records for part create/update.");
-		LCSProduct product = getExistingProduct(productDesc, modelNumber, rfpProduct);
+		LCSProduct product = getExistingProduct(productDesc, modelNumber, rfpProduct, season);
 		if (product == null) {
 			/*** Create a new product ***/
 			LOGGER.info("Product does exist in the system and creating a new one");
@@ -74,18 +85,24 @@ public class ProductService {
 		} else {
 			/*** update existing product **/
 			LOGGER.info("Product already exist in the system and updating its attributes.");
-			LCSProductClientModel productClientModel = new LCSProductClientModel();
-			productClientModel.load(product);
-			setProductAttributes(productClientModel, massImportItem);
-			productClientModel.save();
-			product = productClientModel.getBusinessObject();
-			/** If product is not linked with season and linking it with season */
-			if (!hasSeasonLink(season, product)) {
-				new LCSSeasonLogic().addProduct(product, season);
+			productSeasonLink = getProductSeasonLink(season, product);
+			/** Skip the Product updates if item is approved */
+			if (!isApprovedItem(product, productSeasonLink)) {
+				LOGGER.info("Product Item is not approved and it can be updated by mass import");
+				LCSProductClientModel productClientModel = new LCSProductClientModel();
+				productClientModel.load(product);
+				setProductAttributes(productClientModel, massImportItem);
+				productClientModel.save();
+				product = productClientModel.getBusinessObject();
 			}
 
 		}
-
+		
+		/** Update the Product Season attributes*/
+		if(productSeasonLink == null) {
+			productSeasonLink = getProductSeasonLink(season, product);
+		}
+		updateProductSeasonAttributes(productSeasonLink, rfpProduct);
 		return product;
 
 	}
@@ -109,9 +126,9 @@ public class ProductService {
 		productClientModel.setFlexType(productFlexType);
 		LCSLogic.setFlexTypedDefaults(productClientModel, PRODUCTTYPE, PRODUCTTYPE, false);
 		productClientModel.setValue(MassImport.PRODUCT_DESCRIPTION_INTERNAL_ATTR, productDesc);
-		productClientModel.setValue(MassImport.PRODUCT_MODELNUMBER_INTERNAL_ATTR, modelNumber);
-		productClientModel.setValue(MassImport.MASSIMPORT_DOC_RFP_INTERNAL_ATTR, rfpProduct);
-
+		if(!StringUtils.isEmpty(modelNumber)) {
+			productClientModel.setValue(MassImport.PRODUCT_MODELNUMBER_INTERNAL_ATTR, modelNumber);
+		}
 		productClientModel.setValue(MassImport.PRODUCT_PRODUCTSTATUS_INTERNAL_ATTR,
 				MassImport.PRODUCT_PRODUCTSTATUS_INTERNAL_VALUE);
 		productClientModel.setValue(MassImport.PRODUCT_ITEMSTATUS_INTERNAL_ATTR,
@@ -149,7 +166,7 @@ public class ProductService {
 			Object value = entry.getValue();
 			if (value instanceof LCSLifecycleManaged) {
 				LCSLifecycleManaged obj = (LCSLifecycleManaged) value;
-				productClientModel.setValue(key, obj); 
+				productClientModel.setValue(key, obj);
 			}
 		}
 
@@ -176,33 +193,63 @@ public class ProductService {
 
 	}
 
-	private LCSProduct getExistingProduct(String productDesc, String modelNumber, LCSProduct refProduct)
+	private LCSProduct getExistingProduct(String productDesc, String modelNumber, LCSProduct rfpProduct, LCSSeason season)
 			throws WTException {
 		LCSProduct product = null;
-		String refProductId = String.valueOf(refProduct.getBranchIdentifier());
-		LCSProduct existingProduct = MassImport.queryProduct(productDesc, modelNumber, refProduct.getFlexType(),
-				refProductId);
+		LCSProduct existingProduct = MassImport.queryProduct(productDesc, modelNumber, rfpProduct, false, null, season);
 		if (existingProduct != null) {
 			product = existingProduct;
 		}
 		return product;
 	}
 
-	private boolean hasSeasonLink(LCSSeason season, LCSProduct product) throws WTException {
+	private LCSProductSeasonLink getProductSeasonLink(LCSSeason season, LCSProduct product) throws WTException {
+		LCSProductSeasonLink productSeasonLink = null;
 		Collection<?> seasonProductLinks = MassImport
 				.getProductSeasonLinks(String.valueOf(product.getBranchIdentifier()));
 		if (seasonProductLinks.size() == 0) {
-			return false;
+			return productSeasonLink;
 		}
 		double seasonId = season.getBranchIdentifier();
 		Iterator<?> itr = seasonProductLinks.iterator();
 		while (itr.hasNext()) {
 			LCSProductSeasonLink seasonProductLink = (LCSProductSeasonLink) itr.next();
 			if (seasonProductLink.getSeasonRevId() == seasonId) {
-				return true;
+				return seasonProductLink;
 			}
 		}
-		return false;
+		return productSeasonLink;
+
+	}
+
+	private boolean isApprovedItem(LCSProduct product, LCSProductSeasonLink productSeasonLink) throws WTException {
+		boolean isApprovedItem = false;
+		if ("Yes".equalsIgnoreCase(isValidationEnabled) && productSeasonLink != null) {
+			String integrationStatus = (String) productSeasonLink
+					.getValue(MassImport.PRODUCTSEASON_INTEGRATIONSTATUS_INTERNAL_ATTR);
+			String vcID = (String) product.getValue(MassImport.PRODUCT_VCID_INTERNAL_ATTR);
+			String productStatus = (String) product.getValue(MassImport.PRODUCT_PRODUCTSTATUS_INTERNAL_ATTR);
+			if (!StringUtils.isEmpty(vcID) && MassImport.PRODUCT_APPROVED_STATUS.equalsIgnoreCase(productStatus)
+					&& MassImport.INTEGRATION_STATUS.equalsIgnoreCase(integrationStatus)) {
+				isApprovedItem = true;
+			}
+		}
+		return isApprovedItem;
+	}
+	
+	private void updateProductSeasonAttributes(LCSProductSeasonLink productSeasonLink, LCSProduct rfpProduct)
+			throws WTPropertyVetoException, WTException {
+		LOGGER.info("Updated Product Season attributes started.");
+		LCSProduct existingRFP = (LCSProduct) productSeasonLink.getValue(MassImport.MASSIMPORT_PSL_RFP_INTERNAL_ATTR);
+		/** Do nothing if already RFP reference is updated **/
+		if (existingRFP != null && existingRFP.getName().equals(rfpProduct.getName())) {
+			return;
+		}
+		LCSSeasonProductLinkClientModel prodSPLClientModel = new LCSSeasonProductLinkClientModel();
+		prodSPLClientModel.load(FormatHelper.getObjectId(productSeasonLink));
+		prodSPLClientModel.setValue(MassImport.MASSIMPORT_PSL_RFP_INTERNAL_ATTR, rfpProduct);
+		prodSPLClientModel.save();
+		LOGGER.info("Updated Product Season attributes ended. ");
 	}
 
 }

@@ -6,13 +6,16 @@ import java.util.List;
 import org.apache.logging.log4j.Logger;
 
 import com.lcs.wc.document.LCSDocument;
+import com.lcs.wc.document.LCSDocumentClientModel;
 import com.lcs.wc.product.LCSProduct;
 import com.lcs.wc.season.LCSSeason;
 import com.lcs.wc.sourcing.LCSProductCostSheet;
 import com.lcs.wc.sourcing.LCSSourcingConfig;
+import com.lcs.wc.util.FormatHelper;
 import com.lowes.massimport.document.DocumentService;
 import com.lowes.massimport.excel.ExcelValidationService;
 import com.lowes.massimport.excel.pojo.MassImportItem;
+import com.lowes.massimport.util.MassImport;
 
 import wt.log4j.LogR;
 import wt.pom.PersistenceException;
@@ -35,14 +38,13 @@ public class MassImportService {
 	private static final DocumentService documentService = DocumentService.getDocumentService();
 	private static final String SUCCESS = "success";
 	private static final String FAILED = "failed";
-	
+
 	/***
 	 * 
 	 * @param document
 	 * @return ImportStatus
 	 */
 	public String loadItems(LCSDocument document) {
-		String message = "";
 		String status = SUCCESS;
 		LOGGER.info("Start processing the Mass Import!");
 		long startTime = System.currentTimeMillis();
@@ -58,23 +60,24 @@ public class MassImportService {
 
 		for (MassImportItem massImportItem : massImportItems) {
 			int rowNum = massImportItem.getRowNum() + 1;
-			Transaction trx = new Transaction();
+			Transaction trx = null;
 			try {
+				trx = new Transaction();
 				trx.start();
 				LCSSeason season = massImportItem.getMassImportHeader().getSeason();
 				LCSProduct product = productService.createAndUpdateProduct(massImportItem);
 				LOGGER.info("Row # " + rowNum + " Product: " + product);
 				if (product == null) {
-					String measge = "Row Num: " + rowNum + " Product create/update is failed";
-					errorMessages.add(measge);
+					String message = "Row Num: " + rowNum + " Product create/update is failed";
+					errorMessages.add(message);
 					LOGGER.error(message);
 					continue;
 				}
 				LCSSourcingConfig sourcingConfig = sourceService.createAndUpdateSourcingConfig(product, massImportItem);
 				LOGGER.info("Row # " + rowNum + " sourcingConfig: " + sourcingConfig);
 				if (sourcingConfig == null) {
-					String measge = "Row Num: " + rowNum + " Sourcingconfig create/update is failed";
-					errorMessages.add(measge);
+					String message = "Row Num: " + rowNum + " Sourcingconfig create/update is failed";
+					errorMessages.add(message);
 					LOGGER.error(message);
 					continue;
 				}
@@ -101,24 +104,24 @@ public class MassImportService {
 					e.printStackTrace();
 				}
 			}
-
 		}
 		if (errorMessages.size() > 0) {
 			/** write the error message into secondary content ### */
 			documentService.addSecondaryContent(document, errorMessages);
 			status = FAILED;
 		} else {
-			/** If there is no error then check for secondary content and delete it **/
 			try {
+				/** If there is no error then check for secondary content and delete it **/
 				documentService.deleteSecondaryContent(document);
+				updateAccess(document, status);
 			} catch (WTPropertyVetoException | WTException e) {
-				LOGGER.error("Error while deleing the secondary content");
+				LOGGER.error("Error while deleting the secondary content");
 				e.printStackTrace();
 			}
 		}
 		long endTime = System.currentTimeMillis();
-		long timeTaken = (endTime-startTime)/1000;
-		LOGGER.info("Time taken to load "+massImportItems.size()+" rows is: "+timeTaken+" seconds");
+		long timeTaken = (endTime - startTime) / 1000;
+		LOGGER.info("Time taken to load " + massImportItems.size() + " rows is: " + timeTaken + " seconds");
 
 		return status;
 
@@ -128,6 +131,17 @@ public class MassImportService {
 		String error = "Row Num: " + rowNum + " Mass import is failed. Please check the data and load it again. Error: "
 				+ erroMeasage;
 		return error;
+	}
+
+	private void updateAccess(LCSDocument document, String status) throws WTPropertyVetoException, WTException {
+		if (SUCCESS.equalsIgnoreCase(status)) {
+			LCSDocumentClientModel documentClient = new LCSDocumentClientModel();
+			String objectId = FormatHelper.getObjectId(document);
+			documentClient.load(objectId);
+			documentClient.setValue(MassImport.MASSIMPORT_DOC_COMPLETED_ATTR,
+					MassImport.MASSIMPORT_DOC_COMPLETED_ATTR_VALUE);
+			documentClient.save();
+		}
 	}
 
 }

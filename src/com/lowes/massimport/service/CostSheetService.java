@@ -61,7 +61,7 @@ public class CostSheetService {
 			LCSProduct product, LCSSeason season) throws WTException, WTPropertyVetoException {
 		int rowNum = massImportItem.getRowNum() + 1;
 		String supplierName = massImportItem.getMassImportHeader().getSupplier().getName();
-		LCSProductCostSheet productCosheet = getPrimaryCostSheet(sourcingConfig);
+		LCSProductCostSheet productCosheet = getPrimaryCostSheet(sourcingConfig, season, product);
 		LCSCostSheetClientModel clientModelCostSheet = new LCSCostSheetClientModel();
 		String name = "Primary - " + massImportItem.getModelNumer() + " - "
 				+ supplierName;
@@ -163,9 +163,11 @@ public class CostSheetService {
 	 * @return LCSProductCostSheet
 	 * @throws WTException
 	 */
-	private LCSProductCostSheet getPrimaryCostSheet(LCSSourcingConfig sourcingConfig) throws WTException {
+	private LCSProductCostSheet getPrimaryCostSheet(LCSSourcingConfig sourcingConfig, LCSSeason season,
+			LCSProduct product) throws WTException {
 		LCSProductCostSheet productCostSheet = null;
-		Collection<?> costSheets = LCSCostSheetQuery.getAllCostSheetsForSourcingConfig(sourcingConfig);
+		Collection<?> costSheets = LCSCostSheetQuery.getCostSheetsForSourceToSeason(season.getMaster(),
+				sourcingConfig.getMaster(), product.getPlaceholderMaster(), true);
 		Iterator<?> itr = costSheets.iterator();
 		while (itr.hasNext()) {
 			LCSProductCostSheet costSheet = (LCSProductCostSheet) itr.next();

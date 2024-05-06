@@ -19,6 +19,7 @@ public class MassImportHeader {
 	private LCSProduct rfpProductRef;
 	private WTPrincipal principal;
 	private List<String> columns = new ArrayList<String>();
+	private String massImportTitle;
 
 	public int getProductColumnIndex() {
 		return productColumnIndex;
@@ -92,12 +93,20 @@ public class MassImportHeader {
 		this.rfpProductRef = rfpProductRef;
 	}
 
+	public String getMassImportTitle() {
+		return massImportTitle;
+	}
+
+	public void setMassImportTitle(String massImportTitle) {
+		this.massImportTitle = massImportTitle;
+	}
+
 	@Override
 	public String toString() {
 		return "MassImportHeader [productColumnIndex=" + productColumnIndex + ", sourceColumnIndex=" + sourceColumnIndex
 				+ ", packageColumnIndex=" + packageColumnIndex + ", costSheetColumnIndex=" + costSheetColumnIndex
 				+ ", season=" + season + ", supplier=" + supplier + ", rfpProductRef=" + rfpProductRef + ", principal="
-				+ principal + ", columns=" + columns + "]";
-	}	
+				+ principal + ", columns=" + columns + ", massImportTitle=" + massImportTitle + "]";
+	}
 
 }

@@ -5,15 +5,18 @@ import java.util.Collection;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.Logger;
 
 import com.lcs.wc.country.LCSCountry;
 import com.lcs.wc.db.Criteria;
 import com.lcs.wc.db.PreparedQueryStatement;
 import com.lcs.wc.db.QueryColumn;
+import com.lcs.wc.document.LCSDocument;
 import com.lcs.wc.flextype.FlexType;
 import com.lcs.wc.flextype.FlexTypeAttribute;
 import com.lcs.wc.flextype.FlexTypeCache;
@@ -22,6 +25,7 @@ import com.lcs.wc.foundation.LCSQuery;
 import com.lcs.wc.product.LCSProduct;
 import com.lcs.wc.product.LCSProductQuery;
 import com.lcs.wc.season.LCSProductSeasonLink;
+import com.lcs.wc.season.LCSSeason;
 import com.lcs.wc.supplier.LCSSupplier;
 import com.lcs.wc.supplier.LCSSupplierMaster;
 import com.lcs.wc.util.LCSProperties;
@@ -59,7 +63,9 @@ public class MassImport {
 	public static final String PRODUCT_DESCRIPTION_DISPLAY_ATTR = "Product Description";
 	public static final String PRODUCT_DESCRIPTION_INTERNAL_ATTR = "vrdDescription";
 	public static final String PRODUCT_MODELNUMBER_DISPLAY_ATTR = "Model Number";
+	public static final String PRODUCT_ENTERPRISENUMBER_DISPLAY_ATTR = "Enterprise Item #";
 	public static final String PRODUCT_MODELNUMBER_INTERNAL_ATTR = "lwsModelNumber";
+	public static final String PRODUCT_ENTERPRISEITEMNUMBER_INTERNAL_ATTR = "lwsEnterpriseItemNumber";
 	public static final String PRODUCT_LOWEST_LEVEL_MARKETING_CATEGORY = "Lowest Level Marketing Category";
 	public static final String PRODUCT_PRODUCTSTATUS_INTERNAL_ATTR = "vrdStatus";
 	public static final String PRODUCT_PRODUCTSTATUS_INTERNAL_VALUE = "vrdDevelopment";
@@ -67,12 +73,19 @@ public class MassImport {
 	public static final String PRODUCT_ITEMSTATUS_INTERNAL_VALUE = "lwsNew";
 	public static final String PRODUCT_RFP_INTERNAL_ATTR = "RFP";
 	public static final String PRODUCT_RFP_INTERNAL_VALUE = "lwsItem";
+	public static final String PRODUCT_VCID_INTERNAL_ATTR = "lwsVCID";
+	public static final String PRODUCTSEASON_INTEGRATIONSTATUS_INTERNAL_ATTR = "lwsIntegrationStatus";
+	public static final String INTEGRATION_STATUS = "lwsSuccess";
+	public static final String PRODUCT_APPROVED_STATUS = "lwsApproved";
 	public static final String MASSIMPORT_DOC_RFP_INTERNAL_ATTR = "lwsRFPRef";
+	public static final String MASSIMPORT_PSL_RFP_INTERNAL_ATTR = "lwsRFPReference";
 	public static final String MASSIMPORT_DOC_SEASON_ATTRIBUTE = "lwsSeason";
 	public static final String MASSIMPORT_DOC_VENDOR_ATTRIBUTE = "lwsVendorOR";
 	public static final String MASSIMPORT_DOC_RFP_ATTR_VALUE = "lwsrfp";
 	public static final String MASSIMPORT_DOC_PRIMARY_RFP_ATTR_VALUE = "lwsPrimaryRFP";
 	public static final String MASSIMPORT_DOC_TYPE = "lwsMassImport";
+	public static final String MASSIMPORT_DOC_COMPLETED_ATTR = "lwsMassImportCompleted";
+	public static final String MASSIMPORT_DOC_COMPLETED_ATTR_VALUE = "lwsYes";
 	public static final String SUPPLIER_RELEASE_TO_VENDOR_INTERNAL_ATTR = "vrdReleaseToSupplier";
 	public static final String SUPPLIER_RELEASE_TO_VENDOR_VALUE = "vrdYes";
 	public static final String PARENT_VENDOR_GROUP = "VENDORS";
@@ -93,13 +106,17 @@ public class MassImport {
 	public static final String FLEX_CURRENCY_TYPE = "currency";
 	public static final String FLEX_OBJECT_REF_TYPE = "object_ref";
 	public static final String FLEX_OBJECT_REF_COUNTRY = "com.lcs.wc.country.LCSCountry";
-	public static final String FLEX_OBJECT_REF_MARKETING_CATEGORY = "com.lcs.wc.foundation.LCSLifecycleManaged";
+	public static final String FLEX_OBJECT_REF_LIFECYCLEMANAGED = "com.lcs.wc.foundation.LCSLifecycleManaged";
 	public static final String PIPE_SEPARATOR = "|";
 	public static final String SPACE_SEPARATOR = " ";
 	public static final String VENDOR = "vendor";
+	public static final String VENDOR_VENDOR_GROUP = "vrdVendorGroup";
 	public static final String CHOICE_SEPARATOR = "|~*~|";
 	public static final String COSTSHEET_TYPE = "PRODUCT";
 	public static final String COSTSHEET_FLEX_TYPE = "Cost Sheet\\lwsLowes";
+	public static final String PRODUCT_ASSORTMENT_DISPLAYNAME = "Assortment";
+	public static final String PRODUCT_ASSORTMENT_NUMBER_INTERNAL_NAME = "lwsAssortmentNumber";
+	public static final String BUSINESSOBJ_ASSORTMENT_CODE_INTERNAL_NAME = "lwsCode";
 
 	public static final String OBJECT_IDENTIFIER_KEY = "thePersistInfo.theObjectIdentifier.id";
 	public static final String CHECKOUT_INFO = "checkoutInfo.state";
@@ -110,10 +127,12 @@ public class MassImport {
 	private static final Logger LOGGER = LogR.getLogger(MassImport.class.getName());
 	private PLMTypeAttributesMetadataService typeService = PLMTypeAttributesMetadataService.getTypeSeriveInstance();
 
-	private static final String LOWEST_LOWEL_CATEGORY_TYPE = "Business Object\\lwsLowestLevelMarketingCategory";
+	private static final String BUSINESS_OBJECT_TYPE = "Business Object";
 	private static final String COUNTRY_TYPE = "Country";
+	private static final String MASSIMPORT_TEMPLATE_TYPE = "Document\\lwsPLMTemplates\\lwsMassImportItemTemplate";
+	private static final String MASSIMPORT_TEMPLATE_NAME = LCSProperties.get("com.lowes.massimport.templateName","Mass Import Item Template");
 	private static Set<String> authorizedUserSet = new HashSet<String>();
-	private static Map<String, LCSLifecycleManaged> lowestLevelCategoryMap = new HashMap<String, LCSLifecycleManaged>();
+	private static Map<String, LCSLifecycleManaged> businessObjectMap = new HashMap<String, LCSLifecycleManaged>();
 	private static Map<String, LCSCountry> countryMap = new HashMap<String, LCSCountry>();
 	public static final String SLASH = "\\";
 
@@ -184,32 +203,32 @@ public class MassImport {
 		return supplier;
 	}
 
-	public static LCSLifecycleManaged getLowetLevelCategory(String categoryName) throws WTException {
-		LCSLifecycleManaged lowestLevelCategory = null;
-		if (lowestLevelCategoryMap.containsKey(categoryName)) {
-			lowestLevelCategory = lowestLevelCategoryMap.get(categoryName);
+	public static LCSLifecycleManaged getBusinessObjectMap(String name) throws WTException {
+		LCSLifecycleManaged businessObject = null;
+		if (businessObjectMap.containsKey(name)) {
+			businessObject = businessObjectMap.get(name);
 		} else {
-			lowestLevelCategory = queryMarketingCategory(categoryName);
-			if (lowestLevelCategory != null) {
-				lowestLevelCategoryMap.put(categoryName, lowestLevelCategory);
+			businessObject = queryBusinessObject(name);
+			if (businessObject != null) {
+				businessObjectMap.put(name, businessObject);
 			}
 		}
 
-		return lowestLevelCategory;
+		return businessObject;
 	}
 
-	public static LCSLifecycleManaged queryMarketingCategory(String categoryName) throws WTException {
-		FlexType flexType = FlexTypeCache.getFlexTypeFromPath(LOWEST_LOWEL_CATEGORY_TYPE);
+	public static LCSLifecycleManaged queryBusinessObject(String name) throws WTException {
+		FlexType flexType = FlexTypeCache.getFlexTypeFromPath(BUSINESS_OBJECT_TYPE);
 		String nameColumn = flexType.getAttribute("name").getColumnDescriptorName();
-		LCSLifecycleManaged category = null;
+		LCSLifecycleManaged businessObj = null;
 		PreparedQueryStatement prepQuery = new PreparedQueryStatement();
 		prepQuery.appendFromTable(LCSLifecycleManaged.class);
 		prepQuery.appendSelectColumn(new QueryColumn(LCSLifecycleManaged.class, OBJECT_IDENTIFIER_KEY));
-		prepQuery.appendCriteria(new Criteria(new QueryColumn(LCSLifecycleManaged.class, nameColumn), categoryName,
-				Criteria.EQUALS, true));
-		category = (LCSLifecycleManaged) LCSQuery.getObjectFromResults(prepQuery,
+		prepQuery.appendCriteria(
+				new Criteria(new QueryColumn(LCSLifecycleManaged.class, nameColumn), name, Criteria.EQUALS, true));
+		businessObj = (LCSLifecycleManaged) LCSQuery.getObjectFromResults(prepQuery,
 				"OR:com.lcs.wc.foundation.LCSLifecycleManaged:", "LCSLifecycleManaged.IDA2A2");
-		return category;
+		return businessObj;
 	}
 
 	public static LCSCountry getCountry(String countryName) throws WTException {
@@ -257,25 +276,47 @@ public class MassImport {
 		}
 		return authorizedUserSet;
 	}
-
-	public static LCSProduct queryProduct(String productDescription, String modelNumber, FlexType productFlexType,
-			String rfpProductId) throws WTException {
+	
+	public static LCSProduct queryProduct(String productDescription, String modelNumber, LCSProduct rfpProduct,
+			boolean isExistingItem, String enterpriseItemNumber, LCSSeason season) throws WTException {
 		LCSProduct product = null;
+		Collection<?> productResult = queryProducts(productDescription, modelNumber, rfpProduct.getFlexType(),
+				isExistingItem, enterpriseItemNumber);
+		Iterator<?> productItr = productResult.iterator();
+		while (productItr.hasNext()) {
+			LCSProduct productInstance = (LCSProduct) productItr.next();
+			LCSProductSeasonLink productSeasonLink = getProductSeasonLink(season, productInstance, rfpProduct);
+			if (productSeasonLink != null) {
+				return productInstance;
+			}
+
+		}
+		return product;
+	}
+	
+	public static Collection<?> queryProducts(String productDescription, String modelNumber, FlexType productFlexType, boolean isExistingItem, String enterpriseItemNumber) throws WTException {
 		FlexTypeAttribute productDecAttr = productFlexType.getAttribute(PRODUCT_DESCRIPTION_INTERNAL_ATTR);
 		FlexTypeAttribute modelNumberAttr = productFlexType.getAttribute(PRODUCT_MODELNUMBER_INTERNAL_ATTR);
+		FlexTypeAttribute enterpriseItemNumberAttr = productFlexType
+				.getAttribute(PRODUCT_ENTERPRISEITEMNUMBER_INTERNAL_ATTR);
 		FlexTypeAttribute rfpAttr = productFlexType.getAttribute(PRODUCT_RFP_INTERNAL_ATTR);
-		FlexTypeAttribute rfpReferenceAttr = productFlexType.getAttribute(MASSIMPORT_DOC_RFP_INTERNAL_ATTR);
 		PreparedQueryStatement stmt = new PreparedQueryStatement();
 		stmt.appendFromTable(LCSProduct.class);
 		stmt.appendSelectColumn(new QueryColumn(LCSProduct.class, MassImport.OBJECT_IDENTIFIER_KEY));
 		stmt.appendCriteria(new Criteria(new QueryColumn(LCSProduct.class, productDecAttr.getColumnDescriptorName()),
 				productDescription, Criteria.EQUALS, true));
-		stmt.appendAndIfNeeded();
-		stmt.appendCriteria(new Criteria(new QueryColumn(LCSProduct.class, modelNumberAttr.getColumnDescriptorName()),
-				modelNumber, Criteria.EQUALS, true));
-		stmt.appendAndIfNeeded();
-		stmt.appendCriteria(new Criteria(new QueryColumn(LCSProduct.class, rfpReferenceAttr.getColumnDescriptorName()),
-				rfpProductId, Criteria.EQUALS));
+		if (!StringUtils.isEmpty(modelNumber)) {
+			stmt.appendAndIfNeeded();
+			stmt.appendCriteria(
+					new Criteria(new QueryColumn(LCSProduct.class, modelNumberAttr.getColumnDescriptorName()),
+							modelNumber, Criteria.EQUALS, true));
+		}
+		if (isExistingItem) {
+			stmt.appendAndIfNeeded();
+			stmt.appendCriteria(
+					new Criteria(new QueryColumn(LCSProduct.class, enterpriseItemNumberAttr.getColumnDescriptorName()),
+							enterpriseItemNumber, Criteria.EQUALS, true));
+		}
 		stmt.appendAndIfNeeded();
 		stmt.appendCriteria(new Criteria(new QueryColumn(LCSProduct.class, rfpAttr.getColumnDescriptorName()),
 				PRODUCT_RFP_INTERNAL_VALUE, Criteria.EQUALS, true));
@@ -286,11 +327,9 @@ public class MassImport {
 		stmt.appendAndIfNeeded();
 		stmt.appendCriteria(
 				new Criteria(new QueryColumn(LCSProduct.class, CHECKOUT_INFO), "wrk", Criteria.NOT_EQUAL_TO));
+		Collection<?> productResults = LCSProductQuery.getObjectsFromResults(stmt, "OR:com.lcs.wc.product.LCSProduct:", "LCSProduct.idA2A2");
 
-		product = (LCSProduct) LCSProductQuery.getObjectFromResults(stmt, "OR:com.lcs.wc.product.LCSProduct:",
-				"LCSProduct.idA2A2");
-
-		return product;
+		return productResults;
 	}
 
 	public static LCSProductSeasonLink getProductSeasonLink(String productARevId, String seasonRevId)
@@ -337,7 +376,7 @@ public class MassImport {
 		LOGGER.debug("LCSProductSeasonLink result size: " + result.size());
 		return result;
 	}
-	
+
 	public static Map<String, Set<String>> getAuthorizedUsers(WTPrincipal principal) throws WTException {
 		Map<String, Set<String>> authoriziedUsersMap = new HashMap<>();
 		Map<ObjectIdentifier, ObjectIdentifier> userGroupsMap = OrganizationServicesHelper.manager
@@ -393,6 +432,53 @@ public class MassImport {
 
 		}
 		return false;
+	}
+
+	public static LCSDocument getMassImportTemplate() throws WTException {
+		LCSDocument document = null;
+		FlexType flexType = FlexTypeCache.getFlexTypeFromPath(MASSIMPORT_TEMPLATE_TYPE);
+		String nameColumn = flexType.getAttribute("ptcdocumentName").getColumnDescriptorName();
+		PreparedQueryStatement prepQuery = new PreparedQueryStatement();
+		prepQuery.appendFromTable(LCSDocument.class);
+		prepQuery.appendSelectColumn(new QueryColumn(LCSDocument.class, OBJECT_IDENTIFIER_KEY));
+		prepQuery.appendCriteria(new Criteria(new QueryColumn(LCSDocument.class, nameColumn), MASSIMPORT_TEMPLATE_NAME,
+				Criteria.EQUALS, true));
+		prepQuery.appendAndIfNeeded();
+		prepQuery.appendCriteria(
+				new Criteria(new QueryColumn(LCSDocument.class, CHECKOUT_INFO), "wrk", Criteria.NOT_EQUAL_TO));
+		prepQuery.appendAndIfNeeded();
+		prepQuery.appendCriteria(
+				new Criteria(new QueryColumn(LCSDocument.class, LATEST_ITERATION), "1", Criteria.EQUALS));
+		prepQuery.appendSortBy(new QueryColumn(LCSDocument.class, OBJECT_IDENTIFIER_KEY), "DESC");
+		document = (LCSDocument) LCSQuery.getObjectFromResults(prepQuery, "OR:com.lcs.wc.document.LCSDocument:",
+				"LCSDocument.IDA2A2");
+		return document;
+	}
+	
+	public static LCSProductSeasonLink getProductSeasonLink(LCSSeason season, LCSProduct product, LCSProduct rfpProduct)
+			throws WTException {
+		LCSProductSeasonLink productSeasonLink = null;
+		Collection<?> seasonProductLinks = getProductSeasonLinks(String.valueOf(product.getBranchIdentifier()));
+		if (seasonProductLinks.size() == 0) {
+			return productSeasonLink;
+		}
+		double seasonId = season.getBranchIdentifier();
+		Iterator<?> itr = seasonProductLinks.iterator();
+		while (itr.hasNext()) {
+			LCSProductSeasonLink seasonProductLink = (LCSProductSeasonLink) itr.next();
+			String refProductName = "";
+			LCSProduct refProduct = (LCSProduct) seasonProductLink.getValue(MASSIMPORT_PSL_RFP_INTERNAL_ATTR);
+			if (refProduct != null) {
+				refProductName = refProduct.getName();
+				System.out.println("ref Product Name: " + refProductName);
+			}
+			if (seasonProductLink.getSeasonRevId() == seasonId
+					&& refProductName.equalsIgnoreCase(rfpProduct.getName())) {
+				return seasonProductLink;
+			}
+		}
+		return productSeasonLink;
+
 	}
 
 }

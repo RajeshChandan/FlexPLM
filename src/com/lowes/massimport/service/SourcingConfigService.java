@@ -52,9 +52,21 @@ public class SourcingConfigService {
 			throws WTException, WTPropertyVetoException {
 		int rowNum = massImportItem.getRowNum() + 1;
 		MassImportHeader massImportHeader = massImportItem.getMassImportHeader();
+		LCSSourcingConfig existingItemSourcingConfig = massImportItem.getExistingItemSourcingConfig();
 		LCSSupplier supplier = massImportHeader.getSupplier();
-		LCSSourcingConfig sourcingConfig = LCSSourcingConfigQuery.getPrimarySourceForProduct(product);
-		LOGGER.info("Primary SourcingConfig: " + sourcingConfig);
+		LCSSourcingConfig sourcingConfig = null;
+		/**
+		 * Checking if this is existing Item's SourcingConfig. If this is not a existing
+		 * item's sourcingconfig then use the Primary sourcingconfig
+		 */
+		if (existingItemSourcingConfig != null) {
+			sourcingConfig = existingItemSourcingConfig;
+			LOGGER.info("Existing Item's SourcingConfig: " + sourcingConfig);
+		} else {
+			sourcingConfig = LCSSourcingConfigQuery.getPrimarySourceForProduct(product);
+			LOGGER.info("Primary SourcingConfig: " + sourcingConfig);
+		}
+
 		LCSSourcingConfigClientModel clientModel = new LCSSourcingConfigClientModel();
 		if (sourcingConfig != null) {
 			LOGGER.info("Row # " + rowNum + " Primary SourcingConfig is already available and updating it. ");
@@ -68,7 +80,8 @@ public class SourcingConfigService {
 			}
 		}
 		clientModel.setValue(MassImport.VENDOR, supplier);
-		clientModel.setValue(MassImport.SUPPLIER_RELEASE_TO_VENDOR_INTERNAL_ATTR, MassImport.SUPPLIER_RELEASE_TO_VENDOR_VALUE);
+		clientModel.setValue(MassImport.SUPPLIER_RELEASE_TO_VENDOR_INTERNAL_ATTR,
+				MassImport.SUPPLIER_RELEASE_TO_VENDOR_VALUE);
 		setSourceAttributes(clientModel, massImportItem);
 		clientModel.save();
 		sourcingConfig = clientModel.getBusinessObject();

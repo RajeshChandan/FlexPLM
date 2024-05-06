@@ -9,6 +9,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.Collection;
+import java.util.Iterator;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.Logger;
@@ -26,10 +28,14 @@ import com.lcs.wc.foundation.LCSLifecycleManaged;
 import com.lcs.wc.product.LCSProduct;
 import com.lcs.wc.season.LCSSeason;
 import com.lcs.wc.supplier.LCSSupplier;
+import com.lcs.wc.season.LCSProductSeasonLink;
+import com.lcs.wc.sourcing.LCSSourcingConfig;
+import com.lcs.wc.sourcing.LCSSourcingConfigQuery;
 import com.lcs.wc.util.DeleteFileHelper;
 import com.lowes.massimport.document.DocumentService;
 import com.lowes.massimport.excel.pojo.MassImportHeader;
 import com.lowes.massimport.excel.pojo.MassImportItem;
+import com.lowes.massimport.excel.pojo.MassImportTemplate;
 import com.lowes.massimport.util.MassImport;
 import com.lowes.type.metadata.pojo.AttributesMetaData;
 import com.lowes.type.metadata.pojo.EnumEntry;
@@ -78,6 +84,14 @@ public class ExcelValidationService {
 		String primaryFilePath = "";
 		int rowNum = 0;
 		try {
+			/** Reading the Mass Import Template Document **/
+			MassImportTemplate massImportTemplate = MassImportTemplateService.getInstance().getMassImportTemplate();
+			if (massImportTemplate == null) {
+				String error = "Error while reading the Mass Import Template file. Please check with System Administrtator.";
+				LOGGER.error(error);
+				errorMessages.add(error);
+				return;
+			}
 			primaryFilePath = documentService.downloadAndGetPrimaryFilePath(document);
 			massImportFile = new FileInputStream(new File(primaryFilePath));
 			XSSFWorkbook workbook = new XSSFWorkbook(massImportFile);
@@ -110,11 +124,11 @@ public class ExcelValidationService {
 				massImportItem.setRowNum(rowNum);
 				/** First four rows have vendor info and column info */
 				if (rowNum < MassImport.HEADER_ROWS) {
-					processHeaderData(row, header, error);
+					ExcelUtil.processHeaderData(row, header);
 				} else {
 					if (!isHeaderValidated) {
 						isHeaderValidated = true;
-						validateHeaders(header, error);
+						validateHeaders(header, error, massImportTemplate);
 						if (error.length() != 0) {
 							errorMessages.add(error.toString());
 							return;
@@ -123,13 +137,14 @@ public class ExcelValidationService {
 					massImportItem.setMassImportHeader(header);
 					error.append("Row Num: ").append(rowNum + 1).append(" :");
 					processRowData(row, header.getColumns(), massImportItem, error);
+					/** Validate the existing item**/
+					validateExistingItem(massImportItem, season, rfpProductRef, supplier, error);
 					/** Max Row Id length is 15 [ROW NUM 2000 :] **/
 					if (error.length() > 15) {
 						errorMessages.add(error.substring(0, error.length()-1).toString());
 						continue;
 					}
-					if (!StringUtils.isEmpty(massImportItem.getProductDescription())
-							&& !StringUtils.isEmpty(massImportItem.getModelNumer())) {
+					if (!StringUtils.isEmpty(massImportItem.getProductDescription())) {
 						massImportItems.add(massImportItem);
 					}
 
@@ -167,23 +182,36 @@ public class ExcelValidationService {
 		}
 	}
 
-	private void processHeaderData(Row row, MassImportHeader header, StringBuilder error) {
-		int rowNum = row.getRowNum();
-		/** First two rows does not have any value **/
-		if (rowNum <= 1) {
-			return;
-		} else if (rowNum == 2) {
-			updateColumnIndex(row, header);
-		} else if (rowNum == 3) {
-			header.setColumns(getColumnNames(row));
-		}
-
-	}
-
-	private void validateHeaders(MassImportHeader header, StringBuilder error) throws WTException {
+	private void validateHeaders(MassImportHeader header, StringBuilder error, MassImportTemplate template)
+			throws WTException {
 		/** Checking the columns */
-		if (header.getColumns().size() == 0) {
-			String errorMessage = "Invalid input file. Input file does not have the columns.";
+		List<String> importFileColumns = header.getColumns();
+		if (importFileColumns.size() == 0) {
+			String errorMessage = "Invalid input file. Input file does not have any columns.";
+			addErrorMessage(error, errorMessage);
+		}
+		MassImportHeader templateHeader = template.getMassImportHeader();
+		String templateTitle = templateHeader.getMassImportTitle();
+		String errorMessage = "You are not using the latest version of Mass Import Item Template. Please download the latest Mass Import Item Template from My Profile --> PLM Templates";
+		if (!templateTitle.equalsIgnoreCase(header.getMassImportTitle())) {
+			addErrorMessage(error, errorMessage);
+			return;
+		}
+		boolean isOutdatedFile = false;
+		List<String> templateColumns = templateHeader.getColumns();
+		if (importFileColumns.size() != templateColumns.size()) {
+			isOutdatedFile = true;
+		}
+		int i = 0;
+		while (i < templateColumns.size() && !isOutdatedFile) {
+			String templateColumn = templateColumns.get(i);
+			String importFileColumnName = importFileColumns.get(i);
+			if (!templateColumn.equalsIgnoreCase(importFileColumnName)) {
+				isOutdatedFile = true;
+			}
+			i++;
+		}
+		if (isOutdatedFile) {
 			addErrorMessage(error, errorMessage);
 		}
 	}
@@ -205,6 +233,9 @@ public class ExcelValidationService {
 				} else if (MassImport.PRODUCT_MODELNUMBER_DISPLAY_ATTR.equals(columnName)) {
 					String modelNumber = getStringValue(columnName, cell, error);
 					massImportItem.setModelNumer(modelNumber);
+				} else if(MassImport.PRODUCT_ENTERPRISENUMBER_DISPLAY_ATTR.equals(columnName)) {
+					String enterpriseNumber = getStringValue(columnName, cell, error);
+					massImportItem.setEnterpriseItemNumber(enterpriseNumber);
 				} else {
 					processProductAttributes(cell, columnName, massImportItem, error);
 				}
@@ -248,15 +279,15 @@ public class ExcelValidationService {
 				if (cell.getCellType() == CellType.BLANK) {
 					massImportItem.getObjectRefProductAttributes().put(internalName, null);
 				} else {
-					String categoryName = getStringValue(columnName, cell, builder);
-					if (MassImport.FLEX_OBJECT_REF_MARKETING_CATEGORY.equals(attributeMetaData.getObjectRefClass())) {
-						LCSLifecycleManaged lowetLevelCategory = MassImport.getLowetLevelCategory(categoryName);
-						if (lowetLevelCategory == null) {
-							String errorMessage = "Lowest Level Marketing Category [" + categoryName
-									+ "] does not exist in the system. ";
+					String name = getStringValue(columnName, cell, builder);
+					if (MassImport.FLEX_OBJECT_REF_LIFECYCLEMANAGED.equals(attributeMetaData.getObjectRefClass())) {
+						LCSLifecycleManaged businessObj = MassImport.getBusinessObjectMap(name);
+						if (businessObj == null) {
+							String errorMessage = columnName + " [" + name + "] does not exist in the system. ";
 							addErrorMessage(builder, errorMessage);
 						}
-						massImportItem.getObjectRefProductAttributes().put(internalName, lowetLevelCategory);
+						addAssortmentCode(massImportItem.getStringProductAttributes(), columnName, businessObj);
+						massImportItem.getObjectRefProductAttributes().put(internalName, businessObj);
 					}
 				}
 			}
@@ -295,7 +326,7 @@ public class ExcelValidationService {
 					massImportItem.getObjectRefSourceAttributes().put(internalName, null);
 				} else {
 					String countryName = getStringValue(columnName, cell, builder);
-					if (MassImport.FLEX_OBJECT_REF_COUNTRY.equals(attributeMetaData.getObjectRefClass())) {
+					if (MassImport.FLEX_OBJECT_REF_COUNTRY.equals(attributeMetaData.getObjectRefClass()) && !StringUtils.isEmpty(countryName)) {
 						LCSCountry country = MassImport.getCountry(countryName);
 						if (country == null) {
 							String errorMessage = columnName + " [" + countryName + "] does not exist in the system. ";
@@ -313,7 +344,7 @@ public class ExcelValidationService {
 	}
 
 	private void processCostSheetAttributes(Cell cell, String columnName, MassImportItem massImportItem,
-			StringBuilder builder) {
+			StringBuilder builder) throws WTException {
 		Map<String, AttributesMetaData> costSheetAttributeMap = costSheetTypeAttributes.getAttributeMetaDataMap();
 		if (costSheetAttributeMap.containsKey(columnName.trim())) {
 			AttributesMetaData attributeMetaData = costSheetAttributeMap.get(columnName);
@@ -337,7 +368,15 @@ public class ExcelValidationService {
 				Date dateValue = getDateValue(columnName, cell, builder);
 				massImportItem.getDateCostSheetAttributes().put(internalName, dateValue);
 			} else {
-				// DO Nothing: As of now CostSheet does not have any Object Ref
+				String countryName = getStringValue(columnName, cell, builder);
+				if (MassImport.FLEX_OBJECT_REF_COUNTRY.equals(attributeMetaData.getObjectRefClass()) && !StringUtils.isEmpty(countryName)) {
+					LCSCountry country = MassImport.getCountry(countryName);
+					if (country == null) {
+						String errorMessage = columnName + " [" + countryName + "] does not exist in the system. ";
+						addErrorMessage(builder, errorMessage);
+					}
+					massImportItem.getObjectRefCostsheetAttributes().put(internalName, country);
+				}
 			}
 
 		} else {
@@ -412,44 +451,6 @@ public class ExcelValidationService {
 		} else {
 			builder.append(" ");
 			builder.append(errorMessage).append(",");
-		}
-	}
-
-	private List<String> getColumnNames(Row row) {
-		List<String> columnNames = new ArrayList<String>();
-		for (Cell cell : row) {
-			if (cell.getCellType() == CellType.BLANK) {
-				break;
-			}
-			String columnName = cell.getStringCellValue().trim();
-			columnNames.add(columnName);
-		}
-		return columnNames;
-	}
-
-	private void updateColumnIndex(Row row, MassImportHeader header) {
-		Sheet sheet = row.getSheet();
-		int numOfMergeCell = sheet.getNumMergedRegions();
-		int mergeCount = 0;
-		for (Cell cell : row) {
-			if (cell.getCellType() == CellType.BLANK) {
-				if (mergeCount == numOfMergeCell) {
-					break;
-				}
-				continue;
-			}
-			CellRangeAddress cellRangeAddress = sheet.getMergedRegion(mergeCount++);
-			int lastColumnIndex = cellRangeAddress.getLastColumn();
-			String columnName = cell.getStringCellValue();
-			if (MassImport.PRODUCT_COLUMN.equals(columnName)) {
-				header.setProductColumnIndex(lastColumnIndex);
-			} else if (MassImport.SOURCING_COLUMN.equals(columnName)) {
-				header.setSourceColumnIndex(lastColumnIndex);
-			} else if (MassImport.PACKAGING_COLUMN.equals(columnName)) {
-				header.setPackageColumnIndex(lastColumnIndex);
-			} else if (MassImport.COSTSHEET_COLUMN.equals(columnName)) {
-				header.setCostSheetColumnIndex(lastColumnIndex);
-			}
 		}
 	}
 
@@ -618,6 +619,63 @@ public class ExcelValidationService {
 			addErrorMessage(errorMessage, error);
 		}
 		return value;
+	}
+
+	private void addAssortmentCode(Map<String, String> stringAttrubuteMap, String columnName,
+			LCSLifecycleManaged businessObj) throws WTException {
+		if (businessObj != null && MassImport.PRODUCT_ASSORTMENT_DISPLAYNAME.equalsIgnoreCase(columnName)) {
+			String value = (String) businessObj.getValue(MassImport.BUSINESSOBJ_ASSORTMENT_CODE_INTERNAL_NAME);
+			stringAttrubuteMap.put(MassImport.PRODUCT_ASSORTMENT_NUMBER_INTERNAL_NAME, value);
+		}
+
+	}
+	
+	private void validateExistingItem(MassImportItem massImportItem, LCSSeason season, LCSProduct rfpProduct,
+			LCSSupplier importSupplier, StringBuilder error) throws WTException {
+		String enterpriseNumber = massImportItem.getEnterpriseItemNumber();
+		String modelNumber = massImportItem.getModelNumer();
+		String productDesc = massImportItem.getProductDescription();
+		if (StringUtils.isEmpty(enterpriseNumber)) {
+			/** If there is no enterprise # then no need to do validation */
+			return;
+		}
+		/** Checking the existing Item **/
+		LCSProduct existingItem = MassImport.queryProduct(productDesc, modelNumber,
+				rfpProduct, true, enterpriseNumber, season);
+		String message = "";
+		String existingItemMessage = "Existing Item with Product Description [" + productDesc + "] , Model Number ["
+				+ modelNumber + "] , Enterprise Item # [" + enterpriseNumber + "]";
+		if (existingItem == null) {
+			message = existingItemMessage + " is not associated with season.";
+			LOGGER.error(message);
+			error.append(message);
+			return;
+		}
+		Collection<?> sourceConfigs = LCSSourcingConfigQuery.getSourcingConfigForProductSeason(existingItem, season);
+		Iterator<?> itr = sourceConfigs.iterator();
+		boolean isSupplierExist = false;
+		LCSSourcingConfig itemSourcingConfig = null;
+		while (itr.hasNext()) {
+			LCSSourcingConfig sourcingConfig = (LCSSourcingConfig) itr.next();
+			LCSSupplier supplier = (LCSSupplier) sourcingConfig.getValue(MassImport.VENDOR);
+			if (supplier != null) {
+				if (importSupplier.getSupplierName().equals(supplier.getSupplierName())) {
+					isSupplierExist = true;
+					itemSourcingConfig = sourcingConfig;
+					break;
+				}
+			}
+		}
+		if (!isSupplierExist) {
+			message = "Supplier [" + importSupplier.getSupplierName() + "] is not associated with "
+					+ existingItemMessage;
+			error.append(message);
+			LOGGER.error(message);
+		} else {
+			massImportItem.setExistingItem(existingItem);
+			massImportItem.setExistingItemSourcingConfig(itemSourcingConfig);
+		}
+
 	}
 
 }

@@ -4,6 +4,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.lcs.wc.product.LCSProduct;
+import com.lcs.wc.sourcing.LCSSourcingConfig;
+
 public class MassImportItem {
 
 	private MassImportHeader massImportHeader;
@@ -13,6 +16,9 @@ public class MassImportItem {
 	/** Product attributes */
 	private String productDescription;
 	private String modelNumer;
+	private String enterpriseItemNumber;
+	private LCSProduct existingItem;
+	private LCSSourcingConfig existingItemSourcingConfig;
 
 	Map<String, Boolean> booleanProductAttributes = new HashMap<>();
 	Map<String, String> stringProductAttributes = new HashMap<>();
@@ -78,6 +84,22 @@ public class MassImportItem {
 
 	public void setModelNumer(String modelNumer) {
 		this.modelNumer = modelNumer;
+	}
+
+	public String getEnterpriseItemNumber() {
+		return enterpriseItemNumber;
+	}
+
+	public void setEnterpriseItemNumber(String enterpriseItemNumber) {
+		this.enterpriseItemNumber = enterpriseItemNumber;
+	}
+
+	public LCSProduct getExistingItem() {
+		return existingItem;
+	}
+
+	public void setExistingItem(LCSProduct existingItem) {
+		this.existingItem = existingItem;
 	}
 
 	public Map<String, Boolean> getBooleanProductAttributes() {
@@ -168,7 +190,13 @@ public class MassImportItem {
 		this.numberSourceAttributes = numberSourceAttributes;
 	}
 
+	public Map<String, Date> getDateSourceAttributes() {
+		return dateSourceAttributes;
+	}
 
+	public void setDateSourceAttributes(Map<String, Date> dateSourceAttributes) {
+		this.dateSourceAttributes = dateSourceAttributes;
+	}
 
 	public Map<String, Object> getObjectRefSourceAttributes() {
 		return objectRefSourceAttributes;
@@ -234,30 +262,32 @@ public class MassImportItem {
 		this.objectRefCostsheetAttributes = objectRefCostsheetAttributes;
 	}
 
-	public Map<String, Date> getDateSourceAttributes() {
-		return dateSourceAttributes;
+	public LCSSourcingConfig getExistingItemSourcingConfig() {
+		return existingItemSourcingConfig;
 	}
 
-	public void setDateSourceAttributes(Map<String, Date> dateSourceAttributes) {
-		this.dateSourceAttributes = dateSourceAttributes;
+	public void setExistingItemSourcingConfig(LCSSourcingConfig existingItemSourcingConfig) {
+		this.existingItemSourcingConfig = existingItemSourcingConfig;
 	}
 
 	@Override
 	public String toString() {
 		return "MassImportItem [massImportHeader=" + massImportHeader + ", rowNum=" + rowNum + ", errorMessage="
 				+ errorMessage + ", productDescription=" + productDescription + ", modelNumer=" + modelNumer
-				+ ", booleanProductAttributes=" + booleanProductAttributes + ", stringProductAttributes="
-				+ stringProductAttributes + ", floatProductAttributes=" + floatProductAttributes
-				+ ", numberProductAttributes=" + numberProductAttributes + ", dateProductAttributes="
-				+ dateProductAttributes + ", objectRefProductAttributes=" + objectRefProductAttributes + ", vendorRef="
-				+ vendorRef + ", booleanSourceAttributes=" + booleanSourceAttributes + ", stringSourceAttributes="
+				+ ", enterpriseItemNumber=" + enterpriseItemNumber + ", existingItem=" + existingItem
+				+ ", existingItemSourcingConfig=" + existingItemSourcingConfig + ", booleanProductAttributes="
+				+ booleanProductAttributes + ", stringProductAttributes=" + stringProductAttributes
+				+ ", floatProductAttributes=" + floatProductAttributes + ", numberProductAttributes="
+				+ numberProductAttributes + ", dateProductAttributes=" + dateProductAttributes
+				+ ", objectRefProductAttributes=" + objectRefProductAttributes + ", vendorRef=" + vendorRef
+				+ ", booleanSourceAttributes=" + booleanSourceAttributes + ", stringSourceAttributes="
 				+ stringSourceAttributes + ", floatSourcetAttributes=" + floatSourcetAttributes
-				+ ", numberSourceAttributes=" + numberSourceAttributes + ", dateSourceProductAttributes="
-				+ dateSourceAttributes + ", objectRefSourceAttributes=" + objectRefSourceAttributes
-				+ ", costSheetName=" + costSheetName + ", booleanCostSheetAttributes=" + booleanCostSheetAttributes
+				+ ", numberSourceAttributes=" + numberSourceAttributes + ", dateSourceAttributes="
+				+ dateSourceAttributes + ", objectRefSourceAttributes=" + objectRefSourceAttributes + ", costSheetName="
+				+ costSheetName + ", booleanCostSheetAttributes=" + booleanCostSheetAttributes
 				+ ", stringCostSheetAttributes=" + stringCostSheetAttributes + ", floatCostSheetAttributes="
 				+ floatCostSheetAttributes + ", numberCostSheetAttributes=" + numberCostSheetAttributes
-				+ ", dateSourceCostSheetAttributes=" + dateCostSheetAttributes + ", objectRefCostsheetAttributes="
+				+ ", dateCostSheetAttributes=" + dateCostSheetAttributes + ", objectRefCostsheetAttributes="
 				+ objectRefCostsheetAttributes + "]";
 	}
 
