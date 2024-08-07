@@ -1,8 +1,8 @@
 package com.lowes.web.controller;
 
 import com.google.gson.Gson;
-import com.lowes.web.exceptions.FlexObjectNotFoundException;
-import com.lowes.web.exceptions.InputValidationException;
+import com.lowes.exceptions.FlexObjectNotFoundException;
+import com.lowes.exceptions.InputValidationException;
 import com.lowes.web.services.MOAService;
 import com.lowes.web.util.AppUtil;
 import io.swagger.annotations.*;
@@ -17,7 +17,31 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.Response;
 
-
+@SwaggerDefinition(
+        info = @Info(
+                description = "This is a sample server",
+                version = "1.0.0",
+                title = "Swagger Sample Servlet",
+                termsOfService = "http://swagger.io/terms/",
+                contact = @Contact(
+                        name = "Sponge-Bob",
+                        email = "apiteam@swagger.io",
+                        url = "http://swagger.io"
+                ),
+                license = @License(
+                        name = "Apache 2.0",
+                        url = "http://www.apache.org/licenses/LICENSE-2.0.html"
+                )
+        ),
+        consumes = {"application/json", "application/xml"},
+        produces = {"application/json", "application/xml"},
+        schemes = {SwaggerDefinition.Scheme.HTTP, SwaggerDefinition.Scheme.HTTPS}
+)
+@Api(
+        value = "/lowes",
+        tags = {"Lowes custom Services"}
+)
+@Path("/lowes")
 public class MOATableWebServiceController {
     private static final Logger logger = LogR.getLogger(MOATableWebServiceController.class.getName());
     private static final JSONParser parser = new JSONParser();

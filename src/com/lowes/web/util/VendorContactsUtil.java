@@ -1,6 +1,6 @@
 package com.lowes.web.util;
 
-import com.lowes.web.model.group.GroupModel;
+import com.lowes.model.group.GroupModel;
 import wt.org.WTGroup;
 import wt.util.WTException;
 

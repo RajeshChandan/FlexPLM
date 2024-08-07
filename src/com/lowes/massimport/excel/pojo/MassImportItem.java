@@ -11,6 +11,8 @@ public class MassImportItem {
 
 	private MassImportHeader massImportHeader;
 	private int rowNum;
+	private String sheetName; // GPBT-2150
+	private int sheetPosition; // GPBT-2150
 	private String errorMessage;
 
 	/** Product attributes */
@@ -19,6 +21,7 @@ public class MassImportItem {
 	private String enterpriseItemNumber;
 	private LCSProduct existingItem;
 	private LCSSourcingConfig existingItemSourcingConfig;
+	
 
 	Map<String, Boolean> booleanProductAttributes = new HashMap<>();
 	Map<String, String> stringProductAttributes = new HashMap<>();
@@ -60,6 +63,22 @@ public class MassImportItem {
 
 	public void setRowNum(int rowNum) {
 		this.rowNum = rowNum;
+	}
+
+	public String getSheetName() {
+		return sheetName;
+	}
+
+	public void setSheetName(String sheetName) {
+		this.sheetName = sheetName;
+	}
+
+	public int getSheetPosition() {
+		return sheetPosition;
+	}
+
+	public void setSheetPosition(int sheetPosition) {
+		this.sheetPosition = sheetPosition;
 	}
 
 	public String getErrorMessage() {
@@ -288,7 +307,8 @@ public class MassImportItem {
 				+ ", stringCostSheetAttributes=" + stringCostSheetAttributes + ", floatCostSheetAttributes="
 				+ floatCostSheetAttributes + ", numberCostSheetAttributes=" + numberCostSheetAttributes
 				+ ", dateCostSheetAttributes=" + dateCostSheetAttributes + ", objectRefCostsheetAttributes="
-				+ objectRefCostsheetAttributes + "]";
+				+ objectRefCostsheetAttributes + ", sheetName=" + sheetName + ", sheetPosition=" + sheetPosition 
+				+ "]";
 	}
 
 }

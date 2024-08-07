@@ -1,7 +1,7 @@
 package com.lowes.web.controller;
 
 import com.google.gson.Gson;
-import com.lowes.web.exceptions.InputValidationException;
+import com.lowes.exceptions.InputValidationException;
 import com.lowes.web.services.VendorContactsService;
 import com.lowes.web.util.AppUtil;
 import io.swagger.annotations.*;

@@ -193,10 +193,21 @@ public class ProductService {
 
 	}
 
-	private LCSProduct getExistingProduct(String productDesc, String modelNumber, LCSProduct rfpProduct, LCSSeason season)
+	public LCSProduct getExistingProduct(String productDesc, String modelNumber, LCSProduct rfpProduct, LCSSeason season)
 			throws WTException {
 		LCSProduct product = null;
 		LCSProduct existingProduct = MassImport.queryProduct(productDesc, modelNumber, rfpProduct, false, null, season);
+		if (existingProduct != null) {
+			product = existingProduct;
+		}
+		return product;
+	}
+	
+	//GPBT-2150
+	public LCSProduct getExistingProduct(String productDesc, String modelNumber, String enterpriseNumber, LCSProduct rfpProduct, LCSSeason season)
+			throws WTException {
+		LCSProduct product = null;
+		LCSProduct existingProduct = MassImport.queryProduct(productDesc, modelNumber, rfpProduct, true, enterpriseNumber, season);
 		if (existingProduct != null) {
 			product = existingProduct;
 		}

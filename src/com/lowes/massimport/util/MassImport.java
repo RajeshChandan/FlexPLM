@@ -54,16 +54,21 @@ import wt.util.WTException;
 public class MassImport {
 
 	public static final int HEADER_ROWS = 4;
+	// public static final int CS_TAB_COLS_COUNT = 27; // Added as part of GPBT-2150
+	// public static final int ITEM_TAB_COLS_COUNT = 47; // Added as part of GPBT-2150
 	public static final String WORKBOOK_NAME = "Item";
+	public static final String COSTSHEET_WORKBOOK_NAME = "Item Cost Details"; // GPBT-2150
 	public static final String LOG_PREFIX = "Mass-Import: ";
 	public static final String PRODUCT_COLUMN = "Product";
 	public static final String SOURCING_COLUMN = "Sourcing";
 	public static final String PACKAGING_COLUMN = "Packaging";
 	public static final String COSTSHEET_COLUMN = "Costsheet";
+	public static final String COSTSHEET_PRODUCT_COLUMN = "ProductCS"; // GPBT-2150
 	public static final String PRODUCT_DESCRIPTION_DISPLAY_ATTR = "Product Description";
 	public static final String PRODUCT_DESCRIPTION_INTERNAL_ATTR = "vrdDescription";
 	public static final String PRODUCT_MODELNUMBER_DISPLAY_ATTR = "Model Number";
 	public static final String PRODUCT_ENTERPRISENUMBER_DISPLAY_ATTR = "Enterprise Item #";
+	public static final String PRODUCT_GROUP_DISPLAY_ATTR = "Product Group"; // GPBT-2150
 	public static final String PRODUCT_MODELNUMBER_INTERNAL_ATTR = "lwsModelNumber";
 	public static final String PRODUCT_ENTERPRISEITEMNUMBER_INTERNAL_ATTR = "lwsEnterpriseItemNumber";
 	public static final String PRODUCT_LOWEST_LEVEL_MARKETING_CATEGORY = "Lowest Level Marketing Category";
@@ -74,6 +79,7 @@ public class MassImport {
 	public static final String PRODUCT_RFP_INTERNAL_ATTR = "RFP";
 	public static final String PRODUCT_RFP_INTERNAL_VALUE = "lwsItem";
 	public static final String PRODUCT_VCID_INTERNAL_ATTR = "lwsVCID";
+	public static final String PRODUCT_GROUP_INTERNAL_ATTR = "lwsProductGroup"; // GPBT-2150
 	public static final String PRODUCTSEASON_INTEGRATIONSTATUS_INTERNAL_ATTR = "lwsIntegrationStatus";
 	public static final String INTEGRATION_STATUS = "lwsSuccess";
 	public static final String PRODUCT_APPROVED_STATUS = "lwsApproved";
@@ -87,7 +93,10 @@ public class MassImport {
 	public static final String MASSIMPORT_DOC_COMPLETED_ATTR = "lwsMassImportCompleted";
 	public static final String MASSIMPORT_DOC_COMPLETED_ATTR_VALUE = "lwsYes";
 	public static final String SUPPLIER_RELEASE_TO_VENDOR_INTERNAL_ATTR = "vrdReleaseToSupplier";
+	public static final String CS_COUNTRY_OF_ORIGIN_ATTR = "lwsCountryOfOrigin"; // GPBT-2150
 	public static final String SUPPLIER_RELEASE_TO_VENDOR_VALUE = "vrdYes";
+	public static final String LCSSOURCINGCONFIGBRANCHIDITERATIONINFO ="LCSSOURCINGCONFIG.BRANCHIDITERATIONINFO"; // GPBT-2150
+	public static final String LCSCOSTSHEETBRANCHIDITERATIONINFO = "LCSCOSTSHEET.BRANCHIDITERATIONINFO"; // GPBT-2150
 	public static final String PARENT_VENDOR_GROUP = "VENDORS";
 	public static final String VENDORS_GROUP_KEY = "VENDOR_GROUPS";
 	public static final String ADMIN_GROUP_KEY = "ADMIN_GROUPS";

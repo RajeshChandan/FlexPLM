@@ -1,7 +1,7 @@
 package com.lowes.web.services;
 
-import com.lowes.web.model.group.GroupModel;
-import com.lowes.web.model.user.UserModel;
+import com.lowes.model.group.GroupModel;
+import com.lowes.model.user.UserModel;
 import com.lowes.web.util.VendorContactsUtil;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;

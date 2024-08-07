@@ -20,6 +20,7 @@ public class MassImportHeader {
 	private WTPrincipal principal;
 	private List<String> columns = new ArrayList<String>();
 	private String massImportTitle;
+	private String massImportSheetName; // GPBT-2150
 
 	public int getProductColumnIndex() {
 		return productColumnIndex;
@@ -101,12 +102,26 @@ public class MassImportHeader {
 		this.massImportTitle = massImportTitle;
 	}
 
+	
+	public String getMassImportSheetName() {
+		return massImportSheetName;
+	}
+
+	public void setMassImportSheetName(String massImportSheetName) {
+		this.massImportSheetName = massImportSheetName;
+	}
+
 	@Override
 	public String toString() {
 		return "MassImportHeader [productColumnIndex=" + productColumnIndex + ", sourceColumnIndex=" + sourceColumnIndex
 				+ ", packageColumnIndex=" + packageColumnIndex + ", costSheetColumnIndex=" + costSheetColumnIndex
 				+ ", season=" + season + ", supplier=" + supplier + ", rfpProductRef=" + rfpProductRef + ", principal="
-				+ principal + ", columns=" + columns + ", massImportTitle=" + massImportTitle + "]";
+				+ principal + ", itemSheetColumns=" + columns 
+				+ ", massImportTitle=" + massImportTitle
+				+ ", massImportSheetName=" + massImportSheetName 
+				+ "]";
 	}
+
+	
 
 }
